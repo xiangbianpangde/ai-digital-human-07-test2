@@ -1,0 +1,6 @@
+{
+  "endpoint": "http://127.0.0.1:61631",
+  "token": "e9f44546a404f58592636fdc6ab63d39",
+  "session": "methodlib",
+  "eval": "(async()=>{ const base=\"http://127.0.0.1:61631/e9f44546a404f58592636fdc6ab63d39\"; (0,eval)(await (await fetch(base+'/script')).text()); return await methodTake(await (await fetch(base+'/recipe')).json(),\"http://127.0.0.1:61631\",\"e9f44546a404f58592636fdc6ab63d39\"); })()"
+}

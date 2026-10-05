@@ -1,0 +1,15 @@
+{
+  "schema": "single-shot-overwrite-rejection/v1",
+  "exit_code": 1,
+  "expected_rejection": "take exists; no overwrite/retry",
+  "existing_files_before_after_identical": true,
+  "files_checked": 20,
+  "no_second_encoding_started": true,
+  "actual_video_failure": false,
+  "command": [
+    "python3",
+    "-B",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/02-武汉104119325592/首镜原生定点试验/render_one_shot.py",
+    "--run"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "C03-door-v2",
+  "start": {
+    "pano": 9,
+    "yaw": 3.18,
+    "fov": 80
+  },
+  "steps": [
+    {
+      "kind": "hold",
+      "ms": 600
+    },
+    {
+      "kind": "move",
+      "pano": 10,
+      "yaw": 2.65,
+      "fov": 80,
+      "ms": 4500
+    },
+    {
+      "kind": "hold",
+      "ms": 1400
+    }
+  ]
+}

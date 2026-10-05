@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "全屋模型已出现，但原生fly-in进入卧室时存在整幅黑帧与模型出画。不能把黑底空画面当转场；保留失败凭据，改为模型插入后硬切实景。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

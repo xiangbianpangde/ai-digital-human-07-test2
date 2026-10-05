@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "厨房P5朝窗及水槽正面，FOV80°缓慢收至75°，窗口和台面始终完整；原地无平移，不称定焦dolly。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

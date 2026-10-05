@@ -1,0 +1,19 @@
+{
+  "method_id": "N02",
+  "property": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/",
+  "inputs": [
+    {
+      "path": "04_测试与验收/方法库实测/establish-03/take.mp4",
+      "sha256": "fbf9b08811cab3aa9248e10a9a171ce9c02743a09fdced5ddecbabb4f55213fc"
+    }
+  ],
+  "fact_source": "02_架构与合同/01_房产核心档案.md",
+  "fact_sha256": "c9f1c500f58a2af81baeeca1765cc3c8c454c1f079eb041b1841be26a43c08f5",
+  "scope": "silent_text_pair_demo",
+  "counterexample": false,
+  "audio": "none",
+  "font": {
+    "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+    "sha256": "2d37f927fb4c24a2ba4d318b903a607f6b7ad4e5f365c26aba6aaccb84038beb"
+  }
+}

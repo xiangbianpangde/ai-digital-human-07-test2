@@ -1,0 +1,1 @@
+{"id":"C04-dollhouse","start":{"pano":9,"yaw":0.04,"fov":80},"steps":[{"kind":"hold","ms":600},{"kind":"model","yaw":0.8,"pitch":-0.85,"distance":16,"fov":80,"ms":2500},{"kind":"hold","ms":1600},{"kind":"pano","pano":25,"yaw":3.18,"fov":80,"ms":2500},{"kind":"hold","ms":1600}]}

@@ -1,0 +1,197 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 10555201366498914000
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "messages": [
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "%c %c@realsee/dnalogel %cv3.64.23-ke.4"
+        },
+        {
+          "type": "string",
+          "value": "background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAMAAACHgmeRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLFBMVEUAAAAapPoap/oaqvkbrfkbr/gZnfwZoPsaqfnD4v/E4/8Ylv0clPm93/+/4P/B4f8Yj/683/8Wif+33P8Uhv+x2f8ShP+s1v8Pgf+n0/8Nf/+h0f8Lff8Lff8Nf/9dl/+czv8KfP8KfP+Lxf+Uyv+Xy/+Hwv+Jw/+Mxf+Oxv+RyP8aovsapfoap/oZmfwZm/wZnvsYnPsYkf4YlP0NePsDYfgYcfi43f+63v8Xiv8Xjf4EWfwCV/sWZ/qz2v+02/8Vh/8WiP8EUf8CTf4WXv2u1/+v2P8Thf8Thv8ETf8CR/8VV/+o1f+q1f8Qgv8Rg/8DSv8BRf8UVP+j0v+k0v8OgP8Pgf8DR/8DQv9Nhf+dzv+fz/+Kv/+Vyv+Xy/+azf+Oxv+Qx/+SyP////8MUhLdAAAAK3RSTlMACEWQ2bd98uQECPXxqO7c+Pb49vj2+Pb49vj23Oul8fMHA+TwerXXjEIG2P+bHgAAAAFiS0dEY1y+LaoAAAB+SURBVAjXY2BgZGJmYWVgYGBgY9fW0eVg4ORi4NbTNzDk4eXjZxAwMjYxNTO3EGQQsrSytrG1sxdmEHFwdHJ2cXUTZRBz9/D08vbxFWeQ8PMPCAwKDpFkkAoNC4+IjIqWZpCRlZOPiY2LV2BQVGJQTkhMUlEFWaOmrqGpxQAAyg0S9Dq+VPYAAAAASUVORK5CYII=');background-repeat: no-repeat;background-position: 0 center;padding-left: 8px"
+        },
+        {
+          "type": "string",
+          "value": ""
+        },
+        {
+          "type": "string",
+          "value": "background-color: #12ce9b;color:black;padding:0 6px;border-radius: 3px"
+        }
+      ],
+      "text": "%c %c@realsee/dnalogel %cv3.64.23-ke.4 background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAMCAMAAACHgmeRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABLFBMVEUAAAAapPoap/oaqvkbrfkbr/gZnfwZoPsaqfnD4v/E4/8Ylv0clPm93/+/4P/B4f8Yj/683/8Wif+33P8Uhv+x2f8ShP+s1v8Pgf+n0/8Nf/+h0f8Lff8Lff8Nf/9dl/+czv8KfP8KfP+Lxf+Uyv+Xy/+Hwv+Jw/+Mxf+Oxv+RyP8aovsapfoap/oZmfwZm/wZnvsYnPsYkf4YlP0NePsDYfgYcfi43f+63v8Xiv8Xjf4EWfwCV/sWZ/qz2v+02/8Vh/8WiP8EUf8CTf4WXv2u1/+v2P8Thf8Thv8ETf8CR/8VV/+o1f+q1f8Qgv8Rg/8DSv8BRf8UVP+j0v+k0v8OgP8Pgf8DR/8DQv9Nhf+dzv+fz/+Kv/+Vyv+Xy/+azf+Oxv+Qx/+SyP////8MUhLdAAAAK3RSTlMACEWQ2bd98uQECPXxqO7c+Pb49vj2+Pb49vj23Oul8fMHA+TwerXXjEIG2P+bHgAAAAFiS0dEY1y+LaoAAAB+SURBVAjXY2BgZGJmYWVgYGBgY9fW0eVg4ORi4NbTNzDk4eXjZxAwMjYxNTO3EGQQsrSytrG1sxdmEHFwdHJ2cXUTZRBz9/D08vbxFWeQ8PMPCAwKDpFkkAoNC4+IjIqWZpCRlZOPiY2LV2BQVGJQTkhMUlEFWaOmrqGpxQAAyg0S9Dq+VPYAAAAASUVORK5CYII=');background-repeat: no-repeat;background-position: 0 center;padding-left: 8px  background-color: #12ce9b;color:black;padding:0 6px;border-radius: 3px",
+      "type": "debug"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "传入 serverData.data 的方式后续可能不再支持，请把 serverData 整体传入 load 函数"
+        }
+      ],
+      "text": "传入 serverData.data 的方式后续可能不再支持，请把 serverData 整体传入 load 函数",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "create3dDomContainer: five.model.loaded is: "
+        },
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "text": "create3dDomContainer: five.model.loaded is:  false",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "create3dDomContainer: five.model.loaded is: "
+        },
+        {
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "text": "create3dDomContainer: five.model.loaded is:  false",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_0.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_0.jpg"
+        }
+      ],
+      "text": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_0.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_0.jpg",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_1.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_1.jpg"
+        }
+      ],
+      "text": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_1.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_1.jpg",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_2.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_2.jpg"
+        }
+      ],
+      "text": "At3d/Pbm texture not matched. Use ends-guessing mode. texture_2.jpg -> https://vr-public.realsee-cdn.cn/release/auto3dhd/193f0d3419aa96e913971f5a547479c9/materials/texture_2.jpg",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": "THREE.FBXLoader: FBX binary version: 7400"
+        }
+      ],
+      "text": "THREE.FBXLoader: FBX binary version: 7400",
+      "type": "info"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    },
+    {
+      "args": [
+        {
+          "type": "string",
+          "value": " 💀 \"onmessage\" ⟶ Unregistered event. "
+        }
+      ],
+      "text": " 💀 \"onmessage\" ⟶ Unregistered event. ",
+      "type": "warning"
+    }
+  ]
+}

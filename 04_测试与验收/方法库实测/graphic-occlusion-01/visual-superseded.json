@@ -1,0 +1,1 @@
+{"verdict":"reject","reason":"复验发现切点文字栏alpha185，仍透出底图，不满足完整遮挡条件；原review不修改，本追加记录撤销该take复用许可。","replacement":"graphic-occlusion-02","evidence":"n60 alpha audit"}

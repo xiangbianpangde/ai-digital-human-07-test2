@@ -1,0 +1,9 @@
+{
+  "schema": "append-only-receipt/v1",
+  "path": "07_运行记录/LOG.md",
+  "prior_bytes": 19409,
+  "prior_sha256": "009b69be35125a6d1e438b4c1e324426572de30647e968df16f5858cb9e5d87d",
+  "prefix_preserved": true,
+  "appended_bytes": 1040,
+  "appended_sha256": "7071a2199f9d6e11f614337ff08f7ffce4e46237debe78033f9f7e3c0f5017c3"
+}

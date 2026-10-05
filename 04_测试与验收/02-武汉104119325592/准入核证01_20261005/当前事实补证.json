@@ -1,0 +1,41 @@
+{
+  "schema": "case2-current-fact-addendum/v1",
+  "query_at": "2026-10-05T17:32:32.463512+08:00",
+  "listing_id": "104119325592",
+  "namespace": "HOUSE-104119325592",
+  "source_query_path": "09_提案与草稿/第二房源_104119325592/04_当前详情查询记录-20261005.json",
+  "source_query_sha256": "0cbfa243edc9598e3fc4c628e8c0aae09517c79039b25b1d7c809dd60a28e077",
+  "source_level": "official_tool_returned_listing_declaration_not_title_measurement_or_onsite_verification",
+  "fields": {
+    "房型": "4室2厅1厨2卫",
+    "建筑面积": "168㎡",
+    "使用面积": "122㎡",
+    "总价": "500万",
+    "单价": "约30000元/平米",
+    "房源售卖状态": "在售",
+    "朝向": "东南",
+    "房源所属楼层": "中楼层",
+    "单元总楼层": "51层",
+    "挂牌时间": "2026-03-04 11:03:29",
+    "是否三证完备": "是",
+    "是否共有产权": "是",
+    "标签": "卧室带卫生间/卧室带阳台/卧室带衣帽间/带飘窗/带落地窗/厨房带窗/卫生间带窗/客卫/客厅带阳台/带阳台/南北通透/客厅朝南/主卧朝南/有抵押/有单元门禁/高梯户比/临近地铁/无钥匙"
+  },
+  "source_update_time_provided": false,
+  "fresh_onsite_condition_verified": false,
+  "conflicts_or_precision": {
+    "area": "Local package168.39㎡; official tool displays168㎡. Record both precision levels; no proof of title-area revision.",
+    "usable_area": "Tool usage area122㎡; floorplan labels sum121.9㎡. Rounded display/source declarations, not measured private area or common-area ratio.",
+    "sale_price": "Tool returns500万/in-sale at query time; listing date2026-03-04 and data update time absent, not成交价 or guaranteed realtime availability."
+  },
+  "business_risks_from_return": [
+    "whether shared property: 是",
+    "标签 includes 有抵押 and 无钥匙; neither legal validity nor viewing access confirmed"
+  ],
+  "rights": {
+    "user_scope": "internal_research_and_production_only",
+    "commercial_authorization": false,
+    "query_success_is_not_material_rights_or_legal_verification": true
+  },
+  "no_new_script_claims_about_schools_distance_or_equipment": true
+}

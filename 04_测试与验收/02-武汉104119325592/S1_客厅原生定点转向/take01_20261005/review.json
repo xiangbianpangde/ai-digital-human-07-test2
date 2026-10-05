@@ -1,0 +1,62 @@
+{
+  "schema": "single-shot-assistant-review/v1",
+  "at": "2026-10-05T18:19:52.545920+08:00",
+  "video_sha256": "d44acd7598cb675c80eaec3102f96eac5b0d152c5ebd9198cfd82974b2fe8fdf",
+  "technical_receipt": {
+    "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/technical_check.json",
+    "sha256": "595c4426af6e33c254621690ffba8354b8a74c6407d9fdd19c05bd181dbe15b2"
+  },
+  "visual_review": {
+    "all180_encoded_frame_thumbnails_inspected": true,
+    "contact_sheets": 6,
+    "thumbnail_resolution": [
+      144,
+      256
+    ],
+    "full_resolution_frames_inspected": [
+      0,
+      107,
+      179
+    ],
+    "full_resolution": [
+      720,
+      1280
+    ],
+    "browser_final_frame_screenshot_inspected": true,
+    "findings": [
+      "Scene matches pano1 real living-room front face: balcony doorway, chair, tea table and original clutter.",
+      "No apparent blank source borders, scene discontinuity, cross-point wall traversal or duplicated room blend in inspected images.",
+      "Rotation is fixed-point and monotonic, not dolly or continuous walk; no generated object/room changes.",
+      "Foreground tea table/clutter occupies a substantial part of portrait frame; only part of sofa visible. This is a framing concern for user judgment, not an accepted final living-room showcase."
+    ],
+    "motion_sample_scope": "180 thumbnail views plus native browser complete playback telemetry; not full-resolution human review of every frame",
+    "machine_motion_max_yaw_speed_deg_per_sec": 4.3,
+    "assistant_limited_visual_check_passed": true,
+    "commercial_composition_or_final_human_acceptance": false
+  },
+  "browser_playback": {
+    "duration_sec": 6,
+    "ended": true,
+    "media_error": null,
+    "elapsed_ms": 6002,
+    "frame_callback_count": 149,
+    "callback_count_is_not_all180_frame_visual_acceptance": true,
+    "dropped_frames_in_controlled_playback_delta": 0,
+    "screenshot_scope": "Native browser player viewport1280x633; black sidebars belong to player layout, not encoded portrait video.",
+    "desktop_computer_use_passed": false
+  },
+  "authorization": {
+    "only_internal": true,
+    "native_pano1_exception_only": true,
+    "voice_paid_next_shot": false
+  },
+  "limits": [
+    "Current property condition and real-time price/sale status remain unverified.",
+    "Native SDK room IDs and exact A/B/C/D floorplan linkage not available.",
+    "Metric height and0.5m clearance are not certified.",
+    "No user review/acceptance of this produced SHA yet; stop before another shot."
+  ],
+  "user_review_completed": false,
+  "next_shot_may_start": false,
+  "only_one_take_exists": true
+}

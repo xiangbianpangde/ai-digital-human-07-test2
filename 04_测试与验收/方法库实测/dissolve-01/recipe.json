@@ -1,0 +1,8 @@
+{
+  "id": "P02-dissolve",
+  "method_id": "P02",
+  "inputs": [
+    "establish-03",
+    "micro-01"
+  ]
+}

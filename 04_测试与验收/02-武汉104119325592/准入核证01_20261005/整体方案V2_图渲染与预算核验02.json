@@ -1,0 +1,41 @@
+{
+  "schema": "overall-plan-diagram-budget-check/v1",
+  "at": "2026-10-05T20:00:38.672039+08:00",
+  "html": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.html",
+  "html_sha256": "840c710f5d222368a9d9a2171ace371ee5b6a49e86dfaec155cc2a0c1c25ccc4",
+  "png": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.png",
+  "png_sha256": "ebfd4897edc5896fcaed5a74e1ee9363f8b02c8cf095eeaf17056842cab8e71e",
+  "png_size": [
+    2460,
+    2324
+  ],
+  "chapter_count": 7,
+  "chapter_budgets_sec": [
+    3,
+    8,
+    5,
+    8,
+    4,
+    5,
+    3
+  ],
+  "total_budget_sec": 36,
+  "budget_not_execution_timeline": true,
+  "source_images_loaded": 10,
+  "unique_source_file_hashes": {
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/02-户型图与封面/真实户型图.jpg": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/5-back.avif": "2646d155a275335ee0c254c59cbc2680308a85e726b003f229a4ba045d3f2dc2",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/3-back.avif": "2a371f70ae58481a32b51892b4bf1b9ff4ed0da37bced6161f2640aa388bafbe",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/17-right.avif": "83517f835542adad9528fac346ff78425114aa97c4561fd535eb5b6c1864bf73",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/13-front.avif": "e37db2ca3f261e591c844bc69f267797b9d0f906b27f90e029cd5fc9d8125d6a",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/7-front.avif": "b78f83b0aa28b2059f1984788c735692dc863bf20886a9534cf8b35c0e2f1739",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/32-front.avif": "623fc09d6053775bc59f888c3b60690fd37a7cab0ddf7005ed759f1452f6fd36",
+    "05_资产库/02_三维建模/02-武汉104119325592-3D建模/武汉104119325592-房源资料/03-完整VR素材/faces/33-front.avif": "08a2d8906a114f344e295fc126494db3e2db18e1bf5d3c0e346fe034aaf9d59d"
+  },
+  "sources_match_original_downloads_inventory": true,
+  "console_or_page_errors": [],
+  "previous_draft_render_receipt": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_图渲染与预算核验.json",
+  "draft_correction": "Replace white-wall17front static reference with real17right bed view; clarify title is whole36sec design, not a finished video. Only unregistered draft diagram updated, no shot/media/source mutation.",
+  "new_video_or_audio_or_shot_run": false,
+  "user_overall_acceptance": false
+}

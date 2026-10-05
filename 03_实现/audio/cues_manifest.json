@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cue_01_s1",
+    "shot": "S1",
+    "text": "约163平，进门先看30.9平大客厅，直连9.1平南向阳台。",
+    "target_start": 0.2,
+    "max_dur": 6.0,
+    "speed": 1.18,
+    "actual_dur": 5.816625
+  },
+  {
+    "id": "cue_02_s2",
+    "shot": "S2",
+    "text": "站在阳台回看，客餐厅的纵深就很直观了。",
+    "target_start": 6.8,
+    "max_dur": 4.0,
+    "speed": 1.15,
+    "actual_dur": 3.262406
+  },
+  {
+    "id": "cue_03_s3",
+    "shot": "S3",
+    "text": "北侧这间，可以做书房，也可以做多功能房。",
+    "target_start": 11.3,
+    "max_dur": 2.5,
+    "speed": 1.18,
+    "actual_dur": 3.541063
+  },
+  {
+    "id": "cue_04_s4a",
+    "shot": "S4A",
+    "text": "穿过动静分区——就是16.7平的主卧。",
+    "target_start": 14.3,
+    "max_dur": 3.0,
+    "speed": 1.15,
+    "actual_dur": 3.146313
+  },
+  {
+    "id": "cue_05_s4b",
+    "shot": "S4B",
+    "text": "另外带专属独立主卫，配独立浴缸。",
+    "target_start": 17.8,
+    "max_dur": 3.0,
+    "speed": 1.15,
+    "actual_dur": 2.925719
+  },
+  {
+    "id": "cue_06_s5",
+    "shot": "S5",
+    "text": "想看完整全屋，评论区留“沙湖九号”。",
+    "target_start": 21.3,
+    "max_dur": 3.0,
+    "speed": 1.12,
+    "actual_dur": 3.19275
+  }
+]

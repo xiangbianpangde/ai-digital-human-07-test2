@@ -1,0 +1,3257 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 10555201366498914000
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/#lianjia",
+  "result": {
+    "areas": [
+      [
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-iuFsNEkr4YefhS",
+                "roomType": "100900000003",
+                "sharedLineItems": [
+                  "u-Ev6oukKR4Yi773"
+                ],
+                "sharedLines": [
+                  "u-z1Fu3mkR4yEf3Y",
+                  "u-sA0RsKkr4yENLr"
+                ],
+                "towardsRad": 1.5708,
+                "type": 8
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-25wU9EkR4yEnM1",
+                "roomType": "100900000005",
+                "sharedLineItems": [
+                  "u-4gDq1MkR4YIafq"
+                ],
+                "sharedLines": [
+                  "u-Iob7WFKR4YEZkS"
+                ],
+                "towardsRad": 1.5708,
+                "type": 12
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-KuWt10Kr4yF0Wr",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-HJX9dlKr4Yf5Vy"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-dYGA53KR4YKrp3"
+                ],
+                "sharedLines": [
+                  "u-T0bMz3kr4yF5vY"
+                ],
+                "towardsRad": 0,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-ATA9o1Kr4YEzl4",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-7a7Ws7kR4Yf0wG"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-4nFwG7kr4ydrfa",
+                "roomType": "100900000005",
+                "sharedLineItems": [
+                  "u-2IA4AeKR4Yhs54"
+                ],
+                "sharedLines": [
+                  "u-6j6t1Pkr4YeZKk"
+                ],
+                "towardsRad": -1.5708,
+                "type": 12
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-bT2wu5kr4yi2FW",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Ev6oukKR4Yi773",
+                "is": "door",
+                "length": 1400,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-4gDq1MkR4YIafq",
+                "is": "door",
+                "length": 1700,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-dYGA53KR4YKrp3",
+                "is": "door",
+                "length": 1007,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-2IA4AeKR4Yhs54",
+                "is": "door",
+                "length": 2000,
+                "towardsRad": -1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-EOkw5ikR4y99PI",
+                "length": 1179.4973000000027,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-5mlmmUKR4y9AIA",
+                "length": 5861,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-z1Fu3mkR4yEf3Y",
+                "length": 1414.0717000000004,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-sA0RsKkr4yENLr",
+                "length": 2728.2929000000004,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Iob7WFKR4YEZkS",
+                "length": 2807.2764000000025,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-HJX9dlKr4Yf5Vy",
+                "length": 3195.3591000000015,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-T0bMz3kr4yF5vY",
+                "length": 1327.403299999998,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-7a7Ws7kR4Yf0wG",
+                "length": 4066.5305000000008,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6j6t1Pkr4YeZKk",
+                "length": 3041.8508,
+                "towardsRad": -1.5708
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 1,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-h73168KR4Y9bLj",
+          "labelScale": 1,
+          "labelX": -140,
+          "labelY": 713,
+          "nameIndex": "",
+          "points": [
+            "u-YQpG1cKr4y99B6",
+            "u-DhuX4KkR4y99pi",
+            "u-2g44Ihkr4Y9aIA",
+            "u-4yw4nOKR4YEf3y",
+            "u-SQ7pC4kR4yENLR",
+            "u-ndxYQBkr4YEZKs",
+            "u-3CU18ekR4Yf5Vy",
+            "u-rZ198eKR4yF0WG",
+            "u-M5XW2HKR4YEzKk"
+          ],
+          "roomName": "客厅",
+          "roomType": "100900000002",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "厅",
+          "simpleLabelMod": false,
+          "size": 32400393.48455739,
+          "sizeWithoutLine": 30873977,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 1,
+          "typeName": "客厅"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-4nFwG7kr4ydrfa",
+                "roomType": "100900000005",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-Ht1wW6kr4YDRF3"
+                ],
+                "towardsRad": 3.1416,
+                "type": 12
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-ATA9o1Kr4YEzl4",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-f2Sa04KR4YdRf3"
+                ],
+                "towardsRad": 3.1416,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-zVtap1KR4yl1Am"
+                ],
+                "sharedLines": [
+                  "u-DlQnr9KR4yDNSh"
+                ],
+                "towardsRad": 1.5708,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-QnZni3kR4ydGc1",
+                "roomType": "100900000004",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-bu7HL6KR4yDNSH"
+                ],
+                "towardsRad": 0,
+                "type": 5
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-0Zh7k0Kr4YdJGg",
+                "roomType": "100900000013",
+                "sharedLineItems": [
+                  "u-3W6hSWkR4yLp06"
+                ],
+                "sharedLines": [
+                  "u-92wz9jkr4yDiyC",
+                  "u-71kxlwkr4ydJGD"
+                ],
+                "towardsRad": 0,
+                "type": 15
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-U3n7luKr4yGQ8r",
+                "is": "window",
+                "length": 300,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-wMJgUokr4YGoRz",
+                "is": "window",
+                "length": 1948.1312,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-eWor7ukr4YgmmJ",
+                "is": "window",
+                "length": 519,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-zVtap1KR4yl1Am",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-3W6hSWkR4yLp06",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 0
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-L2BnfGKr4ygcEK",
+                "length": 688.2448999999979,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-23KanCKr4ygCEK",
+                "length": 759,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-4UAAs7KR4YgC0n",
+                "length": 2068.131200000003,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-0GqNE6kR4YgbC5",
+                "length": 759,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-6XYXiIKR4YgBc4",
+                "length": 757.6238999999987,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-9yMPg9kR4y97c2",
+                "length": 704,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Ht1wW6kr4YDRF3",
+                "length": 1628,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-f2Sa04KR4YdRf3",
+                "length": 3629.769999999997,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-DlQnr9KR4yDNSh",
+                "length": 1585,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-bu7HL6KR4yDNSH",
+                "length": 647.7699999999968,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-92wz9jkr4yDiyC",
+                "length": 1728,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-71kxlwkr4ydJGD",
+                "length": 1929,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-2pfIToKR4ydJgd",
+                "length": 3586,
+                "towardsRad": 0
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 0,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-AbhC2Vkr4YD8Hh",
+          "labelScale": 1,
+          "labelX": -849,
+          "labelY": 320,
+          "nameIndex": "B",
+          "points": [
+            "u-S567v6kr4y93iz",
+            "u-zcLe11KR4YGCek",
+            "u-ED6OMrKR4yGC0n",
+            "u-Q9x6KEkR4ygbC5",
+            "u-erYB7BkR4YGbc4",
+            "u-NwWs1gkR4Y9523",
+            "u-yq26hEkr4Y97C2",
+            "u-4NKVb5kr4Ydrf3",
+            "u-Hayz5bkR4ydNsC",
+            "u-49X21fKR4yDNsH",
+            "u-cySTaOkR4yDFLX",
+            "u-0Ma3kxKR4YdiYc",
+            "u-8W20YLKr4ydJgd"
+          ],
+          "roomName": "卧室B",
+          "roomType": "100900000001",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "室",
+          "simpleLabelMod": false,
+          "size": 17936511.030799866,
+          "sizeWithoutLine": 16722976,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 3,
+          "typeName": "卧室"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-Z8kP3ekR4yEtWX",
+                "roomType": "100900000004",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-Fwr1e4Kr4YDGbx"
+                ],
+                "towardsRad": -1.5708,
+                "type": 5
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-duhLZfkR4yl2lV"
+                ],
+                "sharedLines": [
+                  "u-5cCiGvKr4YDgbX"
+                ],
+                "towardsRad": -1.5708,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-KuWt10Kr4yF0Wr",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-ZRzFAbKr4yEnlK"
+                ],
+                "towardsRad": 3.1416,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-25wU9EkR4yEnM1",
+                "roomType": "100900000005",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-ak2l04kR4YEnlk"
+                ],
+                "towardsRad": 3.1416,
+                "type": 12
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-duhLZfkR4yl2lV",
+                "is": "door",
+                "length": 800,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-PfmsOmKR4yfYB6",
+                "is": "window",
+                "length": 1798.9476,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-jBbudVkr4Yfwj4",
+                "is": "window",
+                "length": 521.2429,
+                "towardsRad": 0
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-7ANigGkr4Y90Np",
+                "length": 3470.7571000000025,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Fwr1e4Kr4YDGbx",
+                "length": 1929,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5cCiGvKr4YDgbX",
+                "length": 1585,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ZRzFAbKr4yEnlK",
+                "length": 2200.2929000000004,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ak2l04kR4YEnlk",
+                "length": 1270.4642000000022,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-4r11kAkr4yFmnT",
+                "length": 1204.0524000000005,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-6d6MQukR4yFmnt",
+                "length": 761.2428999999975,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-FiNv0iKR4yFo3G",
+                "length": 1918.9475999999995,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-NwgCA1kR4yFOPR",
+                "length": 761.2428999999975,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-l8hKDukR4yFopr",
+                "length": 391,
+                "towardsRad": 1.5708
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 0,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-b9YG9bKR4YDDy1",
+          "labelScale": 1,
+          "labelX": -982,
+          "labelY": 764,
+          "nameIndex": "C",
+          "points": [
+            "u-g14bb7kR4y8ZXO",
+            "u-bsLG58Kr4y90nP",
+            "u-07y0hjkr4YdgBx",
+            "u-wy62J1kR4Yddxz",
+            "u-SraeQyKR4YEnlk",
+            "u-6Z0k5wkR4yda63",
+            "u-4ex94XkR4YFmNt",
+            "u-xKxS97Kr4yfmnT",
+            "u-hgq54NkR4YFo3G",
+            "u-RRO6ODKR4yFopr"
+          ],
+          "roomName": "卧室C",
+          "roomType": "100900000001",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "室",
+          "simpleLabelMod": false,
+          "size": 13657025.685372353,
+          "sizeWithoutLine": 12742333,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 3,
+          "typeName": "卧室"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-b9YG9bKR4YDDy1",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-duhLZfkR4yl2lV"
+                ],
+                "sharedLines": [
+                  "u-5cCiGvKr4YDgbX"
+                ],
+                "towardsRad": 1.5708,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-Z8kP3ekR4yEtWX",
+                "roomType": "100900000004",
+                "sharedLineItems": [
+                  "u-RnEW4uKr4Yl45s"
+                ],
+                "sharedLines": [
+                  "u-O6qeH4Kr4YetWP"
+                ],
+                "towardsRad": 0,
+                "type": 5
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-QnZni3kR4ydGc1",
+                "roomType": "100900000004",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-6w4ANvkR4yEtWp"
+                ],
+                "towardsRad": 0,
+                "type": 5
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-AbhC2Vkr4YD8Hh",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-zVtap1KR4yl1Am"
+                ],
+                "sharedLines": [
+                  "u-DlQnr9KR4yDNSh"
+                ],
+                "towardsRad": -1.5708,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-ATA9o1Kr4YEzl4",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-ArAd7eKR4YkZ4F"
+                ],
+                "sharedLines": [
+                  "u-PljNEBkr4yf0W9",
+                  "u-j1Gr5KKr4YF0wH"
+                ],
+                "towardsRad": 3.1416,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [
+                  "u-dYGA53KR4YKrp3"
+                ],
+                "sharedLines": [
+                  "u-T0bMz3kr4yF5vY"
+                ],
+                "towardsRad": 3.1416,
+                "type": 1
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-KuWt10Kr4yF0Wr",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-OLGr1PKr4Ykxld"
+                ],
+                "sharedLines": [
+                  "u-SOWaF3kr4yf5VY",
+                  "u-5tYe0nKR4Yf5vU"
+                ],
+                "towardsRad": 1.5708,
+                "type": 3
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-duhLZfkR4yl2lV",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-RnEW4uKr4Yl45s",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-zVtap1KR4yl1Am",
+                "is": "door",
+                "length": 800,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ArAd7eKR4YkZ4F",
+                "is": "door",
+                "length": 800,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-dYGA53KR4YKrp3",
+                "is": "door",
+                "length": 1007,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-OLGr1PKr4Ykxld",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5cCiGvKr4YDgbX",
+                "length": 1585,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-O6qeH4Kr4YetWP",
+                "length": 1693.2981999999977,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6w4ANvkR4yEtWp",
+                "length": 1065.9318000000058,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-DlQnr9KR4yDNSh",
+                "length": 1585,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-PljNEBkr4yf0W9",
+                "length": 436.760500000004,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-j1Gr5KKr4YF0wH",
+                "length": 3108.651899999997,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-T0bMz3kr4yF5vY",
+                "length": 1327.403299999998,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-SOWaF3kr4yf5VY",
+                "length": 3108.651899999997,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5tYe0nKR4Yf5vU",
+                "length": 995.0662000000012,
+                "towardsRad": 3.1416
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 1,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-py8Nl5Kr4ydNSL",
+          "labelScale": 1,
+          "labelX": 1400,
+          "labelY": -232,
+          "nameIndex": "",
+          "points": [
+            "u-wy62J1kR4Yddxz",
+            "u-07y0hjkr4YdgBx",
+            "u-3LEB3qkR4YetWp",
+            "u-49X21fKR4yDNsH",
+            "u-Hayz5bkR4ydNsC",
+            "u-k95GpjkR4yF0W9",
+            "u-rZ198eKR4yF0WG",
+            "u-3CU18ekR4Yf5Vy",
+            "u-NFwjfLkR4yF5Vu"
+          ],
+          "roomName": "过道",
+          "roomType": "100900000012",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "其他",
+          "simpleLabelMod": false,
+          "size": 8499814.340611696,
+          "sizeWithoutLine": 7618698,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 23,
+          "typeName": "过道"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-AbhC2Vkr4YD8Hh",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-f2Sa04KR4YdRf3"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-4nFwG7kr4ydrfa",
+                "roomType": "100900000005",
+                "sharedLineItems": [
+                  "u-x9AUhjkR4YkG6h"
+                ],
+                "sharedLines": [
+                  "u-st8qE3kr4yeZKK"
+                ],
+                "towardsRad": -1.5708,
+                "type": 12
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-7a7Ws7kR4Yf0wG"
+                ],
+                "towardsRad": 3.1416,
+                "type": 1
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-ArAd7eKR4YkZ4F"
+                ],
+                "sharedLines": [
+                  "u-j1Gr5KKr4YF0wH",
+                  "u-PljNEBkr4yf0W9"
+                ],
+                "towardsRad": 1.5708,
+                "type": 23
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-x9AUhjkR4YkG6h",
+                "is": "window",
+                "length": 1500,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ArAd7eKR4YkZ4F",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-f2Sa04KR4YdRf3",
+                "length": 3629.769999999997,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-st8qE3kr4yeZKK",
+                "length": 3108.651899999997,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-7a7Ws7kR4Yf0wG",
+                "length": 4066.5305000000008,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-j1Gr5KKr4YF0wH",
+                "length": 3108.651899999997,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-PljNEBkr4yf0W9",
+                "length": 436.760500000004,
+                "towardsRad": 0
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 0,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-ATA9o1Kr4YEzl4",
+          "labelScale": 1,
+          "labelX": -64,
+          "labelY": 1276,
+          "nameIndex": "A",
+          "points": [
+            "u-Hayz5bkR4ydNsC",
+            "u-4NKVb5kr4Ydrf3",
+            "u-M5XW2HKR4YEzKk",
+            "u-rZ198eKR4yF0WG",
+            "u-k95GpjkR4yF0W9"
+          ],
+          "roomName": "卧室A",
+          "roomType": "100900000001",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "室",
+          "simpleLabelMod": false,
+          "size": 12641427.7652328,
+          "sizeWithoutLine": 11797583,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 3,
+          "typeName": "卧室"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [
+                  "u-2IA4AeKR4Yhs54"
+                ],
+                "sharedLines": [
+                  "u-6j6t1Pkr4YeZKk"
+                ],
+                "towardsRad": 1.5708,
+                "type": 1
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-ATA9o1Kr4YEzl4",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-x9AUhjkR4YkG6h"
+                ],
+                "sharedLines": [
+                  "u-st8qE3kr4yeZKK"
+                ],
+                "towardsRad": 1.5708,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-AbhC2Vkr4YD8Hh",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-Ht1wW6kr4YDRF3"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-2IA4AeKR4Yhs54",
+                "is": "door",
+                "length": 2000,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-x9AUhjkR4YkG6h",
+                "is": "window",
+                "length": 1500,
+                "towardsRad": 1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-2BSDfAkR4YM5AL",
+                "length": 598.1924999999974,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-GmpqrLkR4YM5Al",
+                "length": 1977.0408000000025,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-8kF0Hhkr4YMcRg",
+                "length": 746.7347000000009,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-bZ2703Kr4YmcRG",
+                "length": 2170.408100000001,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-EZOQ95KR4YmcRG",
+                "length": 658.126599999996,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-Xw8I2DkR4Y99B6",
+                "length": 1628,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6j6t1Pkr4YeZKk",
+                "length": 3041.8508,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-st8qE3kr4yeZKK",
+                "length": 3108.651899999997,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Ht1wW6kr4YDRF3",
+                "length": 1628,
+                "towardsRad": 0
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 4,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-4nFwG7kr4ydrfa",
+          "labelScale": 1,
+          "labelX": 0,
+          "labelY": 0,
+          "nameIndex": "A",
+          "points": [
+            "u-yq26hEkr4Y97C2",
+            "u-H5F2qaKr4YM5AL",
+            "u-BDCLUVkr4YM5aL",
+            "u-xK0v0ckR4YMcRG",
+            "u-9ygiQ1KR4YMCRG",
+            "u-wq76dykR4y98Oo",
+            "u-YQpG1cKr4y99B6",
+            "u-M5XW2HKR4YEzKk",
+            "u-4NKVb5kr4Ydrf3"
+          ],
+          "roomName": "阳台A",
+          "roomType": "100900000005",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "阳台",
+          "simpleLabelMod": false,
+          "size": 10013018.39559996,
+          "sizeWithoutLine": 9094748,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 12,
+          "typeName": "阳台"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-OLGr1PKr4Ykxld"
+                ],
+                "sharedLines": [
+                  "u-5tYe0nKR4Yf5vU",
+                  "u-SOWaF3kr4yf5VY"
+                ],
+                "towardsRad": 0,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-HJX9dlKr4Yf5Vy"
+                ],
+                "towardsRad": 3.1416,
+                "type": 1
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-25wU9EkR4yEnM1",
+                "roomType": "100900000005",
+                "sharedLineItems": [
+                  "u-6W8mNSkR4yk3Df"
+                ],
+                "sharedLines": [
+                  "u-Xg7ZKQKr4yEZks"
+                ],
+                "towardsRad": 1.5708,
+                "type": 12
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-b9YG9bKR4YDDy1",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-ZRzFAbKr4yEnlK"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-OLGr1PKr4Ykxld",
+                "is": "door",
+                "length": 800,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6W8mNSkR4yk3Df",
+                "is": "window",
+                "length": 1500,
+                "towardsRad": 1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5tYe0nKR4Yf5vU",
+                "length": 995.0662000000012,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-SOWaF3kr4yf5VY",
+                "length": 3108.651899999997,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-HJX9dlKr4Yf5Vy",
+                "length": 3195.3591000000015,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Xg7ZKQKr4yEZks",
+                "length": 3108.651899999997,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ZRzFAbKr4yEnlK",
+                "length": 2200.2929000000004,
+                "towardsRad": 0
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 0,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-KuWt10Kr4yF0Wr",
+          "labelScale": 1,
+          "labelX": 89,
+          "labelY": -1071,
+          "nameIndex": "D",
+          "points": [
+            "u-wy62J1kR4Yddxz",
+            "u-NFwjfLkR4yF5Vu",
+            "u-3CU18ekR4Yf5Vy",
+            "u-ndxYQBkr4YEZKs",
+            "u-SraeQyKR4YEnlk"
+          ],
+          "roomName": "卧室D",
+          "roomType": "100900000001",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "室",
+          "simpleLabelMod": false,
+          "size": 9933259.13739729,
+          "sizeWithoutLine": 9191175,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 3,
+          "typeName": "卧室"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-b9YG9bKR4YDDy1",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-ak2l04kR4YEnlk"
+                ],
+                "towardsRad": 0,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-KuWt10Kr4yF0Wr",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-6W8mNSkR4yk3Df"
+                ],
+                "sharedLines": [
+                  "u-Xg7ZKQKr4yEZks"
+                ],
+                "towardsRad": -1.5708,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [
+                  "u-4gDq1MkR4YIafq"
+                ],
+                "sharedLines": [
+                  "u-Iob7WFKR4YEZkS"
+                ],
+                "towardsRad": -1.5708,
+                "type": 1
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-iuFsNEkr4YefhS",
+                "roomType": "100900000003",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-yEnaUgkr4yeNLR"
+                ],
+                "towardsRad": 3.1416,
+                "type": 8
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6W8mNSkR4yk3Df",
+                "is": "window",
+                "length": 1500,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-4gDq1MkR4YIafq",
+                "is": "door",
+                "length": 1700,
+                "towardsRad": -1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-wy1tR0kR4y8yiy",
+                "length": 756.7571000000025,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-UDqBavKR4yjK6e",
+                "length": 691.4092999999993,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-xlSLSTkr4yJK6E",
+                "length": 1977.0408000000025,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-DDFF2bKr4yJk6E",
+                "length": 535.2040999999954,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-QBv4uPkr4Yizhk",
+                "length": 1917.2449000000051,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-kj2rAkKR4yizhK",
+                "length": 795.0291999999972,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-q3n6XWKR4ydA64",
+                "length": 200,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-ak2l04kR4YEnlk",
+                "length": 1270.4642000000022,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Xg7ZKQKr4yEZks",
+                "length": 3108.651899999997,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Iob7WFKR4YEZkS",
+                "length": 2807.2764000000025,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-yEnaUgkr4yeNLR",
+                "length": 713.7070999999996,
+                "towardsRad": 3.1416
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 4,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-25wU9EkR4yEnM1",
+          "labelScale": 1,
+          "labelX": 0,
+          "labelY": 0,
+          "nameIndex": "B",
+          "points": [
+            "u-jdBiRRkR4y8Y3D",
+            "u-lLsX66Kr4Y8YIY",
+            "u-ERqllskR4yJK6E",
+            "u-J3Tr2FKr4yjk6E",
+            "u-e19mDzKR4yiZHK",
+            "u-3hb1tFkr4yiZHk",
+            "u-s1Ge3nkr4yD8hd",
+            "u-6Z0k5wkR4yda63",
+            "u-SraeQyKR4YEnlk",
+            "u-ndxYQBkr4YEZKs",
+            "u-SQ7pC4kR4yENLR"
+          ],
+          "roomName": "阳台B",
+          "roomType": "100900000005",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "阳台",
+          "simpleLabelMod": false,
+          "size": 8699160.774916887,
+          "sizeWithoutLine": 7830396,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 12,
+          "typeName": "阳台"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-25wU9EkR4yEnM1",
+                "roomType": "100900000005",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-yEnaUgkr4yeNLR"
+                ],
+                "towardsRad": 0,
+                "type": 12
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-h73168KR4Y9bLj",
+                "roomType": "100900000002",
+                "sharedLineItems": [
+                  "u-Ev6oukKR4Yi773"
+                ],
+                "sharedLines": [
+                  "u-sA0RsKkr4yENLr",
+                  "u-z1Fu3mkR4yEf3Y"
+                ],
+                "towardsRad": 0,
+                "type": 1
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-v9V7t3KR4YJrV9",
+                "is": "window",
+                "length": 500,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Ev6oukKR4Yi773",
+                "is": "door",
+                "length": 1400,
+                "towardsRad": 0
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-lsHBhgkr4yeik4",
+                "length": 1962.0717000000004,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-yEnaUgkr4yeNLR",
+                "length": 713.7070999999996,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-sA0RsKkr4yENLr",
+                "length": 2728.2929000000004,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-z1Fu3mkR4yEf3Y",
+                "length": 1414.0717000000004,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-lP5Db5Kr4y9b4Y",
+                "length": 548,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-FT7RObKR4y9bLE",
+                "length": 3442,
+                "towardsRad": 3.1416
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 3,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-iuFsNEkr4YefhS",
+          "labelScale": 1,
+          "labelX": 308,
+          "labelY": -319,
+          "nameIndex": "",
+          "points": [
+            "u-MwEvjDKR4y8y3d",
+            "u-jdBiRRkR4y8Y3D",
+            "u-SQ7pC4kR4yENLR",
+            "u-4yw4nOKR4YEf3y",
+            "u-2g44Ihkr4Y9aIA",
+            "u-458ij7kr4Y9b4y"
+          ],
+          "roomName": "厨房",
+          "roomType": "100900000003",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "厨",
+          "simpleLabelMod": false,
+          "size": 6753450.791400194,
+          "sizeWithoutLine": 6119124,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 8,
+          "typeName": "厨房"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-0Zh7k0Kr4YdJGg",
+                "roomType": "100900000013",
+                "sharedLineItems": [
+                  "u-7ZtBRzkR4yl5VP"
+                ],
+                "sharedLines": [
+                  "u-5U64AMKr4YdFlx"
+                ],
+                "towardsRad": -1.5708,
+                "type": 15
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-AbhC2Vkr4YD8Hh",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-bu7HL6KR4yDNSH"
+                ],
+                "towardsRad": 3.1416,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-6w4ANvkR4yEtWp"
+                ],
+                "towardsRad": 3.1416,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-Z8kP3ekR4yEtWX",
+                "roomType": "100900000004",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-KBWz8vKR4Yetwp"
+                ],
+                "towardsRad": 1.5708,
+                "type": 5
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-sqIUwukr4yNlEW",
+                "is": "window",
+                "length": 552,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-7ZtBRzkR4yl5VP",
+                "is": "door",
+                "length": 800,
+                "towardsRad": -1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-bz3ZkQKr4Y926U",
+                "length": 992,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5U64AMKr4YdFlx",
+                "length": 1929,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-bu7HL6KR4yDNSH",
+                "length": 647.7699999999968,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-6w4ANvkR4yEtWp",
+                "length": 1065.9318000000058,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-KBWz8vKR4Yetwp",
+                "length": 2921,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-nz9UZWKr4yeTWJ",
+                "length": 1713.7018000000023,
+                "towardsRad": 0
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 3,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-QnZni3kR4ydGc1",
+          "labelScale": 1,
+          "labelX": -753,
+          "labelY": -128,
+          "nameIndex": "A",
+          "points": [
+            "u-X6X3jrkr4y91L5",
+            "u-3BKeGSkr4Y926U",
+            "u-cySTaOkR4yDFLX",
+            "u-49X21fKR4yDNsH",
+            "u-3LEB3qkR4YetWp",
+            "u-mh70b5kR4YEtwj"
+          ],
+          "roomName": "卫生间A",
+          "roomType": "100900000004",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "卫",
+          "simpleLabelMod": false,
+          "size": 5005722.9577999115,
+          "sizeWithoutLine": 4464794,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 5,
+          "typeName": "卫生间"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-QnZni3kR4ydGc1",
+                "roomType": "100900000004",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-KBWz8vKR4Yetwp"
+                ],
+                "towardsRad": -1.5708,
+                "type": 5
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-py8Nl5Kr4ydNSL",
+                "roomType": "100900000012",
+                "sharedLineItems": [
+                  "u-RnEW4uKr4Yl45s"
+                ],
+                "sharedLines": [
+                  "u-O6qeH4Kr4YetWP"
+                ],
+                "towardsRad": 3.1416,
+                "type": 23
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-b9YG9bKR4YDDy1",
+                "roomType": "100900000001",
+                "sharedLineItems": [],
+                "sharedLines": [
+                  "u-Fwr1e4Kr4YDGbx"
+                ],
+                "towardsRad": 1.5708,
+                "type": 3
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-9k8X6kKR4YnM6z",
+                "is": "window",
+                "length": 552,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-RnEW4uKr4Yl45s",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 3.1416
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-ExKWXgkR4y90x2",
+                "length": 992,
+                "towardsRad": 1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-bBjOJ9Kr4YETwJ",
+                "length": 1693.2981999999977,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-KBWz8vKR4Yetwp",
+                "length": 2921,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-O6qeH4Kr4YetWP",
+                "length": 1693.2981999999977,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-Fwr1e4Kr4YDGbx",
+                "length": 1929,
+                "towardsRad": 1.5708
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 3,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-Z8kP3ekR4yEtWX",
+          "labelScale": 1,
+          "labelX": -753,
+          "labelY": 51,
+          "nameIndex": "B",
+          "points": [
+            "u-bsLG58Kr4y90nP",
+            "u-NSna7UKr4y90X2",
+            "u-mh70b5kR4YEtwj",
+            "u-3LEB3qkR4YetWp",
+            "u-07y0hjkr4YdgBx"
+          ],
+          "roomName": "卫生间B",
+          "roomType": "100900000004",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "卫",
+          "simpleLabelMod": false,
+          "size": 4946124.0422000885,
+          "sizeWithoutLine": 4405973,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 5,
+          "typeName": "卫生间"
+        },
+        {
+          "areaHeight": 2700,
+          "attachments": {
+            "areas": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-AbhC2Vkr4YD8Hh",
+                "roomType": "100900000001",
+                "sharedLineItems": [
+                  "u-3W6hSWkR4yLp06"
+                ],
+                "sharedLines": [
+                  "u-71kxlwkr4ydJGD",
+                  "u-92wz9jkr4yDiyC"
+                ],
+                "towardsRad": -1.5708,
+                "type": 3
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "id": "u-QnZni3kR4ydGc1",
+                "roomType": "100900000004",
+                "sharedLineItems": [
+                  "u-7ZtBRzkR4yl5VP"
+                ],
+                "sharedLines": [
+                  "u-5U64AMKr4YdFlx"
+                ],
+                "towardsRad": 1.5708,
+                "type": 5
+              }
+            ],
+            "lineItems": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-3W6hSWkR4yLp06",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-7ZtBRzkR4yl5VP",
+                "is": "door",
+                "length": 800,
+                "towardsRad": 1.5708
+              }
+            ],
+            "lines": [
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": true,
+                "id": "u-DbdBqukr4YDjgd",
+                "length": 1728,
+                "towardsRad": 0
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-71kxlwkr4ydJGD",
+                "length": 1929,
+                "towardsRad": -1.5708
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-92wz9jkr4yDiyC",
+                "length": 1728,
+                "towardsRad": 3.1416
+              },
+              {
+                "direction": null,
+                "directionCode": "",
+                "edge": false,
+                "id": "u-5U64AMKr4YdFlx",
+                "length": 1929,
+                "towardsRad": 1.5708
+              }
+            ]
+          },
+          "customizedName": "",
+          "displayName": "Area",
+          "empty": false,
+          "floorType": 0,
+          "hideBounding": true,
+          "hideName": false,
+          "hideSize": false,
+          "id": "u-0Zh7k0Kr4YdJGg",
+          "labelScale": 1,
+          "labelX": -191,
+          "labelY": 230,
+          "nameIndex": "",
+          "points": [
+            "u-3BKeGSkr4Y926U",
+            "u-8W20YLKr4ydJgd",
+            "u-0Ma3kxKR4YdiYc",
+            "u-cySTaOkR4yDFLX"
+          ],
+          "roomName": "衣帽间",
+          "roomType": "100900000013",
+          "roomTypeLabelMod": false,
+          "roomTypeName": "衣",
+          "simpleLabelMod": false,
+          "size": 3333312,
+          "sizeWithoutLine": 2908872,
+          "subLabelX": 0,
+          "subLabelY": 0,
+          "subType": 0,
+          "type": 15,
+          "typeName": "衣帽间"
+        }
+      ]
+    ],
+    "firstFloor": {
+      "floorIndex": 0,
+      "rooms": [
+        {
+          "customizedName": "",
+          "floorType": 1,
+          "id": "u-h73168KR4Y9bLj",
+          "name": "客厅",
+          "observerIndexs": [
+            1,
+            2,
+            9
+          ],
+          "path": [
+            {
+              "x": 33489.4973,
+              "y": 33042
+            },
+            {
+              "x": 32310,
+              "y": 33042
+            },
+            {
+              "x": 32310,
+              "y": 38903
+            },
+            {
+              "x": 33724.0717,
+              "y": 38903
+            },
+            {
+              "x": 33724.0717,
+              "y": 41631.2929
+            },
+            {
+              "x": 36531.3481,
+              "y": 41631.2929
+            },
+            {
+              "x": 36531.3481,
+              "y": 38435.9338
+            },
+            {
+              "x": 36531.3481,
+              "y": 37108.5305
+            },
+            {
+              "x": 36531.3481,
+              "y": 33042
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 34420.5,
+              "y": 35152.5
+            },
+            "positionInImage": {
+              "x": 0.25434510567297,
+              "y": 0.6053016802443992
+            }
+          },
+          "roomType": "100900000002",
+          "size": 30873977
+        },
+        {
+          "customizedName": "",
+          "floorType": 0,
+          "id": "u-AbhC2Vkr4YD8Hh",
+          "name": "卧室B",
+          "observerIndexs": [
+            20,
+            25,
+            26
+          ],
+          "path": [
+            {
+              "x": 43154,
+              "y": 30710
+            },
+            {
+              "x": 42465.7551,
+              "y": 30710
+            },
+            {
+              "x": 42465.7551,
+              "y": 29951
+            },
+            {
+              "x": 40397.6239,
+              "y": 29951
+            },
+            {
+              "x": 40397.6239,
+              "y": 30710
+            },
+            {
+              "x": 39640,
+              "y": 30710
+            },
+            {
+              "x": 39640,
+              "y": 31414
+            },
+            {
+              "x": 39640,
+              "y": 33042
+            },
+            {
+              "x": 39640,
+              "y": 36671.77
+            },
+            {
+              "x": 41225,
+              "y": 36671.77
+            },
+            {
+              "x": 41225,
+              "y": 36024
+            },
+            {
+              "x": 41225,
+              "y": 34296
+            },
+            {
+              "x": 43154,
+              "y": 34296
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 41396.571044921875,
+              "y": 32198.295654296875
+            },
+            "positionInImage": {
+              "x": 0.7393333596302749,
+              "y": 0.7933238509230603
+            }
+          },
+          "roomType": "100900000001",
+          "size": 16722976
+        },
+        {
+          "customizedName": "",
+          "floorType": 0,
+          "id": "u-b9YG9bKR4YDDy1",
+          "name": "卧室C",
+          "observerIndexs": [
+            16,
+            17
+          ],
+          "path": [
+            {
+              "x": 43154,
+              "y": 42901.7571
+            },
+            {
+              "x": 43154,
+              "y": 39431
+            },
+            {
+              "x": 41225,
+              "y": 39431
+            },
+            {
+              "x": 39640,
+              "y": 39431
+            },
+            {
+              "x": 39640,
+              "y": 41631.2929
+            },
+            {
+              "x": 39640,
+              "y": 42901.7571
+            },
+            {
+              "x": 40844.0524,
+              "y": 42901.7571
+            },
+            {
+              "x": 40844.0524,
+              "y": 43663
+            },
+            {
+              "x": 42763,
+              "y": 43663
+            },
+            {
+              "x": 42763,
+              "y": 42901.7571
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 41397,
+              "y": 41188
+            },
+            "positionInImage": {
+              "x": 0.7393631813125695,
+              "y": 0.22116853360488797
+            }
+          },
+          "roomType": "100900000001",
+          "size": 12742333
+        },
+        {
+          "customizedName": "",
+          "floorType": 1,
+          "id": "u-py8Nl5Kr4ydNSL",
+          "name": "过道",
+          "observerIndexs": [
+            0,
+            14,
+            15
+          ],
+          "path": [
+            {
+              "x": 39640,
+              "y": 39431
+            },
+            {
+              "x": 41225,
+              "y": 39431
+            },
+            {
+              "x": 41225,
+              "y": 37737.7018
+            },
+            {
+              "x": 41225,
+              "y": 36671.77
+            },
+            {
+              "x": 39640,
+              "y": 36671.77
+            },
+            {
+              "x": 39640,
+              "y": 37108.5305
+            },
+            {
+              "x": 36531.3481,
+              "y": 37108.5305
+            },
+            {
+              "x": 36531.3481,
+              "y": 38435.9338
+            },
+            {
+              "x": 39640,
+              "y": 38435.9338
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 40292.982421875,
+              "y": 37771.361328125
+            },
+            "positionInImage": {
+              "x": 0.6626100126442576,
+              "y": 0.4386226242282968
+            }
+          },
+          "roomType": "100900000012",
+          "size": 7618698
+        },
+        {
+          "customizedName": "",
+          "floorType": 0,
+          "id": "u-ATA9o1Kr4YEzl4",
+          "name": "卧室A",
+          "observerIndexs": [
+            12,
+            13
+          ],
+          "path": [
+            {
+              "x": 39640,
+              "y": 36671.77
+            },
+            {
+              "x": 39640,
+              "y": 33042
+            },
+            {
+              "x": 36531.3481,
+              "y": 33042
+            },
+            {
+              "x": 36531.3481,
+              "y": 37108.5305
+            },
+            {
+              "x": 39640,
+              "y": 37108.5305
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 38085.5,
+              "y": 35075
+            },
+            "positionInImage": {
+              "x": 0.5091421023359288,
+              "y": 0.6102342158859471
+            }
+          },
+          "roomType": "100900000001",
+          "size": 11797583
+        },
+        {
+          "customizedName": "",
+          "floorType": 4,
+          "id": "u-4nFwG7kr4ydrfa",
+          "name": "阳台A",
+          "observerIndexs": [
+            10,
+            11
+          ],
+          "path": [
+            {
+              "x": 39640,
+              "y": 31414
+            },
+            {
+              "x": 39041.8075,
+              "y": 31414
+            },
+            {
+              "x": 37064.7667,
+              "y": 31414
+            },
+            {
+              "x": 36318.032,
+              "y": 31414
+            },
+            {
+              "x": 34147.6239,
+              "y": 31414
+            },
+            {
+              "x": 33489.4973,
+              "y": 31414
+            },
+            {
+              "x": 33489.4973,
+              "y": 33042
+            },
+            {
+              "x": 36531.3481,
+              "y": 33042
+            },
+            {
+              "x": 39640,
+              "y": 33042
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 36564.5,
+              "y": 32228
+            },
+            "positionInImage": {
+              "x": 0.4033996106785317,
+              "y": 0.7914332993890021
+            }
+          },
+          "roomType": "100900000005",
+          "size": 9094748
+        },
+        {
+          "customizedName": "",
+          "floorType": 0,
+          "id": "u-KuWt10Kr4yF0Wr",
+          "name": "卧室D",
+          "observerIndexs": [
+            7,
+            8
+          ],
+          "path": [
+            {
+              "x": 39640,
+              "y": 39431
+            },
+            {
+              "x": 39640,
+              "y": 38435.9338
+            },
+            {
+              "x": 36531.3481,
+              "y": 38435.9338
+            },
+            {
+              "x": 36531.3481,
+              "y": 41631.2929
+            },
+            {
+              "x": 39640,
+              "y": 41631.2929
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 38085.5,
+              "y": 40033
+            },
+            "positionInImage": {
+              "x": 0.5091421023359288,
+              "y": 0.29467922606924646
+            }
+          },
+          "roomType": "100900000001",
+          "size": 9191175
+        },
+        {
+          "customizedName": "",
+          "floorType": 4,
+          "id": "u-25wU9EkR4yEnM1",
+          "name": "阳台B",
+          "observerIndexs": [
+            3,
+            4
+          ],
+          "path": [
+            {
+              "x": 33724.0717,
+              "y": 42345
+            },
+            {
+              "x": 33724.0717,
+              "y": 43101.7571
+            },
+            {
+              "x": 34415.481,
+              "y": 43101.7571
+            },
+            {
+              "x": 36392.5218,
+              "y": 43101.7571
+            },
+            {
+              "x": 36927.7259,
+              "y": 43101.7571
+            },
+            {
+              "x": 38844.9708,
+              "y": 43101.7571
+            },
+            {
+              "x": 39640,
+              "y": 43101.7571
+            },
+            {
+              "x": 39640,
+              "y": 42901.7571
+            },
+            {
+              "x": 39640,
+              "y": 41631.2929
+            },
+            {
+              "x": 36531.3481,
+              "y": 41631.2929
+            },
+            {
+              "x": 33724.0717,
+              "y": 41631.2929
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 36682,
+              "y": 42366
+            },
+            "positionInImage": {
+              "x": 0.4115684093437153,
+              "y": 0.1461939918533605
+            }
+          },
+          "roomType": "100900000005",
+          "size": 7830396
+        },
+        {
+          "customizedName": "",
+          "floorType": 3,
+          "id": "u-iuFsNEkr4YefhS",
+          "name": "厨房",
+          "observerIndexs": [
+            5,
+            6
+          ],
+          "path": [
+            {
+              "x": 31762,
+              "y": 42345
+            },
+            {
+              "x": 33724.0717,
+              "y": 42345
+            },
+            {
+              "x": 33724.0717,
+              "y": 41631.2929
+            },
+            {
+              "x": 33724.0717,
+              "y": 38903
+            },
+            {
+              "x": 32310,
+              "y": 38903
+            },
+            {
+              "x": 31762,
+              "y": 38903
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 32743,
+              "y": 40624
+            },
+            "positionInImage": {
+              "x": 0.13772246941045607,
+              "y": 0.25706466395112015
+            }
+          },
+          "roomType": "100900000003",
+          "size": 6119124
+        },
+        {
+          "customizedName": "",
+          "floorType": 3,
+          "id": "u-QnZni3kR4ydGc1",
+          "name": "卫生间A",
+          "observerIndexs": [
+            23,
+            24
+          ],
+          "path": [
+            {
+              "x": 44146,
+              "y": 36024
+            },
+            {
+              "x": 43154,
+              "y": 36024
+            },
+            {
+              "x": 41225,
+              "y": 36024
+            },
+            {
+              "x": 41225,
+              "y": 36671.77
+            },
+            {
+              "x": 41225,
+              "y": 37737.7018
+            },
+            {
+              "x": 44146,
+              "y": 37737.7018
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 42685.5,
+              "y": 36880.5
+            },
+            "positionInImage": {
+              "x": 0.8289418798665183,
+              "y": 0.4953220468431772
+            }
+          },
+          "roomType": "100900000004",
+          "size": 4464794
+        },
+        {
+          "customizedName": "",
+          "floorType": 3,
+          "id": "u-Z8kP3ekR4yEtWX",
+          "name": "卫生间B",
+          "observerIndexs": [
+            18,
+            19
+          ],
+          "path": [
+            {
+              "x": 43154,
+              "y": 39431
+            },
+            {
+              "x": 44146,
+              "y": 39431
+            },
+            {
+              "x": 44146,
+              "y": 37737.7018
+            },
+            {
+              "x": 41225,
+              "y": 37737.7018
+            },
+            {
+              "x": 41225,
+              "y": 39431
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 42685.5,
+              "y": 38584
+            },
+            "positionInImage": {
+              "x": 0.8289418798665183,
+              "y": 0.38690173116089616
+            }
+          },
+          "roomType": "100900000004",
+          "size": 4405973
+        },
+        {
+          "customizedName": "",
+          "floorType": 0,
+          "id": "u-0Zh7k0Kr4YdJGg",
+          "name": "衣帽间",
+          "observerIndexs": [
+            21,
+            22
+          ],
+          "path": [
+            {
+              "x": 43154,
+              "y": 36024
+            },
+            {
+              "x": 43154,
+              "y": 34296
+            },
+            {
+              "x": 41225,
+              "y": 34296
+            },
+            {
+              "x": 41225,
+              "y": 36024
+            }
+          ],
+          "roomLabel": {
+            "position": {
+              "x": 42189.5,
+              "y": 35160
+            },
+            "positionInImage": {
+              "x": 0.7944591212458287,
+              "y": 0.6048243380855397
+            }
+          },
+          "roomType": "100900000013",
+          "size": 2908872
+        }
+      ],
+      "rules": {
+        "bottom": [
+          [
+            {
+              "x": 43154,
+              "y": 36084
+            },
+            {
+              "x": 44086,
+              "y": 36084
+            }
+          ],
+          [
+            {
+              "x": 32370,
+              "y": 33102
+            },
+            {
+              "x": 33489,
+              "y": 33102
+            }
+          ],
+          [
+            {
+              "x": 39700,
+              "y": 30770
+            },
+            {
+              "x": 40458,
+              "y": 30770
+            }
+          ],
+          [
+            {
+              "x": 40458,
+              "y": 30011
+            },
+            {
+              "x": 42406,
+              "y": 30011
+            }
+          ],
+          [
+            {
+              "x": 42406,
+              "y": 30770
+            },
+            {
+              "x": 43094,
+              "y": 30770
+            }
+          ],
+          [
+            {
+              "x": 37065,
+              "y": 31474
+            },
+            {
+              "x": 39042,
+              "y": 31474
+            }
+          ],
+          [
+            {
+              "x": 39042,
+              "y": 31474
+            },
+            {
+              "x": 39580,
+              "y": 31474
+            }
+          ],
+          [
+            {
+              "x": 33549,
+              "y": 31474
+            },
+            {
+              "x": 34148,
+              "y": 31474
+            }
+          ],
+          [
+            {
+              "x": 34148,
+              "y": 31474
+            },
+            {
+              "x": 36318,
+              "y": 31474
+            }
+          ],
+          [
+            {
+              "x": 36318,
+              "y": 31474
+            },
+            {
+              "x": 37065,
+              "y": 31474
+            }
+          ]
+        ],
+        "left": [
+          [
+            {
+              "x": 33784,
+              "y": 42345
+            },
+            {
+              "x": 33784,
+              "y": 43042
+            }
+          ],
+          [
+            {
+              "x": 39700,
+              "y": 30770
+            },
+            {
+              "x": 39700,
+              "y": 31414
+            }
+          ],
+          [
+            {
+              "x": 33549,
+              "y": 31474
+            },
+            {
+              "x": 33549,
+              "y": 32982
+            }
+          ],
+          [
+            {
+              "x": 32370,
+              "y": 33102
+            },
+            {
+              "x": 32370,
+              "y": 38843
+            }
+          ],
+          [
+            {
+              "x": 31822,
+              "y": 38963
+            },
+            {
+              "x": 31822,
+              "y": 42285
+            }
+          ],
+          [
+            {
+              "x": 40904,
+              "y": 42842
+            },
+            {
+              "x": 40904,
+              "y": 43603
+            }
+          ],
+          [
+            {
+              "x": 40458,
+              "y": 30011
+            },
+            {
+              "x": 40458,
+              "y": 30770
+            }
+          ]
+        ],
+        "right": [
+          [
+            {
+              "x": 43094,
+              "y": 39491
+            },
+            {
+              "x": 43094,
+              "y": 42842
+            }
+          ],
+          [
+            {
+              "x": 43094,
+              "y": 34356
+            },
+            {
+              "x": 43094,
+              "y": 35964
+            }
+          ],
+          [
+            {
+              "x": 43094,
+              "y": 30770
+            },
+            {
+              "x": 43094,
+              "y": 34236
+            }
+          ],
+          [
+            {
+              "x": 44086,
+              "y": 37798
+            },
+            {
+              "x": 44086,
+              "y": 39371
+            }
+          ],
+          [
+            {
+              "x": 44086,
+              "y": 36084
+            },
+            {
+              "x": 44086,
+              "y": 37678
+            }
+          ],
+          [
+            {
+              "x": 42703,
+              "y": 42842
+            },
+            {
+              "x": 42703,
+              "y": 43603
+            }
+          ],
+          [
+            {
+              "x": 42406,
+              "y": 30011
+            },
+            {
+              "x": 42406,
+              "y": 30770
+            }
+          ]
+        ],
+        "top": [
+          [
+            {
+              "x": 43154,
+              "y": 39371
+            },
+            {
+              "x": 44086,
+              "y": 39371
+            }
+          ],
+          [
+            {
+              "x": 31822,
+              "y": 42285
+            },
+            {
+              "x": 33664,
+              "y": 42285
+            }
+          ],
+          [
+            {
+              "x": 39700,
+              "y": 42842
+            },
+            {
+              "x": 40904,
+              "y": 42842
+            }
+          ],
+          [
+            {
+              "x": 40904,
+              "y": 43603
+            },
+            {
+              "x": 42703,
+              "y": 43603
+            }
+          ],
+          [
+            {
+              "x": 36928,
+              "y": 43042
+            },
+            {
+              "x": 38845,
+              "y": 43042
+            }
+          ],
+          [
+            {
+              "x": 38845,
+              "y": 43042
+            },
+            {
+              "x": 39580,
+              "y": 43042
+            }
+          ],
+          [
+            {
+              "x": 33784,
+              "y": 43042
+            },
+            {
+              "x": 34415,
+              "y": 43042
+            }
+          ],
+          [
+            {
+              "x": 34415,
+              "y": 43042
+            },
+            {
+              "x": 36393,
+              "y": 43042
+            }
+          ],
+          [
+            {
+              "x": 36393,
+              "y": 43042
+            },
+            {
+              "x": 36928,
+              "y": 43042
+            }
+          ]
+        ]
+      }
+    },
+    "keys": [
+      "outlines",
+      "entrance",
+      "bounding",
+      "floorDatas",
+      "observers",
+      "areas"
+    ]
+  }
+}

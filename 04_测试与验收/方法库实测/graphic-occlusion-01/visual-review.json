@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "双侧后期遮罩闭合完整遮住底图一帧时切换，随后揭示卧室实景；标注后期遮挡非现场贴墙，未捏造实体遮挡物或新增运镜。限定图形遮挡变体。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

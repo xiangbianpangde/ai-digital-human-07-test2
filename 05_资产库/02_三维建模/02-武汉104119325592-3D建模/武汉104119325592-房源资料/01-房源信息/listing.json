@@ -1,0 +1,24 @@
+{
+  "listing_id": "104119325592",
+  "community": "沙湖九号",
+  "city": "武汉",
+  "area_m2": 168.39,
+  "layout": "4室2厅1厨2卫",
+  "source": "A+ 房源详情与同编号真实VR",
+  "source_url": "https://house.link.lianjia.com/housedel/view?housedelCode=104119325592",
+  "vr_url": "https://open.realsee.com/ke/LvK29zwWorXDJowd/jgL5QVlsOHRer46ooqpdiRTjOm57hpL3/#lianjia",
+  "public_visibility": "贝壳网和链家网不展示；销售状态不作承诺",
+  "selling_points_from_listing": [
+    "客餐厅带拐角阳台",
+    "四房两厅两卫",
+    "新风、空调、地暖（资料描述，不添加未见设备特写）"
+  ],
+  "rooms": {
+    "客厅": 24,
+    "餐厅": 7,
+    "卧室B": 15,
+    "卧室C": 13,
+    "卧室A": 11,
+    "卧室D": 8
+  }
+}

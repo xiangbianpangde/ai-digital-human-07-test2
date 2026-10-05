@@ -1,0 +1,15 @@
+{
+  "technical": "passed",
+  "visual": "pending",
+  "duration_sec": 4.0,
+  "width": 720,
+  "height": 1280,
+  "fps": "30/1",
+  "bytes": 242684,
+  "sha256": "a140461bc37009d4f57a78e8339bfac637d506fb2ba5b30f8aa59121d189a0aa",
+  "decoded_all_frames": true,
+  "metric_clearance": "unverified",
+  "driver": "ffmpeg accepted-input single-method render",
+  "scope": "silent_text_pair_demo",
+  "counterexample": false
+}

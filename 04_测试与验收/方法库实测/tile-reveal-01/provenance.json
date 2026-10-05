@@ -1,0 +1,30 @@
+{
+  "property": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/",
+  "method_id": "P09",
+  "variant_id": "P09V1",
+  "inputs": [
+    {
+      "path": "04_测试与验收/方法库实测/establish-04/take.mp4",
+      "sha256": "637d0a56926d8f7d0733937858c4ed5729070d99453ba04ae821da52c4dcf6ff"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/micro-01/take.mp4",
+      "sha256": "70144ad5d2c3a6f56573c4b56444fcc0035d2ea91fe06f053a3bf28a3e3ddfe2"
+    }
+  ],
+  "fact_source": "02_架构与合同/01_房产核心档案.md",
+  "fact_sha256": "c9f1c500f58a2af81baeeca1765cc3c8c454c1f079eb041b1841be26a43c08f5",
+  "font": {
+    "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+    "sha256": "2d37f927fb4c24a2ba4d318b903a607f6b7ad4e5f365c26aba6aaccb84038beb"
+  },
+  "counterexample": false,
+  "scope": "explicit_safe_post_variant",
+  "audio": "none",
+  "definition": {
+    "parent": "P09",
+    "title": "二维分片遮罩揭示",
+    "semantic": "96块独立图形遮罩遮住底图时换实景，然后分片揭示；不打碎房屋，不生成或变形建筑，不冒称三维破面。"
+  },
+  "not_a_real_camera_path": true
+}

@@ -1,0 +1,54 @@
+{
+  "id": "C04-dollhouse-v2",
+  "model_kind": "schematic_not_human_camera",
+  "model_bounds": {
+    "min": {
+      "x": -5.69115,
+      "y": -1.27192,
+      "z": -6.12177
+    },
+    "max": {
+      "x": 6.62258,
+      "y": 1.56512,
+      "z": 7.50942
+    }
+  },
+  "start": {
+    "pano": 9,
+    "yaw": 0.04,
+    "fov": 80
+  },
+  "steps": [
+    {
+      "kind": "hold",
+      "ms": 600
+    },
+    {
+      "kind": "model",
+      "yaw": 0.8,
+      "pitch": 0.85,
+      "offset": {
+        "x": 12.775,
+        "y": 19.68,
+        "z": 12.649
+      },
+      "fov": 80,
+      "ms": 3500
+    },
+    {
+      "kind": "hold",
+      "ms": 1600
+    },
+    {
+      "kind": "pano",
+      "pano": 25,
+      "yaw": 3.18,
+      "fov": 80,
+      "ms": 3500
+    },
+    {
+      "kind": "hold",
+      "ms": 1600
+    }
+  ]
+}

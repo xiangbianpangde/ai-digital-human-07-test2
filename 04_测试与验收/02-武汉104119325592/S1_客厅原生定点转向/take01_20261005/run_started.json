@@ -1,0 +1,19 @@
+{
+  "contract": "02_架构与合同/第二房源_104119325592/02_当前镜试验合同_01.json",
+  "contract_sha256": "e9ca332b1f31a96042a40e0bda278702f589c62119262e4c7a45a1459731568e",
+  "at": "2026-10-05T18:14:01.254499+08:00",
+  "only_once": true,
+  "check": {
+    "source_hash_ok": true,
+    "fact_contract_hash_ok": true,
+    "contract_hash_ok": true,
+    "all180_frame_rays_inside_real_face": true,
+    "source_xy_bounds": [
+      359.2810263167596,
+      106.95759791800765,
+      1687.7189736832404,
+      1940.0424020819923
+    ],
+    "not_metric_height_clearance_or_visual_acceptance": true
+  }
+}

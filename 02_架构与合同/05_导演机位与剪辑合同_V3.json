@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/director-blueprint/v3.json",
+  "project": "沙湖九号·核心卖点宣传短片",
+  "version": "3.1.0",
+  "director_intent": "以买家视觉认知为核心的商业房产短片，每镜必有证据词，去油腻化表达，逐镜音画精准对位",
+  "target_duration_sec": 32.5,
+  "total_narration_chars": 125,
+  "shots": [
+    {
+      "shot_id": "S1",
+      "name": "客厅大开间平滑推向阳台",
+      "duration_sec": 6.5,
+      "cut_type": "HARD_CUT",
+      "look_at": "南向阳台门洞中心 / 南向大采光窗",
+      "camera_start": {
+        "pano_index": 1,
+        "heading_rad": 3.18,
+        "pitch_rad": 0.0,
+        "fov_deg": 95
+      },
+      "path_nodes": [1, 9, 10, 11],
+      "camera_end": {
+        "pano_index": 11,
+        "heading_rad": 3.18,
+        "pitch_rad": 0.0,
+        "fov_deg": 95
+      },
+      "motion": "fly 5.0s + hold 1.5s",
+      "proof_point": "证明30.9㎡大横厅尺度与9.1㎡巨幕南向大采光",
+      "narration": "约163平，进门先看30.9平大客厅，直连9.1平南向阳台。",
+      "voice_duration_est_sec": 4.5,
+      "silence_hold_sec": 2.0
+    },
+    {
+      "shot_id": "S2",
+      "name": "阳台门口看客餐厅纵深",
+      "duration_sec": 4.5,
+      "cut_type": "HARD_CUT",
+      "look_at": "客餐厅长轴中心透视线 (避开P11近墙遮挡)",
+      "camera_start": {
+        "pano_index": 10,
+        "heading_rad": 6.15,
+        "pitch_rad": 0.0,
+        "fov_deg": 92
+      },
+      "path_nodes": [10],
+      "camera_end": {
+        "pano_index": 10,
+        "heading_rad": 6.15,
+        "pitch_rad": 0.0,
+        "fov_deg": 86
+      },
+      "motion": "定点极轻FOV推进 92°->86° + hold 1.5s",
+      "proof_point": "避开P11墙体遮挡，站在P10门口沿长轴呈现客餐厅南北深远纵深",
+      "narration": "站在阳台回看，客餐厅的纵深就很直观了。",
+      "voice_duration_est_sec": 2.8,
+      "silence_hold_sec": 1.7
+    },
+    {
+      "shot_id": "S3",
+      "name": "北向书房呼应生活代入",
+      "duration_sec": 3.0,
+      "cut_type": "HARD_CUT",
+      "look_at": "书房主体空间 + 北阳台B门洞连接",
+      "camera_start": {
+        "pano_index": 7,
+        "heading_rad": -1.57,
+        "pitch_rad": 0.0,
+        "fov_deg": 90
+      },
+      "path_nodes": [7],
+      "camera_end": {
+        "pano_index": 7,
+        "heading_rad": -1.31,
+        "pitch_rad": 0.0,
+        "fov_deg": 90
+      },
+      "motion": "慢摇15° + hold 1.0s",
+      "proof_point": "嘴提书房眼见书房，补齐4室证据链，展现空间弹性",
+      "narration": "北侧这间，可以做书房，也可以做多功能房。",
+      "voice_duration_est_sec": 2.2,
+      "silence_hold_sec": 0.8
+    },
+    {
+      "shot_id": "S4A/B",
+      "name": "过道静区 -> 揭秘主卧大床",
+      "duration_sec": 5.5,
+      "cut_type": "CONTINUOUS_MOTION",
+      "look_at": "S4A: 过道轴线 | S4B: 主卧大床中心，保留两侧余量",
+      "sub_shots": [
+        {
+          "id": "4A",
+          "path": [0, 14],
+          "dur": 2.0,
+          "focus": "过道动静分区"
+        },
+        {
+          "id": "4B",
+          "path": [15, 20],
+          "dur": 3.5,
+          "focus": "主卧16.7㎡大床Reveal"
+        }
+      ],
+      "motion": "P0->P14(2s) 连续平滑过门 P15->P20(3.5s)",
+      "proof_point": "交代动静分区，Reveal主卧16.7㎡横向尺度与大床余量",
+      "narration": "穿过动静分区——就是16.7平的主卧。",
+      "voice_duration_est_sec": 3.2,
+      "silence_hold_sec": 2.3
+    },
+    {
+      "shot_id": "S4C/D",
+      "name": "衣帽间/主卫 -> 落地大采光",
+      "duration_sec": 5.5,
+      "cut_type": "L_CUT_AUDIO_FIRST",
+      "look_at": "S4C: 衣帽间与主卫门框 | S4D: 主卧南向落地大窗景",
+      "sub_shots": [
+        {
+          "id": "4C",
+          "pano": 15,
+          "heading_rad": -0.2,
+          "dur": 2.5,
+          "focus": "独立衣帽间2.9㎡ + 私享主卫4.5㎡"
+        },
+        {
+          "id": "4D",
+          "path": [20, 25],
+          "heading_rad": 1.57,
+          "dur": 3.0,
+          "focus": "主卧南向落地采光大窗"
+        }
+      ],
+      "motion": "P15定点看衣帽间(2.5s) CUT P20->P25推南窗(3.0s)",
+      "proof_point": "实证2.9㎡衣帽间+4.5㎡主卫，形成完整主卧套房，以大采光收官",
+      "narration": "另外带衣帽间和独立主卫——形成完整的主卧套房。",
+      "voice_duration_est_sec": 3.5,
+      "silence_hold_sec": 2.0
+    },
+    {
+      "shot_id": "S5",
+      "name": "窗边微摇 -> 完整全屋带看(CTA)",
+      "duration_sec": 4.5,
+      "cut_type": "HARD_CUT",
+      "look_at": "南窗光影质感 / 动态户型图全景叠层",
+      "camera_start": {
+        "pano_index": 25,
+        "heading_rad": 1.57,
+        "pitch_rad": 0.0,
+        "fov_deg": 95
+      },
+      "path_nodes": [25],
+      "motion": "P25定点微摇 10° / 动态户型图淡入",
+      "proof_point": "卖点心智建立后，趁热打铁引导点击与留资",
+      "narration": "想看完整全屋，评论区留“沙湖九号”。",
+      "voice_duration_est_sec": 2.5,
+      "silence_hold_sec": 2.0
+    }
+  ]
+}

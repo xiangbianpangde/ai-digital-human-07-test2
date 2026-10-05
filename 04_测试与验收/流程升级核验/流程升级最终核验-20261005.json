@@ -1,0 +1,231 @@
+{
+  "schema": "workflow-upgrade-final-audit/v1",
+  "at": "2026-10-05T16:06:36.176873+08:00",
+  "scope": "Requested document preparation, retrospective, readonly case2 initialization and future Skills/dialect roadmap only; not video final human acceptance or production capability.",
+  "preparation_acceptance_passed": true,
+  "remaining_work_in_preparation_scope": [],
+  "protection": {
+    "baseline_existing_files": 1222,
+    "unchanged_existing_files": 1213,
+    "changed_existing_files": [
+      "00_入口/00_当前.md",
+      "00_入口/01_路线图.md",
+      "00_入口/02_风险与待确认.md",
+      "05_资产库/ASSET_INDEX.md",
+      "05_资产库/source_manifest.json",
+      "06_任务与交接/HANDOFF_BUNDLE.md",
+      "07_运行记录/LOG.md",
+      "HANDOFF.md",
+      "README.md"
+    ],
+    "changed_only_allowed_documentation_and_ledgers": true,
+    "deleted_or_moved": [],
+    "new_files": [
+      "00_入口/项目路线图-20261005.html",
+      "00_入口/项目路线图-20261005.png",
+      "04_测试与验收/流程升级核验/整理前保护基线-20261005.json",
+      "04_测试与验收/流程升级核验/方言能力文档核对-20261005.json",
+      "04_测试与验收/流程升级核验/流程升级最终核验-20261005.json",
+      "04_测试与验收/流程升级核验/现有Pi媒体包候选-20261005.json",
+      "04_测试与验收/流程升级核验/第一房源会话证据-20261005.json",
+      "04_测试与验收/流程升级核验/第一案例复盘完成门禁-20261005.json",
+      "04_测试与验收/流程升级核验/第二房源初始化完成门禁-20261005.json",
+      "04_测试与验收/流程升级核验/第二房源只读核验-20261005.json",
+      "05_资产库/07_制作流程资料/03_第一房源真实生产过程.md",
+      "05_资产库/07_制作流程资料/04_第一房源经验与真实性规则.md",
+      "05_资产库/07_制作流程资料/05_房产介绍视频制作流程_V1.md",
+      "05_资产库/07_制作流程资料/06_Skills建设与方言工作流规划.md",
+      "05_资产库/07_制作流程资料/标准生产流程V1.html",
+      "05_资产库/07_制作流程资料/标准生产流程V1.png",
+      "05_资产库/07_制作流程资料/第一房源生产链.html",
+      "05_资产库/07_制作流程资料/第一房源生产链.png",
+      "06_任务与交接/handoffs/HOFF-20261005-流程升级前.md",
+      "06_任务与交接/八部分流程升级准备汇报-20261005.md",
+      "09_提案与草稿/第二房源_104119325592/01_资料清单.json",
+      "09_提案与草稿/第二房源_104119325592/02_房源结构化信息.json",
+      "09_提案与草稿/第二房源_104119325592/03_初始化与制作前置条件.md"
+    ],
+    "new_file_count_including_this_receipt": 23,
+    "existing_source_media_contracts_code_official_skills_private_session_unchanged": true,
+    "symlinks_unchanged": {
+      "05_资产库/04_参考视频/reference_video.mp4": "../../示例视频/d585ed739ce9dafafbb0b31548d47846.mp4",
+      "05_资产库/04_参考视频/宣传视频参考分析": "../../示例视频/宣传视频参考分析"
+    },
+    "append_only_prefix_checks": {
+      "07_运行记录/LOG.md": {
+        "original_bytes": 35917,
+        "original_sha256": "812a10afa6cc26da52b6ee1c620413befe4a4c8906d1f2557603ca57dcd9aa6c",
+        "passed": true
+      },
+      "05_资产库/ASSET_INDEX.md": {
+        "original_bytes": 8128,
+        "original_sha256": "d1eb088b09a6881b68ec4d59f4506ce159fbf3ed6a289188a00335321cd465b1",
+        "passed": true
+      }
+    },
+    "first16_registry_records_and_original_bytes_unchanged": true,
+    "second_source_files_verified_unchanged": 241,
+    "second_source_bytes": 38091040
+  },
+  "content": {
+    "case1_topics": 20,
+    "truth_rules": 18,
+    "workflow_steps": 14,
+    "case2_topics": 16,
+    "fact_fields": 20,
+    "fact_evidence_hash_bindings": 33,
+    "dialect_steps": 11,
+    "phases": {
+      "0": "BLOCKED",
+      "1": "DONE",
+      "2": "DONE",
+      "3": "DONE",
+      "4": "BLOCKED",
+      "5": "NOT STARTED",
+      "6": "NOT STARTED",
+      "7": "NOT STARTED",
+      "8": "NOT STARTED",
+      "9": "NOT STARTED"
+    },
+    "phase_fields_per_phase": 8,
+    "report_sections": 8,
+    "one_live_status_path": "00_入口/00_当前.md",
+    "case1_gate_before_case2_inventory_hash_binding_matches": true,
+    "current_price_and_sale_unknown": {
+      "current_total_price_cny": null,
+      "current_sale_status": null
+    },
+    "user_message_times": {
+      "e80786ad": "2026-10-04T17:56:02.937000+08:00",
+      "e07b2700": "2026-10-05T09:12:48.883000+08:00"
+    },
+    "private_session_entries": 1861,
+    "user_messages": 36
+  },
+  "validation": {
+    "markdown_files": 15,
+    "local_references": 154,
+    "local_references_passed": true,
+    "unpaired_code_fences": [],
+    "json_files_parsed_excluding_this_receipt": 10,
+    "published_pngs": [
+      {
+        "path": "00_入口/项目路线图-20261005.png",
+        "size": [
+          2160,
+          1443
+        ],
+        "sha256": "86e5c5708a9cb8c7a4559a8b219389839a04946d4d2c176d157d4e3784ca191d",
+        "visually_inspected": true
+      },
+      {
+        "path": "05_资产库/07_制作流程资料/标准生产流程V1.png",
+        "size": [
+          2160,
+          1805
+        ],
+        "sha256": "641671c736dee75c4bf2c973d099bfb22cfacc5f363b546c107334815cd31677",
+        "visually_inspected": true
+      },
+      {
+        "path": "05_资产库/07_制作流程资料/第一房源生产链.png",
+        "size": [
+          2130,
+          1527
+        ],
+        "sha256": "39167bc26b1fd2ce85349516019851e04cd6538a71da53388d9666cee8be2d33",
+        "visually_inspected": true
+      }
+    ],
+    "new_AST017_to_020_bindings_checked": 16,
+    "all_source_registry_bindings_checked": 37,
+    "all_source_registry_hashes_match": false,
+    "legacy_source_registry_mismatches": [
+      {
+        "id": "AST-002",
+        "path": "05_资产库/01_户型图/floorplan_cropped.png",
+        "recorded": "43516ee71bf088998a6230bf081a951c143ee6cfa1e04db1284d72d1d3683bf1",
+        "actual": "c5bdeefdf16bdc8869f013a760de07105394b7fd42bc2ec872ec1dac763a4ee2"
+      },
+      {
+        "id": "AST-004",
+        "path": "05_资产库/02_三维建模/3d_model_cropped.png",
+        "recorded": "b0d46f5c88ea28be7a627adcd2ef522b1154cce9ea18ecbb231b9d40cb97e68d",
+        "actual": "6c1ece9a1c82d504a6c116786aad63c45ee1f97abcd37137278bd8f2dffa08b6"
+      }
+    ],
+    "completed_documentation_gate_hashes_match": true,
+    "no_new_production_media_or_SKILL_or_code": true,
+    "legacy_method_tests_rerun_this_task": false
+  },
+  "document_snapshots": [
+    {
+      "path": "00_入口/00_当前.md",
+      "sha256": "e38e462c465dff243b42a0e587b46a53136398f9b469e206c742163491bbec3e"
+    },
+    {
+      "path": "00_入口/01_路线图.md",
+      "sha256": "82559961a46719c33a44f25a8f201c446353b580a6142b1ab33925b8dc09de98"
+    },
+    {
+      "path": "00_入口/02_风险与待确认.md",
+      "sha256": "54d8db6cf467677bdfa53b19d90a09c651ab8ae85e0dfd57885f0969a392191a"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/03_第一房源真实生产过程.md",
+      "sha256": "cebd151147e5042e600f8007e9da90b3106efc5f4033bf834b6c649ce5cc76bd"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/04_第一房源经验与真实性规则.md",
+      "sha256": "b026fbf2e3d2de0c750982ede0670832a6c1ce8586442d5a3041bf3ad105c3f1"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/05_房产介绍视频制作流程_V1.md",
+      "sha256": "db7b65af5408085d12f3425b31b95cfea83ee7bb99c7e470b90bee1452d770c1"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/06_Skills建设与方言工作流规划.md",
+      "sha256": "8f959850866029c76fc0b09ccbd2040d0f7c29d6c472bf2947e7a67293e969b0"
+    },
+    {
+      "path": "05_资产库/ASSET_INDEX.md",
+      "sha256": "d03c95d1cecd2656c1b767fb7478ae5dd0bb6d71ac6aec1cdb3d73571514b1cf"
+    },
+    {
+      "path": "06_任务与交接/HANDOFF_BUNDLE.md",
+      "sha256": "7ce2ddeea5f3a429fb2c805bf6643b44b8d5b083566197aba6df273c854f753d"
+    },
+    {
+      "path": "06_任务与交接/handoffs/HOFF-20261005-流程升级前.md",
+      "sha256": "3904e8261036774995b7244f0f3b5d75f5ebdf8e8b06399312bfdbfdcddce2e8"
+    },
+    {
+      "path": "06_任务与交接/八部分流程升级准备汇报-20261005.md",
+      "sha256": "2f2a5e89ab63d3159b8cb769527e382c80c32bcd6e7b9b6388875d1cb41b55a9"
+    },
+    {
+      "path": "07_运行记录/LOG.md",
+      "sha256": "6cad757cfae530c743e28f218a7b85c8f5d5483adeebed70b48c6195e2def53f"
+    },
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/03_初始化与制作前置条件.md",
+      "sha256": "cd248cde609a56e5925de6b3b95e56a055fd91c485ace64b3a0e21bb23994864"
+    },
+    {
+      "path": "HANDOFF.md",
+      "sha256": "2d0ca6bdd6461550acc422c9e3d1eff656d8666bf8f81ebb6c781506215ae6b9"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1f7a684074c175ca8910312cf3721fe63fbc74b930a7ac638605c07daf6dfa48"
+    }
+  ],
+  "limits": [
+    "Phase0 business closeout and Phase4 production readiness remain BLOCKED; not outstanding work promised for this preparation task.",
+    "No full final-video listening/frame-by-frame human review, rights approval, current listing online verification, second-room mapping/motion trial, native desktop Computer Use retest, dialect TTS/cloning or new-session Skills run.",
+    "216 cube faces decoded earlier in this task; final audit rehashes all241 original sources and checks the original decode receipt, does not manufacture a second decode run.",
+    "Local links check existence and paired fences, not remote availability or fragment anchors.",
+    "General media package descriptions and public voice documentation are not source-code safety review or proof of Wuhan dialect.",
+    "Receipt excludes its own content digest to avoid self-reference; figure/report/state are dated versions, and future append-only LOG changes must not be interpreted as corruption of this dated snapshot."
+  ]
+}

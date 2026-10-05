@@ -1,0 +1,19 @@
+{
+  "schema": "append-only-source-registration-before/v1",
+  "source_manifest_sha256": "67823226318cf677d6d347a90446eec927943c87717c15cbf82a861a534e4edf",
+  "size_bytes": 18955,
+  "prefix_size_before_outer_closing": 18948,
+  "prefix_sha256": "915b2726b401d3ecae77d77a3510ed77859a138a710fc5144dca86d0a90484ef",
+  "records_count": 22,
+  "records_canonical_sha256": "6ba89915f68f2ee8b4cd5aa8bfa4b838446167152358f154f1b887bf5cc262cd",
+  "planned_new_ids": [
+    "AST-023",
+    "AST-024",
+    "AST-025"
+  ],
+  "all_old_records_to_remain_unchanged": true,
+  "asset_index_original_size_bytes": 13072,
+  "asset_index_original_sha256": "73ed26a92395cfcac788a1dc7add1bcd31926da4021d964ccd7dbab78c743b84",
+  "log_original_size_bytes": 44676,
+  "log_original_sha256": "fb8ed7da05e72aac0899fd11b3d6be7e72cf6131ebbf13c691b78e8588f56ef2"
+}

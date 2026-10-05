@@ -1,0 +1,9 @@
+.DS_Store
+*.tmp
+*.log
+node_modules/
+.pi/
+__pycache__/
+
+# 私有会话记录：不公开，且超过 GitHub 100MB 硬上限
+pi-session-*.html

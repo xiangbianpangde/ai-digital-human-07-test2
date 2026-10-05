@@ -1,0 +1,9 @@
+{
+  "scope": "仅本轮方法库单项测试，不是整片分镜授权",
+  "assessments": [
+    {"method_id":"P07","status":"blocked","runtime_test":"not_run","reason":"本轮已验收片段中未取得完整遮挡帧；不为造遮挡故意贴墙。不能推断整个VR不存在遮挡点。","reviewed_evidence":["door-03/contact.png"],"fallback":["C03","P01"]},
+    {"method_id":"P08","status":"blocked","runtime_test":"not_run","policy":"prohibited","reason":"高速甩镜与稳定看房约束冲突，不现场执行违规动作。","fallback":["P01","C07"]},
+    {"method_id":"P09","status":"blocked","runtime_test":"not_run","policy":"prohibited","reason":"未接入碎片合成器；旧三维破面素材实为娃娃屋总览。不能将C04凭据冒充碎片效果验证。","fallback":["C04"]},
+    {"method_id":"P10","status":"blocked","runtime_test":"not_run","policy":"prohibited","reason":"无生成服务和本房源建筑几何一致性凭据；不付费调用、不宣称AI插值已通过。","fallback":["P01","P02"]}
+  ]
+}

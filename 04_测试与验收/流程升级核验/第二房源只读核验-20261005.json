@@ -1,0 +1,76 @@
+{
+  "schema": "case2-local-initialization-check/v1",
+  "at": "2026-10-05T14:54:24.860664+08:00",
+  "scope": "Read-only local inventory, JSON consistency, still-image decode and visual inspection of supplied figures. No online navigation, capture, rerender, TTS or final video.",
+  "source_root": "/Users/xbpd/Downloads/武汉104119325592-房源资料",
+  "listing_id": "104119325592",
+  "file_count": 241,
+  "source_baseline": {
+    "path": "09_提案与草稿/第二房源_104119325592/01_资料清单.json",
+    "sha256": "849e7a59d535604518ddf39bbb381d6c139b02ee9e5703d6b4849524b5c69c2a"
+  },
+  "observers": 36,
+  "panoramas": 36,
+  "cube_faces": 216,
+  "cube_face_names_complete": true,
+  "cube_faces_decoded": 216,
+  "cube_dimensions": [
+    2048,
+    2048
+  ],
+  "cube_codec": "AV1",
+  "local_decode_seconds": 9.196,
+  "still_images_loaded_with_pillow": 11,
+  "metadata_eye_height_delta_range": {
+    "min": 1.2021828889846802,
+    "max": 1.2686854600906372,
+    "scope": "Difference of y-coordinate values from supplied work JSON, not physical clearance measurement or height-exception authorization."
+  },
+  "local_video_files": [],
+  "historical_tests_not_available": [
+    "rendered/preview.mp4",
+    "rendered/single-projection.jpg",
+    "rendered/atlas.jpg",
+    "rendered/shortblend.h264",
+    "rendered/aligned.mp4"
+  ],
+  "historical_test_results_reverified": false,
+  "package_document_missing_directories": [
+    "04-试样视频",
+    "05-取景参考"
+  ],
+  "ambiguous_room_identifier_namespace": {
+    "source": {
+      "客厅": 24,
+      "餐厅": 7,
+      "卧室B": 15,
+      "卧室C": 13,
+      "卧室A": 11,
+      "卧室D": 8
+    },
+    "must_not_treat_as_panoIndex": true,
+    "example": "Source 客厅:24 conflicts with supplied catalog Point24 showing wall/bathroom context; room ID is not established panorama index."
+  },
+  "source_dates": {
+    "vr_record_captured_at": "2026-03-13T18:35:16+08:00",
+    "work_create_time": "2026-03-13T18:35:16+08:00",
+    "actual_current_sale_status_verified": false
+  },
+  "visual_inspected": [
+    "02-户型图与封面/真实户型图.jpg",
+    "02-户型图与封面/封面.png",
+    "03-完整VR素材/catalog.jpg",
+    "03-完整VR素材/living-directions.jpg",
+    "03-完整VR素材/bedrooms-directions.jpg"
+  ],
+  "environment_fallback": {
+    "pillow_avif": "Not supported in current environment; no asset-failure conclusion made.",
+    "ffmpeg_av1_decode": "216 actual source faces decoded successfully; no new plugin installed."
+  },
+  "limits": [
+    "Technical texture completeness does not certify geometry, point-to-room assignment, continuous motion or 0.5m clearance.",
+    "Package reports earlier failed external prototypes; videos are absent, so failures are treated as source statements, not rerun results.",
+    "Generated cover and default_for_all_future_videos flag do not authorize applying its layout or accepting video delivery.",
+    "Unknown rights, freshness, devices, real agent/digital human and dialect capability remain pending."
+  ]
+}

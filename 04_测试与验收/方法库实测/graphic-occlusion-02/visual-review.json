@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "修正切点说明栏的半透明漏底；n60全层alpha=255，整幅实景包括栏后均完整遮住。接触表与切点表检查通过，仅后期图形遮挡。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

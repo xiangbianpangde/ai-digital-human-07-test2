@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "P9朝客餐厅内反打，起中末帧能读出地面长轴、两侧墙和远端门窗；未宣称长轴12米，静态2.5秒无运镜穿模。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

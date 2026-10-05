@@ -1,0 +1,23 @@
+{
+  "id": "C06-lookback",
+  "start": {
+    "pano": 1,
+    "yaw": 3.18,
+    "fov": 80
+  },
+  "steps": [
+    {
+      "kind": "hold",
+      "ms": 600
+    },
+    {
+      "kind": "pan",
+      "yaw": 6.32,
+      "ms": 12000
+    },
+    {
+      "kind": "hold",
+      "ms": 1400
+    }
+  ]
+}

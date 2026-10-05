@@ -1,0 +1,20 @@
+[
+  "ffmpeg",
+  "-v",
+  "error",
+  "-n",
+  "-f",
+  "rawvideo",
+  "-pix_fmt",
+  "rgba",
+  "-s",
+  "720x1280",
+  "-r",
+  "30",
+  "-i",
+  "pipe:0",
+  "-an",
+  "-c:v",
+  "qtrle",
+  "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/04_测试与验收/方法库实测/soft-pulse-01/layer.mov"
+]

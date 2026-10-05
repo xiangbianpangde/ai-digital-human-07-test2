@@ -1,0 +1,55 @@
+{
+  "schema": "user-readiness-decisions/v1",
+  "date": "2026-10-05",
+  "source": "User answers to the four structured readiness questions in this conversation",
+  "dialect_currently_required": false,
+  "extensions_default_enabled": false,
+  "case1": {
+    "closeout_route": "minimal_revision",
+    "accepted_duration_sec": 25.3,
+    "digital_human_required": false,
+    "retain_original": true,
+    "revised_candidate_sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7",
+    "full_human_visual_audio_subtitle_review_completed": false
+  },
+  "use_scope": {
+    "both_cases": "internal_research_and_production_only",
+    "public_commercial_publication_authorized": false,
+    "rights_evidence_level": "user_stated_usage_scope_not_independent_license_verification"
+  },
+  "case2_brief_direction": {
+    "listing_id": "104119325592",
+    "footage_mode": "real_separate_space_VR",
+    "target_duration_sec": [30, 45],
+    "language": "Mandarin",
+    "identity": "anonymous_voiceover_not_impersonation",
+    "digital_human": false,
+    "additional_paid_budget_authorized": 0,
+    "cta": "space_materials_only_if_actually_available_and_permitted_no_viewing_service_promise",
+    "specific_voice_pano_action_parameters_approved": false
+  },
+  "case2_readonly_verification_scope": {
+    "official_detail_query_authorized": true,
+    "city": "武汉",
+    "listing_id": "104119325592",
+    "local_room_pano_mapping_authorized": true,
+    "contact_or_booking": false,
+    "key_change": false,
+    "paid_call": false,
+    "private_session_or_project_upload": false,
+    "stop_on_auth_or_captcha": true,
+    "not_yet_executed": true
+  },
+  "execution_order": [
+    "Case1 revised candidate complete human acceptance",
+    "Case2 current facts and local mapping/rights scope",
+    "Concrete brief/action/voice/output/safety gates",
+    "Only one approved shot trial, then review before next"
+  ],
+  "one_shot": {
+    "conditional_scope_limit": 1,
+    "concrete_trial_currently_authorized": false,
+    "stop_on_failed_current_shot": true,
+    "whole_video_production_authorized": false
+  }
+}

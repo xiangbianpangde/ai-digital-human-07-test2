@@ -1,0 +1,995 @@
+{
+  "schema": "project-materials-organization-audit/v1",
+  "at": "2026-10-05T11:21:22.255460+08:00",
+  "scope": "Project inventory, documentation/navigation organization, append-only registry/log supplementation, and local read-only verification. No repairs of original media or frozen contracts.",
+  "documentation_and_protection_checks_passed": true,
+  "legacy_source_registry_all_hashes_matched": false,
+  "baseline": {
+    "path": "04_测试与验收/资料整理核验/整理前基线-20261005.json",
+    "size": 188413,
+    "sha256": "1e82d1d9c91ee362946f166aef7e85a0ad8e26acbca61788e483c249f29a2997"
+  },
+  "existing_file_count": 905,
+  "existing_files_unchanged": 891,
+  "modified_existing_file_count": 14,
+  "modified_existing_files": [
+    {
+      "path": "00_入口/00_当前.md",
+      "before_sha256": "2c32b220870011020f2c8782fa2f6e10f8858b86afe229191e5ea5693e32f9d1",
+      "after_sha256": "b453d021340e3df11c5cbb62bc70adf82257b04ac004f904423d7acbe4e19543"
+    },
+    {
+      "path": "00_入口/01_路线图.md",
+      "before_sha256": "1c97325e95e5dd67e0fe9adba85d8982a024d2ce3ffa0353070d204c60c828d0",
+      "after_sha256": "afef4ee7fa7b09306b4caf1139a36142e163bf11ec3ba86490f72e9ec1f1b360"
+    },
+    {
+      "path": "00_入口/02_风险与待确认.md",
+      "before_sha256": "070710a2945d52e6f503b641885661b919b8b60ad6b1ef9b8525cb1035a2acb3",
+      "after_sha256": "4d8c86212c2eb6c959c7aec5f1a24fcc88cabec8b7c5dc509303ac0881f3cead"
+    },
+    {
+      "path": "01_需求与验收/01_项目总需求规范.md",
+      "before_sha256": "a7db41cc87b321ebe7c80925d8070a18246404f720e0993c20e27500a47c3f7d",
+      "after_sha256": "1e784193ec10319b84153d2baedc4279e23fa77d00903e6c53a1e62f8ba88d4a"
+    },
+    {
+      "path": "01_需求与验收/02_分阶段验收标准.md",
+      "before_sha256": "63cc320cf67dd6f879ec4e807aac9c7c3664ede32dd70b10047a98085538792a",
+      "after_sha256": "620e72604913877c51dc0cbae2d9dfdd03f614311b58a2154d96167921c0a5b3"
+    },
+    {
+      "path": "03_实现/README.md",
+      "before_sha256": "f44c4ec5f786aa4aab5a93853a09850031a82b8fc334783d4f53456eafaf914d",
+      "after_sha256": "1f0cfdf18cb407ab52c836f24e5a7be2214398d42a6f247fcd21bb88523237c4"
+    },
+    {
+      "path": "04_测试与验收/README.md",
+      "before_sha256": "c8f6c02a988c4d56813c782086c170ab3b50d63ae7e7fd43cd2ef8387c66dd6b",
+      "after_sha256": "782aa5977adb022207c5c8e10538697e2d5cdba0e41a54843159fee33fb34aeb"
+    },
+    {
+      "path": "05_资产库/ASSET_INDEX.md",
+      "before_sha256": "1d49130e40ddba029703d42f665af244eaec6909910d7abdffb4d0a8629a7d31",
+      "after_sha256": "5eadf6937eec86ca17b7b0704caa60a1a2fb5ab7f0be4600d09ba93fdba5b060"
+    },
+    {
+      "path": "05_资产库/source_manifest.json",
+      "before_sha256": "64ea14718f40a38d660601c015257d57172e19fc9f5ee2d26c82964477a81b39",
+      "after_sha256": "eb66b7e6886ad5217f03240baab22905fb577e12b26d4d5babbc461e93893f8f"
+    },
+    {
+      "path": "06_任务与交接/HANDOFF_BUNDLE.md",
+      "before_sha256": "ccaf35494fd43ebdaf344cb83962168e67b5e8692b9fe360260605c2210bb734",
+      "after_sha256": "0a0eecf338b3c6a526457c79a9dc3d559e01f8d8111378154a54ec17c581e23e"
+    },
+    {
+      "path": "07_运行记录/LOG.md",
+      "before_sha256": "aa0d593c5964c470bfa1c0157ebbffcac5c0f52d821b925e762bbe3d0cf221ad",
+      "after_sha256": "d4a9a68e821daee50040aa45713bd658c964ae02987230cdc93b45237e585fa5"
+    },
+    {
+      "path": "09_提案与草稿/02_导演蓝图与分镜台本_V3.md",
+      "before_sha256": "63de10fcba1eaa952bd651da73b516a4891bd514da85a6a6c3ab834c58e100a3",
+      "after_sha256": "9d7bab5dc1fe0e341a01ed5130e7092e80e4ae255982c44b863a78dbc127ab9f"
+    },
+    {
+      "path": "HANDOFF.md",
+      "before_sha256": "77d71676cf16104cce5a6ab54cfc2fac76ef8258562a28efdf59dc31fd3907aa",
+      "after_sha256": "30e0adac2dddb3dec96613fdf710567475900a3b6055858cbd14ea27cc443c46"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "6eef016053ee1dde1fdc4f165d3a3e255993473dc7891ead1045d71de93cb997",
+      "after_sha256": "6fc6c67d98e8df942332c5eeb5bd082aa61f2c6f405da50abc37cd19aacd57a4"
+    }
+  ],
+  "out_of_scope_modifications": [],
+  "preexisting_files_deleted": [],
+  "preexisting_paths_moved": [],
+  "code_or_original_media_changed": false,
+  "protected_groups_unchanged": {
+    "frozen_contract_files": 6,
+    "original_asset_files_excluding_registries": 35,
+    "production_evidence_files_excluding_navigation": 780,
+    "implementation_files_excluding_navigation": 37
+  },
+  "external_sources_checked_and_unchanged": 70,
+  "symlinks_checked_and_unchanged": 2,
+  "append_only_prefix_checks": [
+    {
+      "path": "07_运行记录/LOG.md",
+      "original_prefix_bytes": 27497,
+      "prefix_matches": true,
+      "appended_bytes": 3176
+    },
+    {
+      "path": "05_资产库/ASSET_INDEX.md",
+      "original_prefix_bytes": 2925,
+      "prefix_matches": true,
+      "appended_bytes": 3270
+    }
+  ],
+  "new_files": [
+    "04_测试与验收/资料整理核验/整理前基线-20261005.json",
+    "04_测试与验收/资料整理核验/整理后核验-20261005.json",
+    "04_测试与验收/资料整理核验/方法库复验-20261005.json",
+    "04_测试与验收/资料整理核验/源台账勘误-20261005.json",
+    "04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json",
+    "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+    "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+    "05_资产库/07_制作流程资料/README.md"
+  ],
+  "new_file_snapshots_excluding_this_report": [
+    {
+      "path": "04_测试与验收/资料整理核验/整理前基线-20261005.json",
+      "size": 188413,
+      "sha256": "1e82d1d9c91ee362946f166aef7e85a0ad8e26acbca61788e483c249f29a2997"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/方法库复验-20261005.json",
+      "size": 7330,
+      "sha256": "13654a5587ea2c1d0894aabaeb55a9a11c12c91a399c32393462ce5a1aa81b3c"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/源台账勘误-20261005.json",
+      "size": 1616,
+      "sha256": "5638f7379003462be6576e2913157d1ee21bc733b34a5a92c6dccc9fe87e5449"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json",
+      "size": 10528,
+      "sha256": "8d0024fbbdb84addb69a728828cdd02e2a7ba0bbdbb94ccf9063cc6c13013490"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+      "size": 7448,
+      "sha256": "03411e8c506e0d595131025c5434b8703ad696680b88db1587acdc6e5a778426"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+      "size": 9046,
+      "sha256": "4d2cb7e042f4fc14c048aeec876de38516a5b4b00862342d5b90b36f7ed9a5b3"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/README.md",
+      "size": 6595,
+      "sha256": "7db4a524b2702e9ab57a91fadd8ad90e030015684d1da0fc36903359f9cddaa9"
+    }
+  ],
+  "new_directories": [
+    "05_资产库/07_制作流程资料/",
+    "04_测试与验收/资料整理核验/"
+  ],
+  "registry": {
+    "original_seven_records_unchanged": true,
+    "total_records": 13,
+    "new_records_checked": 6,
+    "new_file_and_member_hashes_checked": 10,
+    "new_registered_hashes_match": true,
+    "known_legacy_mismatches": [
+      {
+        "id": "AST-002",
+        "path": "05_资产库/01_户型图/floorplan_cropped.png",
+        "registered_sha256": "43516ee71bf088998a6230bf081a951c143ee6cfa1e04db1284d72d1d3683bf1",
+        "actual_sha256": "c5bdeefdf16bdc8869f013a760de07105394b7fd42bc2ec872ec1dac763a4ee2"
+      },
+      {
+        "id": "AST-004",
+        "path": "05_资产库/02_三维建模/3d_model_cropped.png",
+        "registered_sha256": "b0d46f5c88ea28be7a627adcd2ef522b1154cce9ea18ecbb231b9d40cb97e68d",
+        "actual_sha256": "6c1ece9a1c82d504a6c116786aad63c45ee1f97abcd37137278bd8f2dffa08b6"
+      }
+    ],
+    "handling": "Existing mismatches remain needs_reconcile; original file bytes and registered hashes preserved. Block unreconciled cropped-image production reuse, not the documentation task."
+  },
+  "document_checks": {
+    "documents_checked": 16,
+    "local_link_count": 169,
+    "missing_local_target_count": 0,
+    "scope": "Local target existence and balanced fenced blocks. No network fetch or fragment-anchor validation.",
+    "documents": [
+      {
+        "path": "00_入口/00_当前.md",
+        "size": 5522,
+        "sha256": "b453d021340e3df11c5cbb62bc70adf82257b04ac004f904423d7acbe4e19543"
+      },
+      {
+        "path": "00_入口/01_路线图.md",
+        "size": 1628,
+        "sha256": "afef4ee7fa7b09306b4caf1139a36142e163bf11ec3ba86490f72e9ec1f1b360"
+      },
+      {
+        "path": "00_入口/02_风险与待确认.md",
+        "size": 6152,
+        "sha256": "4d8c86212c2eb6c959c7aec5f1a24fcc88cabec8b7c5dc509303ac0881f3cead"
+      },
+      {
+        "path": "01_需求与验收/01_项目总需求规范.md",
+        "size": 3090,
+        "sha256": "1e784193ec10319b84153d2baedc4279e23fa77d00903e6c53a1e62f8ba88d4a"
+      },
+      {
+        "path": "01_需求与验收/02_分阶段验收标准.md",
+        "size": 2570,
+        "sha256": "620e72604913877c51dc0cbae2d9dfdd03f614311b58a2154d96167921c0a5b3"
+      },
+      {
+        "path": "03_实现/README.md",
+        "size": 1691,
+        "sha256": "1f0cfdf18cb407ab52c836f24e5a7be2214398d42a6f247fcd21bb88523237c4"
+      },
+      {
+        "path": "04_测试与验收/README.md",
+        "size": 3152,
+        "sha256": "782aa5977adb022207c5c8e10538697e2d5cdba0e41a54843159fee33fb34aeb"
+      },
+      {
+        "path": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "size": 7448,
+        "sha256": "03411e8c506e0d595131025c5434b8703ad696680b88db1587acdc6e5a778426"
+      },
+      {
+        "path": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+        "size": 9046,
+        "sha256": "4d2cb7e042f4fc14c048aeec876de38516a5b4b00862342d5b90b36f7ed9a5b3"
+      },
+      {
+        "path": "05_资产库/07_制作流程资料/README.md",
+        "size": 6595,
+        "sha256": "7db4a524b2702e9ab57a91fadd8ad90e030015684d1da0fc36903359f9cddaa9"
+      },
+      {
+        "path": "05_资产库/ASSET_INDEX.md",
+        "size": 6195,
+        "sha256": "5eadf6937eec86ca17b7b0704caa60a1a2fb5ab7f0be4600d09ba93fdba5b060"
+      },
+      {
+        "path": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "size": 3208,
+        "sha256": "0a0eecf338b3c6a526457c79a9dc3d559e01f8d8111378154a54ec17c581e23e"
+      },
+      {
+        "path": "07_运行记录/LOG.md",
+        "size": 30673,
+        "sha256": "d4a9a68e821daee50040aa45713bd658c964ae02987230cdc93b45237e585fa5"
+      },
+      {
+        "path": "09_提案与草稿/02_导演蓝图与分镜台本_V3.md",
+        "size": 4696,
+        "sha256": "9d7bab5dc1fe0e341a01ed5130e7092e80e4ae255982c44b863a78dbc127ab9f"
+      },
+      {
+        "path": "HANDOFF.md",
+        "size": 3830,
+        "sha256": "30e0adac2dddb3dec96613fdf710567475900a3b6055858cbd14ea27cc443c46"
+      },
+      {
+        "path": "README.md",
+        "size": 3512,
+        "sha256": "6fc6c67d98e8df942332c5eeb5bd082aa61f2c6f405da50abc37cd19aacd57a4"
+      }
+    ],
+    "local_links": [
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/README.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/STAGE6_FINAL_DELIVERY.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../06_任务与交接/TS-007-Stage6成片整编交付.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../07_运行记录/LOG.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/README.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/整理前基线-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "02_风险与待确认.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/整理后核验-20261005.json"
+      },
+      {
+        "from": "00_入口/01_路线图.md",
+        "target": "00_当前.md"
+      },
+      {
+        "from": "00_入口/01_路线图.md",
+        "target": "../05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "00_入口/01_路线图.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "00_当前.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "01_需求与验收/01_项目总需求规范.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "01_需求与验收/01_项目总需求规范.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "01_需求与验收/02_分阶段验收标准.md",
+        "target": "../04_测试与验收/README.md"
+      },
+      {
+        "from": "01_需求与验收/02_分阶段验收标准.md",
+        "target": "../04_测试与验收/资料整理核验/"
+      },
+      {
+        "from": "01_需求与验收/02_分阶段验收标准.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "方法库/README.md"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "../05_资产库/06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "generate_audio.py"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "audio/cues_manifest.json"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "render_final_video.py"
+      },
+      {
+        "from": "03_实现/README.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "资料整理核验/"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "S1_客厅平滑推向阳台/TS-002-Shot1实测报告.md"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "S2_阳台门口看客餐厅纵深/TS-003-Shot2实测报告.md"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "S3_北向书房呼应生活代入/TS-004-Shot3实测报告.md"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "S4_主卧套间证据链/TS-005-Shot4实测报告.md"
+      },
+      {
+        "from": "04_测试与验收/README.md",
+        "target": "S5_全屋带看引导CTA/TS-006-Shot5实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../00_入口/00_当前.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../01_户型图/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../02_三维建模/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../source_manifest.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../02_架构与合同/02_房产数据合同.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/点位.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../04_参考视频/宣传视频参考分析/参考视频设计思路.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../09_提案与草稿/02_导演蓝图与分镜台本_V3.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/方法库实测/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../03_实现/generate_audio.py"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../03_实现/audio/cues_manifest.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../03_实现/render_final_video.py"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S6_全片终成片交付/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../02_架构与合同/06_房间拍摄方案设计与执行管理制度.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S1_客厅平滑推向阳台/TS-002-Shot1实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S2_阳台门口看客餐厅纵深/TS-003-Shot2实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S3_北向书房呼应生活代入/TS-004-Shot3实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S4_主卧套间证据链/TS-005-Shot4实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../04_测试与验收/S5_全屋带看引导CTA/TS-006-Shot5实测报告.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+        "target": "../../07_运行记录/LOG.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+        "target": "README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+        "target": "../../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../00_入口/00_当前.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "01_六步流程与证据地图.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../06_房产摄影运镜模式库/AI执行/画廊.html"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../00-资料库/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../00-资料库/_规范.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../02-架构与规划/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../03-来源索引/来源索引.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../04-v1.0视频/模拟真人VR浏览/HANDOFF.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../05-测试/"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../06-沙湖九号建模/HANDOFF.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../../08-真人录制/介绍与转场方法库/README.md"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../04_参考视频/reference_video.mp4"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../01_户型图/floorplan_source.png"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../02_三维建模/3d_model_source.png"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/资料整理核验/整理前基线-20261005.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/资料整理核验/源台账勘误-20261005.json"
+      },
+      {
+        "from": "05_资产库/07_制作流程资料/README.md",
+        "target": "../../04_测试与验收/资料整理核验/整理后核验-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "04_参考视频/宣传视频参考分析/参考视频设计思路.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/点位.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/画廊.html"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../../08-真人录制/介绍与转场方法库/04-素材勘误-破面法.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/README.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/源台账勘误-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../HANDOFF.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../00_入口/02_风险与待确认.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../AGENTS.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../05_资产库/07_制作流程资料/README.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../05_资产库/06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "06_任务与交接/HANDOFF_BUNDLE.md",
+        "target": "../04_测试与验收/资料整理核验/"
+      },
+      {
+        "from": "09_提案与草稿/02_导演蓝图与分镜台本_V3.md",
+        "target": "../05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "09_提案与草稿/02_导演蓝图与分镜台本_V3.md",
+        "target": "camera_path_draft_v3.png"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "00_入口/00_当前.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "00_入口/00_当前.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "00_入口/02_风险与待确认.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "AGENTS.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/07_制作流程资料/README.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/点位.json"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/04_参考视频/reference_video.mp4"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/04_参考视频/宣传视频参考分析/参考视频设计思路.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/ASSET_INDEX.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/source_manifest.json"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "04_测试与验收/README.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "06_任务与交接/TS-007-Stage6成片整编交付.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "04_测试与验收/方法库实测/"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/画廊.html"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "04_测试与验收/资料整理核验/"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "07_运行记录/LOG.md"
+      },
+      {
+        "from": "HANDOFF.md",
+        "target": "06_任务与交接/HANDOFF_BUNDLE.md"
+      },
+      {
+        "from": "README.md",
+        "target": "HANDOFF.md"
+      },
+      {
+        "from": "README.md",
+        "target": "00_入口/00_当前.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/07_制作流程资料/README.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/06_房产摄影运镜模式库/AI执行/画廊.html"
+      },
+      {
+        "from": "README.md",
+        "target": "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "README.md",
+        "target": "04_测试与验收/S6_全片终成片交付/STAGE6_FINAL_DELIVERY.md"
+      },
+      {
+        "from": "README.md",
+        "target": "04_测试与验收/S6_全片终成片交付/final_video_contact_sheet.png"
+      },
+      {
+        "from": "README.md",
+        "target": "00_入口/02_风险与待确认.md"
+      },
+      {
+        "from": "README.md",
+        "target": "00_入口/00_当前.md"
+      },
+      {
+        "from": "README.md",
+        "target": "00_入口/01_路线图.md"
+      },
+      {
+        "from": "README.md",
+        "target": "00_入口/02_风险与待确认.md"
+      },
+      {
+        "from": "README.md",
+        "target": "02_架构与合同/01_房产核心档案.md"
+      },
+      {
+        "from": "README.md",
+        "target": "02_架构与合同/02_房产数据合同.json"
+      },
+      {
+        "from": "README.md",
+        "target": "03_实现/README.md"
+      },
+      {
+        "from": "README.md",
+        "target": "04_测试与验收/README.md"
+      },
+      {
+        "from": "README.md",
+        "target": "04_测试与验收/资料整理核验/"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/ASSET_INDEX.md"
+      },
+      {
+        "from": "README.md",
+        "target": "05_资产库/source_manifest.json"
+      },
+      {
+        "from": "README.md",
+        "target": "06_任务与交接/HANDOFF_BUNDLE.md"
+      },
+      {
+        "from": "README.md",
+        "target": "07_运行记录/LOG.md"
+      },
+      {
+        "from": "README.md",
+        "target": "08_归档/ARCHIVE_INDEX.md"
+      }
+    ]
+  },
+  "method_verification": {
+    "evidence": {
+      "path": "04_测试与验收/资料整理核验/方法库复验-20261005.json",
+      "size": 7330,
+      "sha256": "13654a5587ea2c1d0894aabaeb55a9a11c12c91a399c32393462ce5a1aa81b3c"
+    },
+    "unit_tests": 23,
+    "hashes_verified": 391,
+    "videos_full_frame_decoded": 34,
+    "executor_hashes_unchanged_after_test": true,
+    "scope_note": "Method-library verification does not certify the complete source-asset registry."
+  },
+  "media_inventory": {
+    "evidence": {
+      "path": "04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json",
+      "size": 10528,
+      "sha256": "8d0024fbbdb84addb69a728828cdd02e2a7ba0bbdbb94ccf9063cc6c13013490"
+    },
+    "supplied_input_to_archive_matches": 3,
+    "additional_full_frame_decoded_this_task": [
+      "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+      "05_资产库/04_参考视频/reference_video.mp4"
+    ],
+    "final_pts_check": {
+      "frames": 759,
+      "first": 0.0,
+      "last": 25.266667,
+      "strictly_increasing": true,
+      "interval_min": 0.03333299999999895,
+      "interval_max": 0.03333400000000353,
+      "constant_30fps_with_microsecond_rounding": true
+    }
+  },
+  "limits": [
+    "No live VR navigation or Computer Use verification this task",
+    "No new rendering, TTS calls, paid services or Pi skill created",
+    "Frame decoding and timestamps are technical checks, not human full-frame playback",
+    "No full audio listening or digital-human validation",
+    "Historical requirements and final delivery differ; no automatic approval of deviations",
+    "AST-002/004 legacy registered hashes mismatch actual bytes; provenance still needs reconciliation.",
+    "Unsupported 12m subtitle, historical requirement/duration/audio/timeline discrepancies, rights and portability remain follow-up gaps. No implicit approval or re-edit.",
+    "No claim of complete historical specifications, human audio/visual review, metric clearance, desktop Computer Use, digital-human production, or cross-property skill readiness."
+  ]
+}

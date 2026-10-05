@@ -1,0 +1,273 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 10555201366498914000
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "file:///Users/xbpd/Projects/ai%E5%8F%A3%E6%92%AD%E6%95%B0%E5%AD%97%E4%BA%BA-%E5%AE%9E%E4%B9%A0%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/07-%E6%B5%8B%E8%AF%952/05_%E8%B5%84%E4%BA%A7%E5%BA%93/06_%E6%88%BF%E4%BA%A7%E6%91%84%E5%BD%B1%E8%BF%90%E9%95%9C%E6%A8%A1%E5%BC%8F%E5%BA%93/AI%E6%89%A7%E8%A1%8C/%E7%94%BB%E5%BB%8A.html",
+  "result": {
+    "cards": 25,
+    "links": [
+      {
+        "href": "方法库.json",
+        "text": "AI读取JSON"
+      },
+      {
+        "href": "点位.json",
+        "text": "SDK点位与已测范围"
+      },
+      {
+        "href": "README.md",
+        "text": "单项执行说明"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/establish-04/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/continuous-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/door-03/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/dollhouse-03/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/push-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/lookback-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/micro-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/sweep-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/fov-02/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/reverse-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/cut-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/dissolve-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/long-dissolve-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/zoom-cut-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/slide-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/flash-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/identity-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/selling-02/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/question-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/corroborate-01/contact.png",
+        "text": "逐半秒接触表"
+      },
+      {
+        "href": "../../../04_测试与验收/方法库实测/action-01/contact.png",
+        "text": "逐半秒接触表"
+      }
+    ],
+    "passed": true,
+    "video_count": 21,
+    "videos": [
+      {
+        "duration": 2.2,
+        "error": null,
+        "height": 1280,
+        "method": "C01",
+        "width": 720
+      },
+      {
+        "duration": 12.133008,
+        "error": null,
+        "height": 1280,
+        "method": "C02",
+        "width": 720
+      },
+      {
+        "duration": 7.066016,
+        "error": null,
+        "height": 1280,
+        "method": "C03",
+        "width": 720
+      },
+      {
+        "duration": 8.233008,
+        "error": null,
+        "height": 1280,
+        "method": "C04",
+        "width": 720
+      },
+      {
+        "duration": 7.133008,
+        "error": null,
+        "height": 1280,
+        "method": "C05",
+        "width": 720
+      },
+      {
+        "duration": 14.033008,
+        "error": null,
+        "height": 1280,
+        "method": "C06",
+        "width": 720
+      },
+      {
+        "duration": 5,
+        "error": null,
+        "height": 1280,
+        "method": "C07",
+        "width": 720
+      },
+      {
+        "duration": 7,
+        "error": null,
+        "height": 1280,
+        "method": "C08",
+        "width": 720
+      },
+      {
+        "duration": 6,
+        "error": null,
+        "height": 1280,
+        "method": "C09",
+        "width": 720
+      },
+      {
+        "duration": 2.5,
+        "error": null,
+        "height": 1280,
+        "method": "C10",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "P01",
+        "width": 720
+      },
+      {
+        "duration": 3.733008,
+        "error": null,
+        "height": 1280,
+        "method": "P02",
+        "width": 720
+      },
+      {
+        "duration": 3.5,
+        "error": null,
+        "height": 1280,
+        "method": "P03",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "P04",
+        "width": 720
+      },
+      {
+        "duration": 3.7,
+        "error": null,
+        "height": 1280,
+        "method": "P05",
+        "width": 720
+      },
+      {
+        "duration": 3.8,
+        "error": null,
+        "height": 1280,
+        "method": "P06",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "N01",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "N02",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "N03",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "N04",
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "method": "N05",
+        "width": 720
+      }
+    ],
+    "viewport": {
+      "height": 1280,
+      "overflow": false,
+      "width": 720
+    }
+  }
+}

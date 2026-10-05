@@ -1,0 +1,13 @@
+{
+  "method_id":"P10",
+  "status":"deferred_by_user",
+  "budget_decision":"暂不付费",
+  "budget_approved":false,
+  "paid_calls_made":0,
+  "future_auth_preference":"检查网页登录；仅未来批准预算后进行，不代表本次授权付费",
+  "execution_permission":false,
+  "verification":"blocked",
+  "production_ready":false,
+  "scope_after_decision":"完成六项已接受安全变体的门禁与交付；P10不运行、不声称通过，后续须用户新授权。",
+  "proposal":"04_测试与验收/方法库实测/P10-budget-01.json"
+}

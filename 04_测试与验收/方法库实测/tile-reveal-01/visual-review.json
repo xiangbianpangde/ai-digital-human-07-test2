@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "96块二维图形遮罩完整覆盖底图时换片，再依次揭示真实卧室；建筑线条本身未破碎、变形或生成。画面持续标注二维分片非建筑破面，仅作为可选图形示意。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

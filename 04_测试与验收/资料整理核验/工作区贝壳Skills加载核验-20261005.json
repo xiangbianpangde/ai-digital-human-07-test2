@@ -1,0 +1,407 @@
+{
+  "schema": "workspace-beike-pi-loader/v1",
+  "at": "2026-10-05T04:18:28.132Z",
+  "cwd": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2",
+  "loader": "DefaultResourceLoader",
+  "project_trust": "One-shot local SDK approval only; persistent trust records untouched.",
+  "extension_execution": false,
+  "model_calls": false,
+  "reloads": [
+    {
+      "reload": 1,
+      "total_loaded": 26,
+      "beike": [
+        {
+          "name": "beike-buy",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-decor",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-market",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-policy",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-rent",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-school",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-sell",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        }
+      ],
+      "expected_global_collision_warnings": [
+        {
+          "type": "collision",
+          "message": "name \"beike-buy\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-buy/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-buy",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-buy/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-decor\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-decor/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-decor",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-decor/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-market\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-market/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-market",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-market/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-policy\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-policy/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-policy",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-policy/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-rent\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-rent/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-rent",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-rent/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-school\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-school/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-school",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-school/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-sell\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-sell/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-sell",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-sell/SKILL.md"
+          }
+        }
+      ],
+      "preexisting_unrelated_diagnostics": [
+        {
+          "type": "warning",
+          "message": "Nested mappings are not allowed in compact mappings at line 2, column 14:\n\ndescription: Guides deterministic research retrieval in ultra-long-horizon expe…\n             ^\n",
+          "path": "/Users/xbpd/.pi/agent/skills/task/research-retrieval/SKILL.md"
+        }
+      ],
+      "unexpected_new_diagnostics": []
+    },
+    {
+      "reload": 2,
+      "total_loaded": 26,
+      "beike": [
+        {
+          "name": "beike-buy",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-decor",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-market",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-policy",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-rent",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-school",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        },
+        {
+          "name": "beike-sell",
+          "filePath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+          "sourceInfo": {
+            "path": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+            "source": "auto",
+            "scope": "project",
+            "origin": "top-level",
+            "baseDir": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi"
+          },
+          "disableModelInvocation": false
+        }
+      ],
+      "expected_global_collision_warnings": [
+        {
+          "type": "collision",
+          "message": "name \"beike-buy\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-buy/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-buy",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-buy/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-buy/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-decor\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-decor/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-decor",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-decor/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-decor/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-market\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-market/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-market",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-market/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-market/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-policy\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-policy/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-policy",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-policy/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-policy/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-rent\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-rent/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-rent",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-rent/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-rent/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-school\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-school/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-school",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-school/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-school/SKILL.md"
+          }
+        },
+        {
+          "type": "collision",
+          "message": "name \"beike-sell\" collision",
+          "path": "/Users/xbpd/.agents/skills/beike-sell/SKILL.md",
+          "collision": {
+            "resourceType": "skill",
+            "name": "beike-sell",
+            "winnerPath": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/.pi/skills/beike-sell/SKILL.md",
+            "loserPath": "/Users/xbpd/.agents/skills/beike-sell/SKILL.md"
+          }
+        }
+      ],
+      "preexisting_unrelated_diagnostics": [
+        {
+          "type": "warning",
+          "message": "Nested mappings are not allowed in compact mappings at line 2, column 14:\n\ndescription: Guides deterministic research retrieval in ultra-long-horizon expe…\n             ^\n",
+          "path": "/Users/xbpd/.pi/agent/skills/task/research-retrieval/SKILL.md"
+        }
+      ],
+      "unexpected_new_diagnostics": []
+    }
+  ],
+  "outside_workspace": [
+    {
+      "name": "beike-buy",
+      "filePath": "/Users/xbpd/.agents/skills/beike-buy/SKILL.md"
+    },
+    {
+      "name": "beike-decor",
+      "filePath": "/Users/xbpd/.agents/skills/beike-decor/SKILL.md"
+    },
+    {
+      "name": "beike-market",
+      "filePath": "/Users/xbpd/.agents/skills/beike-market/SKILL.md"
+    },
+    {
+      "name": "beike-policy",
+      "filePath": "/Users/xbpd/.agents/skills/beike-policy/SKILL.md"
+    },
+    {
+      "name": "beike-rent",
+      "filePath": "/Users/xbpd/.agents/skills/beike-rent/SKILL.md"
+    },
+    {
+      "name": "beike-school",
+      "filePath": "/Users/xbpd/.agents/skills/beike-school/SKILL.md"
+    },
+    {
+      "name": "beike-sell",
+      "filePath": "/Users/xbpd/.agents/skills/beike-sell/SKILL.md"
+    }
+  ],
+  "outside_workspace_diagnostics": [
+    {
+      "type": "warning",
+      "message": "Nested mappings are not allowed in compact mappings at line 2, column 14:\n\ndescription: Guides deterministic research retrieval in ultra-long-horizon expe…\n             ^\n",
+      "path": "/Users/xbpd/.pi/agent/skills/task/research-retrieval/SKILL.md"
+    }
+  ],
+  "project_beike_sources_verified": true,
+  "skill_commands_enabled": true,
+  "passed": true,
+  "current_chat_resource_reload_performed": false,
+  "known_limitation": "Seven expected global same-name collision warnings; local winners verified on two reloads. Project filters cannot disable user auto-resources in this Pi version. Existing unrelated global diagnostics retained without modification; no global files or Pi code changed."
+}

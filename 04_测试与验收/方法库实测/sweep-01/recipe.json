@@ -1,0 +1,23 @@
+{
+  "id": "C08-sweep",
+  "start": {
+    "pano": 25,
+    "yaw": 3.4,
+    "fov": 80
+  },
+  "steps": [
+    {
+      "kind": "hold",
+      "ms": 600
+    },
+    {
+      "kind": "pan",
+      "yaw": 4.15,
+      "ms": 5000
+    },
+    {
+      "kind": "hold",
+      "ms": 1400
+    }
+  ]
+}

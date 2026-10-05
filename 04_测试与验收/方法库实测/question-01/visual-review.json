@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "4秒空卧室微摇配布置设问，未虚构床、沙发或尺寸，字幕始终位于下方安全区，不遮窗；此项为静默图文验证。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

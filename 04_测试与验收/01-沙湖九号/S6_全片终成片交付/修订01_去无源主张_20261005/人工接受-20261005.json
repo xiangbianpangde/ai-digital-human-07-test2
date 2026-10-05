@@ -1,0 +1,21 @@
+{
+  "schema": "case1-version-human-acceptance/v1",
+  "date": "2026-10-05",
+  "evidence": "User explicitly selected 已完整看听，接受内部版 in the structured final-review question identifying revision01 SHA36490b5c",
+  "version_path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4",
+  "sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7",
+  "human_asserted_complete_watch_and_listen": true,
+  "human_accepted_picture_subtitles_and_voice": true,
+  "duration_sec_accepted": 25.3,
+  "digital_human_required": false,
+  "accepted_use": "internal_research_and_production_only",
+  "commercial_publication_authorized": false,
+  "rights_certification_by_assistant": false,
+  "original_specifications_all_passed": false,
+  "case1_closeout_under_revised_internal_scope": "DONE",
+  "earlier_pending_reports_retained_as_registration_time_snapshots": true,
+  "legacy_crop_AST002_AST004_reconciled": false,
+  "case2_current_detail_and_local_mapping_may_now_proceed": true,
+  "case2_specific_pano_action_height_or_recording_accepted": false,
+  "paid_call_or_new_tts_authorized": false
+}

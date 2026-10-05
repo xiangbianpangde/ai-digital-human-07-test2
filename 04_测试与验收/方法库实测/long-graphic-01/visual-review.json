@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "仅图形文字层0.5秒长叠化，实景在2秒硬切；建筑无双影或形变，角落说明不遮主要门窗。此验收不解禁原跨空间长叠化。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

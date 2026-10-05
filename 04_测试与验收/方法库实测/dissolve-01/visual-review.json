@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "30fps逐帧转场表确认8帧(0.267秒)线性叠化；短暂双影为预期，只作可选后期，不能表达空间连续位移。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

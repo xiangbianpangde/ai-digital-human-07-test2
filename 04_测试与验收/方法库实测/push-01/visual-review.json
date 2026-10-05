@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "全段接触表确认客厅P1→P9真实向阳台门口推进，门窗主体逐渐增大，末端停留约1.5秒；未见近墙或家具遮挡。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

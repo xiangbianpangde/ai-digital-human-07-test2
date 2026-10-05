@@ -1,0 +1,3120 @@
+{
+  "schema": "house-source-inventory/v1",
+  "at": "2026-10-05T14:54:24.857827+08:00",
+  "listing_id": "104119325592",
+  "source_root": "/Users/xbpd/Downloads/武汉104119325592-房源资料",
+  "prerequisite_case1_review_gate": {
+    "path": "04_测试与验收/流程升级核验/第一案例复盘完成门禁-20261005.json",
+    "sha256": "80a95725eb560edd28b41d9441a82e1174a10ab55da98e43eb58ab66bf328a04"
+  },
+  "source_files": [
+    {
+      "path": ".DS_Store",
+      "size": 6148,
+      "sha256": "b6e278cb809516fceacf5f6968b9c79b3013f7a9390b1b6ecfbdb54e9f6182cc",
+      "suffix": "",
+      "class": "system_metadata"
+    },
+    {
+      "path": "01-房源信息/listing.json",
+      "size": 769,
+      "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "01-房源信息/offline-inventory.json",
+      "size": 200,
+      "sha256": "11b0b1a94883a4f6c9d70f936b0a315510f76dd3b9e8f0be5f228eb0dfd27fbd",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "01-房源信息/task-status.json",
+      "size": 2043,
+      "sha256": "131c570419cde0f39c21473d28b741d83c3ba9aa8b32fd8ee4d7d353506a1c7c",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "01-房源信息/vr-manifest.json",
+      "size": 40463,
+      "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "01-房源信息/work.json",
+      "size": 53152,
+      "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "02-户型图与封面/cover-layout.json",
+      "size": 932,
+      "sha256": "548e8030db481f47d688d3e9a6b45f4c1108d866fe4aed99cd4dbcd4c3b5d43f",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "02-户型图与封面/封面-列表3比4.jpg",
+      "size": 164178,
+      "sha256": "e867a664f649d7fd7d4a333e9372426ba89194f93efed418c1b1a70a64c43a9c",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        1080,
+        1440
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "02-户型图与封面/封面-方形裁切.jpg",
+      "size": 142211,
+      "sha256": "58f57319e1599dc57509ef98f1d662b2c8e66e35e8996a73668dde49d9950e64",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "02-户型图与封面/封面.png",
+      "size": 1223854,
+      "sha256": "9328e6520fc460deec1eedb1b9fea15cb425b56d74ecf0fb4a03a3e9948d3aaa",
+      "suffix": ".png",
+      "class": "source_asset",
+      "image_format": "PNG",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "02-户型图与封面/真实户型图.jpg",
+      "size": 303305,
+      "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        2400,
+        1800
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/bedrooms-directions.jpg",
+      "size": 287166,
+      "sha256": "617d84edd407117713bce12a1b16d1197eeecac69cd4a4f305d781b406741a41",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        1200,
+        1944
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/catalog.jpg",
+      "size": 368604,
+      "sha256": "a6790c539d02f136291f4b2352a15d5b32595a4acda967d39cfb1a6ed6cc1029",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        1600,
+        2160
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-back.avif",
+      "size": 184591,
+      "sha256": "bff31fe1c7e7ef55f9d4ba7e840300598614d6cab499bed3fd4b19f99ad773cd",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-down.avif",
+      "size": 133877,
+      "sha256": "b6dda3ce9025e537b717fc1a92196035e0306e837b4c428e500a7ef5d9746e25",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-front.avif",
+      "size": 145740,
+      "sha256": "986e1ca0a721e33537ec0684635fd8f59a68519be1b640e30cc2c92512b506d0",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-left.avif",
+      "size": 131372,
+      "sha256": "c4bc5e10c6d0dbd96a8b2ff8b2b17a5ffcc26e5cd436fe1b0c96d197902f63cc",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-right.avif",
+      "size": 202720,
+      "sha256": "8c7bd6eb0ab6894c53ef9ea10d7314d3c28007c9954d409212615bb88e018fb2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/0-up.avif",
+      "size": 55956,
+      "sha256": "dc33c89a73912e639f9a8d90a9ef9d00d230d070881f31467aaa00e22d0cdfb3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-back.avif",
+      "size": 161659,
+      "sha256": "bd2ce3dfcab73f2d028ee88291c420115fbc0922826cc0f528828604971a456d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-down.avif",
+      "size": 176043,
+      "sha256": "6dfcaaa8c65eb0b569c3cc70fd945b8b183a12241772d7d363a112bab7fb2594",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-front.avif",
+      "size": 186006,
+      "sha256": "9fd4c13944ca83bd4c9794d27d654df3b7b837a481c77ff71b812e07a6215911",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-left.avif",
+      "size": 223365,
+      "sha256": "91c4d3b570b7fa44857895c8c86a328bcd368e48e5cc923a5c80ab5106bd4070",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-right.avif",
+      "size": 199871,
+      "sha256": "69f711c472ff34e2389c270f1158d13c8a059a87e06485a40155e5d34fe216a5",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/1-up.avif",
+      "size": 73910,
+      "sha256": "4863a74677ca1b31be3a5c0deed12954152ce1e4ebba56b1550d134f72e0b999",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-back.avif",
+      "size": 432938,
+      "sha256": "9666c615f86cde4844bec05756923e107668173680d943879999dd7de2935d04",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-down.avif",
+      "size": 343327,
+      "sha256": "43e93532209b270776f893fc0f999dce7cfa1c937c43d99e0c55529953d74977",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-front.avif",
+      "size": 312039,
+      "sha256": "471efb8afc347a6669a75e4096bc895451e7528c2044f1f3eaebf1174e586d81",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-left.avif",
+      "size": 527267,
+      "sha256": "e789bcf70e7f9dec02cb09623a48854573335d0c3daf68c3473a976aab818dd8",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-right.avif",
+      "size": 242797,
+      "sha256": "6f9a426d782071f62dc62da3d7d13a14190a3c78167e1ef3f3394ba1db7591fe",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/10-up.avif",
+      "size": 349066,
+      "sha256": "b7a7651688224f3a4e67d51c7029e004e8be42aec1a17b4933313d23ab27f262",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-back.avif",
+      "size": 133488,
+      "sha256": "411d9e5fa3cd0e5d4aa73be7e22b698a5ab2c680061d8f6231cb7e6dbe5203ac",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-down.avif",
+      "size": 132745,
+      "sha256": "6aa8df4b6cdc6eec4fdc7a335639fe33dce6d2f155d4bf8f89de1065d0842061",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-front.avif",
+      "size": 163714,
+      "sha256": "5acc96f68d43c4cdf71d114b75bf2808e55dcf87590e822297cbb660457210dc",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-left.avif",
+      "size": 152896,
+      "sha256": "3364ebcc3f8e462892ae6b4541522634edf432ee6ddf0c31161020853a8a619f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-right.avif",
+      "size": 67076,
+      "sha256": "b8fb25e36556054eef9d7176081d693d6ed9be582fc7235e4804e9acd7a2b35c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/11-up.avif",
+      "size": 60319,
+      "sha256": "c9aca561d527af3a4748d4469ad43726422a09f4e170f0acae18c7ff680f5356",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-back.avif",
+      "size": 89625,
+      "sha256": "3bdc537e992296e38178381ffa7ee9d3cd2f70b21f2c62526dffa40cefb3954e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-down.avif",
+      "size": 123124,
+      "sha256": "4d235c256f8f5d430d087159fd9b8c77966e0ba649db6f90c46ec5a16ac62bb2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-front.avif",
+      "size": 99753,
+      "sha256": "c524396fe4fe70bb433d0e99d505d5f2288730d78a6a9feaea075f675d288b51",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-left.avif",
+      "size": 137835,
+      "sha256": "050ca29c4d5c805b979683249282783e531c6ab9155b5168aaacd02594915007",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-right.avif",
+      "size": 84836,
+      "sha256": "085a39eba05f25b144896cd9310871d8fd46659b36e555433d57ae03d97b9d00",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/12-up.avif",
+      "size": 70234,
+      "sha256": "101e63b967f4deb27639f0bfaa3383d8768aa7ef43e191d9958b0c447e077759",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-back.avif",
+      "size": 90923,
+      "sha256": "8a373cd1adc71fff2688c01fe918c0103df842cc853d01e303fc5a29dce89f74",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-down.avif",
+      "size": 181678,
+      "sha256": "97da74a2be956fdf9dd0db1d7c818cc8eff410fb47cf745f1479403c09adee3b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-front.avif",
+      "size": 191840,
+      "sha256": "e37db2ca3f261e591c844bc69f267797b9d0f906b27f90e029cd5fc9d8125d6a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-left.avif",
+      "size": 224199,
+      "sha256": "b37d9dfa93645dfba1510877ff2edc4728fe089cce7ee73f87f1c76df229d6ad",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-right.avif",
+      "size": 42129,
+      "sha256": "a92e0756493b52d4fe3fcdd0700b4b1bb67c02f51419cd90e5a64af6765ac87c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/13-up.avif",
+      "size": 39302,
+      "sha256": "70eaa11fe9533c2e62f911dfea99d9728bf176efd3723663faf8ecc6bf7ebbdc",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-back.avif",
+      "size": 253491,
+      "sha256": "af82fd8cae937e6d4b1063b7d93b7967c47cd49c173260d8b38ebf6c0bfcc97e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-down.avif",
+      "size": 159146,
+      "sha256": "5cbada52891a6f2a1c28dac9d537ebbd7e3ce326469c9eeab24907fe8673bf0f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-front.avif",
+      "size": 275452,
+      "sha256": "d1166322a21a5ea710527d121a8079281ca4c06522fcdf17b86eed8d5c823bf4",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-left.avif",
+      "size": 228881,
+      "sha256": "d0902407b91ad82c331d08da91a2e3e2622e9a488d0123cc2998fb85082e8fb6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-right.avif",
+      "size": 164057,
+      "sha256": "a20f77220eaf48394ce1abbf354ccfff5785ceebdec8f6cb530dd7ce40dd76f1",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/14-up.avif",
+      "size": 173684,
+      "sha256": "32222822ac1dbcff2c323c652a3527f38143cc26e33ecce75f6a1553b69242a8",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-back.avif",
+      "size": 223636,
+      "sha256": "f28d0ce83b50696deeb8295b86588381be7fc44451860fef6c3585586c93769f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-down.avif",
+      "size": 199214,
+      "sha256": "23562b94aefaf0cde6580b2fb3ef72a1d389d4f02e8043e9bc7c4f28a3ded108",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-front.avif",
+      "size": 152411,
+      "sha256": "bba71537a24191a303552073565947e134a9af7638058ea366a09784728741bd",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-left.avif",
+      "size": 258383,
+      "sha256": "846a1d8285064741e097fb5f4bca82b4e52ef0231e822036b3c724cc4f9942f3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-right.avif",
+      "size": 229761,
+      "sha256": "8d11bcfea12799826c5bebff0dbd78d9085d51b62eb275518fae44c99e0073ab",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/15-up.avif",
+      "size": 127659,
+      "sha256": "1c14d0f980bf219acba4c3c35b869fb8bdab493bf9f52310c1a9afb0d7ab6625",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-back.avif",
+      "size": 89143,
+      "sha256": "72a4c1c7f004d20a502ac33d25a81a60197f425fdf349504f571362a1586b4d6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-down.avif",
+      "size": 112902,
+      "sha256": "1a308a4383c585123777ebc272693244e15a66b790095a8a376f8c80fc50301f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-front.avif",
+      "size": 104454,
+      "sha256": "aa4d070466d0464efd325d0cd61fe6c712bd4bcdf2bc3e544b41bf992ef46b17",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-left.avif",
+      "size": 14242,
+      "sha256": "d42bed96dd588b39599dc2486f7726e7f68a8737b9077d3d3a8ee7ddb1127127",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-right.avif",
+      "size": 109061,
+      "sha256": "d4a6887c53491a4a9e3e2b95bbdee13548f457385b7e5db35099133aa3f80b33",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/16-up.avif",
+      "size": 67300,
+      "sha256": "ca58f83a8a801658aedd383368c2ea1364b939bafa22bc7e2f84e3ab6fb58a87",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-back.avif",
+      "size": 107066,
+      "sha256": "791024aab1aa8fe48acc9dbfba483a42f3a0c9e3f6c5bbf83a0b75542bc5da83",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-down.avif",
+      "size": 167388,
+      "sha256": "15329c5c115cf832c126c6fe296e74f5e3386fe60c22d42b7f39b78fe074d12e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-front.avif",
+      "size": 69402,
+      "sha256": "4c251cfaf569a7067755a2cc85055988731c57952baa5dc8855ba5edfb3bfb32",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-left.avif",
+      "size": 207446,
+      "sha256": "340d3530f7f47aeacd3e0a63560c752d014e356e112d8da7149055a153395f79",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-right.avif",
+      "size": 128255,
+      "sha256": "83517f835542adad9528fac346ff78425114aa97c4561fd535eb5b6c1864bf73",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/17-up.avif",
+      "size": 84097,
+      "sha256": "6f6f6143b07460f6f04362cab0cfcf694cbed0490399c91f75d68418b7cc7e91",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-back.avif",
+      "size": 89275,
+      "sha256": "f80d753a6ebc48a6fd8667dd3faf1fed491b51c1dbb253792ddd130597152203",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-down.avif",
+      "size": 126774,
+      "sha256": "bede5dc65124dceed7e50d0c9df5fa2a7cfbca0fff910f455dff4d847dc4b9ed",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-front.avif",
+      "size": 68056,
+      "sha256": "c8338505b5a936213089ad20ee3a350b5e5a5a5102b4cb935bc27f1fdb0eb7d6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-left.avif",
+      "size": 97124,
+      "sha256": "0b6ed9fe94cba9d128d640251cd64b079d899239f92edb5ed04406f0754a1fd3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-right.avif",
+      "size": 108923,
+      "sha256": "a8ad0a287646116f833040f0ab65e81e11954bb2b3cfa522a175f217f7d6e854",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/18-up.avif",
+      "size": 64060,
+      "sha256": "4b2a431111b12fafd83553b352f4599578bf21f6154305e5e6e440e8e03bf350",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-back.avif",
+      "size": 110799,
+      "sha256": "a9071e70f9775f0cfa6b2b97dd9c6c66756c1b8e38cf65f26ae40fb6afae92b5",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-down.avif",
+      "size": 116912,
+      "sha256": "0777088dbf562f54759613417014be045b148a7513c8578c099ec2234dca402e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-front.avif",
+      "size": 153337,
+      "sha256": "5dd3c7c3ecff40cc4e032fd3d36c4b7d364f05060383b1205809f37a77c6f4c2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-left.avif",
+      "size": 80269,
+      "sha256": "85f0ac4a008c570bed2863bfe3301ed6fe21f20f3cc66789e4bbbc51f76f9d2c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-right.avif",
+      "size": 118025,
+      "sha256": "a431ca5a8979a21e122ab46b004f5983d9c10f2f6f78dd4feb7a18f589399a80",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/19-up.avif",
+      "size": 69923,
+      "sha256": "29d58f743f29b62094776eae8c13abfcd7ec50a0c24a8bb6c10191cdeec4b828",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-back.avif",
+      "size": 142792,
+      "sha256": "c61490183e8d8eefc9fbd910d5bc935ac79d49493869f9d2d2911298d4c4d48b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-down.avif",
+      "size": 129446,
+      "sha256": "5b3dee708eaf8110687c9a785beabb7e9b2ad7b1402589f4dfa3c0aca9ce9d6d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-front.avif",
+      "size": 186703,
+      "sha256": "1ab2c2898b7d2d8cb1b4616ae1fb7843a4493077bbf44b3ea8a8910b80a3c056",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-left.avif",
+      "size": 105890,
+      "sha256": "6b40ac84573e2f6ff453fd01a89cf63041d95b294634424f8c45a849e7009ee2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-right.avif",
+      "size": 143535,
+      "sha256": "da2fc4fb2f2b0f98a2151950c7df198900d242e322b9a439ee782e0d3de3ac52",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/2-up.avif",
+      "size": 50581,
+      "sha256": "1779f262caad296fcbc594b2774636948b183c9dc5a9999cc927d6e9b540a83a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-back.avif",
+      "size": 184372,
+      "sha256": "5b1cb57423c31dead68a866f707ac71bf20256f57aa0f80a90eeb84f481ad2a4",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-down.avif",
+      "size": 141825,
+      "sha256": "f5512a1785a9311af369d5269673afa95158f0dd03673875a66b879482172b16",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-front.avif",
+      "size": 92841,
+      "sha256": "822e7c042f4030b67430456824cd923633d783df775940aabbc2f393743292e3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-left.avif",
+      "size": 142737,
+      "sha256": "c4e2c144fc09843ef0bf4e6a0c92274f637e51a8ec814ac21448dbc60d129462",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-right.avif",
+      "size": 314410,
+      "sha256": "57b297d0fa985993f600609534d5f035b6e122f26e5e80233297003c1844c212",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/20-up.avif",
+      "size": 39564,
+      "sha256": "f3f445f1f65427384c1a4410255fe2b2c3d8c2c2954e1a2f9f39bef1ed14ab74",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-back.avif",
+      "size": 195166,
+      "sha256": "2e7104560d48fc993bb73339cb09ce68d5d1e01a675f9c7ed3a52979059e2e9d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-down.avif",
+      "size": 149790,
+      "sha256": "76f9d0f60809a6d1113d5ddbbb82a04363692696dee28014a4cf3b2cd680217d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-front.avif",
+      "size": 120848,
+      "sha256": "752450718841833e7d3952d5c18e48a1b0d19b300b543a7831ed4311d44f891d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-left.avif",
+      "size": 117164,
+      "sha256": "dc381ee57752da62b1cd448415bc650f7b1e54c6528e149cd9ffe8c2af4f67e8",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-right.avif",
+      "size": 188856,
+      "sha256": "7ec086e55412e8bf16316b24535f049a9bed019c0551d7927ac4845ab031be91",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/21-up.avif",
+      "size": 85507,
+      "sha256": "3ee8053b9f36302208743ccd9e0b9b578ba45e9427ea40ef91ff35e3280c2f64",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-back.avif",
+      "size": 73534,
+      "sha256": "3f43147213ae46e69649eb0f52d002e2f966b4ec753fba8ff3b4222d1685fe2b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-down.avif",
+      "size": 102292,
+      "sha256": "478c5333e66f5c2d1659f78b13b7ae480037f278cea56b085e0a539833855000",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-front.avif",
+      "size": 136428,
+      "sha256": "9cae6344272f37171b15d8c5b0361187d5697181dda62ca042f3bf1af5b596fa",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-left.avif",
+      "size": 167165,
+      "sha256": "6c241b0fef88b1302080a40e56121a3106e491dd00760cd43cc555e8e24fcc57",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-right.avif",
+      "size": 28579,
+      "sha256": "802cb6087e5409645404e39ab2ade323935e26cce5b38d17262daabd8486e643",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/22-up.avif",
+      "size": 39098,
+      "sha256": "8577f1b7b89f4f85c1dc41b9bceb22968f05fd350ee920856495ec02fafe3c60",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-back.avif",
+      "size": 126527,
+      "sha256": "3480f1630f1c54579483c9b4aed6ef5efedd50a2ca3729a0117379c8d2230d4f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-down.avif",
+      "size": 119596,
+      "sha256": "4934420c20e7eac1f91fc8b551cd07100b6786edaada950e6a4a5b30c763bd87",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-front.avif",
+      "size": 82289,
+      "sha256": "22c5dd3bc7cda7e4866ba504ed888371ea836555eaaea5480adbe19a5503ea5c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-left.avif",
+      "size": 118466,
+      "sha256": "de74b04b757540500e80d99585771dd4984882f3b4c08e3afc513926c46839cf",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-right.avif",
+      "size": 126218,
+      "sha256": "5bc97772b58e20e8e591aefbba696b4e3d6b1d848d52273c95499b35da91822a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/23-up.avif",
+      "size": 60630,
+      "sha256": "7d384f2a4c9a476becce4808b2c33e9b0a5dc58160fd31d76da48ca90611a323",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-back.avif",
+      "size": 114585,
+      "sha256": "ae89b17ec44aeb651b7f57a96c264e0969601e15714399101ea11bcc4dc1dfdf",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-down.avif",
+      "size": 111212,
+      "sha256": "92fb763d1c1e59613ad66ac2050b16528a901b101782117da6d4a3fc9f248989",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-front.avif",
+      "size": 66674,
+      "sha256": "5335625ebe9d5fb4f8f663e3e4ddd5a096b2730d67faa586ab8e5c5939040586",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-left.avif",
+      "size": 88809,
+      "sha256": "0afa594af1801895e0a3b606f491cdbb3856cd9ca4d7c43bcb15b55a616b914a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-right.avif",
+      "size": 112329,
+      "sha256": "681213e11c3b04b2c8d09918cc49993153209a05bf800eb9ddf2fc86db4d8f82",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/24-up.avif",
+      "size": 73421,
+      "sha256": "191b22ffff54562feaaae44a78515974657d89b1550fee85790caed03032cecc",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-back.avif",
+      "size": 70468,
+      "sha256": "4fd2c6b970b395cee0ab77619d6b6392184ae0672da5bfeb796096d7a7c9ac72",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-down.avif",
+      "size": 146627,
+      "sha256": "7c23400f3194d3d5f668bf55ff1ce6432b2d82ce36ad9bf63ff3f168c3e932ef",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-front.avif",
+      "size": 156308,
+      "sha256": "04dc87649d9b8b239ea1f712afa365a586a28dc4fb2c2a92313e0f37b9a22c2b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-left.avif",
+      "size": 76598,
+      "sha256": "2ddefe89e29f1a9262d11b93866805f2997113e6c265fa913cc05921109b0458",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-right.avif",
+      "size": 74836,
+      "sha256": "7dbdec3bdd98beada593e06208e307455d248c6a3a5cf4d0d877ecece0ff659c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/25-up.avif",
+      "size": 87607,
+      "sha256": "681aa800f147f579189b6aec642497e0e04451a58b25d465837cdf0c77b60bad",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-back.avif",
+      "size": 245067,
+      "sha256": "a4ced1a779038d344c02dbc7d702f9d84de48580b5583b167b72f3cb80e7daa8",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-down.avif",
+      "size": 156768,
+      "sha256": "8a932b68af1bf64f5044eff3c9c8cf01e0ce59635653335e4b21d6e6f5fe8755",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-front.avif",
+      "size": 104869,
+      "sha256": "b5221d39a503851f731cc22a847ee0e16bb3818872ce7c5f7b49ddb7c594b1e8",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-left.avif",
+      "size": 106817,
+      "sha256": "bf80a9f4f12cf5d230fb29ee504dffdec09c4bd2701e60efe02cd24347b8cb88",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-right.avif",
+      "size": 209818,
+      "sha256": "a7ec094996cea286dba3c0abaddc78df13f9134672566e4a6894c733383627bd",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/26-up.avif",
+      "size": 82717,
+      "sha256": "19cc05bce51481ab4433e1966d1453c900205266eb203c40a519538569a6d84e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-back.avif",
+      "size": 108861,
+      "sha256": "e80f19efad1c769f0a7af204ce8959cd739c7185a8ed1447cb1f6de31ea9e44e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-down.avif",
+      "size": 162851,
+      "sha256": "0264885f49cd684d07e62d51163eeae6d9343c163936e6b5decf185444d960f5",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-front.avif",
+      "size": 154235,
+      "sha256": "1cbca27090d67228ebdcc1d4e4b5711ebc482edfdb6e1c627cf8c833b9524458",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-left.avif",
+      "size": 95460,
+      "sha256": "b5275ad82a18b4d79f9e532f33a613319d25d38c6c6fed0401b3a1e907809f5b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-right.avif",
+      "size": 240664,
+      "sha256": "ff6589e3d22f82b2535d2dd93af53b04a9bce6acf71690e95f4ba226217a1166",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/27-up.avif",
+      "size": 72181,
+      "sha256": "016a8a0d35b13ce5b8b03e9c6491144f9bbacb9c1ecd53ef3ab6d31486b8a5ff",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-back.avif",
+      "size": 72881,
+      "sha256": "15fae0cca1c7799448a34a9c929893ad2edbedc132c693c52f9aed915dfa1481",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-down.avif",
+      "size": 144651,
+      "sha256": "c383435cb4d95c87d91bc2c961acbceb215fa10830ba252fcb5885b50e930e95",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-front.avif",
+      "size": 129184,
+      "sha256": "1d210a192199177d499849e9b4f2e60aa0c01e49cf3a35694b6030dad7379e1c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-left.avif",
+      "size": 18236,
+      "sha256": "c5d1c63c5462a49019107168b47e937e9b48b66167fcc992dd07427e7161e6be",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-right.avif",
+      "size": 63373,
+      "sha256": "177f581342c3b711b0c91ebe6f11ebdc28e3834bd7c573e33d9b3b2844d857e7",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/28-up.avif",
+      "size": 72971,
+      "sha256": "fbd90ba0305b0d081adb60b86bc4b87c49a25f49d83f965826513da235da387e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-back.avif",
+      "size": 74315,
+      "sha256": "ddad288785afd158817cf35baa1c834f77df7e96436324c99a2ccdaf47df3fc6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-down.avif",
+      "size": 175598,
+      "sha256": "b1d704d8aa4acfd95aeec4b45ded573cd0a03d84222fab7482b56f242870a1d7",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-front.avif",
+      "size": 245760,
+      "sha256": "1de367c3df8aaefa1220a6cf3e1f6dbf8456b4d4dcf494302ea34341b22244dd",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-left.avif",
+      "size": 239379,
+      "sha256": "09af5334ec9d4292e570e552858d7336aa09c9c988b45836383facfbbb380faf",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-right.avif",
+      "size": 103845,
+      "sha256": "0f1c831fc953d4bdc84fe9e8bd26d85a4e34306c173d136618c2a0386a6f368a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/29-up.avif",
+      "size": 79174,
+      "sha256": "e5a1de650e73e3924ca48772fb0937cdf1a169251534b059355c554878b05f3f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-back.avif",
+      "size": 128659,
+      "sha256": "2a371f70ae58481a32b51892b4bf1b9ff4ed0da37bced6161f2640aa388bafbe",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-down.avif",
+      "size": 288304,
+      "sha256": "ba7880219ad85ccdbaa043baeeacc2dff5dffe44d2f9d1966cf836542e5e0a24",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-front.avif",
+      "size": 405660,
+      "sha256": "a370e0724930916359e1ca383e2f2db7f9660527463394104aa9788d990613cb",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-left.avif",
+      "size": 318031,
+      "sha256": "bfd331ed29d2a167554b1226d63218aba4347541035b8c2362123b8cce27604c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-right.avif",
+      "size": 188322,
+      "sha256": "151433a5bf701ed3da35e958f7c6134c97709e7a65cdb92764edcd5b50a6c4f9",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/3-up.avif",
+      "size": 201387,
+      "sha256": "3086a0043fe6866aca088ff21a7faecc38e1c565cc4cb730327fa0359ea87552",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-back.avif",
+      "size": 190067,
+      "sha256": "292dff4d1dbe647526e3f94dcfa3a537f4dbed2db1b83d099a3dfe0ebab48648",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-down.avif",
+      "size": 203689,
+      "sha256": "2338715d36c25784a60c21f1a6de3e2bd3a1a2ec7df74dfd8346877596147f8f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-front.avif",
+      "size": 179763,
+      "sha256": "3f7e46a228b7f581c2e660420a6ed0bd997e4179a44a14ad93115f9a810a4e4d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-left.avif",
+      "size": 353314,
+      "sha256": "dc94b3a21603861c42158fba4f27a719b6e3c641e74405d441dbd4731e4e3157",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-right.avif",
+      "size": 186047,
+      "sha256": "135df6c0ea5241e0f63ec68848be87feddbef1fcc0b3230bba945eeb65dea100",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/30-up.avif",
+      "size": 109621,
+      "sha256": "829012b1c45af8238517b01cdc23136db88b041c000fb76663cee3e3968059f2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-back.avif",
+      "size": 126108,
+      "sha256": "11b9dc25f5c6c601d3c4e0da1a46a027c89e00f3bfb9babe9a8623067215108b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-down.avif",
+      "size": 175722,
+      "sha256": "4e0e93075039ea9f924ec0516d637083feddc2ec28b77e63ed59f2665e1afad9",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-front.avif",
+      "size": 384545,
+      "sha256": "a81d1ace8b6519c7ea47c71c1d213238755786b4c753fd0e3467b85be9cca72a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-left.avif",
+      "size": 240396,
+      "sha256": "50d9a007eba9e2d189b63dfa4820e1a267a1b5709df3ab08abfd97824aa7f66e",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-right.avif",
+      "size": 173420,
+      "sha256": "134460d7799a95a337f30a23b0ee4c3afe11335c678aa19d00d42e1b0eaf4dbb",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/31-up.avif",
+      "size": 156364,
+      "sha256": "b0f846b033ae75b3b173720d02f20da8e8d026b933bd138afa64bbcd7524faa5",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-back.avif",
+      "size": 69916,
+      "sha256": "4d2dd571b59f6759c02df80626a51b3826cef06b6c94c38901b3727076b39958",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-down.avif",
+      "size": 168037,
+      "sha256": "dc709c13b3113d245eeb478529b63eb6b48d8bbecd85fc6739fd0a8c591858e3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-front.avif",
+      "size": 64015,
+      "sha256": "623fc09d6053775bc59f888c3b60690fd37a7cab0ddf7005ed759f1452f6fd36",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-left.avif",
+      "size": 121619,
+      "sha256": "c17d47561842f0107ed26544aec159acbe842a43860f56f1bea5ed3d13d1cb0d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-right.avif",
+      "size": 102025,
+      "sha256": "c064b8afab71b0704d51e744750233417ecfeed0633fea6d50bc899bcdd05639",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/32-up.avif",
+      "size": 119500,
+      "sha256": "1d25f6dc80f2d0e77f4efbb1caf2908681d29bd9ef3f1a7fc4772557daceba3c",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-back.avif",
+      "size": 82585,
+      "sha256": "8316b277c4aae9d717bcdab825bc2a59a4734cd3bdb79aaf9affaa9305ac86da",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-down.avif",
+      "size": 144977,
+      "sha256": "6a5cee763f93cc97348d6d271d85f427e1bdead1fa50c5837c819e697eed6d8b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-front.avif",
+      "size": 119584,
+      "sha256": "08a2d8906a114f344e295fc126494db3e2db18e1bf5d3c0e346fe034aaf9d59d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-left.avif",
+      "size": 93518,
+      "sha256": "ef2f9fb4c16e20ac073f1defef5dcfe6463c16cf5ead99c952a0dbe1c0de8255",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-right.avif",
+      "size": 67905,
+      "sha256": "cd934d14603210e4cf4683f6fd0130d6bb0d72f98aa2d9d451d594fbdfc732d7",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/33-up.avif",
+      "size": 37700,
+      "sha256": "c521ab2903720e2d8f1bde05d38480816ae09bea3523abf86b95b6e770e9f3a5",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-back.avif",
+      "size": 129280,
+      "sha256": "8ef4912634eec2dba292e43f4c21c84254b40b19b88d24f433cb6c5d8a55d697",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-down.avif",
+      "size": 132116,
+      "sha256": "3db7c9a38f83a01ee2abd35090afdc7ae8d826ae0b52f8669faec58f33d23774",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-front.avif",
+      "size": 76588,
+      "sha256": "5ec4db7f89170931a3d23e28486bf2a85575386dbd30fff3857d419ac22299d2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-left.avif",
+      "size": 197724,
+      "sha256": "a003c5a7155f3816bf78d5fe17f1ecc4531bfe4daac7d62db1f3b5f163220541",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-right.avif",
+      "size": 99818,
+      "sha256": "af9c54d8ac03257904be0d93991d66763663717da184170000645275cd9d6cb2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/34-up.avif",
+      "size": 47464,
+      "sha256": "355982fe1df56ac2dabd47bf72d4bc96e46dfffb10ea53271c99d768e88e3b0a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-back.avif",
+      "size": 126147,
+      "sha256": "28b4400af794503bf6a0f798a8b8bc70bdd0b5ed034d495da0811ebdf3c3b587",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-down.avif",
+      "size": 95908,
+      "sha256": "fbc870eb2169bba215cd861a8822f898787df533c5eb8eec65312b508e5ec7dd",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-front.avif",
+      "size": 57034,
+      "sha256": "f2414bb5f21bf742a09642acde69ecb9ff4fbb26520201a9517270d75ef87875",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-left.avif",
+      "size": 79284,
+      "sha256": "e2b5ae5b8578f5ccdd4a62ab8cf4890aeb7a3955373c7b09a2f83ec0bc0387ae",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-right.avif",
+      "size": 95553,
+      "sha256": "e6b98ed07b3dbb8d3e273820935632b36fc7930ec4a0aa6d60012a225bb3d75d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/35-up.avif",
+      "size": 80108,
+      "sha256": "de715b74dc536be406038a86f659dd4ba218ad57178278e373f27eccd68b6d77",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-back.avif",
+      "size": 197903,
+      "sha256": "b2a71f293b730cda95128492439766141e1ac521b1c5afdc8ec46e7a8fd85d53",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-down.avif",
+      "size": 208225,
+      "sha256": "e0a51bdf40d196149d1739ca3ae43f5e315fe29e239d45913d6f264bf56ccac6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-front.avif",
+      "size": 157922,
+      "sha256": "f1b56c5197ef5867b22d08339ae39668128e96cb67c5a49e3a3c086bd807c04a",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-left.avif",
+      "size": 205721,
+      "sha256": "95eb919a57fda6aedbc5df4a6b85e98ab29139dcebec64321810b154e7e2533f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-right.avif",
+      "size": 234055,
+      "sha256": "b2e749472724883f223e6c8d2d9279deaa4953678668da49e5914272fea16f86",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/4-up.avif",
+      "size": 127486,
+      "sha256": "20ae73819741b9d179bb1cb0f5b9312d4c556210ee933250fc8d41e1545f6f51",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-back.avif",
+      "size": 183841,
+      "sha256": "2646d155a275335ee0c254c59cbc2680308a85e726b003f229a4ba045d3f2dc2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-down.avif",
+      "size": 155294,
+      "sha256": "fb8021a6a3502a264ba6ad898370f24e22ec615640ce5f41792a61e3b9bf31c1",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-front.avif",
+      "size": 160497,
+      "sha256": "3dd6efdd8129aba49f734c11355c75f970b503c6b33da0c5a451e3647c1b4fb3",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-left.avif",
+      "size": 131035,
+      "sha256": "7707c297c5ee76a41b406d08b94677927dd112bdf4f5ca7ab384f9327177acfe",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-right.avif",
+      "size": 155889,
+      "sha256": "4345e6c79a42c5caa808b99fc4bfa07672b710ff38457fb9a04b929943ecbae1",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/5-up.avif",
+      "size": 68197,
+      "sha256": "73651abf1ec99a26ae60bda4b86e9fd4a7cfbe492ddf350843a87ff48bc9f4c6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-back.avif",
+      "size": 151581,
+      "sha256": "c6f09a44e1f50c1979e6dc87e8cf442c31966553ab954a480c672e8bb6e68a08",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-down.avif",
+      "size": 174185,
+      "sha256": "7d71eeba7921986cf46be29d4d2b706ffe7126df9fd6ca59fa5751d7de07e67f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-front.avif",
+      "size": 186987,
+      "sha256": "01d22de47886ec3d99e1ea5e4fe913a4377532d68976b17b351e10d2fcbbdc9b",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-left.avif",
+      "size": 156217,
+      "sha256": "4c9216fbe52db807874002e58a22afd238e1d852911a02a822a600ae21d46923",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-right.avif",
+      "size": 126415,
+      "sha256": "30a9907b19c4f584e598d2686e9968b99009c480a0c4b1d715f79ef9b8de2530",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/6-up.avif",
+      "size": 85985,
+      "sha256": "ea8316070d19e020453d23d09ae909f19ce4af5b1db100cc622f8ee96dd4d061",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-back.avif",
+      "size": 119633,
+      "sha256": "41413de0a61e21975ae2e0de52834cd426c4a19d08c31d98d81fd1dca777aa1f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-down.avif",
+      "size": 179737,
+      "sha256": "7ed8cfcfff76884052e986e4e8850ed8a9352523a5fd98d7cf816dfe82d13c0d",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-front.avif",
+      "size": 174919,
+      "sha256": "b78f83b0aa28b2059f1984788c735692dc863bf20886a9534cf8b35c0e2f1739",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-left.avif",
+      "size": 173674,
+      "sha256": "543b8a578fd6185bd23b6819d3ba5697f43df96e1e1792b0e30cb4b7fc8a9759",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-right.avif",
+      "size": 158790,
+      "sha256": "c93d34850a614ff04c40bd8922aa01e3862ee83188bc64006d88827e466fb014",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/7-up.avif",
+      "size": 76627,
+      "sha256": "8dbfdd72bf5b5e79f280dffa6470aebda1cc15ba747f4b1838ffc0e3b1c939b2",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-back.avif",
+      "size": 155515,
+      "sha256": "68f7f107238a072f8b5e3d184b51c9388f44e294095504a1462564f1ef0168a6",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-down.avif",
+      "size": 134747,
+      "sha256": "5c25b802f17aa3c688402534e36db5251567248c9d60ece1430811b24340f009",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-front.avif",
+      "size": 254095,
+      "sha256": "5f3fb139bb129fb18409ea70ea84e0ad615c56a9f36bd4e16b8bf02b2fa392a9",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-left.avif",
+      "size": 156195,
+      "sha256": "d2a7409266cb75b02cf6d9141ea718244c4f06f342efe4746fe03ff2bda4cb22",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-right.avif",
+      "size": 133243,
+      "sha256": "8fda924a62c99934321c1be2bbf964677de8ffb84ce697c679f09aa84d11c695",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/8-up.avif",
+      "size": 69000,
+      "sha256": "c24696e2fd0aa930b4abd2aa1e7402dd44d530fdf9bdcd8c5852960ac7538611",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-back.avif",
+      "size": 168758,
+      "sha256": "cce7c9d3fd6492422aeb9d52174f5894188201ea33b7c79f5b86513433a61e13",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-down.avif",
+      "size": 296743,
+      "sha256": "45f91f37a85f21056b7574753bffb6a9bd2277902da3bed5fb5aa43da629c224",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-front.avif",
+      "size": 290609,
+      "sha256": "9c20073e797c64f69c8f55b7d5a87d500eb2f13528b00fa2fe22afccf7d34e20",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-left.avif",
+      "size": 331346,
+      "sha256": "f472c4ac861e8dae2a9c85cdccf9747639fc11be7bf837f700852e2be6aedeb0",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-right.avif",
+      "size": 90563,
+      "sha256": "e0b0237b095a3cff1f2d5da2a49b2e628cfb5d0733c7b1c98c32d65bcab9c989",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/faces/9-up.avif",
+      "size": 212140,
+      "sha256": "3893381038d2c2f28d30ec477eeba2217e0892ae352edaa77a08487b18ec304f",
+      "suffix": ".avif",
+      "class": "source_asset",
+      "codec": "av1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "decoded": true
+    },
+    {
+      "path": "03-完整VR素材/living-directions.jpg",
+      "size": 390038,
+      "sha256": "58ba86d3f370616e15f2c021d90975965b9563fcfd47704b6146fe379d6d8913",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        1200,
+        1944
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/model/model.at3d",
+      "size": 485118,
+      "sha256": "c5ab7d610cdd6f886701bbe1ab1ef661af0830846c52713e0336e710a1678781",
+      "suffix": ".at3d",
+      "class": "source_asset"
+    },
+    {
+      "path": "03-完整VR素材/model/texture_0.jpg",
+      "size": 721082,
+      "sha256": "4e9c6a09af1445f0eecd1cc325f03d0b97a21c6e5622cc893d7061852080eeae",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/model/texture_1.jpg",
+      "size": 614416,
+      "sha256": "e986f0c107058b8704fbd01e90d4774132469d25b604492fb0db8f4953a1a2b5",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/model/texture_2.jpg",
+      "size": 694592,
+      "sha256": "0a577edf88c6fb33073e3e3bd2d829ae67c26b9605c3572eb8a43a2e172480ef",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/model/texture_3.jpg",
+      "size": 763284,
+      "sha256": "59d85f3d4534feaa9c8f67e4bce9cee7578bb7ef693194911a6cb0104128703a",
+      "suffix": ".jpg",
+      "class": "source_asset",
+      "image_format": "JPEG",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "image_decoded": true
+    },
+    {
+      "path": "03-完整VR素材/model/work.json",
+      "size": 53152,
+      "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "03-完整VR素材/offline-inventory.json",
+      "size": 200,
+      "sha256": "11b0b1a94883a4f6c9d70f936b0a315510f76dd3b9e8f0be5f228eb0dfd27fbd",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "03-完整VR素材/source.html",
+      "size": 89248,
+      "sha256": "6c1359e5a596d42a6ed2576e582ac31a76eb16669ccf7159049341248e0adcfa",
+      "suffix": ".html",
+      "class": "source_asset"
+    },
+    {
+      "path": "03-完整VR素材/vr-manifest.json",
+      "size": 40463,
+      "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "03-完整VR素材/work.json",
+      "size": 53152,
+      "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0",
+      "suffix": ".json",
+      "class": "source_asset",
+      "json_valid": true,
+      "top_level_type": "dict"
+    },
+    {
+      "path": "房源资料说明.md",
+      "size": 1411,
+      "sha256": "e760db386026f5021139245a8232480df9563049d10a3eac487ab6bf7a4f078f",
+      "suffix": ".md",
+      "class": "source_asset"
+    }
+  ],
+  "file_count": 241,
+  "business_asset_count": 240,
+  "total_bytes": 38091040,
+  "suffix_counts": {
+    "": 1,
+    ".json": 10,
+    ".jpg": 10,
+    ".png": 1,
+    ".avif": 216,
+    ".at3d": 1,
+    ".html": 1,
+    ".md": 1
+  },
+  "duplicate_groups": [
+    {
+      "sha256": "11b0b1a94883a4f6c9d70f936b0a315510f76dd3b9e8f0be5f228eb0dfd27fbd",
+      "paths": [
+        "01-房源信息/offline-inventory.json",
+        "03-完整VR素材/offline-inventory.json"
+      ]
+    },
+    {
+      "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55",
+      "paths": [
+        "01-房源信息/vr-manifest.json",
+        "03-完整VR素材/vr-manifest.json"
+      ]
+    },
+    {
+      "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0",
+      "paths": [
+        "01-房源信息/work.json",
+        "03-完整VR素材/model/work.json",
+        "03-完整VR素材/work.json"
+      ]
+    }
+  ],
+  "preservation": "All originals read-only; no copies, moves, crop edits or writes to Downloads. Source hashes frozen at initialization read time.",
+  "not_a_production_authorization": true
+}

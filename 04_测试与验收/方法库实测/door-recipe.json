@@ -1,0 +1,1 @@
+{"id":"C03-door","start":{"pano":9,"yaw":3.18,"fov":80},"steps":[{"kind":"hold","ms":600},{"kind":"move","pano":10,"yaw":3.18,"fov":80,"ms":4000},{"kind":"hold","ms":1400}]}

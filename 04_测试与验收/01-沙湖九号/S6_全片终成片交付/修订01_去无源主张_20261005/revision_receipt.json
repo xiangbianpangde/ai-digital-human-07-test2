@@ -1,0 +1,96 @@
+{
+  "schema": "case1-revision-readiness-receipt/v1",
+  "at": "2026-10-05T17:23:32+08:00",
+  "user_directions_selected": 4,
+  "candidate_sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7",
+  "protected_non_system_files_original_content_checked_at_current_locations": 1203,
+  "source_registry_first20_bytes_preserved": true,
+  "asset_index_prefix_preserved": true,
+  "log_previous_prefix": {
+    "size": 41424,
+    "sha256": "3f49bcb583c854ac161b70dbb6cb4bb51d1853bbb5d8b81f80766c3b59dd1962",
+    "append_only": true
+  },
+  "documents_checked": 8,
+  "direct_local_refs_valid": 101,
+  "internal_only": true,
+  "technical_checks_passed": true,
+  "human_full_visual_audio_subtitle_review_completed": false,
+  "phase0_business_closeout": "BLOCKED",
+  "phase4_production_gate": "BLOCKED",
+  "second_listing_query_run": false,
+  "second_shot_trial_run": false,
+  "new_tts_recording_paid_call": false,
+  "old_source_files_moved_by_this_task": false,
+  "version_outputs": [
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_01_hero_verified.png",
+      "sha256": "31ea2afc791f2d51533fe4d6be968b0a3efdab07c58fe7a399cab8177b190859"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_04_s2_no_unverified_dimension.png",
+      "sha256": "606eb06724af4d8c7719dc9807bbe54be93039d28ae3241e064baa35d89452ae"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/readiness_decisions.json",
+      "sha256": "e61a4acf0ac33dc67e39c30f7f88dbf3797d499b04c25e7309cd4bcc7f4a99e0"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/render_recipe.json",
+      "sha256": "b35b63e20b1c79715f1040d43a92c1be9987f4ddb6edb3749542dfb0dae8f020"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_contact_sheet.png",
+      "sha256": "1f97e05285dc19ca23c388b408806bb8d8f1cf21a26a35a26222e3ccdfd9e9fa"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_00.png",
+      "sha256": "e06062db24eece0615bc81359ba5881609b2a8fa719cb4915cde7f80e600eb90"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_01.png",
+      "sha256": "0aa16b728c7bcbc87f71defbf99539bb1eeb91ba118415d0b624ef511bab07c7"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_02.png",
+      "sha256": "599ff11eb30373fdc1b52cc05573eede7f3f42404b0fd637c36db8cd5d51908f"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_03.png",
+      "sha256": "3d6e78915193c82eaba5099017004699b0a35724d99b4fef1b6ea43b2571d3b4"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_04.png",
+      "sha256": "817ca268117f159a0fa9c4ac79983070533b18a09328dde6e708bef657e5cc27"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_05.png",
+      "sha256": "c107a647bb4eb8e8e73c8a00dc6eef5ac4e5033836be481b20e6b54b25b81cc3"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_06.png",
+      "sha256": "c80b255b706ceb64fe36ead7854d560c84a27eb681c855cd6176cf70449dfd30"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/revision_frame_07.png",
+      "sha256": "631006e88e6de7f2a33adabdebbf73066191c17fb206c3a0d358a71dc1f6d816"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/technical_check.json",
+      "sha256": "4be827339ae2bb0347cfdb85f74bdb058539f19647f7e3e947e0dfafe7a07f1d"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/内部终审单.md",
+      "sha256": "20adbb10600b8097d060c5aaf475f3bfc7843e8ecce0b0ad57df696977040141"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4",
+      "sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7"
+    }
+  ],
+  "limits": [
+    "Human final acceptance must be an actual complete watch/listen of the specified candidate, not inferred from choosing minimal revision.",
+    "Only internal usage and actual25.30s/no-digital-human deviation accepted; no commercial publication rights certification.",
+    "Media at externally reorganized paths matches original contents; existing legacy code/registry links remain potentially stale and were not blanket rewritten."
+  ]
+}

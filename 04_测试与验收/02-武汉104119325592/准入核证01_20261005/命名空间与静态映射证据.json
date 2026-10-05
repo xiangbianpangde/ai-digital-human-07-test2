@@ -1,0 +1,2091 @@
+{
+  "schema": "case2-observer-panorama-namespace-check/v1",
+  "at": "2026-10-05T17:44:29.114679+08:00",
+  "listing_id": "104119325592",
+  "sources": [
+    {
+      "path": "01-房源信息/work.json",
+      "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0"
+    },
+    {
+      "path": "01-房源信息/vr-manifest.json",
+      "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+    }
+  ],
+  "source_root": "/Users/xbpd/Downloads/武汉104119325592-房源资料",
+  "observer_and_pano_index_sets_match": true,
+  "native_room_ids_available": false,
+  "listing_rooms_numbers_are_not_native_room_ids_or_pano_indices": true,
+  "listing_rooms_numbers_match_approximately_floorplan_label_values_but_unit_not_declared": true,
+  "native_eye_delta_range": [
+    1.2021828889846802,
+    1.2686854600906372
+  ],
+  "items": [
+    {
+      "pano_index": 0,
+      "observer_index": 0,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -0.0018277543,
+        0.0084882487,
+        -0.0132565774
+      ],
+      "standing_position": [
+        -0.0018277543,
+        -1.2138777266799439,
+        -0.0132565774
+      ],
+      "native_coordinate_eye_delta": 1.2223659753799438,
+      "accessible_indices": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11,
+        12,
+        20
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=0]"
+    },
+    {
+      "pano_index": 1,
+      "observer_index": 1,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        0.3630843652,
+        0.0140040917,
+        1.5924305328
+      ],
+      "standing_position": [
+        0.3630843652,
+        -1.2121482091346558,
+        1.5924305328
+      ],
+      "native_coordinate_eye_delta": 1.2261523008346558,
+      "accessible_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11,
+        12
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=1]"
+    },
+    {
+      "pano_index": 2,
+      "observer_index": 2,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        0.3823913508,
+        0.0238019176,
+        3.9302497982
+      ],
+      "standing_position": [
+        0.3823913508,
+        -1.210145597887671,
+        3.9302497982
+      ],
+      "native_coordinate_eye_delta": 1.233947515487671,
+      "accessible_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        9,
+        11,
+        13
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=2]"
+    },
+    {
+      "pano_index": 3,
+      "observer_index": 3,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        0.2293034649,
+        0.0148207657,
+        5.5799616252
+      ],
+      "standing_position": [
+        0.2293034649,
+        -1.210062790665967,
+        5.5799616252
+      ],
+      "native_coordinate_eye_delta": 1.2248835563659668,
+      "accessible_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        9,
+        11
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=3]"
+    },
+    {
+      "pano_index": 4,
+      "observer_index": 4,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -1.1947511685,
+        0.0183449442,
+        6.0605157626
+      ],
+      "standing_position": [
+        -1.1947511685,
+        -1.1966040676026732,
+        6.0605157626
+      ],
+      "native_coordinate_eye_delta": 1.2149490118026733,
+      "accessible_indices": [
+        3
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=4]"
+    },
+    {
+      "pano_index": 5,
+      "observer_index": 5,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -0.0933783379,
+        0.00070807,
+        -1.3225182084
+      ],
+      "standing_position": [
+        -0.0933783379,
+        -1.2184402082363892,
+        -1.3225182084
+      ],
+      "native_coordinate_eye_delta": 1.2191482782363892,
+      "accessible_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        9,
+        11,
+        12
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=5]"
+    },
+    {
+      "pano_index": 6,
+      "observer_index": 6,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -0.1347330867,
+        -0.0034173359,
+        -2.6677454903
+      ],
+      "standing_position": [
+        -0.1347330867,
+        -1.231918655785254,
+        -2.6677454903
+      ],
+      "native_coordinate_eye_delta": 1.228501319885254,
+      "accessible_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=6]"
+    },
+    {
+      "pano_index": 7,
+      "observer_index": 7,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        1.2028557589,
+        -0.0123966905,
+        -2.8553674982
+      ],
+      "standing_position": [
+        1.2028557589,
+        -1.2197116586091308,
+        -2.8553674982
+      ],
+      "native_coordinate_eye_delta": 1.2073149681091309,
+      "accessible_indices": [
+        6,
+        8
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=7]"
+    },
+    {
+      "pano_index": 8,
+      "observer_index": 8,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        1.3023863292,
+        -0.0086769146,
+        -1.8738124557
+      ],
+      "standing_position": [
+        1.3023863292,
+        -1.2150266450916383,
+        -1.8738124557
+      ],
+      "native_coordinate_eye_delta": 1.2063497304916382,
+      "accessible_indices": [
+        7
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=8]"
+    },
+    {
+      "pano_index": 9,
+      "observer_index": 9,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -0.6656195602,
+        -0.0240600506,
+        -4.3515198945
+      ],
+      "standing_position": [
+        -0.6656195602,
+        -1.2290014425448852,
+        -4.3515198945
+      ],
+      "native_coordinate_eye_delta": 1.2049413919448853,
+      "accessible_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        10,
+        11
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=9]"
+    },
+    {
+      "pano_index": 10,
+      "observer_index": 10,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -3.5852886402,
+        -0.0328896251,
+        -4.4837510472
+      ],
+      "standing_position": [
+        -3.5852886402,
+        -1.2424721923149658,
+        -4.4837510472
+      ],
+      "native_coordinate_eye_delta": 1.2095825672149658,
+      "accessible_indices": [
+        9
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=10]"
+    },
+    {
+      "pano_index": 11,
+      "observer_index": 11,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -1.4823262845,
+        0.0074864987,
+        0.0630636933
+      ],
+      "standing_position": [
+        -1.4823262845,
+        -1.2214983340636718,
+        0.0630636933
+      ],
+      "native_coordinate_eye_delta": 1.2289848327636719,
+      "accessible_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        12,
+        20
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=11]"
+    },
+    {
+      "pano_index": 12,
+      "observer_index": 12,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -3.1623789991,
+        -0.0005351943,
+        0.0839044512
+      ],
+      "standing_position": [
+        -3.1623789991,
+        -1.2244946402533692,
+        0.0839044512
+      ],
+      "native_coordinate_eye_delta": 1.2239594459533691,
+      "accessible_indices": [
+        0,
+        1,
+        5,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        22,
+        23
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=12]"
+    },
+    {
+      "pano_index": 13,
+      "observer_index": 13,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -3.214550997,
+        -0.0052477029,
+        -0.9468044173
+      ],
+      "standing_position": [
+        -3.214550997,
+        -1.215543260875769,
+        -0.9468044173
+      ],
+      "native_coordinate_eye_delta": 1.210295557975769,
+      "accessible_indices": [
+        2,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=13]"
+    },
+    {
+      "pano_index": 14,
+      "observer_index": 14,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -3.3705486067,
+        -0.018884285,
+        -2.9574262185
+      ],
+      "standing_position": [
+        -3.3705486067,
+        -1.227509840038452,
+        -2.9574262185
+      ],
+      "native_coordinate_eye_delta": 1.2086255550384521,
+      "accessible_indices": [
+        12,
+        13,
+        15,
+        16,
+        17,
+        19
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=14]"
+    },
+    {
+      "pano_index": 15,
+      "observer_index": 15,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -4.3524886505,
+        -0.02930413,
+        -3.1930274806
+      ],
+      "standing_position": [
+        -4.3524886505,
+        -1.2314870189846803,
+        -3.1930274806
+      ],
+      "native_coordinate_eye_delta": 1.2021828889846802,
+      "accessible_indices": [
+        12,
+        13,
+        14
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=15]"
+    },
+    {
+      "pano_index": 16,
+      "observer_index": 16,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -2.7920333754,
+        -0.0032387241,
+        1.508807198
+      ],
+      "standing_position": [
+        -2.7920333754,
+        -1.210379289018518,
+        1.508807198
+      ],
+      "native_coordinate_eye_delta": 1.207140564918518,
+      "accessible_indices": [
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=16]"
+    },
+    {
+      "pano_index": 17,
+      "observer_index": 17,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -2.6943008742,
+        0.0046835959,
+        4.2057220503
+      ],
+      "standing_position": [
+        -2.6943008742,
+        -1.2115383326964966,
+        4.2057220503
+      ],
+      "native_coordinate_eye_delta": 1.2162219285964966,
+      "accessible_indices": [
+        12,
+        13,
+        14,
+        16,
+        18
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=17]"
+    },
+    {
+      "pano_index": 18,
+      "observer_index": 18,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -4.2190082142,
+        0.1338874383,
+        5.2893232504
+      ],
+      "standing_position": [
+        -4.2190082142,
+        -1.0814741568538087,
+        5.2893232504
+      ],
+      "native_coordinate_eye_delta": 1.2153615951538086,
+      "accessible_indices": [
+        12,
+        16,
+        17,
+        19
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=18]"
+    },
+    {
+      "pano_index": 19,
+      "observer_index": 19,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -3.3935923167,
+        0.1383174764,
+        5.7380390842
+      ],
+      "standing_position": [
+        -3.3935923167,
+        -1.0772167338050782,
+        5.7380390842
+      ],
+      "native_coordinate_eye_delta": 1.2155342102050781,
+      "accessible_indices": [
+        12,
+        13,
+        14,
+        16,
+        18
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=19]"
+    },
+    {
+      "pano_index": 20,
+      "observer_index": 20,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.0462921442,
+        -0.0128840929,
+        0.1239758379
+      ],
+      "standing_position": [
+        -6.0462921442,
+        -1.2439778572051148,
+        0.1239758379
+      ],
+      "native_coordinate_eye_delta": 1.2310937643051147,
+      "accessible_indices": [
+        0,
+        11,
+        12,
+        21,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=20]"
+    },
+    {
+      "pano_index": 21,
+      "observer_index": 21,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.2048665915,
+        -0.0183090235,
+        -0.9232369857
+      ],
+      "standing_position": [
+        -6.2048665915,
+        -1.2389643455748902,
+        -0.9232369857
+      ],
+      "native_coordinate_eye_delta": 1.2206553220748901,
+      "accessible_indices": [
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=21]"
+    },
+    {
+      "pano_index": 22,
+      "observer_index": 22,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -7.354828545,
+        -0.0241975929,
+        -0.8596841762
+      ],
+      "standing_position": [
+        -7.354828545,
+        -1.2371021653868775,
+        -0.8596841762
+      ],
+      "native_coordinate_eye_delta": 1.2129045724868774,
+      "accessible_indices": [
+        12,
+        21,
+        23,
+        24
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=22]"
+    },
+    {
+      "pano_index": 23,
+      "observer_index": 23,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -8.5615459207,
+        -0.0237731959,
+        -1.0323858765
+      ],
+      "standing_position": [
+        -8.5615459207,
+        -1.2470228697433838,
+        -1.0323858765
+      ],
+      "native_coordinate_eye_delta": 1.2232496738433838,
+      "accessible_indices": [
+        12,
+        21,
+        22,
+        24
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=23]"
+    },
+    {
+      "pano_index": 24,
+      "observer_index": 24,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -9.2688068098,
+        -0.0234951498,
+        -1.0326740839
+      ],
+      "standing_position": [
+        -9.2688068098,
+        -1.2388512613264893,
+        -1.0326740839
+      ],
+      "native_coordinate_eye_delta": 1.2153561115264893,
+      "accessible_indices": [
+        21,
+        22,
+        23
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=24]"
+    },
+    {
+      "pano_index": 25,
+      "observer_index": 25,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.1549874425,
+        -0.0194377633,
+        -2.3509920235
+      ],
+      "standing_position": [
+        -6.1549874425,
+        -1.2321586342716797,
+        -2.3509920235
+      ],
+      "native_coordinate_eye_delta": 1.2127208709716797,
+      "accessible_indices": [
+        20,
+        21,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=25]"
+    },
+    {
+      "pano_index": 26,
+      "observer_index": 26,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.2289029961,
+        -0.0254377422,
+        -4.5578297797
+      ],
+      "standing_position": [
+        -6.2289029961,
+        -1.2552132901812623,
+        -4.5578297797
+      ],
+      "native_coordinate_eye_delta": 1.2297755479812622,
+      "accessible_indices": [
+        20,
+        21,
+        25,
+        27,
+        28,
+        29,
+        30
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=26]"
+    },
+    {
+      "pano_index": 27,
+      "observer_index": 27,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -7.3959604379,
+        0.019974955,
+        -4.7060910769
+      ],
+      "standing_position": [
+        -7.3959604379,
+        -1.2487105050906373,
+        -4.7060910769
+      ],
+      "native_coordinate_eye_delta": 1.2686854600906372,
+      "accessible_indices": [
+        20,
+        21,
+        25,
+        26
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=27]"
+    },
+    {
+      "pano_index": 28,
+      "observer_index": 28,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.2173393385,
+        0.0080971152,
+        2.3728305467
+      ],
+      "standing_position": [
+        -6.2173393385,
+        -1.2256749242134521,
+        2.3728305467
+      ],
+      "native_coordinate_eye_delta": 1.2337720394134521,
+      "accessible_indices": [
+        20,
+        21,
+        25,
+        26,
+        29,
+        30,
+        31,
+        32
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=28]"
+    },
+    {
+      "pano_index": 29,
+      "observer_index": 29,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.1835292783,
+        0.013905531,
+        3.9629181851
+      ],
+      "standing_position": [
+        -6.1835292783,
+        -1.2141777219067993,
+        3.9629181851
+      ],
+      "native_coordinate_eye_delta": 1.2280832529067993,
+      "accessible_indices": [
+        20,
+        21,
+        25,
+        26,
+        28,
+        30,
+        31,
+        33
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=29]"
+    },
+    {
+      "pano_index": 30,
+      "observer_index": 30,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -6.2256111171,
+        0.0306332661,
+        6.4568921657
+      ],
+      "standing_position": [
+        -6.2256111171,
+        -1.2119397567424073,
+        6.4568921657
+      ],
+      "native_coordinate_eye_delta": 1.2425730228424072,
+      "accessible_indices": [
+        20,
+        21,
+        25,
+        26,
+        28,
+        29,
+        31
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=30]"
+    },
+    {
+      "pano_index": 31,
+      "observer_index": 31,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -7.4746735158,
+        0.0260561205,
+        6.7705270509
+      ],
+      "standing_position": [
+        -7.4746735158,
+        -1.2014873527437133,
+        6.7705270509
+      ],
+      "native_coordinate_eye_delta": 1.2275434732437134,
+      "accessible_indices": [
+        20,
+        28,
+        29,
+        30
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=31]"
+    },
+    {
+      "pano_index": 32,
+      "observer_index": 32,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -7.4853732335,
+        0.0098336093,
+        2.4656755363
+      ],
+      "standing_position": [
+        -7.4853732335,
+        -1.2275046952196533,
+        2.4656755363
+      ],
+      "native_coordinate_eye_delta": 1.2373383045196533,
+      "accessible_indices": [
+        28,
+        33
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=32]"
+    },
+    {
+      "pano_index": 33,
+      "observer_index": 33,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -7.5995218765,
+        -0.0102057099,
+        1.3240632977
+      ],
+      "standing_position": [
+        -7.5995218765,
+        -1.2349357247010253,
+        1.3240632977
+      ],
+      "native_coordinate_eye_delta": 1.2247300148010254,
+      "accessible_indices": [
+        29,
+        32,
+        34,
+        35
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=33]"
+    },
+    {
+      "pano_index": 34,
+      "observer_index": 34,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -8.5515097244,
+        -0.0068315009,
+        1.2982147508
+      ],
+      "standing_position": [
+        -8.5515097244,
+        -1.243885372054785,
+        1.2982147508
+      ],
+      "native_coordinate_eye_delta": 1.2370538711547852,
+      "accessible_indices": [
+        33,
+        35
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=34]"
+    },
+    {
+      "pano_index": 35,
+      "observer_index": 35,
+      "native_room_id": null,
+      "native_room_name": null,
+      "position": [
+        -9.2909934997,
+        0.0001524579,
+        1.3532823009
+      ],
+      "standing_position": [
+        -9.2909934997,
+        -1.245083581261682,
+        1.3532823009
+      ],
+      "native_coordinate_eye_delta": 1.2452360391616821,
+      "accessible_indices": [
+        33,
+        34
+      ],
+      "physical_clearance_m_verified": false,
+      "metric_height_measurement": false,
+      "visual_assignment": "Pending manual inspection of source-derived four-face sheets",
+      "source_locator": "$.observers[index=35]"
+    }
+  ],
+  "four_direction_source_faces": [
+    {
+      "pano_index": 0,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/0-front.avif",
+      "sha256": "986e1ca0a721e33537ec0684635fd8f59a68519be1b640e30cc2c92512b506d0",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/0/e8df91315b048c4e51f354541d4cf159/0_f.avif"
+    },
+    {
+      "pano_index": 0,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/0-right.avif",
+      "sha256": "8c7bd6eb0ab6894c53ef9ea10d7314d3c28007c9954d409212615bb88e018fb2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/0/e8df91315b048c4e51f354541d4cf159/0_r.avif"
+    },
+    {
+      "pano_index": 0,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/0-back.avif",
+      "sha256": "bff31fe1c7e7ef55f9d4ba7e840300598614d6cab499bed3fd4b19f99ad773cd",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/0/e8df91315b048c4e51f354541d4cf159/0_b.avif"
+    },
+    {
+      "pano_index": 0,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/0-left.avif",
+      "sha256": "c4bc5e10c6d0dbd96a8b2ff8b2b17a5ffcc26e5cd436fe1b0c96d197902f63cc",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/0/e8df91315b048c4e51f354541d4cf159/0_l.avif"
+    },
+    {
+      "pano_index": 1,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/1-front.avif",
+      "sha256": "9fd4c13944ca83bd4c9794d27d654df3b7b837a481c77ff71b812e07a6215911",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/1/d7628114afb9065428d2c8fbf32117c9/1_f.avif"
+    },
+    {
+      "pano_index": 1,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/1-right.avif",
+      "sha256": "69f711c472ff34e2389c270f1158d13c8a059a87e06485a40155e5d34fe216a5",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/1/d7628114afb9065428d2c8fbf32117c9/1_r.avif"
+    },
+    {
+      "pano_index": 1,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/1-back.avif",
+      "sha256": "bd2ce3dfcab73f2d028ee88291c420115fbc0922826cc0f528828604971a456d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/1/d7628114afb9065428d2c8fbf32117c9/1_b.avif"
+    },
+    {
+      "pano_index": 1,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/1-left.avif",
+      "sha256": "91c4d3b570b7fa44857895c8c86a328bcd368e48e5cc923a5c80ab5106bd4070",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/1/d7628114afb9065428d2c8fbf32117c9/1_l.avif"
+    },
+    {
+      "pano_index": 2,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/2-front.avif",
+      "sha256": "1ab2c2898b7d2d8cb1b4616ae1fb7843a4493077bbf44b3ea8a8910b80a3c056",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/2/a3881711f4ea210006ea9bfb0aa2f370/2_f.avif"
+    },
+    {
+      "pano_index": 2,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/2-right.avif",
+      "sha256": "da2fc4fb2f2b0f98a2151950c7df198900d242e322b9a439ee782e0d3de3ac52",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/2/a3881711f4ea210006ea9bfb0aa2f370/2_r.avif"
+    },
+    {
+      "pano_index": 2,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/2-back.avif",
+      "sha256": "c61490183e8d8eefc9fbd910d5bc935ac79d49493869f9d2d2911298d4c4d48b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/2/a3881711f4ea210006ea9bfb0aa2f370/2_b.avif"
+    },
+    {
+      "pano_index": 2,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/2-left.avif",
+      "sha256": "6b40ac84573e2f6ff453fd01a89cf63041d95b294634424f8c45a849e7009ee2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/2/a3881711f4ea210006ea9bfb0aa2f370/2_l.avif"
+    },
+    {
+      "pano_index": 3,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/3-front.avif",
+      "sha256": "a370e0724930916359e1ca383e2f2db7f9660527463394104aa9788d990613cb",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/3/2cb7c4ce775b10c3ad987e3cc4950b8e/3_f.avif"
+    },
+    {
+      "pano_index": 3,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/3-right.avif",
+      "sha256": "151433a5bf701ed3da35e958f7c6134c97709e7a65cdb92764edcd5b50a6c4f9",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/3/2cb7c4ce775b10c3ad987e3cc4950b8e/3_r.avif"
+    },
+    {
+      "pano_index": 3,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/3-back.avif",
+      "sha256": "2a371f70ae58481a32b51892b4bf1b9ff4ed0da37bced6161f2640aa388bafbe",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/3/2cb7c4ce775b10c3ad987e3cc4950b8e/3_b.avif"
+    },
+    {
+      "pano_index": 3,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/3-left.avif",
+      "sha256": "bfd331ed29d2a167554b1226d63218aba4347541035b8c2362123b8cce27604c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/3/2cb7c4ce775b10c3ad987e3cc4950b8e/3_l.avif"
+    },
+    {
+      "pano_index": 4,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/4-front.avif",
+      "sha256": "f1b56c5197ef5867b22d08339ae39668128e96cb67c5a49e3a3c086bd807c04a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/4/b37392f7fc8523a488ec73a3f8500165/4_f.avif"
+    },
+    {
+      "pano_index": 4,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/4-right.avif",
+      "sha256": "b2e749472724883f223e6c8d2d9279deaa4953678668da49e5914272fea16f86",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/4/b37392f7fc8523a488ec73a3f8500165/4_r.avif"
+    },
+    {
+      "pano_index": 4,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/4-back.avif",
+      "sha256": "b2a71f293b730cda95128492439766141e1ac521b1c5afdc8ec46e7a8fd85d53",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/4/b37392f7fc8523a488ec73a3f8500165/4_b.avif"
+    },
+    {
+      "pano_index": 4,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/4-left.avif",
+      "sha256": "95eb919a57fda6aedbc5df4a6b85e98ab29139dcebec64321810b154e7e2533f",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/4/b37392f7fc8523a488ec73a3f8500165/4_l.avif"
+    },
+    {
+      "pano_index": 5,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/5-front.avif",
+      "sha256": "3dd6efdd8129aba49f734c11355c75f970b503c6b33da0c5a451e3647c1b4fb3",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/5/1a74793ad4a2816fb56d7644a1d2f182/5_f.avif"
+    },
+    {
+      "pano_index": 5,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/5-right.avif",
+      "sha256": "4345e6c79a42c5caa808b99fc4bfa07672b710ff38457fb9a04b929943ecbae1",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/5/1a74793ad4a2816fb56d7644a1d2f182/5_r.avif"
+    },
+    {
+      "pano_index": 5,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/5-back.avif",
+      "sha256": "2646d155a275335ee0c254c59cbc2680308a85e726b003f229a4ba045d3f2dc2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/5/1a74793ad4a2816fb56d7644a1d2f182/5_b.avif"
+    },
+    {
+      "pano_index": 5,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/5-left.avif",
+      "sha256": "7707c297c5ee76a41b406d08b94677927dd112bdf4f5ca7ab384f9327177acfe",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/5/1a74793ad4a2816fb56d7644a1d2f182/5_l.avif"
+    },
+    {
+      "pano_index": 6,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/6-front.avif",
+      "sha256": "01d22de47886ec3d99e1ea5e4fe913a4377532d68976b17b351e10d2fcbbdc9b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/6/a2bdb4a627d933d0da90eb6339882c86/6_f.avif"
+    },
+    {
+      "pano_index": 6,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/6-right.avif",
+      "sha256": "30a9907b19c4f584e598d2686e9968b99009c480a0c4b1d715f79ef9b8de2530",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/6/a2bdb4a627d933d0da90eb6339882c86/6_r.avif"
+    },
+    {
+      "pano_index": 6,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/6-back.avif",
+      "sha256": "c6f09a44e1f50c1979e6dc87e8cf442c31966553ab954a480c672e8bb6e68a08",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/6/a2bdb4a627d933d0da90eb6339882c86/6_b.avif"
+    },
+    {
+      "pano_index": 6,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/6-left.avif",
+      "sha256": "4c9216fbe52db807874002e58a22afd238e1d852911a02a822a600ae21d46923",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/6/a2bdb4a627d933d0da90eb6339882c86/6_l.avif"
+    },
+    {
+      "pano_index": 7,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/7-front.avif",
+      "sha256": "b78f83b0aa28b2059f1984788c735692dc863bf20886a9534cf8b35c0e2f1739",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/7/21713f7e170cd9f901a64816e609e454/7_f.avif"
+    },
+    {
+      "pano_index": 7,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/7-right.avif",
+      "sha256": "c93d34850a614ff04c40bd8922aa01e3862ee83188bc64006d88827e466fb014",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/7/21713f7e170cd9f901a64816e609e454/7_r.avif"
+    },
+    {
+      "pano_index": 7,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/7-back.avif",
+      "sha256": "41413de0a61e21975ae2e0de52834cd426c4a19d08c31d98d81fd1dca777aa1f",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/7/21713f7e170cd9f901a64816e609e454/7_b.avif"
+    },
+    {
+      "pano_index": 7,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/7-left.avif",
+      "sha256": "543b8a578fd6185bd23b6819d3ba5697f43df96e1e1792b0e30cb4b7fc8a9759",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/7/21713f7e170cd9f901a64816e609e454/7_l.avif"
+    },
+    {
+      "pano_index": 8,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/8-front.avif",
+      "sha256": "5f3fb139bb129fb18409ea70ea84e0ad615c56a9f36bd4e16b8bf02b2fa392a9",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/8/1f2250bbc3290e6aa155d1213744c62b/8_f.avif"
+    },
+    {
+      "pano_index": 8,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/8-right.avif",
+      "sha256": "8fda924a62c99934321c1be2bbf964677de8ffb84ce697c679f09aa84d11c695",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/8/1f2250bbc3290e6aa155d1213744c62b/8_r.avif"
+    },
+    {
+      "pano_index": 8,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/8-back.avif",
+      "sha256": "68f7f107238a072f8b5e3d184b51c9388f44e294095504a1462564f1ef0168a6",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/8/1f2250bbc3290e6aa155d1213744c62b/8_b.avif"
+    },
+    {
+      "pano_index": 8,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/8-left.avif",
+      "sha256": "d2a7409266cb75b02cf6d9141ea718244c4f06f342efe4746fe03ff2bda4cb22",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/8/1f2250bbc3290e6aa155d1213744c62b/8_l.avif"
+    },
+    {
+      "pano_index": 9,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/9-front.avif",
+      "sha256": "9c20073e797c64f69c8f55b7d5a87d500eb2f13528b00fa2fe22afccf7d34e20",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/9/7fce83d95d1fbd1685cab10674a40321/9_f.avif"
+    },
+    {
+      "pano_index": 9,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/9-right.avif",
+      "sha256": "e0b0237b095a3cff1f2d5da2a49b2e628cfb5d0733c7b1c98c32d65bcab9c989",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/9/7fce83d95d1fbd1685cab10674a40321/9_r.avif"
+    },
+    {
+      "pano_index": 9,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/9-back.avif",
+      "sha256": "cce7c9d3fd6492422aeb9d52174f5894188201ea33b7c79f5b86513433a61e13",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/9/7fce83d95d1fbd1685cab10674a40321/9_b.avif"
+    },
+    {
+      "pano_index": 9,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/9-left.avif",
+      "sha256": "f472c4ac861e8dae2a9c85cdccf9747639fc11be7bf837f700852e2be6aedeb0",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/9/7fce83d95d1fbd1685cab10674a40321/9_l.avif"
+    },
+    {
+      "pano_index": 10,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/10-front.avif",
+      "sha256": "471efb8afc347a6669a75e4096bc895451e7528c2044f1f3eaebf1174e586d81",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/10/97feddb1af51c19236d88e6ea6d3340f/10_f.avif"
+    },
+    {
+      "pano_index": 10,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/10-right.avif",
+      "sha256": "6f9a426d782071f62dc62da3d7d13a14190a3c78167e1ef3f3394ba1db7591fe",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/10/97feddb1af51c19236d88e6ea6d3340f/10_r.avif"
+    },
+    {
+      "pano_index": 10,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/10-back.avif",
+      "sha256": "9666c615f86cde4844bec05756923e107668173680d943879999dd7de2935d04",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/10/97feddb1af51c19236d88e6ea6d3340f/10_b.avif"
+    },
+    {
+      "pano_index": 10,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/10-left.avif",
+      "sha256": "e789bcf70e7f9dec02cb09623a48854573335d0c3daf68c3473a976aab818dd8",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/10/97feddb1af51c19236d88e6ea6d3340f/10_l.avif"
+    },
+    {
+      "pano_index": 11,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/11-front.avif",
+      "sha256": "5acc96f68d43c4cdf71d114b75bf2808e55dcf87590e822297cbb660457210dc",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/11/f89132025ae20a56d0e59f129d1d6aba/11_f.avif"
+    },
+    {
+      "pano_index": 11,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/11-right.avif",
+      "sha256": "b8fb25e36556054eef9d7176081d693d6ed9be582fc7235e4804e9acd7a2b35c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/11/f89132025ae20a56d0e59f129d1d6aba/11_r.avif"
+    },
+    {
+      "pano_index": 11,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/11-back.avif",
+      "sha256": "411d9e5fa3cd0e5d4aa73be7e22b698a5ab2c680061d8f6231cb7e6dbe5203ac",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/11/f89132025ae20a56d0e59f129d1d6aba/11_b.avif"
+    },
+    {
+      "pano_index": 11,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/11-left.avif",
+      "sha256": "3364ebcc3f8e462892ae6b4541522634edf432ee6ddf0c31161020853a8a619f",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/11/f89132025ae20a56d0e59f129d1d6aba/11_l.avif"
+    },
+    {
+      "pano_index": 12,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/12-front.avif",
+      "sha256": "c524396fe4fe70bb433d0e99d505d5f2288730d78a6a9feaea075f675d288b51",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/12/af5f7b431441023fcc1f40c6f737199e/12_f.avif"
+    },
+    {
+      "pano_index": 12,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/12-right.avif",
+      "sha256": "085a39eba05f25b144896cd9310871d8fd46659b36e555433d57ae03d97b9d00",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/12/af5f7b431441023fcc1f40c6f737199e/12_r.avif"
+    },
+    {
+      "pano_index": 12,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/12-back.avif",
+      "sha256": "3bdc537e992296e38178381ffa7ee9d3cd2f70b21f2c62526dffa40cefb3954e",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/12/af5f7b431441023fcc1f40c6f737199e/12_b.avif"
+    },
+    {
+      "pano_index": 12,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/12-left.avif",
+      "sha256": "050ca29c4d5c805b979683249282783e531c6ab9155b5168aaacd02594915007",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/12/af5f7b431441023fcc1f40c6f737199e/12_l.avif"
+    },
+    {
+      "pano_index": 13,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/13-front.avif",
+      "sha256": "e37db2ca3f261e591c844bc69f267797b9d0f906b27f90e029cd5fc9d8125d6a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/13/f1ff4285fb68e4f9bcb2855081034580/13_f.avif"
+    },
+    {
+      "pano_index": 13,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/13-right.avif",
+      "sha256": "a92e0756493b52d4fe3fcdd0700b4b1bb67c02f51419cd90e5a64af6765ac87c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/13/f1ff4285fb68e4f9bcb2855081034580/13_r.avif"
+    },
+    {
+      "pano_index": 13,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/13-back.avif",
+      "sha256": "8a373cd1adc71fff2688c01fe918c0103df842cc853d01e303fc5a29dce89f74",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/13/f1ff4285fb68e4f9bcb2855081034580/13_b.avif"
+    },
+    {
+      "pano_index": 13,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/13-left.avif",
+      "sha256": "b37d9dfa93645dfba1510877ff2edc4728fe089cce7ee73f87f1c76df229d6ad",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/13/f1ff4285fb68e4f9bcb2855081034580/13_l.avif"
+    },
+    {
+      "pano_index": 14,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/14-front.avif",
+      "sha256": "d1166322a21a5ea710527d121a8079281ca4c06522fcdf17b86eed8d5c823bf4",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/14/b5808d5277ea4a59fd5c6130b58fda1d/14_f.avif"
+    },
+    {
+      "pano_index": 14,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/14-right.avif",
+      "sha256": "a20f77220eaf48394ce1abbf354ccfff5785ceebdec8f6cb530dd7ce40dd76f1",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/14/b5808d5277ea4a59fd5c6130b58fda1d/14_r.avif"
+    },
+    {
+      "pano_index": 14,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/14-back.avif",
+      "sha256": "af82fd8cae937e6d4b1063b7d93b7967c47cd49c173260d8b38ebf6c0bfcc97e",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/14/b5808d5277ea4a59fd5c6130b58fda1d/14_b.avif"
+    },
+    {
+      "pano_index": 14,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/14-left.avif",
+      "sha256": "d0902407b91ad82c331d08da91a2e3e2622e9a488d0123cc2998fb85082e8fb6",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/14/b5808d5277ea4a59fd5c6130b58fda1d/14_l.avif"
+    },
+    {
+      "pano_index": 15,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/15-front.avif",
+      "sha256": "bba71537a24191a303552073565947e134a9af7638058ea366a09784728741bd",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/15/241695d6634979d6771e11af038c8540/15_f.avif"
+    },
+    {
+      "pano_index": 15,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/15-right.avif",
+      "sha256": "8d11bcfea12799826c5bebff0dbd78d9085d51b62eb275518fae44c99e0073ab",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/15/241695d6634979d6771e11af038c8540/15_r.avif"
+    },
+    {
+      "pano_index": 15,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/15-back.avif",
+      "sha256": "f28d0ce83b50696deeb8295b86588381be7fc44451860fef6c3585586c93769f",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/15/241695d6634979d6771e11af038c8540/15_b.avif"
+    },
+    {
+      "pano_index": 15,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/15-left.avif",
+      "sha256": "846a1d8285064741e097fb5f4bca82b4e52ef0231e822036b3c724cc4f9942f3",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/15/241695d6634979d6771e11af038c8540/15_l.avif"
+    },
+    {
+      "pano_index": 16,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/16-front.avif",
+      "sha256": "aa4d070466d0464efd325d0cd61fe6c712bd4bcdf2bc3e544b41bf992ef46b17",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/16/be997d99758c7996b936a99c34674b99/16_f.avif"
+    },
+    {
+      "pano_index": 16,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/16-right.avif",
+      "sha256": "d4a6887c53491a4a9e3e2b95bbdee13548f457385b7e5db35099133aa3f80b33",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/16/be997d99758c7996b936a99c34674b99/16_r.avif"
+    },
+    {
+      "pano_index": 16,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/16-back.avif",
+      "sha256": "72a4c1c7f004d20a502ac33d25a81a60197f425fdf349504f571362a1586b4d6",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/16/be997d99758c7996b936a99c34674b99/16_b.avif"
+    },
+    {
+      "pano_index": 16,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/16-left.avif",
+      "sha256": "d42bed96dd588b39599dc2486f7726e7f68a8737b9077d3d3a8ee7ddb1127127",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/16/be997d99758c7996b936a99c34674b99/16_l.avif"
+    },
+    {
+      "pano_index": 17,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/17-front.avif",
+      "sha256": "4c251cfaf569a7067755a2cc85055988731c57952baa5dc8855ba5edfb3bfb32",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/17/083b58c1acedefdb63a0d544951b02e2/17_f.avif"
+    },
+    {
+      "pano_index": 17,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/17-right.avif",
+      "sha256": "83517f835542adad9528fac346ff78425114aa97c4561fd535eb5b6c1864bf73",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/17/083b58c1acedefdb63a0d544951b02e2/17_r.avif"
+    },
+    {
+      "pano_index": 17,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/17-back.avif",
+      "sha256": "791024aab1aa8fe48acc9dbfba483a42f3a0c9e3f6c5bbf83a0b75542bc5da83",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/17/083b58c1acedefdb63a0d544951b02e2/17_b.avif"
+    },
+    {
+      "pano_index": 17,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/17-left.avif",
+      "sha256": "340d3530f7f47aeacd3e0a63560c752d014e356e112d8da7149055a153395f79",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/17/083b58c1acedefdb63a0d544951b02e2/17_l.avif"
+    },
+    {
+      "pano_index": 18,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/18-front.avif",
+      "sha256": "c8338505b5a936213089ad20ee3a350b5e5a5a5102b4cb935bc27f1fdb0eb7d6",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/18/62d03d5388581b377acac15185d624c2/18_f.avif"
+    },
+    {
+      "pano_index": 18,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/18-right.avif",
+      "sha256": "a8ad0a287646116f833040f0ab65e81e11954bb2b3cfa522a175f217f7d6e854",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/18/62d03d5388581b377acac15185d624c2/18_r.avif"
+    },
+    {
+      "pano_index": 18,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/18-back.avif",
+      "sha256": "f80d753a6ebc48a6fd8667dd3faf1fed491b51c1dbb253792ddd130597152203",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/18/62d03d5388581b377acac15185d624c2/18_b.avif"
+    },
+    {
+      "pano_index": 18,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/18-left.avif",
+      "sha256": "0b6ed9fe94cba9d128d640251cd64b079d899239f92edb5ed04406f0754a1fd3",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/18/62d03d5388581b377acac15185d624c2/18_l.avif"
+    },
+    {
+      "pano_index": 19,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/19-front.avif",
+      "sha256": "5dd3c7c3ecff40cc4e032fd3d36c4b7d364f05060383b1205809f37a77c6f4c2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/19/ae59defed64fa42ac9d55596bb6031f9/19_f.avif"
+    },
+    {
+      "pano_index": 19,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/19-right.avif",
+      "sha256": "a431ca5a8979a21e122ab46b004f5983d9c10f2f6f78dd4feb7a18f589399a80",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/19/ae59defed64fa42ac9d55596bb6031f9/19_r.avif"
+    },
+    {
+      "pano_index": 19,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/19-back.avif",
+      "sha256": "a9071e70f9775f0cfa6b2b97dd9c6c66756c1b8e38cf65f26ae40fb6afae92b5",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/19/ae59defed64fa42ac9d55596bb6031f9/19_b.avif"
+    },
+    {
+      "pano_index": 19,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/19-left.avif",
+      "sha256": "85f0ac4a008c570bed2863bfe3301ed6fe21f20f3cc66789e4bbbc51f76f9d2c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/19/ae59defed64fa42ac9d55596bb6031f9/19_l.avif"
+    },
+    {
+      "pano_index": 20,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/20-front.avif",
+      "sha256": "822e7c042f4030b67430456824cd923633d783df775940aabbc2f393743292e3",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/20/b58c06e3f7129628833ae7200ddcfbc3/20_f.avif"
+    },
+    {
+      "pano_index": 20,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/20-right.avif",
+      "sha256": "57b297d0fa985993f600609534d5f035b6e122f26e5e80233297003c1844c212",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/20/b58c06e3f7129628833ae7200ddcfbc3/20_r.avif"
+    },
+    {
+      "pano_index": 20,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/20-back.avif",
+      "sha256": "5b1cb57423c31dead68a866f707ac71bf20256f57aa0f80a90eeb84f481ad2a4",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/20/b58c06e3f7129628833ae7200ddcfbc3/20_b.avif"
+    },
+    {
+      "pano_index": 20,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/20-left.avif",
+      "sha256": "c4e2c144fc09843ef0bf4e6a0c92274f637e51a8ec814ac21448dbc60d129462",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/20/b58c06e3f7129628833ae7200ddcfbc3/20_l.avif"
+    },
+    {
+      "pano_index": 21,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/21-front.avif",
+      "sha256": "752450718841833e7d3952d5c18e48a1b0d19b300b543a7831ed4311d44f891d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/21/e6a9cd7f5db0cfac2b768f1ebf17985e/21_f.avif"
+    },
+    {
+      "pano_index": 21,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/21-right.avif",
+      "sha256": "7ec086e55412e8bf16316b24535f049a9bed019c0551d7927ac4845ab031be91",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/21/e6a9cd7f5db0cfac2b768f1ebf17985e/21_r.avif"
+    },
+    {
+      "pano_index": 21,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/21-back.avif",
+      "sha256": "2e7104560d48fc993bb73339cb09ce68d5d1e01a675f9c7ed3a52979059e2e9d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/21/e6a9cd7f5db0cfac2b768f1ebf17985e/21_b.avif"
+    },
+    {
+      "pano_index": 21,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/21-left.avif",
+      "sha256": "dc381ee57752da62b1cd448415bc650f7b1e54c6528e149cd9ffe8c2af4f67e8",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/21/e6a9cd7f5db0cfac2b768f1ebf17985e/21_l.avif"
+    },
+    {
+      "pano_index": 22,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/22-front.avif",
+      "sha256": "9cae6344272f37171b15d8c5b0361187d5697181dda62ca042f3bf1af5b596fa",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/22/b83f326ea300b66fbbd4a974aa567820/22_f.avif"
+    },
+    {
+      "pano_index": 22,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/22-right.avif",
+      "sha256": "802cb6087e5409645404e39ab2ade323935e26cce5b38d17262daabd8486e643",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/22/b83f326ea300b66fbbd4a974aa567820/22_r.avif"
+    },
+    {
+      "pano_index": 22,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/22-back.avif",
+      "sha256": "3f43147213ae46e69649eb0f52d002e2f966b4ec753fba8ff3b4222d1685fe2b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/22/b83f326ea300b66fbbd4a974aa567820/22_b.avif"
+    },
+    {
+      "pano_index": 22,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/22-left.avif",
+      "sha256": "6c241b0fef88b1302080a40e56121a3106e491dd00760cd43cc555e8e24fcc57",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/22/b83f326ea300b66fbbd4a974aa567820/22_l.avif"
+    },
+    {
+      "pano_index": 23,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/23-front.avif",
+      "sha256": "22c5dd3bc7cda7e4866ba504ed888371ea836555eaaea5480adbe19a5503ea5c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/23/42f3b5295e8cf02d2bb8147e56813f44/23_f.avif"
+    },
+    {
+      "pano_index": 23,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/23-right.avif",
+      "sha256": "5bc97772b58e20e8e591aefbba696b4e3d6b1d848d52273c95499b35da91822a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/23/42f3b5295e8cf02d2bb8147e56813f44/23_r.avif"
+    },
+    {
+      "pano_index": 23,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/23-back.avif",
+      "sha256": "3480f1630f1c54579483c9b4aed6ef5efedd50a2ca3729a0117379c8d2230d4f",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/23/42f3b5295e8cf02d2bb8147e56813f44/23_b.avif"
+    },
+    {
+      "pano_index": 23,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/23-left.avif",
+      "sha256": "de74b04b757540500e80d99585771dd4984882f3b4c08e3afc513926c46839cf",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/23/42f3b5295e8cf02d2bb8147e56813f44/23_l.avif"
+    },
+    {
+      "pano_index": 24,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/24-front.avif",
+      "sha256": "5335625ebe9d5fb4f8f663e3e4ddd5a096b2730d67faa586ab8e5c5939040586",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/24/2c7d10a675cd2b2eb4d98a8eac15c941/24_f.avif"
+    },
+    {
+      "pano_index": 24,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/24-right.avif",
+      "sha256": "681213e11c3b04b2c8d09918cc49993153209a05bf800eb9ddf2fc86db4d8f82",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/24/2c7d10a675cd2b2eb4d98a8eac15c941/24_r.avif"
+    },
+    {
+      "pano_index": 24,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/24-back.avif",
+      "sha256": "ae89b17ec44aeb651b7f57a96c264e0969601e15714399101ea11bcc4dc1dfdf",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/24/2c7d10a675cd2b2eb4d98a8eac15c941/24_b.avif"
+    },
+    {
+      "pano_index": 24,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/24-left.avif",
+      "sha256": "0afa594af1801895e0a3b606f491cdbb3856cd9ca4d7c43bcb15b55a616b914a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/24/2c7d10a675cd2b2eb4d98a8eac15c941/24_l.avif"
+    },
+    {
+      "pano_index": 25,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/25-front.avif",
+      "sha256": "04dc87649d9b8b239ea1f712afa365a586a28dc4fb2c2a92313e0f37b9a22c2b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/25/e0de405a14d3c02294fc5e01319de40f/25_f.avif"
+    },
+    {
+      "pano_index": 25,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/25-right.avif",
+      "sha256": "7dbdec3bdd98beada593e06208e307455d248c6a3a5cf4d0d877ecece0ff659c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/25/e0de405a14d3c02294fc5e01319de40f/25_r.avif"
+    },
+    {
+      "pano_index": 25,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/25-back.avif",
+      "sha256": "4fd2c6b970b395cee0ab77619d6b6392184ae0672da5bfeb796096d7a7c9ac72",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/25/e0de405a14d3c02294fc5e01319de40f/25_b.avif"
+    },
+    {
+      "pano_index": 25,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/25-left.avif",
+      "sha256": "2ddefe89e29f1a9262d11b93866805f2997113e6c265fa913cc05921109b0458",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/25/e0de405a14d3c02294fc5e01319de40f/25_l.avif"
+    },
+    {
+      "pano_index": 26,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/26-front.avif",
+      "sha256": "b5221d39a503851f731cc22a847ee0e16bb3818872ce7c5f7b49ddb7c594b1e8",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/26/43b93928c50eb57a1da35f08c6f63d82/26_f.avif"
+    },
+    {
+      "pano_index": 26,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/26-right.avif",
+      "sha256": "a7ec094996cea286dba3c0abaddc78df13f9134672566e4a6894c733383627bd",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/26/43b93928c50eb57a1da35f08c6f63d82/26_r.avif"
+    },
+    {
+      "pano_index": 26,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/26-back.avif",
+      "sha256": "a4ced1a779038d344c02dbc7d702f9d84de48580b5583b167b72f3cb80e7daa8",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/26/43b93928c50eb57a1da35f08c6f63d82/26_b.avif"
+    },
+    {
+      "pano_index": 26,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/26-left.avif",
+      "sha256": "bf80a9f4f12cf5d230fb29ee504dffdec09c4bd2701e60efe02cd24347b8cb88",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/26/43b93928c50eb57a1da35f08c6f63d82/26_l.avif"
+    },
+    {
+      "pano_index": 27,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/27-front.avif",
+      "sha256": "1cbca27090d67228ebdcc1d4e4b5711ebc482edfdb6e1c627cf8c833b9524458",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/27/b80798450012b1a84d586ce41133f163/27_f.avif"
+    },
+    {
+      "pano_index": 27,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/27-right.avif",
+      "sha256": "ff6589e3d22f82b2535d2dd93af53b04a9bce6acf71690e95f4ba226217a1166",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/27/b80798450012b1a84d586ce41133f163/27_r.avif"
+    },
+    {
+      "pano_index": 27,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/27-back.avif",
+      "sha256": "e80f19efad1c769f0a7af204ce8959cd739c7185a8ed1447cb1f6de31ea9e44e",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/27/b80798450012b1a84d586ce41133f163/27_b.avif"
+    },
+    {
+      "pano_index": 27,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/27-left.avif",
+      "sha256": "b5275ad82a18b4d79f9e532f33a613319d25d38c6c6fed0401b3a1e907809f5b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/27/b80798450012b1a84d586ce41133f163/27_l.avif"
+    },
+    {
+      "pano_index": 28,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/28-front.avif",
+      "sha256": "1d210a192199177d499849e9b4f2e60aa0c01e49cf3a35694b6030dad7379e1c",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/28/7ce3e040d254dd252f8fce0a083602df/28_f.avif"
+    },
+    {
+      "pano_index": 28,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/28-right.avif",
+      "sha256": "177f581342c3b711b0c91ebe6f11ebdc28e3834bd7c573e33d9b3b2844d857e7",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/28/7ce3e040d254dd252f8fce0a083602df/28_r.avif"
+    },
+    {
+      "pano_index": 28,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/28-back.avif",
+      "sha256": "15fae0cca1c7799448a34a9c929893ad2edbedc132c693c52f9aed915dfa1481",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/28/7ce3e040d254dd252f8fce0a083602df/28_b.avif"
+    },
+    {
+      "pano_index": 28,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/28-left.avif",
+      "sha256": "c5d1c63c5462a49019107168b47e937e9b48b66167fcc992dd07427e7161e6be",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/28/7ce3e040d254dd252f8fce0a083602df/28_l.avif"
+    },
+    {
+      "pano_index": 29,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/29-front.avif",
+      "sha256": "1de367c3df8aaefa1220a6cf3e1f6dbf8456b4d4dcf494302ea34341b22244dd",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/29/ad33bffa5ef8ad58605af23c2d0d9826/29_f.avif"
+    },
+    {
+      "pano_index": 29,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/29-right.avif",
+      "sha256": "0f1c831fc953d4bdc84fe9e8bd26d85a4e34306c173d136618c2a0386a6f368a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/29/ad33bffa5ef8ad58605af23c2d0d9826/29_r.avif"
+    },
+    {
+      "pano_index": 29,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/29-back.avif",
+      "sha256": "ddad288785afd158817cf35baa1c834f77df7e96436324c99a2ccdaf47df3fc6",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/29/ad33bffa5ef8ad58605af23c2d0d9826/29_b.avif"
+    },
+    {
+      "pano_index": 29,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/29-left.avif",
+      "sha256": "09af5334ec9d4292e570e552858d7336aa09c9c988b45836383facfbbb380faf",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/29/ad33bffa5ef8ad58605af23c2d0d9826/29_l.avif"
+    },
+    {
+      "pano_index": 30,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/30-front.avif",
+      "sha256": "3f7e46a228b7f581c2e660420a6ed0bd997e4179a44a14ad93115f9a810a4e4d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/30/e2d820a44f7f7dfaf4e0368029f69528/30_f.avif"
+    },
+    {
+      "pano_index": 30,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/30-right.avif",
+      "sha256": "135df6c0ea5241e0f63ec68848be87feddbef1fcc0b3230bba945eeb65dea100",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/30/e2d820a44f7f7dfaf4e0368029f69528/30_r.avif"
+    },
+    {
+      "pano_index": 30,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/30-back.avif",
+      "sha256": "292dff4d1dbe647526e3f94dcfa3a537f4dbed2db1b83d099a3dfe0ebab48648",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/30/e2d820a44f7f7dfaf4e0368029f69528/30_b.avif"
+    },
+    {
+      "pano_index": 30,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/30-left.avif",
+      "sha256": "dc94b3a21603861c42158fba4f27a719b6e3c641e74405d441dbd4731e4e3157",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/30/e2d820a44f7f7dfaf4e0368029f69528/30_l.avif"
+    },
+    {
+      "pano_index": 31,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/31-front.avif",
+      "sha256": "a81d1ace8b6519c7ea47c71c1d213238755786b4c753fd0e3467b85be9cca72a",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/31/a320f51eb888d339ab8e4b4689732920/31_f.avif"
+    },
+    {
+      "pano_index": 31,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/31-right.avif",
+      "sha256": "134460d7799a95a337f30a23b0ee4c3afe11335c678aa19d00d42e1b0eaf4dbb",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/31/a320f51eb888d339ab8e4b4689732920/31_r.avif"
+    },
+    {
+      "pano_index": 31,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/31-back.avif",
+      "sha256": "11b9dc25f5c6c601d3c4e0da1a46a027c89e00f3bfb9babe9a8623067215108b",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/31/a320f51eb888d339ab8e4b4689732920/31_b.avif"
+    },
+    {
+      "pano_index": 31,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/31-left.avif",
+      "sha256": "50d9a007eba9e2d189b63dfa4820e1a267a1b5709df3ab08abfd97824aa7f66e",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/31/a320f51eb888d339ab8e4b4689732920/31_l.avif"
+    },
+    {
+      "pano_index": 32,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/32-front.avif",
+      "sha256": "623fc09d6053775bc59f888c3b60690fd37a7cab0ddf7005ed759f1452f6fd36",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/32/dbf388d32ccccc69f8341837cac4690d/32_f.avif"
+    },
+    {
+      "pano_index": 32,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/32-right.avif",
+      "sha256": "c064b8afab71b0704d51e744750233417ecfeed0633fea6d50bc899bcdd05639",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/32/dbf388d32ccccc69f8341837cac4690d/32_r.avif"
+    },
+    {
+      "pano_index": 32,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/32-back.avif",
+      "sha256": "4d2dd571b59f6759c02df80626a51b3826cef06b6c94c38901b3727076b39958",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/32/dbf388d32ccccc69f8341837cac4690d/32_b.avif"
+    },
+    {
+      "pano_index": 32,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/32-left.avif",
+      "sha256": "c17d47561842f0107ed26544aec159acbe842a43860f56f1bea5ed3d13d1cb0d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/32/dbf388d32ccccc69f8341837cac4690d/32_l.avif"
+    },
+    {
+      "pano_index": 33,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/33-front.avif",
+      "sha256": "08a2d8906a114f344e295fc126494db3e2db18e1bf5d3c0e346fe034aaf9d59d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/33/3f27aab0d1eea3dbf067e32b11bdef13/33_f.avif"
+    },
+    {
+      "pano_index": 33,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/33-right.avif",
+      "sha256": "cd934d14603210e4cf4683f6fd0130d6bb0d72f98aa2d9d451d594fbdfc732d7",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/33/3f27aab0d1eea3dbf067e32b11bdef13/33_r.avif"
+    },
+    {
+      "pano_index": 33,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/33-back.avif",
+      "sha256": "8316b277c4aae9d717bcdab825bc2a59a4734cd3bdb79aaf9affaa9305ac86da",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/33/3f27aab0d1eea3dbf067e32b11bdef13/33_b.avif"
+    },
+    {
+      "pano_index": 33,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/33-left.avif",
+      "sha256": "ef2f9fb4c16e20ac073f1defef5dcfe6463c16cf5ead99c952a0dbe1c0de8255",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/33/3f27aab0d1eea3dbf067e32b11bdef13/33_l.avif"
+    },
+    {
+      "pano_index": 34,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/34-front.avif",
+      "sha256": "5ec4db7f89170931a3d23e28486bf2a85575386dbd30fff3857d419ac22299d2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/34/e3930aa68c6b78c909b86f8753dc8bfd/34_f.avif"
+    },
+    {
+      "pano_index": 34,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/34-right.avif",
+      "sha256": "af9c54d8ac03257904be0d93991d66763663717da184170000645275cd9d6cb2",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/34/e3930aa68c6b78c909b86f8753dc8bfd/34_r.avif"
+    },
+    {
+      "pano_index": 34,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/34-back.avif",
+      "sha256": "8ef4912634eec2dba292e43f4c21c84254b40b19b88d24f433cb6c5d8a55d697",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/34/e3930aa68c6b78c909b86f8753dc8bfd/34_b.avif"
+    },
+    {
+      "pano_index": 34,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/34-left.avif",
+      "sha256": "a003c5a7155f3816bf78d5fe17f1ecc4531bfe4daac7d62db1f3b5f163220541",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/34/e3930aa68c6b78c909b86f8753dc8bfd/34_l.avif"
+    },
+    {
+      "pano_index": 35,
+      "face": "front",
+      "source_path": "03-完整VR素材/faces/35-front.avif",
+      "sha256": "f2414bb5f21bf742a09642acde69ecb9ff4fbb26520201a9517270d75ef87875",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/35/0373d811b6e3de5ddcf63516dc5ef2b7/35_f.avif"
+    },
+    {
+      "pano_index": 35,
+      "face": "right",
+      "source_path": "03-完整VR素材/faces/35-right.avif",
+      "sha256": "e6b98ed07b3dbb8d3e273820935632b36fc7930ec4a0aa6d60012a225bb3d75d",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/35/0373d811b6e3de5ddcf63516dc5ef2b7/35_r.avif"
+    },
+    {
+      "pano_index": 35,
+      "face": "back",
+      "source_path": "03-完整VR素材/faces/35-back.avif",
+      "sha256": "28b4400af794503bf6a0f798a8b8bc70bdd0b5ed034d495da0811ebdf3c3b587",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/35/0373d811b6e3de5ddcf63516dc5ef2b7/35_b.avif"
+    },
+    {
+      "pano_index": 35,
+      "face": "left",
+      "source_path": "03-完整VR素材/faces/35-left.avif",
+      "sha256": "e2b5ae5b8578f5ccdd4a62ab8cf4890aeb7a3955373c7b09a2f83ec0bc0387ae",
+      "source_url": "https://vr-public.realsee-cdn.cn/release/auto3dhd/3a15f7fee07a4105d3d4f561c400ac89/images/cube_2048/35/0373d811b6e3de5ddcf63516dc5ef2b7/35_l.avif"
+    }
+  ],
+  "static_perspective_precheck": {
+    "scope": "Only pano0/1 static front-face rectilinear projection from a real90degree cube face; no spatial translation or geometry generation",
+    "source_field_yaw_not_global_sdk_yaw": true,
+    "height_exception_approved": false,
+    "shot_trial_run": false,
+    "actual_v360_options": "w=720:h=1280, not width/height"
+  },
+  "failed_attempt": {
+    "scope": "static PNG preview only",
+    "reason": "Initial v360 width/height option names were invalid; corrected using locally installed ffmpeg filter help w/h",
+    "source_changed": false,
+    "new_video_created": false
+  },
+  "limits": [
+    "Source work/manifest contain no native room-ID fields; local visual zone labels must not be disguised as SDK room IDs.",
+    "Static four-face inspection is not full six-face360deg/continuous-motion/clearance acceptance.",
+    "Native coordinate y differences1.202–1.269 are not physically measured heights or inherited first-case exception.",
+    "No second-shot recording/TTS/paid call."
+  ]
+}

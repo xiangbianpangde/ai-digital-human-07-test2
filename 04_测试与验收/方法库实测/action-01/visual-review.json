@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "CTA字幕可读，目标URL与已加载实测VR相同；仅验证静默图文及目标地址，不含二维码、不承诺评论服务、未验证口播。",
+  "reviewed": [
+    "start.png"
+  ],
+  "metric_clearance": "unverified"
+}

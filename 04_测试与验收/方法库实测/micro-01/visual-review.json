@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "卧室B P25固定原地12.6°微摇，窗和地板锚点连续，末幅没有贴墙；遥测核对位移不变，非环绕。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "逐帧表中窗户仍保持中心；切点前后最大5%数码裁切，空间无几何变造，无黑边；仅此轻缩放变体可选，禁止宣称是真实推镜。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

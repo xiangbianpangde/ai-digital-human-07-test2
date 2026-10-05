@@ -1,0 +1,9 @@
+{
+  "id": "P06V1-soft-pulse",
+  "method_id": "P06",
+  "variant_id": "P06V1",
+  "inputs": [
+    "establish-04",
+    "micro-01"
+  ]
+}

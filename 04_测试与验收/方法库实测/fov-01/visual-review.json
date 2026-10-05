@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "厨房P5当前朝向只有墙面和一小段台面，FOV变化虽技术正确但空间表达不足；改反方向轴线重测。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

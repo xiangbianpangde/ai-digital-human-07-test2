@@ -1,0 +1,13 @@
+{
+  "schema": "beike-cli-release-integrity/v1",
+  "at": "2026-10-05T11:58:08.507006+08:00",
+  "version": "0.2.26",
+  "platform": "darwin-arm64",
+  "archive_url": "https://github.com/LianjiaTech/beike-ai-platform/releases/download/v0.2.26/beike-darwin-arm64-0.2.26.tar.gz",
+  "archive_sha256": "b503d9621918c23c9411c9a0943cbffadba41b31732712882e87035c44d13f5b",
+  "archive_matches_official_manifest": true,
+  "installed_path": "/Users/xbpd/.local/bin/beike",
+  "installed_binary_sha256": "b920032b441b4b3a7a8d74fb52a6be4f164f79e16628a9bd5df3662f201c465f",
+  "installed_binary_matches_release": true,
+  "scope": "Compared verified release archive binary bytes to installed executable; no replacement performed."
+}

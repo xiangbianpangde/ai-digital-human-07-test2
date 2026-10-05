@@ -1,0 +1,9 @@
+{
+  "id": "P03V1-graphic-long-dissolve",
+  "method_id": "P03",
+  "variant_id": "P03V1",
+  "inputs": [
+    "establish-04",
+    "micro-01"
+  ]
+}

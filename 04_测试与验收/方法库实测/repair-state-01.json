@@ -1,0 +1,77 @@
+{
+  "schema": "methodlib-repair-progress/v1",
+  "at": "2026-10-04T16:09:03.226171+08:00",
+  "task_complete": false,
+  "accepted_variants": [
+    "P03V1",
+    "P05V1",
+    "P06V1",
+    "P07V1",
+    "P08V1",
+    "P09V1"
+  ],
+  "checks_passed": {
+    "unit_tests": 23,
+    "hashes": 390,
+    "videos_decoded": 34,
+    "gallery_cards": 31,
+    "gallery_media": 27,
+    "links": 57,
+    "six_variant_playbacks": true,
+    "no_page_errors": true
+  },
+  "pending": [
+    "P10 budget confirmation",
+    "secure external-service authentication",
+    "actual neural interpolation and geometric/visual verification",
+    "final seven-item acceptance"
+  ],
+  "files": [
+    {
+      "path": "HANDOFF.md",
+      "sha256": "a62a2b683183e263de7043d5decd2fefb0c810f7817dbd8251caa2cd69f17d8c"
+    },
+    {
+      "path": "00_入口/00_当前.md",
+      "sha256": "cfbb84c7202cda45aa9e359ad9b7f488945cfbd706af7986f0a0dc47a20df0e2"
+    },
+    {
+      "path": "00_入口/02_风险与待确认.md",
+      "sha256": "c0109d8781e614149aded885987c60a2a946cfd1624dd9af19ae45e06b77925a"
+    },
+    {
+      "path": "05_资产库/06_房产摄影运镜模式库/AI执行/README.md",
+      "sha256": "e87f763de48dc56d9997e9dd37e5d94d8419fffd40eb9517f673995ccf450eb7"
+    },
+    {
+      "path": "05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json",
+      "sha256": "5ef7d6da36f168f7b2e4416f1be4ae6500fa41542c0597ca825dd0ed42bdda8f"
+    },
+    {
+      "path": "05_资产库/06_房产摄影运镜模式库/AI执行/画廊.html",
+      "sha256": "de49418252c499791ba4cec1befad02a5b6badf01362e572ee3aa30367110932"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/acceptance-repair-01.json",
+      "sha256": "d26febc0f7ff05fc9503bc5b8a74cdf4a82c621e5018665ea07ffb9432e63fc5"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/P10-budget-01.json",
+      "sha256": "32fb89089dc44b7c711ca9b76d39d506514a00721869f483358aac54499fd5a7"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/gallery-browser-repair-01.json",
+      "sha256": "4eece886b4de015513fb0875d34786423017970152d29e2ce6d77d622f0ccff7"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/gallery-repair-01.png",
+      "sha256": "cb9a3079529411064f78f4e45e0772d905850d8b7fc1da95627d52ee352d3002"
+    }
+  ],
+  "limits": [
+    "original rejected/prohibited effects not promoted",
+    "P07/P09 first variants superseded via append-only records",
+    "metric_clearance unverified",
+    "Shot5 still unauthorized"
+  ]
+}

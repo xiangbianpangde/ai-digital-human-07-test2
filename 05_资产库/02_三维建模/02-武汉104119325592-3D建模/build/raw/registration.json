@@ -1,0 +1,13 @@
+{
+  "orient": "r0",
+  "scale_m_per_unit": 0.024141560936389146,
+  "translate": [
+    -36.3047683357372,
+    -36.275381936336274
+  ],
+  "cameras_inside": 36,
+  "cameras_total": 36,
+  "floor_y": -1.2250847822334108,
+  "camera_height_m": 1.2250847822334108,
+  "floor_y_note": "median of the 36 VR standing_position heights; per-camera spread -1.255..-1.077 m"
+}

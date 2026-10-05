@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "Model模式虽然切换成功，画面实际仍为天花板近景，未出现全屋娃娃屋总览；拒绝。须显式模型中心offset和相机距离，不以mode字段通过替代画面。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

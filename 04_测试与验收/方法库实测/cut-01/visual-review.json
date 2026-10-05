@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "客厅与卧室B同为窗户居中、地面建立纵深，2秒处硬切干净；不宣称两空间相邻或连续移动。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "左缘装饰滑条宽度不超过24px，主体实景不位移、不拼接两空间；硬切后窗与墙线清楚。只接受边缘提示变体，原全画幅横滑仍拒绝。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

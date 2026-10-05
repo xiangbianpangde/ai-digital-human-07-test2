@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "逐半秒帧显示门框从前景退出、阳台窗逐步进入主体，末端不是墙柱；P9→P10的转向采用3.18→3.85rad/5秒。外部画面为对楼，不宣称江景。VR行走有贴图混合，不能冒称真人拍摄。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

@@ -1,0 +1,11 @@
+{
+  "video": "/Users/xiaojie/Documents/Codex/2026-09-17/vr-vr/work/20261005-094523-104119325592/sample/output/104119325592-参考风格版.mp4",
+  "status": "technical_check_only",
+  "delivery_approved": false,
+  "frames_decoded": 1332,
+  "fps": 60.0,
+  "excluded_cover_seconds": 2.0,
+  "long_near_static_intervals": [],
+  "timestamp_issues": [],
+  "limitation": "Near-static means little background pixel change, not proof of the cause. This check does not assess short stutters, ghosting, framing, audio or replace full playback review."
+}

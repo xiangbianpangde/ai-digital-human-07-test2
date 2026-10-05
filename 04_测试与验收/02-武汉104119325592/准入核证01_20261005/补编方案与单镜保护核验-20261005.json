@@ -1,0 +1,238 @@
+{
+  "schema": "pending-plan-and-single-trial-protection-audit/v1",
+  "at": "2026-10-05T19:36:34.597305+08:00",
+  "scope": "AFTER-TRIAL pending plan/camera diagram delivery and artifact protection, not user approval or final production",
+  "baseline_project_files": 1567,
+  "unchanged_baseline_files": 1553,
+  "authorized_existing_document_changes": [
+    "00_入口/00_当前.md",
+    "00_入口/01_路线图.md",
+    "00_入口/02_风险与待确认.md",
+    "03_实现/README.md",
+    "04_测试与验收/README.md",
+    "05_资产库/ASSET_INDEX.md",
+    "05_资产库/source_manifest.json",
+    "06_任务与交接/HANDOFF_BUNDLE.md",
+    "07_运行记录/LOG.md",
+    "09_提案与草稿/03_收尾与第二房源准入决策.md",
+    "HANDOFF.md",
+    "README.md"
+  ],
+  "system_metadata_drift": [
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/.DS_Store",
+      "baseline_sha256": "808e24c967a47399846b6954a7d113d5bd076354f0a00b5fbc37c83b745bed8f",
+      "actual_sha256": "7a48239db0f10016a62aa6d0ba26abfbe9a241d0fe578fdbb8dc9d3dddb9cd05",
+      "scope": "observed_system_metadata_not_restored_or_media_change"
+    },
+    {
+      "path": "05_资产库/.DS_Store",
+      "baseline_sha256": "caabb2e80de132f812c0e0feda0b10e13833bce6c7ff316291279876eeea812a",
+      "actual_sha256": "7575fb6d46888cf7c768aa40cca2337cc4457b27276fe5809cc0ecad7fdb99bb",
+      "scope": "observed_system_metadata_not_restored_or_media_change"
+    }
+  ],
+  "missing_or_moved_baseline_files": [],
+  "new_files_including_this_audit": [
+    "03_实现/02-武汉104119325592/首镜原生定点试验/README.md",
+    "03_实现/02-武汉104119325592/首镜原生定点试验/render_one_shot.py",
+    "03_实现/02-武汉104119325592/首镜原生定点试验/test_render_one_shot.py",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/browser-last-frame.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/browser_playback.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/decode.log",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encode.log",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-01.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-02.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-03.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-04.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-05.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-contact-06.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-000.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-035.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-071.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-107.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-143.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/encoded-frame-179.png",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/render_recipe.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/rerun_guard_check.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/review.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/run_started.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/technical_check.json",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/审看入口.md",
+    "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/武汉104119325592-S1-原生定点静默试验01.mp4",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/前置方案交付遗漏纠正-20261005.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/单镜试验前保护基线.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查02.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/资产登记前校验.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/首镜预检与守卫测试.json",
+    "05_资产库/06_房产摄影运镜模式库/.DS_Store",
+    "09_提案与草稿/第二房源_104119325592/05_拍摄计划方案_V1_待审.md",
+    "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html",
+    "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案与单镜保护核验-20261005.json"
+  ],
+  "original_downloads_source_hashes_passed": 241,
+  "old_case1_contracts_and_media_unchanged": true,
+  "original_registry_AST001_AST022_bytes_reconstructable": true,
+  "original_registry_AST001_AST025_bytes_reconstructable": true,
+  "new_asset_bindings_passed": 24,
+  "new_bindings": [
+    {
+      "asset": "AST-023",
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/人工接受-20261005.json",
+      "sha256": "e688e76d2b55a202e324f018f75fc6535687d8a6741bb78c0f28837834833022"
+    },
+    {
+      "asset": "AST-023",
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/内部终审单.md",
+      "sha256": "20adbb10600b8097d060c5aaf475f3bfc7843e8ecce0b0ad57df696977040141"
+    },
+    {
+      "asset": "AST-024",
+      "path": "09_提案与草稿/第二房源_104119325592/04_当前详情查询记录-20261005.json",
+      "sha256": "0cbfa243edc9598e3fc4c628e8c0aae09517c79039b25b1d7c809dd60a28e077"
+    },
+    {
+      "asset": "AST-024",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/当前事实补证.json",
+      "sha256": "131809c9fb2b3c95f740b2af3a7cf4d7097cc17d9bf7388063ca9680d646f130"
+    },
+    {
+      "asset": "AST-024",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/命名空间与静态映射证据.json",
+      "sha256": "2eeb0bb21a3526972dce719362258499f2d63d42fbe2bfbb183b7bd6974e1982"
+    },
+    {
+      "asset": "AST-024",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/视觉空间与点位对照.json",
+      "sha256": "df59fb97c2577cbbfa40fd522a56097ac893ce803d5f6afd368f9e4c8e6abbc4"
+    },
+    {
+      "asset": "AST-025",
+      "path": "02_架构与合同/第二房源_104119325592/01_房产核心档案.md",
+      "sha256": "011e87517d4c8c4e022818e5ed9b8e1e82c16e91912e568bc386aef0ab135395"
+    },
+    {
+      "asset": "AST-025",
+      "path": "02_架构与合同/第二房源_104119325592/02_当前镜试验合同_01.json",
+      "sha256": "e9ca332b1f31a96042a40e0bda278702f589c62119262e4c7a45a1459731568e"
+    },
+    {
+      "asset": "AST-025",
+      "path": "03_实现/02-武汉104119325592/首镜原生定点试验/render_one_shot.py",
+      "sha256": "c6b29b1eb88f50adbd38212ecb3206a6a55979096089c02bf9016a61695b2b75"
+    },
+    {
+      "asset": "AST-025",
+      "path": "03_实现/02-武汉104119325592/首镜原生定点试验/test_render_one_shot.py",
+      "sha256": "2b4ab90ec218e79ea144179be4be2fffb9bb8944cba089369dda3212a373b613"
+    },
+    {
+      "asset": "AST-025",
+      "path": "03_实现/02-武汉104119325592/首镜原生定点试验/README.md",
+      "sha256": "bd0ee1eaf2781d2a1e773bee94aa12f3beabed52dc9692e167e8603086c42077"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/首镜预检与守卫测试.json",
+      "sha256": "26f0fa75e66989e49b898046a99914f61771dd44a60db189d4b817c136d1c392"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/武汉104119325592-S1-原生定点静默试验01.mp4",
+      "sha256": "d44acd7598cb675c80eaec3102f96eac5b0d152c5ebd9198cfd82974b2fe8fdf"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/render_recipe.json",
+      "sha256": "1dad593899bcdf618218bab61f0b3413771a08c9f491424ba7dc10f034592e51"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/technical_check.json",
+      "sha256": "595c4426af6e33c254621690ffba8354b8a74c6407d9fdd19c05bd181dbe15b2"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/review.json",
+      "sha256": "9337e80d400d979de0bc2265aebe799fd16159043f428576488f0cbaa3737ca4"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/审看入口.md",
+      "sha256": "307d9721f1caed91b1041863a77c3638063e82288f20f10b21fb7cbb9ee06ce0"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/rerun_guard_check.json",
+      "sha256": "9781672f2e23a23ad478c4163f7a7be773132d552d2ca6179284966a888db6ae"
+    },
+    {
+      "asset": "AST-025",
+      "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/browser_playback.json",
+      "sha256": "45d27042792bb97cf64f159432ab3def104bd27602a37764bc16f58b1562e765"
+    },
+    {
+      "asset": "AST-026",
+      "path": "09_提案与草稿/第二房源_104119325592/05_拍摄计划方案_V1_待审.md",
+      "sha256": "9eeb507a43dd8bf8aee75369f19b43ed9f7b1af34e1198dc579d3e56c72a190a"
+    },
+    {
+      "asset": "AST-026",
+      "path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html",
+      "sha256": "ade7925f405ac3d97a652c05441f33664f5ec9fafaff6e961ff0154a24d02803"
+    },
+    {
+      "asset": "AST-026",
+      "path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png",
+      "sha256": "51719e81f3dbae483724020bb05c8e233c6459cf779d047dd0ef9a15de961df7"
+    },
+    {
+      "asset": "AST-026",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/前置方案交付遗漏纠正-20261005.json",
+      "sha256": "e628e3d2871a4300ffc6fea868b9cc451db1d70f731184fcd0216a9f7a07faba"
+    },
+    {
+      "asset": "AST-026",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查02.json",
+      "sha256": "13c0090f5871ee1f8d524895b80f0c914822358c3e706b142de45f719ea71b65"
+    }
+  ],
+  "asset_index_and_LOG_original_prefixes_preserved": true,
+  "markdown_documents_checked": 14,
+  "local_references_in_checked_scope_exist": 191,
+  "link_check_scope": "full13 current/source/read-only documents plus asset-index new sections9/10; local paths not remote/fragment anchors",
+  "legacy_asset_index_unresolved_references_preserved": [
+    {
+      "doc": "05_资产库/ASSET_INDEX.md",
+      "old_reference": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+      "action": "historical_append_only_record_not_rewritten"
+    }
+  ],
+  "initial_link_check_failure": "historical AST013 old path in append-only ledger; kept record, explicitly separated historical from new references",
+  "plan_png_embedded_loadable_visually_checked": true,
+  "plan_png_size": [
+    2100,
+    1850
+  ],
+  "final_diagram_render_errors": [],
+  "source_and_existing_trial_unchanged": true,
+  "only_one_case2_mp4": true,
+  "new_video_after_user_objection": false,
+  "formal_plan_delivered_before_trial": false,
+  "backdated_plan_or_acceptance": false,
+  "phase4_at_audit": "BLOCKED",
+  "phase5_at_audit": "BLOCKED",
+  "current_plan_pending_user_review": true,
+  "existing_trial_pending_user_acceptance": true,
+  "DAUG_passed": false,
+  "DAUG_limit": "ledger unavailable; manual related-doc/contract/link/protection checks instead",
+  "all_historical_source_registry_paths_and_hashes_match": false,
+  "known_legacy_limits": [
+    "AST002/004 crop hashes unreconciled.",
+    "Historical document/source hashes and moved old paths remain snapshots, not overwritten."
+  ],
+  "artifact_delivery_checks_passed": true,
+  "business_final_acceptance_or_commercial_publication": false
+}

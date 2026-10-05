@@ -1,0 +1,6 @@
+{
+  "endpoint": "http://127.0.0.1:52435",
+  "token": "cc2f2dc3893201d7d7f0b6f9ace82403",
+  "session": "methodlib",
+  "eval": "(async()=>{ const base=\"http://127.0.0.1:52435/cc2f2dc3893201d7d7f0b6f9ace82403\"; (0,eval)(await (await fetch(base+'/script')).text()); return await methodTake(await (await fetch(base+'/recipe')).json(),\"http://127.0.0.1:52435\",\"cc2f2dc3893201d7d7f0b6f9ace82403\"); })()"
+}

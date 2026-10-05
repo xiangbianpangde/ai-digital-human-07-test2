@@ -1,0 +1,18 @@
+{
+  "schema": "pending-plan-local-diagram-render/v1",
+  "at": "2026-10-05T19:25:29.654950+08:00",
+  "html": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html",
+  "html_sha256": "ade7925f405ac3d97a652c05441f33664f5ec9fafaff6e961ff0154a24d02803",
+  "png": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png",
+  "png_sha256": "51719e81f3dbae483724020bb05c8e233c6459cf779d047dd0ef9a15de961df7",
+  "png_size": [
+    2100,
+    1850
+  ],
+  "reason_for_second_draft_render": "Add24px SVG top margin to avoid fan arc clipping in unregistered, user-unreviewed draft; no new video or source changes",
+  "previous_render_receipt": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查.json",
+  "console_or_page_errors": [],
+  "source_image_loads_passed": true,
+  "actual_floorplan_or_metric_geometry": false,
+  "user_plan_or_video_acceptance": false
+}

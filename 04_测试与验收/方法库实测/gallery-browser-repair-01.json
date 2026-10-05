@@ -1,0 +1,104 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 10555201366498914000
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "file:///Users/xbpd/Projects/ai%E5%8F%A3%E6%92%AD%E6%95%B0%E5%AD%97%E4%BA%BA-%E5%AE%9E%E4%B9%A0%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/07-%E6%B5%8B%E8%AF%952/05_%E8%B5%84%E4%BA%A7%E5%BA%93/06_%E6%88%BF%E4%BA%A7%E6%91%84%E5%BD%B1%E8%BF%90%E9%95%9C%E6%A8%A1%E5%BC%8F%E5%BA%93/AI%E6%89%A7%E8%A1%8C/%E7%94%BB%E5%BB%8A.html",
+  "result": {
+    "cards": 31,
+    "links": [
+      "方法库.json",
+      "点位.json",
+      "README.md",
+      "../../../04_测试与验收/方法库实测/establish-04/contact.png",
+      "../../../04_测试与验收/方法库实测/continuous-01/contact.png",
+      "../../../04_测试与验收/方法库实测/door-03/contact.png",
+      "../../../04_测试与验收/方法库实测/dollhouse-03/contact.png",
+      "../../../04_测试与验收/方法库实测/push-01/contact.png",
+      "../../../04_测试与验收/方法库实测/lookback-01/contact.png",
+      "../../../04_测试与验收/方法库实测/micro-01/contact.png",
+      "../../../04_测试与验收/方法库实测/sweep-01/contact.png",
+      "../../../04_测试与验收/方法库实测/fov-02/contact.png",
+      "../../../04_测试与验收/方法库实测/reverse-01/contact.png",
+      "../../../04_测试与验收/方法库实测/cut-01/contact.png",
+      "../../../04_测试与验收/方法库实测/dissolve-01/contact.png",
+      "../../../04_测试与验收/方法库实测/long-dissolve-01/contact.png",
+      "../../../04_测试与验收/方法库实测/zoom-cut-01/contact.png",
+      "../../../04_测试与验收/方法库实测/slide-01/contact.png",
+      "../../../04_测试与验收/方法库实测/flash-01/contact.png",
+      "../../../04_测试与验收/方法库实测/identity-01/contact.png",
+      "../../../04_测试与验收/方法库实测/selling-02/contact.png",
+      "../../../04_测试与验收/方法库实测/question-01/contact.png",
+      "../../../04_测试与验收/方法库实测/corroborate-01/contact.png",
+      "../../../04_测试与验收/方法库实测/action-01/contact.png",
+      "../../../04_测试与验收/方法库实测/long-graphic-01/contact.png",
+      "../../../04_测试与验收/方法库实测/edge-slide-01/contact.png",
+      "../../../04_测试与验收/方法库实测/soft-pulse-01/contact.png",
+      "../../../04_测试与验收/方法库实测/graphic-occlusion-02/contact.png",
+      "../../../04_测试与验收/方法库实测/direction-cut-01/contact.png",
+      "../../../04_测试与验收/方法库实测/tile-reveal-02/contact.png"
+    ],
+    "overflow": false,
+    "passed": true,
+    "variants": [
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P03V1",
+        "played": true,
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P05V1",
+        "played": true,
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P06V1",
+        "played": true,
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P07V1",
+        "played": true,
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P08V1",
+        "played": true,
+        "width": 720
+      },
+      {
+        "duration": 4,
+        "error": null,
+        "height": 1280,
+        "id": "P09V1",
+        "played": true,
+        "width": 720
+      }
+    ],
+    "videos": 27
+  }
+}

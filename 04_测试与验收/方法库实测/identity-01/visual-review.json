@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "起始帧核对中文完整，无缺字或溢出；项目名、建面约163平米、4室2厅与事实档案一致；户型图保持比例。仅验证静默图文示范，未验证口播。",
+  "reviewed": [
+    "start.png"
+  ],
+  "metric_clearance": "unverified"
+}

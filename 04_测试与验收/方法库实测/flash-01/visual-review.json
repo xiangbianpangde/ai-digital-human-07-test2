@@ -1,0 +1,9 @@
+{
+  "verdict": "reject",
+  "reason": "逐帧转场表确认6帧白闪使建筑细节消失，亮度突变；高端稳定看房不采用，维持prohibited。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

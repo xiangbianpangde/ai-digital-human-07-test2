@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "project": "沙湖九号·房产口播数字人视频制作",
+  "version": "1.0.0",
+  "updated_at": "2026-10-03T15:50:00+08:00",
+  "property_info": {
+    "estate_name": "沙湖九号",
+    "city": "武汉",
+    "district": "武昌区",
+    "layout_name": "4室2厅2卫2阳台1衣帽间",
+    "gross_floor_area_sqm": 163.0,
+    "gross_area_source": "贝壳找房/如视页面标注约163㎡",
+    "usable_area_measured_sum_sqm": 123.7,
+    "facing_direction": "南偏西约30度（客厅与主卧朝南）",
+    "orientation_north_deg": 30.0,
+    "floor_type": "高层大平层",
+    "vr_url": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/#lianjia"
+  },
+  "rooms": [
+    {
+      "room_id": "living_room",
+      "name": "客厅",
+      "area_sqm": 30.9,
+      "orientation": "南偏西",
+      "dimension_hints": {
+        "depth_mm": 5741,
+        "width_mm": 4000
+      },
+      "tags": ["核心活动区", "大开间", "直连南阳台", "全明落地采光"],
+      "adjacent_rooms": ["balcony_a", "hallway", "kitchen"],
+      "key_features": "30.9㎡阔绰大厅，开阔视野，动静分区起点"
+    },
+    {
+      "room_id": "balcony_a",
+      "name": "阳台A（南向景观阳台）",
+      "area_sqm": 9.1,
+      "orientation": "南向",
+      "dimension_hints": {
+        "depth_mm": 1508,
+        "width_mm": 6000
+      },
+      "tags": ["观景阳台", "超大进深", "南向全景采光"],
+      "adjacent_rooms": ["living_room"],
+      "key_features": "9.1㎡南向巨幕景观阳台，日照充足，俯瞰园林/城市景观"
+    },
+    {
+      "room_id": "kitchen",
+      "name": "厨房",
+      "area_sqm": 6.1,
+      "orientation": "西向/北向",
+      "dimension_hints": {
+        "depth_mm": 3322,
+        "width_mm": 1842
+      },
+      "tags": ["操作厨房", "独立排烟", "邻近餐厅"],
+      "adjacent_rooms": ["living_room"],
+      "key_features": "6.1㎡高效烹饪动线，干湿分离"
+    },
+    {
+      "room_id": "hallway",
+      "name": "过道",
+      "area_sqm": 7.6,
+      "orientation": "室内中心",
+      "dimension_hints": {},
+      "tags": ["交通动线", "动静分区枢纽"],
+      "adjacent_rooms": ["living_room", "bedroom_a", "bedroom_b", "bedroom_c", "bedroom_d", "bathroom_b"],
+      "key_features": "连接全屋静区的优雅动线，自然过渡公共区与私密区"
+    },
+    {
+      "room_id": "bedroom_a",
+      "name": "卧室A（南向次卧）",
+      "area_sqm": 11.8,
+      "orientation": "南向",
+      "dimension_hints": {
+        "width_mm": 1977
+      },
+      "tags": ["南向阳光房", "次卧/长辈房"],
+      "adjacent_rooms": ["hallway", "balcony_a"],
+      "key_features": "11.8㎡南向采光次卧，方正通透"
+    },
+    {
+      "room_id": "bedroom_b",
+      "name": "卧室B（南向豪华主卧）",
+      "area_sqm": 16.7,
+      "suite_total_sqm": 24.1,
+      "orientation": "南向/东向",
+      "dimension_hints": {
+        "depth_mm": 3466,
+        "width_mm": 1948
+      },
+      "tags": ["豪华主卧套房", "独立衣帽间", "独立主卫", "东南双向采光"],
+      "adjacent_rooms": ["walk_in_closet", "hallway"],
+      "key_features": "16.7㎡主卧配2.9㎡衣帽间及4.5㎡主卫，总套房超24㎡，尊贵私密"
+    },
+    {
+      "room_id": "walk_in_closet",
+      "name": "衣帽间（主卧套内）",
+      "area_sqm": 2.9,
+      "orientation": "室内",
+      "dimension_hints": {
+        "depth_mm": 1608
+      },
+      "tags": ["收纳", "主卧配套"],
+      "adjacent_rooms": ["bedroom_b", "bathroom_a"],
+      "key_features": "独立步入式衣帽收纳空间"
+    },
+    {
+      "room_id": "bathroom_a",
+      "name": "卫生间A（主卫）",
+      "area_sqm": 4.5,
+      "orientation": "东向",
+      "dimension_hints": {
+        "depth_mm": 1594
+      },
+      "tags": ["主卫", "套内私享"],
+      "adjacent_rooms": ["walk_in_closet"],
+      "key_features": "4.5㎡独立主卫，带采光通风窗"
+    },
+    {
+      "room_id": "bathroom_b",
+      "name": "卫生间B（客卫/公卫）",
+      "area_sqm": 4.4,
+      "orientation": "东向",
+      "dimension_hints": {
+        "depth_mm": 1573
+      },
+      "tags": ["公卫", "干湿分离"],
+      "adjacent_rooms": ["hallway"],
+      "key_features": "4.4㎡干湿分离公共卫生间，服务次卧与客区"
+    },
+    {
+      "room_id": "bedroom_c",
+      "name": "卧室C（东北次卧）",
+      "area_sqm": 12.7,
+      "orientation": "东北向",
+      "dimension_hints": {
+        "depth_mm": 3351,
+        "width_mm": 1799
+      },
+      "tags": ["次卧/儿童房/静谧雅居"],
+      "adjacent_rooms": ["hallway"],
+      "key_features": "12.7㎡东北角方正大开间卧室，视野开阔"
+    },
+    {
+      "room_id": "bedroom_d",
+      "name": "卧室D（北向多功能房/书房）",
+      "area_sqm": 9.2,
+      "orientation": "北向",
+      "dimension_hints": {
+        "width_mm": 1978
+      },
+      "tags": ["书房", "百变功能房", "直连生活阳台"],
+      "adjacent_rooms": ["hallway", "balcony_b"],
+      "key_features": "9.2㎡北向多功能房，连通7.8㎡阳台B"
+    },
+    {
+      "room_id": "balcony_b",
+      "name": "阳台B（北向生活阳台）",
+      "area_sqm": 7.8,
+      "orientation": "北向",
+      "dimension_hints": {
+        "width_mm": 1978
+      },
+      "tags": ["生活阳台", "家政空间", "北向通风"],
+      "adjacent_rooms": ["bedroom_d"],
+      "key_features": "7.8㎡北向实用生活阳台，实现南北双阳台对流"
+    }
+  ],
+  "selling_points": [
+    {
+      "id": "SP-01",
+      "title": "武昌核心沙湖大平层",
+      "detail": "坐拥武昌沙湖核心圈层，高端居住社区，圈层纯粹"
+    },
+    {
+      "id": "SP-02",
+      "title": "约163㎡ 奢阔四房双阳台",
+      "detail": "南北双阳台通风对流，四室方正全明布局，套内实用面积达124㎡"
+    },
+    {
+      "id": "SP-03",
+      "title": "31㎡大横厅 + 9.1㎡巨幕景观阳台",
+      "detail": "南向超大面宽采光，客餐厅一体化，聚会起居尽显从容"
+    },
+    {
+      "id": "SP-04",
+      "title": "24㎡总统级豪华主卧套房",
+      "detail": "配独立步入式衣帽间与私享主卫，东南双向采光，私密奢华"
+    },
+    {
+      "id": "SP-05",
+      "title": "完美动静分区，三代同堂互不干扰",
+      "detail": "中央过道串联四室，主客分离，长幼分区"
+    }
+  ]
+}

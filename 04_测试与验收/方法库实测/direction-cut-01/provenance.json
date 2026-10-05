@@ -1,0 +1,30 @@
+{
+  "property": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/",
+  "method_id": "P08",
+  "variant_id": "P08V1",
+  "inputs": [
+    {
+      "path": "04_测试与验收/方法库实测/micro-01/take.mp4",
+      "sha256": "70144ad5d2c3a6f56573c4b56444fcc0035d2ea91fe06f053a3bf28a3e3ddfe2"
+    },
+    {
+      "path": "04_测试与验收/方法库实测/sweep-01/take.mp4",
+      "sha256": "02289ca9b5566a2602917b05e25ac649eb8b8ff4639330fe232e94dd5601fafb"
+    }
+  ],
+  "fact_source": "02_架构与合同/01_房产核心档案.md",
+  "fact_sha256": "c9f1c500f58a2af81baeeca1765cc3c8c454c1f079eb041b1841be26a43c08f5",
+  "font": {
+    "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+    "sha256": "2d37f927fb4c24a2ba4d318b903a607f6b7ad4e5f365c26aba6aaccb84038beb"
+  },
+  "counterexample": false,
+  "scope": "explicit_safe_post_variant",
+  "audio": "none",
+  "definition": {
+    "parent": "P08",
+    "title": "方向匹配微摇切镜",
+    "semantic": "卧室B两个已测向右慢摇片段方向匹配后硬切；不实施或模拟高速甩镜，不声称原甩镜解禁。"
+  },
+  "not_a_real_camera_path": true
+}

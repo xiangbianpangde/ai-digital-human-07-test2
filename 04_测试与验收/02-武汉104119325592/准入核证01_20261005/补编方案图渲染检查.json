@@ -1,0 +1,31 @@
+{
+  "schema": "pending-plan-local-diagram-render/v1",
+  "at": "2026-10-05T19:23:50.643635+08:00",
+  "html": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html",
+  "html_sha256": "7663a0ab3f434fa657a5ef97d5b6041627a2a94cb644289f7d6432ba4fe9d29d",
+  "png": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png",
+  "png_sha256": "735307d68ac07e18e5b58fb9ca69cf61be03d3d4a04b975c708fb51d34d78c27",
+  "renderer": "wendang.export_one with existing Chrome channel; no global skill/browser changes",
+  "console_or_page_errors": [],
+  "source_image_loads": [
+    {
+      "complete": true,
+      "width": 720,
+      "height": 1280,
+      "src": "../../04_测试与验收/02-武汉104119325592/准入核证01_20261005/pano1-front-native-projection.png"
+    }
+  ],
+  "diagram_bounds_css": {
+    "x": 0,
+    "y": 0,
+    "width": 1400,
+    "height": 1232.390625
+  },
+  "viewport_overflow": {
+    "doc": 1500,
+    "viewport": 1500
+  },
+  "is_new_video_recording_or_generation": false,
+  "diagram_is_metric_floorplan": false,
+  "user_plan_or_video_acceptance": false
+}

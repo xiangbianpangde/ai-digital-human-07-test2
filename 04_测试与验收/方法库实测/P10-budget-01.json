@@ -1,0 +1,21 @@
+{
+  "method_id":"P10",
+  "status":"awaiting_budget_and_secure_auth",
+  "provider":"Replicate",
+  "model":"google-research/frame-interpolation (FILM)",
+  "source":"https://replicate.com/google-research/frame-interpolation",
+  "official_quote":"This model costs approximately $0.030 to run on Replicate, or 33 runs per $1, but this varies depending on your inputs.",
+  "currency":"USD",
+  "estimated_per_run":0.03,
+  "proposed_max_runs":3,
+  "estimated_three_runs":0.09,
+  "proposed_test_budget":0.5,
+  "budget_approved":false,
+  "paid_calls_made":0,
+  "cost_warning":"官方报价是估计，不是固定单价或收费上限；具体按平台运行计费，运行失败也可能有费用。未经用户确认不调用。",
+  "test_scope":"先从已accept的同机位VR微摇片段取小跨度首尾帧，以真实中间帧作对照。不得跨房间凭空生成行走路径。",
+  "acceptance_required":["真实神经网络输出与服务版本/输入溯源","窗框/墙线/地板不新增或弯折","全帧技术检查及切点逐帧人工核对","不将估计光流宣称为实拍或量测认证"],
+  "auth_check":"当前会话环境变量REPLICATE_API_TOKEN未设置；未读取或输出明文密钥，未确认浏览器服务登录。需安全配置或用户登录。",
+  "unavailable_alternative":{"model":"pollinations/rife-video-interpolation","source":"https://replicate.com/pollinations/rife-video-interpolation","reason":"官方页面明确旧Cog/Python版本不再支持，不能运行，已排除。"},
+  "generation_not_interpolation":"MiniMax等生成式首尾帧视频不能直接冒充FILM式插帧；若改选生成服务需另核价与建筑几何风险。"
+}

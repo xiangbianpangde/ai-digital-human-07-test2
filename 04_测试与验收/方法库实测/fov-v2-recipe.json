@@ -1,0 +1,1 @@
+{"id":"C09-fov-v2","start":{"pano":5,"yaw":0.04,"fov":80},"steps":[{"kind":"hold","ms":600},{"kind":"fov","fov":75,"ms":4000},{"kind":"hold","ms":1400}]}

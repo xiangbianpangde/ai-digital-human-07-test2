@@ -1,0 +1,56 @@
+{
+  "schema": "preproduction-delivery-omission-correction/v1",
+  "at": "2026-10-05T19:30:36.707921+08:00",
+  "user_objection_exact": "不应该先给我一份拍摄计划方案和运镜示意图等文件吗，为什么直接就开始了？",
+  "acknowledged_issue": "Assistant executed the explicitly scoped one-shot trial without first delivering a formal shooting plan and camera diagram for user review. Specific trial permission did not substitute for the missing pre-production delivery gate.",
+  "old_specific_trial_permission_preserved": true,
+  "formal_plan_or_diagram_delivered_before_trial": false,
+  "prior_phase4_DONE_assessment_withdrawn": true,
+  "phase4_at_correction": "BLOCKED",
+  "phase5_at_correction": "BLOCKED",
+  "unique_live_state": "00_入口/00_当前.md",
+  "pending_plan": [
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/05_拍摄计划方案_V1_待审.md",
+      "sha256": "9eeb507a43dd8bf8aee75369f19b43ed9f7b1af34e1198dc579d3e56c72a190a"
+    },
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html",
+      "sha256": "ade7925f405ac3d97a652c05441f33664f5ec9fafaff6e961ff0154a24d02803"
+    },
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png",
+      "sha256": "51719e81f3dbae483724020bb05c8e233c6459cf779d047dd0ef9a15de961df7"
+    },
+    {
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查02.json",
+      "sha256": "13c0090f5871ee1f8d524895b80f0c914822358c3e706b142de45f719ea71b65"
+    }
+  ],
+  "diagram_visual_check": "Inspected2100x1850 actual PNG: relative-angle fan with fixedP1 camera, no movement path/metric floorplan; original source image and framing risks readable; unreviewed draft arc margin corrected in second local render.",
+  "plan_embeds_png": true,
+  "plan_user_accepted": false,
+  "existing_trial": {
+    "path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/武汉104119325592-S1-原生定点静默试验01.mp4",
+    "sha256": "d44acd7598cb675c80eaec3102f96eac5b0d152c5ebd9198cfd82974b2fe8fdf",
+    "user_accepted": false,
+    "new_take_or_video_after_objection": false,
+    "original_contract_and_review_unchanged": true
+  },
+  "new_gate_order": [
+    "deliver shooting plan Markdown and embedded camera PNG",
+    "user reviews plan",
+    "explicit matching current-shot execution permission",
+    "current-shot trial and technical/factual/visual checks",
+    "user accepts actual SHA-bound trial",
+    "only then propose next current shot"
+  ],
+  "no_full_untested_action_script_or_path": true,
+  "does_not_backdate_or_retroactively_approve": true,
+  "registry_before_ast026": {
+    "records_count": 25,
+    "raw_sha256": "f9fe1171ac52cb2e2441648683af066f4b1228793402848dc46399eb4e3e6601",
+    "prefix_size_before_outer_closing": 25455,
+    "records_canonical_sha256": "325367cbc15930d5ffb73c33351474f7a7616e0834c4239a636dc2f007bbb553"
+  }
+}

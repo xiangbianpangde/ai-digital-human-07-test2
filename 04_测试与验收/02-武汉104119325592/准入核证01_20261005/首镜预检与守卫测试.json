@@ -1,0 +1,16 @@
+{
+  "schema": "single-shot-preflight-tests/v1",
+  "test_count": 14,
+  "exit_code": 0,
+  "command": [
+    "python3",
+    "-B",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/02-武汉104119325592/首镜原生定点试验/test_render_one_shot.py"
+  ],
+  "stdout": "",
+  "stderr": "test_absolute_yaw_endpoints_monotonic_symmetric (__main__.SingleShotChecks.test_absolute_yaw_endpoints_monotonic_symmetric) ... ok\ntest_approved_contract (__main__.SingleShotChecks.test_approved_contract) ... ok\ntest_camera_coefficients_match_ray_equations (__main__.SingleShotChecks.test_camera_coefficients_match_ray_equations) ... ok\ntest_cross_point_or_translation_rejected (__main__.SingleShotChecks.test_cross_point_or_translation_rejected) ... ok\ntest_metric_claims_or_next_shot_rejected (__main__.SingleShotChecks.test_metric_claims_or_next_shot_rejected) ... ok\ntest_no_native_exception_rejected (__main__.SingleShotChecks.test_no_native_exception_rejected) ... ok\ntest_paid_or_external_generation_rejected (__main__.SingleShotChecks.test_paid_or_external_generation_rejected) ... ok\ntest_readonly_preflight_and_all180_source_bounds (__main__.SingleShotChecks.test_readonly_preflight_and_all180_source_bounds) ... ok\ntest_voice_or_cta_rejected (__main__.SingleShotChecks.test_voice_or_cta_rejected) ... ok\ntest_wrong_duration_rejected (__main__.SingleShotChecks.test_wrong_duration_rejected) ... ok\ntest_wrong_listing_rejected (__main__.SingleShotChecks.test_wrong_listing_rejected) ... ok\ntest_wrong_output_or_guard_rejected (__main__.SingleShotChecks.test_wrong_output_or_guard_rejected) ... ok\ntest_wrong_point_rejected (__main__.SingleShotChecks.test_wrong_point_rejected) ... ok\ntest_zero_yaw_identity_preserves_pixels (__main__.SingleShotChecks.test_zero_yaw_identity_preserves_pixels) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.003s\n\nOK\n",
+  "renderer_sha256": "c6b29b1eb88f50adbd38212ecb3206a6a55979096089c02bf9016a61695b2b75",
+  "test_sha256": "2b4ab90ec218e79ea144179be4be2fffb9bb8944cba089369dda3212a373b613",
+  "ffmpeg_version": "ffmpeg version 8.1.2 Copyright (c) 2000-2026 the FFmpeg developers",
+  "mode": "pre-render readonly guard/math tests, not camera or final visual acceptance"
+}

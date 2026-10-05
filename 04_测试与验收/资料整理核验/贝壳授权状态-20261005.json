@@ -1,0 +1,12 @@
+{
+  "schema": "beike-redacted-doctor/v1",
+  "at": "2026-10-05T11:57:12.850935+08:00",
+  "exit_code": 0,
+  "api_reachable": true,
+  "key_valid": true,
+  "credential_source": "pre-existing local credential file, no credential value read/copied by assistant",
+  "credential_file_mode_before": "0o600",
+  "credential_file_mode_after": "0o600",
+  "raw_output_persisted": false,
+  "chat_key_saved_or_passed": false
+}

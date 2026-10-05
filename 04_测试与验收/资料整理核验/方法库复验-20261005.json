@@ -1,0 +1,189 @@
+{
+  "schema": "methodlib-acceptance/v1",
+  "at": "2026-10-05T10:57:25.574586+08:00",
+  "passed": true,
+  "unit_tests": 23,
+  "unit_log": "test_all_ready_select (__main__.Gates.test_all_ready_select) ... ok\ntest_append_only (__main__.Gates.test_append_only) ... ok\ntest_blocked_even_in_experiment (__main__.Gates.test_blocked_even_in_experiment) ... ok\ntest_counterexamples_explicit_experiment_only (__main__.Gates.test_counterexamples_explicit_experiment_only) ... ok\ntest_encoded_full_occlusion (__main__.Gates.test_encoded_full_occlusion) ... ok\ntest_evidence_hash_drift (__main__.Gates.test_evidence_hash_drift) ... ok\ntest_fact_drift (__main__.Gates.test_fact_drift) ... ok\ntest_graphic_layer_limits (__main__.Gates.test_graphic_layer_limits) ... ok\ntest_guard_results (__main__.Gates.test_guard_results) ... ok\ntest_input_refusal (__main__.Gates.test_input_refusal) ... ok\ntest_inventory (__main__.Gates.test_inventory) ... ok\ntest_policy_drift (__main__.Gates.test_policy_drift) ... ok\ntest_property_mismatch (__main__.Gates.test_property_mismatch) ... ok\ntest_recipe_drift (__main__.Gates.test_recipe_drift) ... ok\ntest_rejected_cannot_be_promoted_by_flag (__main__.Gates.test_rejected_cannot_be_promoted_by_flag) ... ok\ntest_safe_variant_selection (__main__.Gates.test_safe_variant_selection) ... ok\ntest_station_drift (__main__.Gates.test_station_drift) ... ok\ntest_station_mapping (__main__.Gates.test_station_mapping) ... ok\ntest_superseded_variant_refused (__main__.Gates.test_superseded_variant_refused) ... ok\ntest_unsafe_capture_id (__main__.Gates.test_unsafe_capture_id) ... ok\ntest_variant_executor_drift (__main__.Gates.test_variant_executor_drift) ... ok\ntest_variant_identity_drift (__main__.Gates.test_variant_identity_drift) ... ok\ntest_variant_parent_not_promoted (__main__.Gates.test_variant_parent_not_promoted) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.264s\n\nOK\n",
+  "ready": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "P01",
+    "P02",
+    "P04",
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05"
+  ],
+  "safe_variants_ready": [
+    "P03V1",
+    "P05V1",
+    "P06V1",
+    "P07V1",
+    "P08V1",
+    "P09V1"
+  ],
+  "visual_rejected": [
+    "P03",
+    "P05",
+    "P06"
+  ],
+  "blocked_not_runtime_tested": [
+    "P07",
+    "P08",
+    "P09",
+    "P10"
+  ],
+  "hashes_verified": 391,
+  "decoded_all_frames": [
+    "04_测试与验收/方法库实测/action-01/take.mp4",
+    "04_测试与验收/方法库实测/continuous-01/take.mp4",
+    "04_测试与验收/方法库实测/corroborate-01/take.mp4",
+    "04_测试与验收/方法库实测/cut-01/take.mp4",
+    "04_测试与验收/方法库实测/direction-cut-01/take.mp4",
+    "04_测试与验收/方法库实测/dissolve-01/take.mp4",
+    "04_测试与验收/方法库实测/dollhouse-01/take.mp4",
+    "04_测试与验收/方法库实测/dollhouse-02/take.mp4",
+    "04_测试与验收/方法库实测/dollhouse-03/take.mp4",
+    "04_测试与验收/方法库实测/door-01/take.mp4",
+    "04_测试与验收/方法库实测/door-02/take.mp4",
+    "04_测试与验收/方法库实测/door-03/take.mp4",
+    "04_测试与验收/方法库实测/edge-slide-01/take.mp4",
+    "04_测试与验收/方法库实测/establish-03/take.mp4",
+    "04_测试与验收/方法库实测/establish-04/take.mp4",
+    "04_测试与验收/方法库实测/flash-01/take.mp4",
+    "04_测试与验收/方法库实测/fov-01/take.mp4",
+    "04_测试与验收/方法库实测/fov-02/take.mp4",
+    "04_测试与验收/方法库实测/graphic-occlusion-02/take.mp4",
+    "04_测试与验收/方法库实测/identity-01/take.mp4",
+    "04_测试与验收/方法库实测/long-dissolve-01/take.mp4",
+    "04_测试与验收/方法库实测/long-graphic-01/take.mp4",
+    "04_测试与验收/方法库实测/lookback-01/take.mp4",
+    "04_测试与验收/方法库实测/micro-01/take.mp4",
+    "04_测试与验收/方法库实测/push-01/take.mp4",
+    "04_测试与验收/方法库实测/question-01/take.mp4",
+    "04_测试与验收/方法库实测/reverse-01/take.mp4",
+    "04_测试与验收/方法库实测/selling-01/take.mp4",
+    "04_测试与验收/方法库实测/selling-02/take.mp4",
+    "04_测试与验收/方法库实测/slide-01/take.mp4",
+    "04_测试与验收/方法库实测/soft-pulse-01/take.mp4",
+    "04_测试与验收/方法库实测/sweep-01/take.mp4",
+    "04_测试与验收/方法库实测/tile-reveal-02/take.mp4",
+    "04_测试与验收/方法库实测/zoom-cut-01/take.mp4"
+  ],
+  "capture_endpoints": [
+    {
+      "method": "C01",
+      "take": "establish-04",
+      "terminal_pano": 1,
+      "terminal_yaw": 3.18,
+      "fov": 80
+    },
+    {
+      "method": "C02",
+      "take": "continuous-01",
+      "terminal_pano": 2,
+      "terminal_yaw": 3.18,
+      "fov": 80
+    },
+    {
+      "method": "C03",
+      "take": "door-03",
+      "terminal_pano": 10,
+      "terminal_yaw": 3.84971287552,
+      "fov": 80
+    },
+    {
+      "method": "C04",
+      "take": "dollhouse-03",
+      "terminal_pano": 25,
+      "terminal_yaw": 3.18,
+      "fov": 80
+    },
+    {
+      "method": "C05",
+      "take": "push-01",
+      "terminal_pano": 9,
+      "terminal_yaw": 3.18,
+      "fov": 80
+    },
+    {
+      "method": "C06",
+      "take": "lookback-01",
+      "terminal_pano": 1,
+      "terminal_yaw": 0.03612465865696457,
+      "fov": 80
+    },
+    {
+      "method": "C07",
+      "take": "micro-01",
+      "terminal_pano": 25,
+      "terminal_yaw": 3.399797248219099,
+      "fov": 80
+    },
+    {
+      "method": "C08",
+      "take": "sweep-01",
+      "terminal_pano": 25,
+      "terminal_yaw": 4.149586404954604,
+      "fov": 80
+    },
+    {
+      "method": "C09",
+      "take": "fov-02",
+      "terminal_pano": 5,
+      "terminal_yaw": 0.04,
+      "fov": 75.00000239936007
+    },
+    {
+      "method": "C10",
+      "take": "reverse-01",
+      "terminal_pano": 9,
+      "terminal_yaw": 0.04,
+      "fov": 80
+    }
+  ],
+  "code": [
+    {
+      "path": "03_实现/方法库/catalog.py",
+      "sha256": "991e805ee91d4b411f31d30ff2e0488d0229d269a659645bc8d82d90548d8303"
+    },
+    {
+      "path": "03_实现/方法库/render.py",
+      "sha256": "a893761f4700755a07038c58c402c4eb82051e69486891755197ebf4f6d38348"
+    },
+    {
+      "path": "03_实现/方法库/repair.py",
+      "sha256": "228dd5021f9689ce5b4dad9abf25df1288a30fff5e40d5df9342035766079b84"
+    },
+    {
+      "path": "03_实现/方法库/run.py",
+      "sha256": "afb9b2a89c00c496c574652a4ce01d3a9d45afc42589c47d652c4e82933dfc5e"
+    },
+    {
+      "path": "03_实现/方法库/take.js",
+      "sha256": "097348f69fd98dfa2e540434846d6cf28a512acd60411fcaa01d796e606f2d75"
+    },
+    {
+      "path": "03_实现/方法库/verify.py",
+      "sha256": "5192d9ea912a8139645c69704b5e12fba90079bf9fb24251655785d20b5c620e"
+    }
+  ],
+  "limits": [
+    "P10 explicitly deferred by user: no paid calls, no neural-interpolation acceptance",
+    "safe variants do not promote original prohibited effects",
+    "metric_clearance remains unverified",
+    "visual contact sheets are sampled, not full-frame human playback",
+    "N methods are silent text demos, not voice-over",
+    "Shot4 approval and Shot5 authorization unchanged"
+  ]
+}

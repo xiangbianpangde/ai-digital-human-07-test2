@@ -1,0 +1,198 @@
+{
+  "schema": "workspace-beike-skills-acceptance/v1",
+  "at": "2026-10-05T12:26:04.254878+08:00",
+  "installation_and_workspace_source_checks_passed": true,
+  "cwd": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2",
+  "official_workspace_install_exit_code": 0,
+  "workspace_skill_root": ".pi/skills",
+  "skills_verified": 7,
+  "official_release_members_verified": 15,
+  "workspace_files": [
+    {
+      "path": ".pi/skills/beike-buy/SKILL.md",
+      "sha256": "f6cac80457ef3e0d8fb84af05ee7033ef98ec5a47f11745aa8af5bb3fe5f3352"
+    },
+    {
+      "path": ".pi/skills/beike-buy/manifest.json",
+      "sha256": "7ab172a07472ba4d839b44b20357b90a3072767b9fa38de68bcf0f36f767d939"
+    },
+    {
+      "path": ".pi/skills/beike-market/SKILL.md",
+      "sha256": "b4d02db2a03be0116bf263e13636bece169a4c8c8372a095cb7a764dd592ab45"
+    },
+    {
+      "path": ".pi/skills/beike-market/manifest.json",
+      "sha256": "d8569e10abc12d739ecdb7e67f132c16e97a87ba4aeeb2772e5ff0ada2ff2ac6"
+    },
+    {
+      "path": ".pi/skills/beike-policy/SKILL.md",
+      "sha256": "645cce37a489dad76755ab761719dcc8c5549890100814d1c5c63023b2ceba28"
+    },
+    {
+      "path": ".pi/skills/beike-policy/manifest.json",
+      "sha256": "0b85118ef8e99ec5d6cfb872b14233a04b4b9fa0190eb0224331e8bb94bcf642"
+    },
+    {
+      "path": ".pi/skills/beike-rent/CHANGELOG.md",
+      "sha256": "97e0e90ddf72cbf273f3ce342a01cc86058638127a5d3a8e165f8ff409383868"
+    },
+    {
+      "path": ".pi/skills/beike-rent/SKILL.md",
+      "sha256": "07e963bfdcc4c855daf0ff3321865a6fb6414b7a37bd8558c8d3a1476afbb339"
+    },
+    {
+      "path": ".pi/skills/beike-rent/manifest.json",
+      "sha256": "70662d87b33be795a6c068534ef1b620877328a760b42112b3d8b7f5244f4fbb"
+    },
+    {
+      "path": ".pi/skills/beike-school/SKILL.md",
+      "sha256": "1ee4f0c9d02e68ce7becde9b9a01f29bdc9f01dfbf5c39a8043d537664fda183"
+    },
+    {
+      "path": ".pi/skills/beike-school/manifest.json",
+      "sha256": "24ebfc3c4f92bcb0b1cb35c05cce84e692f94a72d8d4044a1fb7e50fdcccda7c"
+    },
+    {
+      "path": ".pi/skills/beike-sell/SKILL.md",
+      "sha256": "c8a1542f3bbf493468daa2d534538a1ea5ed132b30fbf67cbce58626b28ffbb2"
+    },
+    {
+      "path": ".pi/skills/beike-sell/manifest.json",
+      "sha256": "afa755c321e1ff154704a3ff416c76a21291fd034908a401b3ee5cc0ae791d8d"
+    },
+    {
+      "path": ".pi/skills/beike-decor/SKILL.md",
+      "sha256": "487d35bdd4d0259b8b37a05a2baadf382d71ad5ba788b52c0dcba4e7039fc690"
+    },
+    {
+      "path": ".pi/skills/beike-decor/manifest.json",
+      "sha256": "b38106ba5236c363843c414ae6d7f22d3bbf26bce1f6aa06a738ec50025ace58"
+    }
+  ],
+  "runtime": {
+    "loader": "DefaultResourceLoader",
+    "reloads_tested": 2,
+    "all_selected_beike_sources_project_local": true,
+    "skill_commands_enabled": true,
+    "outside_workspace_still_global": true,
+    "known_same_name_collision_warnings": 7,
+    "preexisting_unrelated_global_diagnostics": 1,
+    "unexpected_new_diagnostics": 0,
+    "current_chat_resource_reload_performed": false,
+    "next_user_action": "/reload or re-enter the approved workspace"
+  },
+  "key_instructions": {
+    "syntax_checked": "macOS zsh",
+    "mock_flows": [
+      {
+        "case": "nonempty fictitious input",
+        "auth_mock_calls": 1,
+        "doctor_mock_calls": 1,
+        "temporary_key_variable_unset": true,
+        "passed": true
+      },
+      {
+        "case": "empty input",
+        "auth_mock_calls": 0,
+        "doctor_mock_calls": 1,
+        "temporary_key_variable_unset": true,
+        "passed": true
+      }
+    ],
+    "actual_auth_or_key_update_called": false,
+    "credential_values_read_written_or_hashed": false,
+    "default_credential_storage": "~/.beike/BEIKE_MCP_API_KEY (user-level, not workspace-local)",
+    "sensitive_literal_scan_passed": true,
+    "scope_note": "Hidden input avoids command-history values; official auth still uses short-lived process arguments, documented for trusted-local execution."
+  },
+  "zip": {
+    "existing_AST_014_reused": true,
+    "sha256": "a2d5620e1ce34dabf0869ba4967047f405826f5092df618be271982933cd55a3",
+    "unchanged": true,
+    "copied_again": false,
+    "windows_program_executed": false
+  },
+  "protection": {
+    "baseline_project_files": 1188,
+    "existing_project_files_unchanged": 1183,
+    "modified_existing_files": [
+      {
+        "path": "00_入口/00_当前.md",
+        "before_sha256": "8a8987c497cb3a75d8b16c39e13f974a338736e8e632f0a22cb4d32360461449",
+        "after_sha256": "da581fb0b42b0c437fb9a2d86758d84f7fece12c96375b707705439ed15d0309"
+      },
+      {
+        "path": "00_入口/02_风险与待确认.md",
+        "before_sha256": "34ed3ad13beebfec8d1278914e82aed56dedb23352649c5f70c845f1aaec4ee2",
+        "after_sha256": "c800aa01638ea68c2ff23530648ec938e807fbd288b35bf27596cbb6967c9e87"
+      },
+      {
+        "path": "05_资产库/ASSET_INDEX.md",
+        "before_sha256": "8b46bc0860f3900b072e1d268e28e1e8161f4c2549ffd8801f740fae422b3579",
+        "after_sha256": "d1eb088b09a6881b68ec4d59f4506ce159fbf3ed6a289188a00335321cd465b1"
+      },
+      {
+        "path": "05_资产库/source_manifest.json",
+        "before_sha256": "da4f31454999dd77077ddfe7013bf2bc369158b90bc163eb0108254776d37e31",
+        "after_sha256": "2c34e7ce0377e7f7f07bba72b9cd2cff22a8aca0af7ffc42c9a6f70ae6a8ec4c"
+      },
+      {
+        "path": "07_运行记录/LOG.md",
+        "before_sha256": "225a1703a4dc7e1c86b94b91b76424f5597ae2d47f340c4f43760d8991f2a409",
+        "after_sha256": "812a10afa6cc26da52b6ee1c620413befe4a4c8906d1f2557603ca57dcd9aa6c"
+      }
+    ],
+    "existing_paths_deleted_or_moved": [],
+    "global_skills_and_settings_unchanged": true,
+    "cli_unchanged": true,
+    "existing_symlinks_unchanged": 2,
+    "append_only_checks": [
+      {
+        "path": "07_运行记录/LOG.md",
+        "original_prefix_bytes": 33229,
+        "prefix_unchanged": true,
+        "appended_bytes": 2688
+      },
+      {
+        "path": "05_资产库/ASSET_INDEX.md",
+        "original_prefix_bytes": 7397,
+        "prefix_unchanged": true,
+        "appended_bytes": 731
+      }
+    ],
+    "original_AST_001_to_015_records_unchanged": true,
+    "new_asset_id": "AST-016"
+  },
+  "new_files": [
+    ".pi/settings.json",
+    ".pi/skills/beike-buy/SKILL.md",
+    ".pi/skills/beike-buy/manifest.json",
+    ".pi/skills/beike-decor/SKILL.md",
+    ".pi/skills/beike-decor/manifest.json",
+    ".pi/skills/beike-market/SKILL.md",
+    ".pi/skills/beike-market/manifest.json",
+    ".pi/skills/beike-policy/SKILL.md",
+    ".pi/skills/beike-policy/manifest.json",
+    ".pi/skills/beike-rent/CHANGELOG.md",
+    ".pi/skills/beike-rent/SKILL.md",
+    ".pi/skills/beike-rent/manifest.json",
+    ".pi/skills/beike-school/SKILL.md",
+    ".pi/skills/beike-school/manifest.json",
+    ".pi/skills/beike-sell/SKILL.md",
+    ".pi/skills/beike-sell/manifest.json",
+    "04_测试与验收/资料整理核验/工作区贝壳Skills前基线-20261005.json",
+    "04_测试与验收/资料整理核验/工作区贝壳Skills加载核验-20261005.json",
+    "04_测试与验收/资料整理核验/工作区贝壳Skills安装输出-20261005.log",
+    "04_测试与验收/资料整理核验/工作区贝壳Skills最终核验-20261005.json",
+    "05_资产库/08_贝壳工具接入/工作区Skills与Key更新-20261005.md"
+  ],
+  "local_references_checked": 50,
+  "missing_local_targets": 0,
+  "limits": [
+    "Seven expected global collision messages remain, but project source winners are verified. No Pi/global Skill changes made to hide warnings.",
+    "Existing unrelated global YAML warning retained; no claim of an all-environment zero-diagnostic validation.",
+    "Current chat still needs /reload; fresh-loader behavior is verified.",
+    "Third-party Skills imported byte-for-byte, not rewritten or certified against custom local governance metadata.",
+    "No new property collection, material downloads, VR navigation, recording or paid media calls. G00/G02 and other existing gaps unchanged."
+  ]
+}

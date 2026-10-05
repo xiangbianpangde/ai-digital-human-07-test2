@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "反向客餐厅画面与回望字幕匹配；双行文本不遮门框和空间关系，不写12米等未证实数字。原片不足4秒部分以冻结尾帧延长，未伪造位移；未验证口播。",
+  "reviewed": [
+    "start.png"
+  ],
+  "metric_clearance": "unverified"
+}

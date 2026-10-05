@@ -1,0 +1,406 @@
+{
+  "schema": "project-material-inventory/v1",
+  "at": "2026-10-05T10:58:29.788411+08:00",
+  "source_matches": [
+    {
+      "supplied": "/var/folders/xt/w8fq6dms05n4j75_f2jfr2780000gn/T/pi-clipboard-fbd42882-7030-4adb-85ad-cbdc2038e403.png",
+      "archived": "05_资产库/01_户型图/floorplan_source.png",
+      "sha256": "833e264a7fc24c4a535c065e7362c1c8c70287f771ffde5204d77fa0a29dba32",
+      "matches": true
+    },
+    {
+      "supplied": "/var/folders/xt/w8fq6dms05n4j75_f2jfr2780000gn/T/pi-clipboard-76018f3e-e999-4a5d-8a71-a0941a630292.png",
+      "archived": "05_资产库/02_三维建模/3d_model_source.png",
+      "sha256": "af783be9fbbe8fcd7c106997dc68a834e4edb625221c84df50977686c2ce8fa2",
+      "matches": true
+    },
+    {
+      "supplied": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/04-v1.0视频/示例视频/d585ed739ce9dafafbb0b31548d47846.mp4",
+      "archived": "05_资产库/04_参考视频/reference_video.mp4",
+      "sha256": "dd894a5f2847f1c6e71951e21522bd5dd5191aafba9aea5e962909a0c95345dd",
+      "matches": true
+    }
+  ],
+  "source_manifest_checks": [
+    {
+      "id": "AST-001",
+      "path": "05_资产库/01_户型图/floorplan_source.png",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "id": "AST-002",
+      "path": "05_资产库/01_户型图/floorplan_cropped.png",
+      "exists": true,
+      "hash_matches": false
+    },
+    {
+      "id": "AST-003",
+      "path": "05_资产库/02_三维建模/3d_model_source.png",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "id": "AST-004",
+      "path": "05_资产库/02_三维建模/3d_model_cropped.png",
+      "exists": true,
+      "hash_matches": false
+    },
+    {
+      "id": "AST-005",
+      "path": "05_资产库/03_参考示例/camera_path_reference_example.png",
+      "exists": true,
+      "hash_matches": true
+    },
+    {
+      "id": "AST-006",
+      "path": "05_资产库/04_参考视频/reference_video.mp4",
+      "exists": true,
+      "hash_matches": null
+    },
+    {
+      "id": "AST-007",
+      "path": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/#lianjia",
+      "exists": null,
+      "hash_matches": null
+    }
+  ],
+  "media": [
+    {
+      "path": "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+      "sha256": "dd589e254356bbc0bc8f695407dddd69ed686c514a080478874f13aef6f2dcbd",
+      "bytes": 3860240,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "25.300000",
+          "nb_frames": "759",
+          "bit_rate": "1124328",
+          "sample_rate": null,
+          "channels": null
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "24.493000",
+          "nb_frames": "767",
+          "bit_rate": "92869",
+          "sample_rate": "32000",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "25.300000",
+        "size": "3860240",
+        "bit_rate": "1220629"
+      }
+    },
+    {
+      "path": "05_资产库/04_参考视频/reference_video.mp4",
+      "sha256": "dd894a5f2847f1c6e71951e21522bd5dd5191aafba9aea5e962909a0c95345dd",
+      "bytes": 7032218,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "34.166667",
+          "nb_frames": "1025",
+          "bit_rate": "1567252",
+          "sample_rate": null,
+          "channels": null
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "width": null,
+          "height": null,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "34.108005",
+          "nb_frames": "1470",
+          "bit_rate": "72262",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "format": {
+        "duration": "34.166667",
+        "size": "7032218",
+        "bit_rate": "1646568"
+      }
+    },
+    {
+      "path": "04_测试与验收/S1_客厅平滑推向阳台/原片与遥测/shot1_take.mp4",
+      "sha256": "d5c89900e9b8ac4e2cc96152099f4f7e329f014f2b1f0a92bf6e89a1f7d05185",
+      "bytes": 1482022,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "6.666667",
+          "nb_frames": "200",
+          "bit_rate": "1774828",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "format": {
+        "duration": "6.666667",
+        "size": "1482022",
+        "bit_rate": "1778426"
+      }
+    },
+    {
+      "path": "04_测试与验收/S2_阳台门口看客餐厅纵深/原片与遥测/shot2_take.mp4",
+      "sha256": "c3c828722aed0ab928c92296d90bdfc5ac320461bba8e7d5e1b856f52551d716",
+      "bytes": 381110,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "4.500000",
+          "nb_frames": "135",
+          "bit_rate": "673088",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "format": {
+        "duration": "4.500000",
+        "size": "381110",
+        "bit_rate": "677528"
+      }
+    },
+    {
+      "path": "04_测试与验收/S3_北向书房呼应生活代入/原片与遥测/shot3_take.mp4",
+      "sha256": "516a29dad28d8216a3a8ce1be6b1f35ea27e166e57cc867a5f0d27d119eefbe6",
+      "bytes": 245339,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "3.000000",
+          "nb_frames": "90",
+          "bit_rate": "649016",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "format": {
+        "duration": "3.000000",
+        "size": "245339",
+        "bit_rate": "654237"
+      }
+    },
+    {
+      "path": "04_测试与验收/S4_主卧套间证据链/原片与遥测/shot4_take.mp4",
+      "sha256": "9577be8d703cc43ea8f6fde879c36d105974446ee5d3d2fac0425675306053bc",
+      "bytes": 968142,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "7.133333",
+          "nb_frames": "214",
+          "bit_rate": "1082041",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "format": {
+        "duration": "7.133333",
+        "size": "968142",
+        "bit_rate": "1085766"
+      }
+    },
+    {
+      "path": "04_测试与验收/S5_全屋带看引导CTA/原片与遥测/shot5_take.mp4",
+      "sha256": "e838ec71b923513f11ac8f8ece5231875ab2db141acea5a464ef0b3bae03ea59",
+      "bytes": 352645,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 720,
+          "height": 1280,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "4.000000",
+          "nb_frames": "120",
+          "bit_rate": "700670",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "format": {
+        "duration": "4.000000",
+        "size": "352645",
+        "bit_rate": "705290"
+      }
+    }
+  ],
+  "full_frame_decoded_this_task": [
+    "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+    "05_资产库/04_参考视频/reference_video.mp4"
+  ],
+  "final_pts_check": {
+    "frames": 759,
+    "first": 0.0,
+    "last": 25.266667,
+    "strictly_increasing": true,
+    "interval_min": 0.03333299999999895,
+    "interval_max": 0.03333400000000353,
+    "constant_30fps_with_microsecond_rounding": true
+  },
+  "method_counts": {
+    "original": 25,
+    "variants": 6,
+    "ready_original": 18,
+    "ready_variants": 6
+  },
+  "sdk_rooms": [
+    {
+      "name": "客厅",
+      "panos": [
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "name": "卧室B",
+      "panos": [
+        20,
+        25,
+        26
+      ]
+    },
+    {
+      "name": "卧室C",
+      "panos": [
+        16,
+        17
+      ]
+    },
+    {
+      "name": "过道",
+      "panos": [
+        0,
+        14,
+        15
+      ]
+    },
+    {
+      "name": "卧室A",
+      "panos": [
+        12,
+        13
+      ]
+    },
+    {
+      "name": "阳台A",
+      "panos": [
+        10,
+        11
+      ]
+    },
+    {
+      "name": "卧室D",
+      "panos": [
+        7,
+        8
+      ]
+    },
+    {
+      "name": "阳台B",
+      "panos": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "厨房",
+      "panos": [
+        5,
+        6
+      ]
+    },
+    {
+      "name": "卫生间A",
+      "panos": [
+        23,
+        24
+      ]
+    },
+    {
+      "name": "卫生间B",
+      "panos": [
+        18,
+        19
+      ]
+    },
+    {
+      "name": "衣帽间",
+      "panos": [
+        21,
+        22
+      ]
+    }
+  ],
+  "method_library_visual_points": [
+    1,
+    2,
+    5,
+    9,
+    10,
+    25
+  ],
+  "native_eye_height_range": [
+    1.155408,
+    1.188716
+  ],
+  "metric_clearance": "unverified",
+  "property_label_sum": 123.7,
+  "observed_images": [
+    "05_资产库/01_户型图/floorplan_cropped.png",
+    "05_资产库/02_三维建模/3d_model_cropped.png",
+    "04_测试与验收/S6_全片终成片交付/final_video_contact_sheet.png",
+    "04_测试与验收/S6_全片终成片交付/final_seq_03.png"
+  ],
+  "limits": [
+    "No live VR navigation or Computer Use verification this task",
+    "No new rendering, TTS calls, paid services or Pi skill created",
+    "Frame decoding and timestamps are technical checks, not human full-frame playback",
+    "No full audio listening or digital-human validation",
+    "Historical requirements and final delivery differ; no automatic approval of deviations"
+  ]
+}

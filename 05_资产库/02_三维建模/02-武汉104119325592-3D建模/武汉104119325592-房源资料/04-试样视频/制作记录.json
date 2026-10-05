@@ -1,0 +1,41 @@
+{
+  "style": "reference-yellow-outline",
+  "listing_id": "104119325592",
+  "seconds": 22.2,
+  "resolution": "1080x1920",
+  "scenes": [
+    {
+      "scene": 1,
+      "source": "本套真实VR点位0",
+      "start": 2.0,
+      "seconds": 7.466666666666667,
+      "caption_count": 2
+    },
+    {
+      "scene": 2,
+      "source": "本套真实VR点位5",
+      "start": 9.466666666666667,
+      "seconds": 4.966666666666667,
+      "caption_count": 1
+    },
+    {
+      "scene": 3,
+      "source": "本套真实VR点位29",
+      "start": 14.433333333333334,
+      "seconds": 7.766666666666667,
+      "caption_count": 2
+    }
+  ],
+  "font": "Noto Sans CJK SC Bold (visual match, not confirmed original font)",
+  "music": "/Users/xiaojie/.codex/skills/beike-vr-video/assets/music/喜剧之王-剪辑版.mp3",
+  "voice": "Shelley (中文（中国大陆）)",
+  "vr_url": "https://open.realsee.com/ke/LvK29zwWorXDJowd/jgL5QVlsOHRer46ooqpdiRTjOm57hpL3/#lianjia",
+  "brand_watermark": {
+    "enabled": true,
+    "text": "德佑-鑫朝飞-世茂天胤店",
+    "font_size": 28,
+    "opacity": 0.38,
+    "y": 1260,
+    "start_after_cover": true
+  }
+}

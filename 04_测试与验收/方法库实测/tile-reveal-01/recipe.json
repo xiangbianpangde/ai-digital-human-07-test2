@@ -1,0 +1,9 @@
+{
+  "id": "P09V1-tile-reveal",
+  "method_id": "P09",
+  "variant_id": "P09V1",
+  "inputs": [
+    "establish-04",
+    "micro-01"
+  ]
+}

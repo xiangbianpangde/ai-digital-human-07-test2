@@ -1,0 +1,426 @@
+{
+  "schema_version": "1.0.0",
+  "project": "07-测试2",
+  "records": [
+    {
+      "id": "AST-001",
+      "kind": "floorplan-image",
+      "name": "沙湖九号实勘户型图全屏原图",
+      "local_path": "05_资产库/01_户型图/floorplan_source.png",
+      "sha256": "833e264a7fc24c4a535c065e7362c1c8c70287f771ffde5204d77fa0a29dba32",
+      "pixel_size": [2940, 1912],
+      "format": "PNG",
+      "source_origin": "/var/folders/xt/w8fq6dms05n4j75_f2jfr2780000gn/T/pi-clipboard-fbd42882-7030-4adb-85ad-cbdc2038e403.png",
+      "usage": "提取房间标称面积、朝向指北针与尺寸标注"
+    },
+    {
+      "id": "AST-002",
+      "kind": "floorplan-cropped",
+      "name": "沙湖九号实勘户型图裁剪版（文档与规划使用）",
+      "local_path": "05_资产库/01_户型图/floorplan_cropped.png",
+      "sha256": "43516ee71bf088998a6230bf081a951c143ee6cfa1e04db1284d72d1d3683bf1",
+      "pixel_size": [1550, 1450],
+      "format": "PNG",
+      "source_origin": "05_资产库/01_户型图/floorplan_source.png 裁剪",
+      "usage": "在 Markdown 文档中嵌入呈现，作为镜头路径绘制的底图"
+    },
+    {
+      "id": "AST-003",
+      "kind": "3d-model-image",
+      "name": "沙湖九号三维模型全屏原图",
+      "local_path": "05_资产库/02_三维建模/3d_model_source.png",
+      "sha256": "af783be9fbbe8fcd7c106997dc68a834e4edb625221c84df50977686c2ce8fa2",
+      "pixel_size": [2940, 1912],
+      "format": "PNG",
+      "source_origin": "/var/folders/xt/w8fq6dms05n4j75_f2jfr2780000gn/T/pi-clipboard-76018f3e-e999-4a5d-8a71-a0941a630292.png",
+      "usage": "辅助理解空间立体结构、墙体分布、门窗位置与室内装修材质"
+    },
+    {
+      "id": "AST-004",
+      "kind": "3d-model-cropped",
+      "name": "沙湖九号三维模型裁剪版（文档呈现）",
+      "local_path": "05_资产库/02_三维建模/3d_model_cropped.png",
+      "sha256": "b0d46f5c88ea28be7a627adcd2ef522b1154cce9ea18ecbb231b9d40cb97e68d",
+      "pixel_size": [1750, 1500],
+      "format": "PNG",
+      "source_origin": "05_资产库/02_三维建模/3d_model_source.png 裁剪",
+      "usage": "在 Markdown 文档中嵌入展示三维空间透视"
+    },
+    {
+      "id": "AST-005",
+      "kind": "reference-camera-path",
+      "name": "摄像机自动规划镜头路径示例图",
+      "local_path": "05_资产库/03_参考示例/camera_path_reference_example.png",
+      "sha256": "9e25a60cb799a53093d45785b2c869188a2b9c8fc2eb225e1b05e126096acb90",
+      "pixel_size": [608, 1182],
+      "format": "PNG",
+      "source_origin": "/var/folders/xt/w8fq6dms05n4j75_f2jfr2780000gn/T/pi-clipboard-41a93089-d1df-474d-9a65-e1590f165239.png",
+      "usage": "镜头路径规划设计参考（包含关键点位、运镜箭头、底部实景镜头配图）"
+    },
+    {
+      "id": "AST-006",
+      "kind": "reference-video",
+      "name": "标杆房产宣传短片示例（世茂锦绣长江）",
+      "local_path": "05_资产库/04_参考视频/reference_video.mp4",
+      "source_origin": "示例视频/d585ed739ce9dafafbb0b31548d47846.mp4",
+      "duration_sec": 34.17,
+      "resolution": [720, 1280],
+      "format": "MP4 (H.264 / AAC)",
+      "usage": "剪辑节奏、卖点呈现方式、口播字幕与运镜逻辑的标杆参考"
+    },
+    {
+      "id": "AST-007",
+      "kind": "online-vr-url",
+      "name": "沙湖九号如视官方VR漫游在线链接",
+      "url": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/#lianjia",
+      "usage": "漫游探索、点位实勘与 Computer Use 驱动拍摄"
+    },
+    {
+      "id": "AST-008",
+      "kind": "reference-analysis",
+      "name": "参考片设计与证据边界分析",
+      "local_path": "05_资产库/04_参考视频/宣传视频参考分析/参考视频设计思路.md",
+      "sha256": "9c79b22fb79b8325fd43bc070ac421e1ee30cefacfeeaa4f87b010fb1ac6cca4",
+      "source_origin": "示例视频/宣传视频参考分析/",
+      "usage": "叙事、字幕与运镜研究；视觉采样不是完整听音或机制验证"
+    },
+    {
+      "id": "AST-009",
+      "kind": "method-library-collection",
+      "name": "房产摄影运镜模式与本房源AI执行索引",
+      "local_path": "05_资产库/06_房产摄影运镜模式库",
+      "members": [
+        {
+          "path": "05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json",
+          "sha256": "50a20388b820b4c3171c4838e2b1e6a2aeb31422a4021a23ef6cb2d1f93d8dc6"
+        },
+        {
+          "path": "05_资产库/06_房产摄影运镜模式库/AI执行/点位.json",
+          "sha256": "0eb9af06eccf045824c841ebba5f0849f1c6423bc18faecfe08eb616661f3664"
+        },
+        {
+          "path": "05_资产库/06_房产摄影运镜模式库/AI执行/画廊.html",
+          "sha256": "627b44f9109061f1d307a535f8937799012d7225f7e59db01442846a25ed8999"
+        }
+      ],
+      "source_origin": ["05_资产库/06_房产摄影运镜模式库/", "../08-真人录制/介绍与转场方法库/"],
+      "usage": "教学来源与精确配方分开；25原方法、6安全变体；复用前select校验；成员哈希为2026-10-05快照，未来合法重建后需新登记"
+    },
+    {
+      "id": "AST-010",
+      "kind": "dollhouse-screen-recording",
+      "name": "历史名破面法的娃娃屋飞越屏幕录像",
+      "local_path": "../08-真人录制/素材库/转场视频/01-破面法/8038E3A9-3BF7-414A-99DC-18A9240428F1.mov",
+      "sha256": "c66f4913d09eacdca1cbb1594bb26d5355b06edb9b9bc38f52207e9b169966c7",
+      "source_origin": "../08-真人录制/素材库/转场视频/01-破面法/8038E3A9-3BF7-414A-99DC-18A9240428F1.mov",
+      "usage": "只读参考，非碎片破面实测；名称勘误见../08-真人录制/介绍与转场方法库/04-素材勘误-破面法.md"
+    },
+    {
+      "id": "AST-011",
+      "kind": "station-annotation",
+      "name": "27点位户型标注参考图",
+      "local_path": "../08-真人录制/素材库/图片/户型图/户型图-白色圆环标注-20261003.png",
+      "sha256": "bf04dd1bab85b8191b8581f0ad39fac18c1d4b2bed176ee2bdea0d52a96d9fb7",
+      "pixel_size": [3840, 1404],
+      "source_origin": "../08-真人录制/素材库/图片/户型图/户型图-白色圆环标注-20261003.png",
+      "usage": "仅作图面参考，不认证毫米精度或27点视觉通过；执行归属以SDK点位.json为准"
+    },
+    {
+      "id": "AST-012",
+      "kind": "production-workflow-reference-collection",
+      "name": "制作流程、证据地图与扩库清单",
+      "local_path": "05_资产库/07_制作流程资料",
+      "registered_at": "2026-10-05",
+      "members": [
+        {
+          "path": "05_资产库/07_制作流程资料/README.md",
+          "sha256": "7db4a524b2702e9ab57a91fadd8ad90e030015684d1da0fc36903359f9cddaa9"
+        },
+        {
+          "path": "05_资产库/07_制作流程资料/01_六步流程与证据地图.md",
+          "sha256": "03411e8c506e0d595131025c5434b8703ad696680b88db1587acdc6e5a778426"
+        },
+        {
+          "path": "05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md",
+          "sha256": "4d2cb7e042f4fc14c048aeec876de38516a5b4b00862342d5b90b36f7ed9a5b3"
+        }
+      ],
+      "source_origin": "本项目既有原图/成片/镜头与方法证据及授权日志的2026-10-05只读盘点",
+      "usage": "为后续扩库与skills准备基础；不是新脚本、拍摄许可或已实现技能"
+    },
+    {
+      "id": "AST-013",
+      "kind": "delivered-property-video",
+      "name": "沙湖九号核心卖点终版成片",
+      "local_path": "04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+      "sha256": "dd589e254356bbc0bc8f695407dddd69ed686c514a080478874f13aef6f2dcbd",
+      "duration_sec": 25.3,
+      "resolution": [720, 1280],
+      "fps": 30,
+      "video_frames": 759,
+      "format": "MP4 (H.264 / AAC)",
+      "source_origin": "03_实现/render_final_video.py; 04_测试与验收/S1_*至S5_*及既有音轨",
+      "usage": "已完成案例，只读保留；事实/时轴/规格偏差见制作流程资料G01/G04/G05/G06，不能当作新房源复用许可"
+    },
+    {
+      "id": "AST-014",
+      "kind": "windows-tool-reference-package",
+      "name": "贝壳房源抓取一键包 Windows 原始参考包",
+      "local_path": "05_资产库/08_贝壳工具接入/贝壳房源抓取一键包-Windows-20260819.zip",
+      "source_origin": "/Users/xbpd/Downloads/贝壳房源抓取一键包-Windows-20260819.zip",
+      "sha256": "a2d5620e1ce34dabf0869ba4967047f405826f5092df618be271982933cd55a3",
+      "size_bytes": 3162196,
+      "registered_at": "2026-10-05",
+      "usage": "用户明确授权接入后的只读参考归档；不是房源数据，不在Mac运行Windows exe，不代表户型图下载/VR模型获取已验证"
+    },
+    {
+      "id": "AST-015",
+      "kind": "official-beike-integration-reference-collection",
+      "name": "官方贝壳 Mac 接入说明与来源快照",
+      "local_path": "05_资产库/08_贝壳工具接入",
+      "registered_at": "2026-10-05",
+      "source_origin": "https://github.com/LianjiaTech/beike-ai-platform; 用户指定的官方Skills安装命令",
+      "members": [
+        {
+          "path": "05_资产库/08_贝壳工具接入/README.md",
+          "sha256": "afe19f2066be3d2bf02edbcceda0cb8d3de4b24efaf77d9b5fedde250eceb3df"
+        },
+        {
+          "path": "05_资产库/08_贝壳工具接入/官方Skills安装脚本-20261005.sh",
+          "sha256": "0ea75b12129e717ae6731efd08642a84dc62920449d04d9fd0a4d4b907ee0ce1"
+        },
+        {
+          "path": "05_资产库/08_贝壳工具接入/官方Skills清单-20261005.json",
+          "sha256": "c9bc396c62cd321a6b0c620e7ba1fe99f2e3ea305d399fb1359d1b51b2d75fb9"
+        },
+        {
+          "path": "05_资产库/08_贝壳工具接入/官方CLI清单-20261005.json",
+          "sha256": "4f17fe347f79885fb1593e87f0fe14814f4cdfa852b4ced136f42132925676ce"
+        }
+      ],
+      "usage": "本机官方CLI0.2.26及7个Skills接入、完整性与脱敏授权核验的导航；不含Key或用户配置，不创建自定义技能，不授权新采集/拍摄；来源哈希仅为本次快照"
+    },
+    {
+      "id": "AST-016",
+      "kind": "workspace-beike-integration-guide",
+      "name": "当前工作区Skills与Key更新操作说明",
+      "local_path": "05_资产库/08_贝壳工具接入/工作区Skills与Key更新-20261005.md",
+      "sha256": "186f4e08d6668951dfb90c4f4df91e333af500d7c7ef48450eb40494c97fde95",
+      "registered_at": "2026-10-05",
+      "source_origin": "用户要求项目级Skills；Pi技能/配置文档、官方安装器、实际DefaultResourceLoader核验及虚构输入示例测试",
+      "usage": "项目.pi/skills与Key隐藏输入流程导航；凭证仍用户级本机保存，不含Key值/哈希，不运行真实Key更新；记录同名提示与/reload要求，关联已有AST-014/015，不扩大为新采集或拍摄"
+    },
+    {
+      "id": "AST-017",
+      "kind": "private-user-session-evidence",
+      "name": "第一房源原始生产会话导出",
+      "local_path": "pi-session-2026-10-04T04-35-24-095Z_01a10531-fb3f-7537-a7d1-1aa11599652a.html",
+      "sha256": "bdc8375e50b82f0ddc5c4b3286e0ae0d8ad7d70c79ded83488fd23047f502bf0",
+      "size_bytes": 134309496,
+      "registered_at": "2026-10-05",
+      "source_origin": "用户本轮提供；按活动父链恢复1861项/36条用户消息",
+      "usage": "本地只读证据；不复制、执行或上传私有HTML/嵌入截图/推理/凭证。恢复S4批准与10-05字幕退回，不能由助手自称完成替代人审"
+    },
+    {
+      "id": "AST-018",
+      "kind": "case-derived-workflow-candidate-collection",
+      "name": "两案例验证准备：过程复盘、WorkflowV1与Skills方言路线",
+      "local_path": "05_资产库/07_制作流程资料",
+      "registered_at": "2026-10-05",
+      "source_origin": "第一房源原始会话/产物与用户本轮流程要求；第二房源只读初始化",
+      "members": [
+        {"path": "05_资产库/07_制作流程资料/03_第一房源真实生产过程.md", "sha256": "cebd151147e5042e600f8007e9da90b3106efc5f4033bf834b6c649ce5cc76bd"},
+        {"path": "05_资产库/07_制作流程资料/04_第一房源经验与真实性规则.md", "sha256": "b026fbf2e3d2de0c750982ede0670832a6c1ce8586442d5a3041bf3ad105c3f1"},
+        {"path": "05_资产库/07_制作流程资料/05_房产介绍视频制作流程_V1.md", "sha256": "db7b65af5408085d12f3425b31b95cfea83ee7bb99c7e470b90bee1452d770c1"},
+        {"path": "05_资产库/07_制作流程资料/06_Skills建设与方言工作流规划.md", "sha256": "8f959850866029c76fc0b09ccbd2040d0f7c29d6c472bf2947e7a67293e969b0"},
+        {"path": "05_资产库/07_制作流程资料/第一房源生产链.html", "sha256": "7bad20309c56a5e9f02a6108a51302ebb7faeb879a451aa4ad851f09a70dc4e0"},
+        {"path": "05_资产库/07_制作流程资料/第一房源生产链.png", "sha256": "39167bc26b1fd2ce85349516019851e04cd6538a71da53388d9666cee8be2d33"},
+        {"path": "05_资产库/07_制作流程资料/标准生产流程V1.html", "sha256": "2116afe090b3df586ab23792913eac07312b39b6d8e43f0129a0f5398d3125b0"},
+        {"path": "05_资产库/07_制作流程资料/标准生产流程V1.png", "sha256": "641671c736dee75c4bf2c973d099bfb22cfacc5f363b546c107334815cd31677"},
+        {"path": "00_入口/项目路线图-20261005.html", "sha256": "22a74a739639b0498439ca4ec211210243e48184a7532b8ba25aa1e8a5d809f2"},
+        {"path": "00_入口/项目路线图-20261005.png", "sha256": "86e5c5708a9cb8c7a4559a8b219389839a04946d4d2c176d157d4e3784ca191d"}
+      ],
+      "usage": "资料性准备与M1规范候选，不是生产Skills/新全案/已验证方言。旧AST-012成员保持历史原样；唯一实时状态在00_入口/00_当前.md，PNG为日期快照"
+    },
+    {
+      "id": "AST-019",
+      "kind": "second-listing-readonly-initialization-collection",
+      "name": "房源104119325592初始化与制作前置条件",
+      "local_path": "09_提案与草稿/第二房源_104119325592",
+      "registered_at": "2026-10-05",
+      "source_origin": "/Users/xbpd/Downloads/武汉104119325592-房源资料；第一案例复盘门禁后只读",
+      "members": [
+        {"path": "09_提案与草稿/第二房源_104119325592/01_资料清单.json", "sha256": "849e7a59d535604518ddf39bbb381d6c139b02ee9e5703d6b4849524b5c69c2a"},
+        {"path": "09_提案与草稿/第二房源_104119325592/02_房源结构化信息.json", "sha256": "c6b220727d8dd06679a98a7f5e34fc2e3e8b04967fa11df3f291aad4504786b9"},
+        {"path": "09_提案与草稿/第二房源_104119325592/03_初始化与制作前置条件.md", "sha256": "cd248cde609a56e5925de6b3b95e56a055fd91c485ace64b3a0e21bb23994864"}
+      ],
+      "source_file_count": 241,
+      "listing_id": "104119325592",
+      "production_authorized": false,
+      "usage": "16项只读准备；候选事实不是冻结合同，现价/在售未知，168.39㎡/36点/3阳台与旧房隔离。原241文件留原位，216面解码不认证运动/几何，缺旧试片未复验"
+    },
+    {
+      "id": "AST-020",
+      "kind": "public-capability-document-discovery-collection",
+      "name": "方言公开能力边界与既有Pi媒体包候选检索",
+      "local_path": "04_测试与验收/流程升级核验",
+      "registered_at": "2026-10-05",
+      "source_origin": "MiniMax官方同步语音/系统音色公开说明；search_pi_packages npm检索",
+      "members": [
+        {"path": "04_测试与验收/流程升级核验/方言能力文档核对-20261005.json", "sha256": "2c2e843194de1b19dc5fc5588d22941c01b28da49690357f465052a723051bb2"},
+        {"path": "04_测试与验收/流程升级核验/现有Pi媒体包候选-20261005.json", "sha256": "4904fff6501072aed786223369f0630d0f5af1e9f70c14b07bb2086e128ab319"}
+      ],
+      "usage": "仅公开文档/描述线索，不承诺武汉方言或工具安全适配；克隆URL404不支持结论，媒体包未安装/未审源代码/未选生产依赖，0试音/克隆/付费"
+    },
+    {
+      "id": "AST-021",
+      "kind": "source-bound-floorplan-pixel-crop",
+      "name": "沙湖九号户型图核证像素裁切（修订01）",
+      "local_path": "05_资产库/01_户型图/floorplan_verified_crop_20261005.png",
+      "sha256": "a387bc22acfb3e7b664b869d7b4cafbe66fe522690940e31318cf17ec8a2e9e4",
+      "registered_at": "2026-10-05",
+      "parent_asset": "AST-001",
+      "parent_path": "05_资产库/01_户型图/floorplan_source.png",
+      "parent_sha256": "833e264a7fc24c4a535c065e7362c1c8c70287f771ffde5204d77fa0a29dba32",
+      "source_pixel_bbox": [860, 455, 2070, 1770],
+      "pixel_size": [1210, 1315],
+      "pixel_crop_equality_verified": true,
+      "usage": "用户批准第一片最小修订后新增；只截原图、不改变几何/标签，无浏览器私人标签。仅内部研究/制作，不是产权测绘/净空认证；不覆盖或解禁旧AST002/004"
+    },
+    {
+      "id": "AST-022",
+      "kind": "case1-minimal-revision-candidate-collection",
+      "name": "沙湖九号最小修订01：仅内部终审候选",
+      "local_path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005",
+      "registered_at": "2026-10-05",
+      "members": [
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4", "sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7"},
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/render_recipe.json", "sha256": "b35b63e20b1c79715f1040d43a92c1be9987f4ddb6edb3749542dfb0dae8f020"},
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/technical_check.json", "sha256": "4be827339ae2bb0347cfdb85f74bdb058539f19647f7e3e947e0dfafe7a07f1d"},
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/内部终审单.md", "sha256": "20adbb10600b8097d060c5aaf475f3bfc7843e8ecce0b0ad57df696977040141"}
+      ],
+      "duration_sec": 25.3,
+      "resolution": [720, 1280],
+      "fps": 30,
+      "video_frames": 759,
+      "source_origin": "原纯净五镜母带＋原终片AAC＋AST021核证裁切＋只读原渲染函数及原字幕层",
+      "technical_decode_and_pts_passed": true,
+      "original_aac_payload_identical": true,
+      "human_final_acceptance_at_registration": false,
+      "public_use_authorized": false,
+      "usage": "去除无来源12米，采用新核证开场图；用户接受25.30秒/非数字人并限制内部用途。原片不覆盖，完整人类终审尚待完成；不算第二套试录，无新TTS/录制/付费或商业权利证明"
+    },
+    {
+      "id": "AST-023",
+      "kind": "version-bound-internal-human-acceptance",
+      "name": "第一片修订01完整内部接受记录",
+      "registered_at": "2026-10-05",
+      "parent_asset": "AST-022",
+      "version_sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7",
+      "members": [
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/人工接受-20261005.json", "sha256": "e688e76d2b55a202e324f018f75fc6535687d8a6741bb78c0f28837834833022"},
+        {"path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/内部终审单.md", "sha256": "20adbb10600b8097d060c5aaf475f3bfc7843e8ecce0b0ad57df696977040141"}
+      ],
+      "internal_complete_watch_and_listen_accepted": true,
+      "commercial_publication_authorized": false,
+      "original_specifications_all_passed": false,
+      "usage": "用户完整看听接受指定SHA、25.30秒/非数字人/仅内部；旧AST022注册时待审与原片/裁切旧记录保持，不扩大为全部原规格或商业权利通过"
+    },
+    {
+      "id": "AST-024",
+      "kind": "second-listing-readonly-fact-and-visual-namespace-evidence",
+      "name": "第二套官方来源补证与36点四向视觉分类",
+      "registered_at": "2026-10-05",
+      "listing_id": "104119325592",
+      "local_path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005",
+      "members": [
+        {"path": "09_提案与草稿/第二房源_104119325592/04_当前详情查询记录-20261005.json", "sha256": "0cbfa243edc9598e3fc4c628e8c0aae09517c79039b25b1d7c809dd60a28e077"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/当前事实补证.json", "sha256": "131809c9fb2b3c95f740b2af3a7cf4d7097cc17d9bf7388063ca9680d646f130"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/命名空间与静态映射证据.json", "sha256": "2eeb0bb21a3526972dce719362258499f2d63d42fbe2bfbb183b7bd6974e1982"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/视觉空间与点位对照.json", "sha256": "df59fb97c2577cbbfa40fd522a56097ac893ce803d5f6afd368f9e4c8e6abbc4"}
+      ],
+      "native_room_ids_available": false,
+      "fresh_onsite_or_realtime_price_verified": false,
+      "usage": "只读返回168㎡/500万/在售但无更新时间，保留原包168.39㎡精度与3月VR时点；36点水平四面视觉分类不是SDK room ID/全六面360度/米级几何认证。候选标记为生成时快照，后续仅pano1试验许可另绑定AST025；不联系/预约/换Key/付费/上传私有会话"
+    },
+    {
+      "id": "AST-025",
+      "kind": "single-native-panorama-silent-trial-collection",
+      "name": "第二套S1原生定点静默试验01",
+      "registered_at": "2026-10-05",
+      "listing_id": "104119325592",
+      "parent_evidence": "AST-024",
+      "local_path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005",
+      "members": [
+        {"path": "02_架构与合同/第二房源_104119325592/01_房产核心档案.md", "sha256": "011e87517d4c8c4e022818e5ed9b8e1e82c16e91912e568bc386aef0ab135395"},
+        {"path": "02_架构与合同/第二房源_104119325592/02_当前镜试验合同_01.json", "sha256": "e9ca332b1f31a96042a40e0bda278702f589c62119262e4c7a45a1459731568e"},
+        {"path": "03_实现/02-武汉104119325592/首镜原生定点试验/render_one_shot.py", "sha256": "c6b29b1eb88f50adbd38212ecb3206a6a55979096089c02bf9016a61695b2b75"},
+        {"path": "03_实现/02-武汉104119325592/首镜原生定点试验/test_render_one_shot.py", "sha256": "2b4ab90ec218e79ea144179be4be2fffb9bb8944cba089369dda3212a373b613"},
+        {"path": "03_实现/02-武汉104119325592/首镜原生定点试验/README.md", "sha256": "bd0ee1eaf2781d2a1e773bee94aa12f3beabed52dc9692e167e8603086c42077"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/首镜预检与守卫测试.json", "sha256": "26f0fa75e66989e49b898046a99914f61771dd44a60db189d4b817c136d1c392"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/武汉104119325592-S1-原生定点静默试验01.mp4", "sha256": "d44acd7598cb675c80eaec3102f96eac5b0d152c5ebd9198cfd82974b2fe8fdf"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/render_recipe.json", "sha256": "1dad593899bcdf618218bab61f0b3413771a08c9f491424ba7dc10f034592e51"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/technical_check.json", "sha256": "595c4426af6e33c254621690ffba8354b8a74c6407d9fdd19c05bd181dbe15b2"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/review.json", "sha256": "9337e80d400d979de0bc2265aebe799fd16159043f428576488f0cbaa3737ca4"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/审看入口.md", "sha256": "307d9721f1caed91b1041863a77c3638063e82288f20f10b21fb7cbb9ee06ce0"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/rerun_guard_check.json", "sha256": "9781672f2e23a23ad478c4163f7a7be773132d552d2ca6179284966a888db6ae"},
+        {"path": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向/take01_20261005/browser_playback.json", "sha256": "45d27042792bb97cf64f159432ab3def104bd27602a37764bc16f58b1562e765"}
+      ],
+      "source_face_path": "/Users/xbpd/Downloads/武汉104119325592-房源资料/03-完整VR素材/faces/1-front.avif",
+      "source_face_sha256": "9fd4c13944ca83bd4c9794d27d654df3b7b837a481c77ff71b812e07a6215911",
+      "trial_run_approved": true,
+      "native_view_exception_only_this_pano_and_trial": true,
+      "duration_sec": 6,
+      "resolution": [720, 1280],
+      "fps": 30,
+      "video_frames": 180,
+      "audio_streams": 0,
+      "new_paid_cost": 0,
+      "human_video_acceptance_at_registration": false,
+      "next_shot_authorized": false,
+      "usage": "用户仅批准pano1原生视角6秒静默定点转向；现有FFmpeg/Pillow真实面重投影，不生成空间或平移。14项预检、解码/PTS/有限目视/浏览器实播、防覆盖拒绝通过；产物SHA仍待用户审看，不外推下一镜/整片/声线/商业发布/物理高度净空或通用生产Skill"
+    },
+    {
+      "id": "AST-026",
+      "kind": "pending-shooting-plan-and-camera-diagram",
+      "name": "第二套拍摄计划V1与首镜运镜示意（事后补编待审）",
+      "registered_at": "2026-10-05",
+      "listing_id": "104119325592",
+      "parent_evidence": "AST-024",
+      "related_existing_trial": "AST-025",
+      "members": [
+        {"path": "09_提案与草稿/第二房源_104119325592/05_拍摄计划方案_V1_待审.md", "sha256": "9eeb507a43dd8bf8aee75369f19b43ed9f7b1af34e1198dc579d3e56c72a190a"},
+        {"path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.html", "sha256": "ade7925f405ac3d97a652c05441f33664f5ec9fafaff6e961ff0154a24d02803"},
+        {"path": "09_提案与草稿/第二房源_104119325592/首镜运镜示意_V1_补编待审.png", "sha256": "51719e81f3dbae483724020bb05c8e233c6459cf779d047dd0ef9a15de961df7"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/前置方案交付遗漏纠正-20261005.json", "sha256": "e628e3d2871a4300ffc6fea868b9cc451db1d70f731184fcd0216a9f7a07faba"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/补编方案图渲染检查02.json", "sha256": "13c0090f5871ee1f8d524895b80f0c914822358c3e706b142de45f719ea71b65"}
+      ],
+      "formal_plan_delivered_before_existing_trial": false,
+      "user_plan_acceptance_at_registration": false,
+      "new_trial_or_video_after_objection": false,
+      "usage": "用户指出未先交拍摄计划/图示，助手停止制作并补交待审方案；整体内容骨架＋当前首镜参数/方向PNG，不预写未测全量动作。此图非实际户型/测绘，事后补编不能追认拍前批准。旧合同/许可/take01/review/AST025保持，先方案审阅再分开确认执行许可与试片，不进第二镜"
+    },
+    {
+      "id": "AST-027",
+      "kind": "pending-overall-shooting-plan-and-full-camera-overview",
+      "name": "第二套整体拍摄方案V2：先整体后局部",
+      "registered_at": "2026-10-05",
+      "listing_id": "104119325592",
+      "previous_proposal": "AST-026",
+      "local_path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2",
+      "members": [
+        {"path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/拍摄计划.md", "sha256": "594f3761f98a1bcbdb01b30ba784d5e0802649d4d6d379871bbcec33bc541afe"},
+        {"path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.html", "sha256": "840c710f5d222368a9d9a2171ace371ee5b6a49e86dfaec155cc2a0c1c25ccc4"},
+        {"path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.png", "sha256": "ebfd4897edc5896fcaed5a74e1ee9363f8b02c8cf095eeaf17056842cab8e71e"},
+        {"path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_图渲染与预算核验02.json", "sha256": "ec21347be5bddebed7b9ab6911141389310b934cb311498ea23a6e7d9923eb77"}
+      ],
+      "chapter_budgets_sec": [3, 8, 5, 8, 4, 5, 3],
+      "total_proposed_budget_sec": 36,
+      "diagram_size": [2460, 2324],
+      "overall_plan_user_confirmed_at_registration": false,
+      "budget_is_executable_shot_timeline": false,
+      "new_shot_video_voice_or_paid_call": false,
+      "usage": "用户要求先确定整片计划和整体运镜图，再逐镜讨论/拍摄。七章覆盖/预算/统一取景意向与硬切衔接，静态素材同源核证；图中箭头是观看顺序非行走路线。V1/AST026与旧take01保持，不自动计入36秒。整体未确认不进入局部，候选点/章节预算不认证原生高度净空/room-ID/声音权利或精确运行配方"
+    }
+  ]
+}

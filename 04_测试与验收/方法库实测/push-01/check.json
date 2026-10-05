@@ -1,0 +1,14 @@
+{
+  "technical": "passed",
+  "visual": "pending",
+  "duration_sec": 7.133008,
+  "width": 720,
+  "height": 1280,
+  "fps": "30/1",
+  "bytes": 2294912,
+  "sha256": "60275c39ef351f321ecaa373bca7dfa17df7326152e9d64346eb3a6dad8ec100",
+  "native_height_exception": true,
+  "metric_clearance": "unverified",
+  "browser_session": "methodlib",
+  "driver": "Five SDK canvas captureStream / MediaRecorder"
+}

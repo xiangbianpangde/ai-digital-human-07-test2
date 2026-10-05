@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "穿门终点偏转方向错误，近墙逐渐满屏，拒绝；下一次改为相反偏转，不把技术可达当视觉通过。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

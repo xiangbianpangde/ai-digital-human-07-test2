@@ -1,0 +1,60 @@
+{
+  "custom_cover_override": false,
+  "headline_boxes": [
+    [
+      312.0,
+      480,
+      768.0,
+      606
+    ],
+    [
+      79.5,
+      640,
+      1000.5,
+      790
+    ]
+  ],
+  "layout": {
+    "headline_top_y": [
+      480,
+      640
+    ],
+    "headline_font_sizes": [
+      108,
+      128
+    ],
+    "headline_max_width": 980,
+    "headline_stroke": 12,
+    "floorplan_panel": [
+      48,
+      860,
+      1032,
+      1640
+    ],
+    "floorplan_max_size": [
+      920,
+      720
+    ],
+    "version": "2026-09-19-crop-safe",
+    "default_for_all_future_videos": true,
+    "review_center_crops": [
+      "3:4",
+      "1:1"
+    ],
+    "note": "用户截图显示视频号列表裁切旧标题。两行标题均置于中央安全区，保留黄白字黑描边；按实际发布页预览校验。"
+  },
+  "checked_center_crops": {
+    "3:4": [
+      0,
+      240,
+      1080,
+      1680
+    ],
+    "1:1": [
+      0,
+      420,
+      1080,
+      1500
+    ]
+  }
+}

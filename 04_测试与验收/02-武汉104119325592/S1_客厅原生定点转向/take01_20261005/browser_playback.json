@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "data": {
+    "origin": "file:///Users/xbpd/Projects/ai%E5%8F%A3%E6%92%AD%E6%95%B0%E5%AD%97%E4%BA%BA-%E5%AE%9E%E4%B9%A0%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/07-%E6%B5%8B%E8%AF%952/04_%E6%B5%8B%E8%AF%95%E4%B8%8E%E9%AA%8C%E6%94%B6/02-%E6%AD%A6%E6%B1%89104119325592/S1_%E5%AE%A2%E5%8E%85%E5%8E%9F%E7%94%9F%E5%AE%9A%E7%82%B9%E8%BD%AC%E5%90%91/take01_20261005/%E6%AD%A6%E6%B1%89104119325592-S1-%E5%8E%9F%E7%94%9F%E5%AE%9A%E7%82%B9%E9%9D%99%E9%BB%98%E8%AF%95%E9%AA%8C01.mp4",
+    "result": {
+      "currentTime": 6,
+      "dropped_frames_after": 1,
+      "dropped_frames_before": 1,
+      "duration": 6,
+      "elapsed_ms": 6002,
+      "ended": true,
+      "height": 1280,
+      "last_callback_media_time": 5.966667,
+      "mediaError": null,
+      "native_browser_playback_completed": true,
+      "not_desktop_computer_use_or_human_final_review": true,
+      "total_frames_after": 360,
+      "total_frames_before": 184,
+      "url": "file:///Users/xbpd/Projects/ai%E5%8F%A3%E6%92%AD%E6%95%B0%E5%AD%97%E4%BA%BA-%E5%AE%9E%E4%B9%A0%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D/07-%E6%B5%8B%E8%AF%952/04_%E6%B5%8B%E8%AF%95%E4%B8%8E%E9%AA%8C%E6%94%B6/02-%E6%AD%A6%E6%B1%89104119325592/S1_%E5%AE%A2%E5%8E%85%E5%8E%9F%E7%94%9F%E5%AE%9A%E7%82%B9%E8%BD%AC%E5%90%91/take01_20261005/%E6%AD%A6%E6%B1%89104119325592-S1-%E5%8E%9F%E7%94%9F%E5%AE%9A%E7%82%B9%E9%9D%99%E9%BB%98%E8%AF%95%E9%AA%8C01.mp4",
+      "video_frame_callbacks": 149,
+      "width": 720
+    }
+  },
+  "error": null
+}

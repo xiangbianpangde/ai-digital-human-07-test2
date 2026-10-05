@@ -1,0 +1,47 @@
+{
+  "schema": "dialect-public-capability-check/v1",
+  "checked_date": "2026-10-05",
+  "scope": "Public documentation only. No private house inputs uploaded, no account/voice API call, no voice cloning, no paid media generation or actual dialect audio test.",
+  "sources": [
+    {
+      "url": "https://platform.minimaxi.com/docs/api-reference/speech-t2a-http",
+      "fetch_response_id": "muuwntq2kxqxpg",
+      "url_index": 0,
+      "fetched": true,
+      "exact_passages": [
+        "是否增强对指定的小语种和方言的识别能力。默认值为 `null`，可设置为 `auto` 让模型自主判断。",
+        "`Chinese`",
+        "`Chinese,Yue`", 
+        "行内发音替换：将普通话拼音（带声调数字 `1–5`）或 IPA 音标或粤语拼音（带声调数字 `1–6`）用英文小括号包裹，可临时覆盖有问题的单词或者多音汉字的发音。",
+        "`sentence`：句级别时间戳",
+        "`word`：词级别时间戳"
+      ],
+      "bounded_observation": "The retrieved language_boost enum contains Chinese and Chinese,Yue and does not list Wuhan as a dedicated enum. Pronunciation correction and subtitle timestamps are documented, but not a tested Wuhan dialect workflow."
+    },
+    {
+      "url": "https://platform.minimaxi.com/docs/faq/system-voice-id",
+      "fetch_response_id": "muuwntq2kxqxpg",
+      "url_index": 1,
+      "fetched": true,
+      "exact_passages": [
+        "41中文 (普通话)`Chinese (Mandarin)_Warm_Bestie`温暖闺蜜",
+        "59中文 (粤语)`Cantonese_ProfessionalHost（F)`专业女主持"
+      ],
+      "bounded_text_search": {
+        "武汉": "No matches in fetched voice-list content",
+        "Wuhan": "No matches in fetched voice-list content"
+      },
+      "bounded_observation": "The first-case voice is labelled Mandarin. No dedicated Wuhan entry was found in this fetched list; this is not proof that every future model/voice can never produce Wuhan speech."
+    },
+    {
+      "url": "https://platform.minimaxi.com/docs/api-reference/voice-clone",
+      "fetched": false,
+      "error": "HTTP 404",
+      "handling": "Not used as support for a cloning capability or provider licensing conclusion. Any future cloning requires separate current documentation, explicit speaker rights and permission."
+    }
+  ],
+  "local_prerequisite_reference": "/Users/xbpd/.pi/agent/skills/mmx-cli/SKILL.md",
+  "conclusion": "Mandarin generation in the first case does not establish Wuhan dialect support. Local expression review, authorized native-speaker recording/TTS trials, measured timing and fact consistency remain NOT STARTED.",
+  "media_calls_this_task": 0,
+  "production_authorization": false
+}

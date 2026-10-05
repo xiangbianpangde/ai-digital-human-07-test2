@@ -1,0 +1,51 @@
+{
+  "lifecycle": {
+    "effectiveLaunch": {
+      "browserLaunched": true,
+      "engine": "chrome",
+      "launchHash": 10555201366498914000
+    },
+    "launched": false,
+    "relaunchedBrowser": false,
+    "restartedBackground": false,
+    "restoreStatus": "not_configured",
+    "reused": true,
+    "saveStatus": "not_attempted"
+  },
+  "origin": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/#lianjia",
+  "result": {
+    "capture": {
+      "bytes": 293729,
+      "complete": true,
+      "durationMs": 2201.5,
+      "error": null
+    },
+    "guards": [
+      {
+        "blocked": true,
+        "id": "wide_fov",
+        "reason": "Error: Invalid starting camera"
+      },
+      {
+        "blocked": true,
+        "id": "unknown_pano",
+        "reason": "Error: Invalid starting camera"
+      },
+      {
+        "blocked": true,
+        "id": "fast_pan",
+        "reason": "Error: Pan exceeds stable-camera speed"
+      },
+      {
+        "blocked": true,
+        "id": "non_adjacent",
+        "reason": "Error: Non-adjacent 1->25"
+      },
+      {
+        "blocked": true,
+        "id": "implicit_model",
+        "reason": "Error: Explicit schematic model pose required"
+      }
+    ]
+  }
+}

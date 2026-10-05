@@ -1,0 +1,2 @@
+file 'part1_tight_sweep.mp4'
+file 'part2_diagonal_advance.mp4'

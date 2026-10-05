@@ -1,0 +1,33 @@
+{
+  "schema": "case1-retro-workflow-readiness/v1",
+  "status": "DONE",
+  "scope": "Process recovery + retrospective + normative Workflow V1 documentation, not final human video acceptance.",
+  "twenty_topics_covered": true,
+  "eighteen_truth_rules_covered": true,
+  "fourteen_workflow_steps_with_inputs_outputs_owner_automation_skill_human_gate_maturity": true,
+  "local_links_valid": 20,
+  "embedded_pngs_exist": true,
+  "documents": [
+    {
+      "path": "05_资产库/07_制作流程资料/03_第一房源真实生产过程.md",
+      "sha256": "cebd151147e5042e600f8007e9da90b3106efc5f4033bf834b6c649ce5cc76bd"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/04_第一房源经验与真实性规则.md",
+      "sha256": "b026fbf2e3d2de0c750982ede0670832a6c1ce8586442d5a3041bf3ad105c3f1"
+    },
+    {
+      "path": "05_资产库/07_制作流程资料/05_房产介绍视频制作流程_V1.md",
+      "sha256": "db7b65af5408085d12f3425b31b95cfea83ee7bb99c7e470b90bee1452d770c1"
+    }
+  ],
+  "case1_business_closeout": "BLOCKED",
+  "closeout_reason": "Unsupported claims, full audio/visual final review, requirements deviation and rights decisions remain; no new human acceptance manufactured.",
+  "second_house_contents_read_before_this_gate": false,
+  "next_allowed": "Read-only second-house initialization; no script/recording/TTS/final-video production.",
+  "diagram_environment_issue": {
+    "default_renderer": "BLOCKED: Python Playwright expects headless_shell-1228 but local cache contains1243",
+    "fallback": "DONE: existing installed Chrome channel rendered local PNGs with no page errors; images actually inspected",
+    "global_skill_or_browser_install_modified": false
+  }
+}

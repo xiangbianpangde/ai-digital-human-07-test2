@@ -1,0 +1,95 @@
+{
+  "schema": "case2-single-shot-contract/v1",
+  "contract_id": "HOUSE-104119325592-S1-01",
+  "listing_id": "104119325592",
+  "namespace": "HOUSE-104119325592",
+  "fact_contract": {
+    "path": "02_架构与合同/第二房源_104119325592/01_房产核心档案.md",
+    "sha256": "011e87517d4c8c4e022818e5ed9b8e1e82c16e91912e568bc386aef0ab135395"
+  },
+  "approval": {
+    "at": "2026-10-05T18:08:26.011699+08:00",
+    "evidence": "Structured question naming second-listing pano1, native-view exception,6s silent fixed-point trial; user selected 批准原生定点试验 (Recommended)",
+    "approved_pano_index": 1,
+    "approved_once": true,
+    "approved_duration_sec": 6,
+    "native_view_exception": true,
+    "not_metric_height_or_clearance_acceptance": true,
+    "human_acceptance_of_unmade_video": false,
+    "next_shot_authorized": false
+  },
+  "source": {
+    "path": "/Users/xbpd/Downloads/武汉104119325592-房源资料/03-完整VR素材/faces/1-front.avif",
+    "sha256": "9fd4c13944ca83bd4c9794d27d654df3b7b837a481c77ff71b812e07a6215911",
+    "projection": "one real90degree square cube face",
+    "pixel_size": [
+      2048,
+      2048
+    ],
+    "face": "front",
+    "pano_index": 1
+  },
+  "evidence": {
+    "visual_map": {
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/视觉空间与点位对照.json",
+      "sha256": "df59fb97c2577cbbfa40fd522a56097ac893ce803d5f6afd368f9e4c8e6abbc4"
+    },
+    "namespace_receipt": {
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/命名空间与静态映射证据.json",
+      "sha256": "2eeb0bb21a3526972dce719362258499f2d63d42fbe2bfbb183b7bd6974e1982"
+    }
+  },
+  "shot": {
+    "duration_sec": 6,
+    "fps": 30,
+    "frames": 180,
+    "output_size": [
+      720,
+      1280
+    ],
+    "h_fov_deg": 50,
+    "v_fov_deg": 79.31687852038161,
+    "yaw_start_deg": -8,
+    "yaw_end_deg": 8,
+    "yaw_reference": "relative to sourcefront cube face, not global SDK heading",
+    "yaw_formula": "-8*cos(pi*frame_index/(frames-1))",
+    "pitch_deg": 0,
+    "roll_deg": 0,
+    "spatial_translation": false,
+    "native_position": [
+      0.3630843652,
+      0.0140040917,
+      1.5924305328
+    ],
+    "native_coordinate_eye_delta": 1.2261523008346558,
+    "physical_height_verified": false,
+    "clearance_0_5m_verified": false,
+    "voice": null,
+    "subtitles": null,
+    "digital_human": false,
+    "cta": null,
+    "tools": "existing local FFmpeg decode/encode and Pillow absolute-yaw perspective projection of source pixels",
+    "new_paid_cost": 0,
+    "external_media_request": false,
+    "synthetic_room_pixels": false
+  },
+  "output_parent": "04_测试与验收/02-武汉104119325592/S1_客厅原生定点转向",
+  "output_attempt": "take01_20261005",
+  "guards": {
+    "no_overwrite": true,
+    "hash_bound_source": true,
+    "hash_bound_fact_contract": true,
+    "single_pano_only": true,
+    "yaw_must_stay_inside_source_face": true,
+    "allow_one_run": true,
+    "stop_after_current_trial": true,
+    "do_not_certify_metric_height_clearance_or_final_human_review": true
+  },
+  "acceptance": {
+    "technical": "180 frames/6sec/720x1280/30fps/H264/no audio; full decode and monotonic CFR PTS",
+    "mapping": "every output ray remains inside original face; static source and orientation bound",
+    "visual": "inspect encoded frames and actual playback if available; explicitly state resolution/sample coverage",
+    "human": "User actual review of encoded SHA is required before next-shot request; not self-approved"
+  },
+  "production_scope": "only this current silent trial; full30–45sec production/voice/CTA and subsequent shot not authorized"
+}

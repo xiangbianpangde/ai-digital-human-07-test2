@@ -1,0 +1,3 @@
+file 'part1_pano26_pan.mp4'
+file 'part2_closet_bath.mp4'
+file 'part3_window_sun.mp4'

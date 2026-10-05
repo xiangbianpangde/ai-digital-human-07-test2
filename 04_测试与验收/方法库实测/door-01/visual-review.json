@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "门框穿越可达，但末端阳台墙柱占画面中部偏右，窗只剩左侧；落幅不交付完整空间。拒绝正式使用，调整到窗方向后重测。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

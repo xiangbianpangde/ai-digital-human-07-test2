@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "同一空卧室窗户作为锚点，两个向右慢摇片段硬切，方向一致、窗框清楚；没有快速甩动、运动模糊或家具捏造。只验收方向匹配慢摇切镜。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

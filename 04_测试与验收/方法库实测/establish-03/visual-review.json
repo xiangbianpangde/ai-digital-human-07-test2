@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "逐半秒接触表显示客厅地面、窗、墙面关系稳定，画幅干净，无近墙遮挡；固定点位不发生位移。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

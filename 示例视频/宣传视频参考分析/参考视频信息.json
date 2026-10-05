@@ -1,0 +1,30 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "index": 0,
+      "codec_name": "h264",
+      "codec_type": "video",
+      "width": 720,
+      "height": 1280,
+      "avg_frame_rate": "30/1"
+    },
+    {
+      "index": 1,
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "sample_rate": "44100",
+      "channels": 2,
+      "avg_frame_rate": "0/0"
+    }
+  ],
+  "format": {
+    "duration": "34.166667",
+    "size": "7032218"
+  },
+  "source": "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/05-测试/示例视频/d585ed739ce9dafafbb0b31548d47846.mp4",
+  "source_sha256": "dd894a5f2847f1c6e71951e21522bd5dd5191aafba9aea5e962909a0c95345dd",
+  "video_scope": "本地参考片的视觉设计分析，宣传文字并非房产真实性核验",
+  "audio_scope": "本地ASR仅用于查找可能的人声；不是音乐识别，也不等于人工听音"
+}

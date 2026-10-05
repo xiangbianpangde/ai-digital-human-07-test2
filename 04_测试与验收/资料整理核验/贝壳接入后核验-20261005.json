@@ -1,0 +1,406 @@
+{
+  "schema": "beike-integration-acceptance/v1",
+  "at": "2026-10-05T12:03:37.648778+08:00",
+  "installation_and_integration_passed": true,
+  "official_command": "curl -fsSL https://raw.githubusercontent.com/LianjiaTech/beike-ai-platform/master/skills/install.sh | bash",
+  "official_command_exit_code": 0,
+  "platform": "darwin-arm64",
+  "cli_version": "0.2.26",
+  "cli_matches_official_release": true,
+  "cli_binary_changed": false,
+  "skills_directory": "/Users/xbpd/.agents/skills",
+  "skills_verified": [
+    {
+      "name": "beike-buy",
+      "version": "0.3.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-market",
+      "version": "0.1.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-policy",
+      "version": "0.1.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-rent",
+      "version": "0.3.15",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-school",
+      "version": "0.1.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-sell",
+      "version": "0.1.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    },
+    {
+      "name": "beike-decor",
+      "version": "0.1.10",
+      "release_archive_hash_matches": true,
+      "all_release_members_match_local": true
+    }
+  ],
+  "existing_skills_file_bytes_unchanged": true,
+  "installer_behavior": "Official installer skipped same-version installations; independently downloaded release archives and verified actual installed bytes.",
+  "doctor": {
+    "api_reachable": true,
+    "key_valid": true,
+    "exit_code": 0,
+    "credential_source": "pre-existing local file",
+    "credential_mode": "600",
+    "chat_key_saved_or_passed": false,
+    "credential_values_recorded": false
+  },
+  "project_protection": {
+    "baseline_files": 1176,
+    "existing_files_unchanged": 1171,
+    "modified_existing_files": [
+      {
+        "path": "00_入口/00_当前.md",
+        "before_sha256": "b453d021340e3df11c5cbb62bc70adf82257b04ac004f904423d7acbe4e19543",
+        "after_sha256": "8a8987c497cb3a75d8b16c39e13f974a338736e8e632f0a22cb4d32360461449"
+      },
+      {
+        "path": "00_入口/02_风险与待确认.md",
+        "before_sha256": "4d8c86212c2eb6c959c7aec5f1a24fcc88cabec8b7c5dc509303ac0881f3cead",
+        "after_sha256": "34ed3ad13beebfec8d1278914e82aed56dedb23352649c5f70c845f1aaec4ee2"
+      },
+      {
+        "path": "05_资产库/ASSET_INDEX.md",
+        "before_sha256": "5eadf6937eec86ca17b7b0704caa60a1a2fb5ab7f0be4600d09ba93fdba5b060",
+        "after_sha256": "8b46bc0860f3900b072e1d268e28e1e8161f4c2549ffd8801f740fae422b3579"
+      },
+      {
+        "path": "05_资产库/source_manifest.json",
+        "before_sha256": "eb66b7e6886ad5217f03240baab22905fb577e12b26d4d5babbc461e93893f8f",
+        "after_sha256": "da4f31454999dd77077ddfe7013bf2bc369158b90bc163eb0108254776d37e31"
+      },
+      {
+        "path": "07_运行记录/LOG.md",
+        "before_sha256": "d4a9a68e821daee50040aa45713bd658c964ae02987230cdc93b45237e585fa5",
+        "after_sha256": "225a1703a4dc7e1c86b94b91b76424f5597ae2d47f340c4f43760d8991f2a409"
+      }
+    ],
+    "existing_files_deleted_or_moved": [],
+    "original_media_and_code_changed": false,
+    "protected_group_counts_unchanged": {
+      "02_架构与合同/": 6,
+      "03_实现/": 38,
+      "04_测试与验收/": 786,
+      "05_资产库/武汉104119325592-房源资料/": 262
+    },
+    "existing_symlinks_unchanged": 2,
+    "append_only_prefix_checks": [
+      {
+        "path": "07_运行记录/LOG.md",
+        "original_prefix_bytes": 30673,
+        "original_prefix_unchanged": true,
+        "appended_bytes": 2556
+      },
+      {
+        "path": "05_资产库/ASSET_INDEX.md",
+        "original_prefix_bytes": 6195,
+        "original_prefix_unchanged": true,
+        "appended_bytes": 1202
+      }
+    ]
+  },
+  "registry": {
+    "original_13_records_unchanged": true,
+    "new_ids": [
+      "AST-014",
+      "AST-015"
+    ],
+    "new_paths_and_hashes_match": true,
+    "legacy_crop_mismatches_not_repaired": true
+  },
+  "new_project_files": [
+    "04_测试与验收/资料整理核验/贝壳CLI文件核验-20261005.json",
+    "04_测试与验收/资料整理核验/贝壳Skills文件核验-20261005.json",
+    "04_测试与验收/资料整理核验/贝壳官方安装执行-20261005.json",
+    "04_测试与验收/资料整理核验/贝壳官方安装输出-20261005.log",
+    "04_测试与验收/资料整理核验/贝壳授权状态-20261005.json",
+    "04_测试与验收/资料整理核验/贝壳接入前基线-20261005.json",
+    "04_测试与验收/资料整理核验/贝壳接入后核验-20261005.json",
+    "05_资产库/08_贝壳工具接入/README.md",
+    "05_资产库/08_贝壳工具接入/官方CLI清单-20261005.json",
+    "05_资产库/08_贝壳工具接入/官方Skills安装脚本-20261005.sh",
+    "05_资产库/08_贝壳工具接入/官方Skills清单-20261005.json",
+    "05_资产库/08_贝壳工具接入/贝壳房源抓取一键包-Windows-20260819.zip"
+  ],
+  "new_file_hashes_excluding_this_report": [
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳CLI文件核验-20261005.json",
+      "sha256": "ceaf345aafd6198c3fb8b67d82e428bdd57840446366cacffc82402d67d65b7a"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳Skills文件核验-20261005.json",
+      "sha256": "027fb7038567d3b6500bdfa716962085c0c338f8ab6361309488a0656dee60cf"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳官方安装执行-20261005.json",
+      "sha256": "c756c7233a4ae9b21a6fb8f7224ec603dbde640137c3bdec61ba7309a88e1b8d"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳官方安装输出-20261005.log",
+      "sha256": "a25964708b5b76da70e878c80e4359cc2b17978551f83ff90e01b65619d94d61"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳授权状态-20261005.json",
+      "sha256": "bc96bb870b2947dd6d8ff7852a25155baf996dba1a8429d0d84b4336e1490196"
+    },
+    {
+      "path": "04_测试与验收/资料整理核验/贝壳接入前基线-20261005.json",
+      "sha256": "f0c46a1e75debe96202415f899e083ea97ebeed3bb378c03e8746a4a2949c7bc"
+    },
+    {
+      "path": "05_资产库/08_贝壳工具接入/README.md",
+      "sha256": "afe19f2066be3d2bf02edbcceda0cb8d3de4b24efaf77d9b5fedde250eceb3df"
+    },
+    {
+      "path": "05_资产库/08_贝壳工具接入/官方CLI清单-20261005.json",
+      "sha256": "4f17fe347f79885fb1593e87f0fe14814f4cdfa852b4ced136f42132925676ce"
+    },
+    {
+      "path": "05_资产库/08_贝壳工具接入/官方Skills安装脚本-20261005.sh",
+      "sha256": "0ea75b12129e717ae6731efd08642a84dc62920449d04d9fd0a4d4b907ee0ce1"
+    },
+    {
+      "path": "05_资产库/08_贝壳工具接入/官方Skills清单-20261005.json",
+      "sha256": "c9bc396c62cd321a6b0c620e7ba1fe99f2e3ea305d399fb1359d1b51b2d75fb9"
+    },
+    {
+      "path": "05_资产库/08_贝壳工具接入/贝壳房源抓取一键包-Windows-20260819.zip",
+      "sha256": "a2d5620e1ce34dabf0869ba4967047f405826f5092df618be271982933cd55a3"
+    }
+  ],
+  "references": {
+    "documents_checked": 4,
+    "local_links_checked": 49,
+    "missing_local_targets": 0,
+    "links": [
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/README.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/STAGE6_FINAL_DELIVERY.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../06_任务与交接/TS-007-Stage6成片整编交付.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../07_运行记录/LOG.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/README.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/整理前基线-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../05_资产库/08_贝壳工具接入/README.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "02_风险与待确认.md"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/整理后核验-20261005.json"
+      },
+      {
+        "from": "00_入口/00_当前.md",
+        "target": "../04_测试与验收/资料整理核验/贝壳接入后核验-20261005.json"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "00_当前.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../05_资产库/08_贝壳工具接入/README.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../05_资产库/07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "00_入口/02_风险与待确认.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../00_入口/00_当前.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "04_参考视频/宣传视频参考分析/参考视频设计思路.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/方法库.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/点位.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/画廊.html"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../../08-真人录制/介绍与转场方法库/04-素材勘误-破面法.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/README.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/01_六步流程与证据地图.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "07_制作流程资料/02_扩库清单与技能化边界.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/源台账勘误-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "06_房产摄影运镜模式库/AI执行/README.md"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/方法库复验-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "../04_测试与验收/资料整理核验/素材与媒体盘点-20261005.json"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "08_贝壳工具接入/贝壳房源抓取一键包-Windows-20260819.zip"
+      },
+      {
+        "from": "05_资产库/ASSET_INDEX.md",
+        "target": "08_贝壳工具接入/README.md"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "贝壳房源抓取一键包-Windows-20260819.zip"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "官方Skills安装脚本-20261005.sh"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "官方Skills清单-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "官方CLI清单-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳接入前基线-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳官方安装执行-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳官方安装输出-20261005.log"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳Skills文件核验-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳CLI文件核验-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳授权状态-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../04_测试与验收/资料整理核验/贝壳接入后核验-20261005.json"
+      },
+      {
+        "from": "05_资产库/08_贝壳工具接入/README.md",
+        "target": "../../00_入口/00_当前.md"
+      }
+    ],
+    "scope": "Local targets only; no network or fragment-anchor check."
+  },
+  "zip_source_and_archive_hash_match": true,
+  "rollback_backup": "/Users/xbpd/.local/share/beike-install-backups/20261005T115507+0800/cli-and-skills-before.tar.gz",
+  "rollback_backup_sha256": "0eea4b016425eac062e294a1a72e88ff69cf818624f0d6fb05d83f4a8fdc2f4f",
+  "rollback_backup_contains_credentials": false,
+  "temporary_preflight_directory_removed": "/tmp/beike-install-preflight-tdn2scfw",
+  "credential_like_literal_scan_passed": true,
+  "limits": [
+    "No new property detail/material calls or image/VR-model downloads this task.",
+    "No Windows executable run, no new custom Skill or tool, no recording, re-editing, voice/digital-human generation or paid media call.",
+    "G00/G02 and historical fact/media/right/portability gaps remain follow-up work; installation is not production or data-acquisition acceptance.",
+    "The Key pasted in chat should be revoked and replaced locally; existing local authorization was verified but not replaced."
+  ]
+}

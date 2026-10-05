@@ -1,0 +1,167 @@
+{
+  "schema": "overall-plan-final-protection-audit/v1",
+  "at": "2026-10-05T20:32:55.485510+08:00",
+  "scope": "Planning artifacts/registration only; no overall acceptance or local shot execution",
+  "baseline_path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_整理前基线.json",
+  "baseline_sha256": "abcb2a73dd10f0caaacdbbaf39821e07fa0588443a2d2610c3b7619de8b67e41",
+  "baseline_file_count": 1605,
+  "unchanged_baseline_file_count": 1595,
+  "authorized_changed_files": [
+    {
+      "path": "00_入口/00_当前.md",
+      "before": "869eb7369575f7fa989921af02dbf20c6e86e09fb23f308066c6cbb24375807c",
+      "after": "8d254dfb3fba851b2befbd6eb7c04a538a60ecfe86bb9a56481bd4806167bddd"
+    },
+    {
+      "path": "00_入口/01_路线图.md",
+      "before": "a72ff3cf662a1642c03a0d4d26ce6cb84648fa9c08c8bda881a023fe1fb9f739",
+      "after": "bfdcdc4230b529aa3aaeb591fc958888b93ddb80df43357b248d19e4c0243789"
+    },
+    {
+      "path": "00_入口/02_风险与待确认.md",
+      "before": "21ab87ee1e0eddaafe8267cc6f8553e0ae96139f41fd4ac665bec28f7e812232",
+      "after": "80cbd40ea7d3947933a4d9f406480473dc291a2db2fb1e0150de325926db0e24"
+    },
+    {
+      "path": "05_资产库/ASSET_INDEX.md",
+      "before": "a7a28d65d049fec41542ce78f814f060071e7eadb46582e5db27c5725c352b13",
+      "after": "b01c788a9744fede8cd8f19cbabf51897acde28cf5cc64f6364b8ef4f5a3c345"
+    },
+    {
+      "path": "05_资产库/source_manifest.json",
+      "before": "8d38690554f4bd00522806aa62df06222c4848bd04648db1470385f5112daf27",
+      "after": "27c76ee6b8add914fc19afa41fa392c0e86f901d08766500808291c3810eb8a4"
+    },
+    {
+      "path": "06_任务与交接/HANDOFF_BUNDLE.md",
+      "before": "4e05920ddedd7fc8e47bc21593e2ace71784148d1816483078d8a070f216ca8f",
+      "after": "75373e14ecf4cc5098aa4e135f11f158d81ee3ba3ea760855ad1d543b8afd1a4"
+    },
+    {
+      "path": "07_运行记录/LOG.md",
+      "before": "8aa71a6cfca837eed861ae8f692548cc37051a2ae118c2b51927e59571040b5f",
+      "after": "b90aeee2bcb481b5c23fcd54a52fcdab849ff869cc4918c3601f4b71ecb8ee9d"
+    },
+    {
+      "path": "09_提案与草稿/03_收尾与第二房源准入决策.md",
+      "before": "b2b2bb9e479cbcfbcc3bc58d4228df3ce4c73385fad1b554e43534161fc74314",
+      "after": "e6f58a109b6836a9e3e477d93c5739962f44288b6a39208cdb3a4cc8be8c398c"
+    },
+    {
+      "path": "HANDOFF.md",
+      "before": "dd3bf2d5488db3d8115dca0ea35c595f88f6b09e6741d1cdb5e16474646c73ae",
+      "after": "ad2a4b1c9dfde0cf59daa20fbac54f9cc717a7340612f59b58973c0c5f3bbb64"
+    },
+    {
+      "path": "README.md",
+      "before": "13f3b64752bd11d1ae7a1c81e39878dd3408200bcdee582dbd444324dd3d438c",
+      "after": "857176cab70effaa96108c3cc63021e7866b27b65885493037ad6a1f40acd9b9"
+    }
+  ],
+  "system_metadata_differences": [],
+  "deleted_or_moved_baseline_files": [],
+  "new_files_before_this_audit": [
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_图渲染与预算核验.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_图渲染与预算核验02.json",
+    "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_整理前基线.json",
+    "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/拍摄计划.md",
+    "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.html",
+    "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.png"
+  ],
+  "this_audit_is_one_additional_new_evidence_file": true,
+  "baseline_omitted_preexisting_cache_files_not_counted_as_new": [
+    {
+      "path": "05_资产库/02_三维建模/02-武汉104119325592-3D建模/build/__pycache__/cube_convention.cpython-312.pyc",
+      "sha256_now": "d1a9edbb5fd255abd90d6a2ddf38d86b2054c3cda4b7f54e36a445d18b0a6ff8",
+      "birthtime": 1791190266.063168,
+      "mtime": 1791190266.0634787,
+      "both_timestamps_predate_baseline": true,
+      "not_in_baseline_hash_protection": true
+    },
+    {
+      "path": "05_资产库/02_三维建模/02-武汉104119325592-3D建模/build/__pycache__/fit_downface.cpython-312.pyc",
+      "sha256_now": "09046f7d453c6f26199673a2d965a9f9f5a9fca438061eee1d6c4475c6cedebd",
+      "birthtime": 1791190423.9695249,
+      "mtime": 1791190423.9696362,
+      "both_timestamps_predate_baseline": true,
+      "not_in_baseline_hash_protection": true
+    },
+    {
+      "path": "05_资产库/02_三维建模/02-武汉104119325592-3D建模/build/__pycache__/register_vr.cpython-312.pyc",
+      "sha256_now": "5259b43ae100be21008a12c55ed8620f16168e8a6b6987d23e2cc0590aa89530",
+      "birthtime": 1791189930.7645469,
+      "mtime": 1791189930.7646627,
+      "both_timestamps_predate_baseline": true,
+      "not_in_baseline_hash_protection": true
+    },
+    {
+      "path": "05_资产库/02_三维建模/02-武汉104119325592-3D建模/build/__pycache__/verify_convention.cpython-312.pyc",
+      "sha256_now": "6efeea56df1e102c5d262704b1cdf0b443e0ad2226a22e729a87dc668d44acb7",
+      "birthtime": 1791191259.9896095,
+      "mtime": 1791191259.98968,
+      "both_timestamps_predate_baseline": true,
+      "not_in_baseline_hash_protection": true
+    }
+  ],
+  "initial_audit_enumeration_failure": "Initial assertion included four generatedpyc caches not in baseline. Inspection shows birthtime+mtime16:45–17:07 precede19:50 baseline; they remain untouched, excluded from new-deliverable count. No prior hashes exist so unchanged-cache hashes are not claimed.",
+  "original_registry_AST001_to_AST026_bytes_reconstructable": true,
+  "registry_count_now": 27,
+  "new_registry_bindings_verified": [
+    {
+      "asset_id": "AST-027",
+      "path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/拍摄计划.md",
+      "sha256": "594f3761f98a1bcbdb01b30ba784d5e0802649d4d6d379871bbcec33bc541afe"
+    },
+    {
+      "asset_id": "AST-027",
+      "path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.html",
+      "sha256": "840c710f5d222368a9d9a2171ace371ee5b6a49e86dfaec155cc2a0c1c25ccc4"
+    },
+    {
+      "asset_id": "AST-027",
+      "path": "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/整体运镜与衔接示意.png",
+      "sha256": "ebfd4897edc5896fcaed5a74e1ee9363f8b02c8cf095eeaf17056842cab8e71e"
+    },
+    {
+      "asset_id": "AST-027",
+      "path": "04_测试与验收/02-武汉104119325592/准入核证01_20261005/整体方案V2_图渲染与预算核验02.json",
+      "sha256": "ec21347be5bddebed7b9ab6911141389310b934cb311498ea23a6e7d9923eb77"
+    }
+  ],
+  "asset_index_and_log_original_byte_prefixes_preserved": true,
+  "downloads_source_files_unchanged": 241,
+  "static_diagram_source_hashes_verified": 8,
+  "diagram_size": [
+    2460,
+    2324
+  ],
+  "diagram_image_load_count_from_actual_render_receipt": 10,
+  "diagram_console_errors_from_render_receipt": [],
+  "diagram_assistant_visual_check": "ActualPNG inspected: title/7chaptercards with source references/budget bar/original floorplan/confirmation gate visible; no blank canvas or clipped main diagram. Does not certify finalvideo framing or phone-readable floorplan.",
+  "budget_sec": 36,
+  "budget_not_final_runtime": true,
+  "markdown_embed_check": {
+    "command": "python3 -B /Users/xbpd/.pi/agent/skills/task/wendang/scripts/check_embeds.py 09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/拍摄计划.md",
+    "returncode": 0,
+    "stdout": "ok"
+  },
+  "current_document_and_new_index_links_checked": 138,
+  "link_check_scope": [
+    "README.md",
+    "HANDOFF.md",
+    "00_入口/00_当前.md",
+    "00_入口/01_路线图.md",
+    "00_入口/02_风险与待确认.md",
+    "06_任务与交接/HANDOFF_BUNDLE.md",
+    "09_提案与草稿/03_收尾与第二房源准入决策.md",
+    "09_提案与草稿/第二房源_104119325592/整体拍摄方案_V2/拍摄计划.md",
+    "05_资产库/ASSET_INDEX.md appendedAST027 section only"
+  ],
+  "broken_links_in_scope": [],
+  "all_historical_registry_hashes_or_links_not_claimed": true,
+  "existing_take01_sha256": "d44acd7598cb675c80eaec3102f96eac5b0d152c5ebd9198cfd82974b2fe8fdf",
+  "new_video_audio_encoder_tts_paid_call_or_install": false,
+  "user_overall_acceptance": false,
+  "Phase4_and_Phase5_remain_BLOCKED": true,
+  "remaining_business_gate": "User review/confirmation of the overall V2 plan and full camera/editing diagram before discussing each current shot"
+}

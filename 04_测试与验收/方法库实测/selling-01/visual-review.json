@@ -1,0 +1,8 @@
+{
+  "verdict": "reject",
+  "reason": "画面主体是客厅通向阳台的玻璃门，不宜统称客厅大面窗户；改为客厅直通阳台并重测。",
+  "reviewed": [
+    "start.png"
+  ],
+  "metric_clearance": "unverified"
+}

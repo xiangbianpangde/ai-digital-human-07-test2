@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "逐半秒接触表为阳台门口向客餐厅后退，窗框始终是空间锚点；两段相邻点衔接，无近墙遮挡。是后退揭示空间，不误标为推进。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

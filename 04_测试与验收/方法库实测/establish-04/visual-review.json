@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "最终执行器复验：P1原地画面稳定，与原定配方相符；越界FOV、无效机位、高速摇摄、非邻接位移、隐式模型坐标均在录制前拒绝。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

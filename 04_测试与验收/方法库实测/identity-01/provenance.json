@@ -1,0 +1,19 @@
+{
+  "method_id": "N01",
+  "property": "https://open.realsee.com/ke/rXel3aPEWkwD4JQn/qrz3DGWoeBMCwu3h2TOlxEYTR8Q0Xy65/",
+  "inputs": [
+    {
+      "path": "05_资产库/01_户型图/floorplan_cropped.png",
+      "sha256": "c5bdeefdf16bdc8869f013a760de07105394b7fd42bc2ec872ec1dac763a4ee2"
+    }
+  ],
+  "fact_source": "02_架构与合同/01_房产核心档案.md",
+  "fact_sha256": "c9f1c500f58a2af81baeeca1765cc3c8c454c1f079eb041b1841be26a43c08f5",
+  "scope": "silent_text_pair_demo",
+  "counterexample": false,
+  "audio": "none",
+  "font": {
+    "path": "/System/Library/Fonts/STHeiti Medium.ttc",
+    "sha256": "2d37f927fb4c24a2ba4d318b903a607f6b7ad4e5f365c26aba6aaccb84038beb"
+  }
+}

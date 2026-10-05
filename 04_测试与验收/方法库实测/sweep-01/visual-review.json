@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "P25从窗向室内横扫约43°，依次展示窗、地板和背景墙；终点为空房墙面与地板，不宣称双人床已存在，也不是全屋360°全景。未见近墙遮挡。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

@@ -1,0 +1,9 @@
+{
+  "verdict": "accept",
+  "reason": "最多8/255白层的单次低强度亮度脉冲，切点附近窗框地板持续可辨，无纯白帧。只通过轻亮变体，不解禁全白闪屏。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

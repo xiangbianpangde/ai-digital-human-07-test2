@@ -1,0 +1,31 @@
+{
+  "schema": "source-manifest-reconciliation-note/v1",
+  "at": "2026-10-05T11:12:51.805405+08:00",
+  "issues": [
+    {
+      "id": "AST-002",
+      "path": "05_资产库/01_户型图/floorplan_cropped.png",
+      "registered_sha256": "43516ee71bf088998a6230bf081a951c143ee6cfa1e04db1284d72d1d3683bf1",
+      "actual_sha256": "c5bdeefdf16bdc8869f013a760de07105394b7fd42bc2ec872ec1dac763a4ee2",
+      "pre_task_sha256": "c5bdeefdf16bdc8869f013a760de07105394b7fd42bc2ec872ec1dac763a4ee2",
+      "preexisting": true,
+      "status": "needs_reconcile",
+      "production_reuse_allowed": false
+    },
+    {
+      "id": "AST-004",
+      "path": "05_资产库/02_三维建模/3d_model_cropped.png",
+      "registered_sha256": "b0d46f5c88ea28be7a627adcd2ef522b1154cce9ea18ecbb231b9d40cb97e68d",
+      "actual_sha256": "6c1ece9a1c82d504a6c116786aad63c45ee1f97abcd37137278bd8f2dffa08b6",
+      "pre_task_sha256": "6c1ece9a1c82d504a6c116786aad63c45ee1f97abcd37137278bd8f2dffa08b6",
+      "preexisting": true,
+      "status": "needs_reconcile",
+      "production_reuse_allowed": false
+    }
+  ],
+  "cause": "unknown: cannot distinguish stale registration from historical derived-image replacement without provenance review",
+  "original_records_changed": false,
+  "asset_bytes_changed_this_task": false,
+  "handling": "Preserve original images and original registered hashes; block unverified cropped-image reuse. Reconcile from AST-001/003; any recrop becomes a new registered derived asset, not an overwrite.",
+  "scope_note": "This is independent of the 391 method-library hashes; no claim of all-library source integrity."
+}

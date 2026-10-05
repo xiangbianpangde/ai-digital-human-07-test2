@@ -1,0 +1,17 @@
+{
+  "command": [
+    "beike",
+    "buy",
+    "material",
+    "-c",
+    "武汉",
+    "--id",
+    "104119325592",
+    "-t",
+    "house",
+    "--json"
+  ],
+  "exit_code": 0,
+  "stdout": "{\n  \"error\": \"Unknown tool: 'entity_material'\",\n  \"ok\": false\n}\n",
+  "stderr": ""
+}

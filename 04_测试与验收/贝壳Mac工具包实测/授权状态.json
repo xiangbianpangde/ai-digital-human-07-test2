@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-05T12:33:19.627531+08:00",
+  "exit_code": 0,
+  "api_reachable": true,
+  "key_valid": true,
+  "credential_value_saved": false,
+  "credential_source": "Existing user-level local CLI authorization; chat key not read or used."
+}

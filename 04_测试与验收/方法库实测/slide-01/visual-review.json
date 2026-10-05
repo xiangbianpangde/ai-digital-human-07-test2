@@ -1,0 +1,9 @@
+{
+  "verdict": "reject",
+  "reason": "9帧横滑时两空间以竖缝拼接，同画面地面材质错配；过于模板化，不用于生产，维持禁用。",
+  "reviewed": [
+    "contact.png",
+    "transition.png"
+  ],
+  "metric_clearance": "unverified"
+}

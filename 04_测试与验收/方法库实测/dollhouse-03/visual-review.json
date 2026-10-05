@@ -1,0 +1,8 @@
+{
+  "verdict": "accept",
+  "reason": "模型飞出总览后硬切至卧室B，接触表无整幅黑帧；仅接受此保守变体，不开放原生平滑俯冲。黑底有模型时是示意图，必须标注三维户型示意。",
+  "reviewed": [
+    "contact.png"
+  ],
+  "metric_clearance": "unverified"
+}

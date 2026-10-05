@@ -1,0 +1,201 @@
+{
+  "schema": "case1-minimal-revision-recipe/v1",
+  "at": "2026-10-05T17:12:24.466300+08:00",
+  "approval": {
+    "source": "user answers to4 readiness questions",
+    "route": "minimal_revision",
+    "accepted_duration_sec": 25.3,
+    "digital_human_required": false,
+    "use": "internal_research_and_production_only",
+    "paid_calls_authorized": false,
+    "new_tts_or_recording": false
+  },
+  "inputs": [
+    {
+      "path": "03_实现/video_track_clean.mp4",
+      "sha256": "e9874833073afb79ea4245e0162c0fad07ab8f30228facc36da1188eeaeabfb5"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+      "sha256": "dd589e254356bbc0bc8f695407dddd69ed686c514a080478874f13aef6f2dcbd"
+    },
+    {
+      "path": "05_资产库/01_户型图/floorplan_source.png",
+      "sha256": "833e264a7fc24c4a535c065e7362c1c8c70287f771ffde5204d77fa0a29dba32"
+    },
+    {
+      "path": "03_实现/render_final_video.py",
+      "sha256": "12719ff3ae86c60a169e7b29b2d0baa08167017d3ada47431cccbdde53aa3136"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_01_hero_verified.png",
+      "sha256": "31ea2afc791f2d51533fe4d6be968b0a3efdab07c58fe7a399cab8177b190859"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_02_s1a.png",
+      "sha256": "bcfd91cb4e7ccd30f7aae223fd54d9b83b7182aedfcab61c6cd66ac315e1d339"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_03_s1b.png",
+      "sha256": "c1ffa71167ae28e09848115ef0548ae2dfd983bf720a1b91bbda80e4c901cae8"
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_04_s2_no_unverified_dimension.png",
+      "sha256": "606eb06724af4d8c7719dc9807bbe54be93039d28ae3241e064baa35d89452ae"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_05_s3.png",
+      "sha256": "7a6e0877c1dc5a707c2e6d6c2269b23844da27bfd481c2b5a1aaa0b2a67149a6"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_06_s4a.png",
+      "sha256": "c309e8a9fdbe98ef68dade5aac06b51fc4fbefd1acb5a4b3d4826744dc7f4809"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_07_s4b.png",
+      "sha256": "0afc388fccfb2c4560dbcb276e909996de8dc5bc7daabdbae66ffc73b614268d"
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_08_s5.png",
+      "sha256": "fbe400aa7a77c48747d730857f1f9af8c452945896bd3517b9a3ca0c806b79a1"
+    }
+  ],
+  "floorplan_derivation": {
+    "source_ast": "AST-001",
+    "source_path": "05_资产库/01_户型图/floorplan_source.png",
+    "source_sha256": "833e264a7fc24c4a535c065e7362c1c8c70287f771ffde5204d77fa0a29dba32",
+    "source_pixel_bbox": [
+      860,
+      455,
+      2070,
+      1770
+    ],
+    "derived_path": "05_资产库/01_户型图/floorplan_verified_crop_20261005.png",
+    "derived_sha256": "a387bc22acfb3e7b664b869d7b4cafbe66fe522690940e31318cf17ec8a2e9e4",
+    "pixel_crop_equality_verified": true,
+    "excluded": "browser chrome/private tabs outside crop; no geometry/label/scale alteration",
+    "legacy_AST002_004_reconciled": false
+  },
+  "changes": [
+    {
+      "old": "阳台回看 客餐厅12米深远纵深",
+      "new": "阳台回看 客餐厅纵深直观",
+      "reason": "No measured source for12m; preserve source-supported qualitative wording"
+    },
+    {
+      "old": "opening card from legacy fp_clean without sufficient derivation binding",
+      "new": "opening card uses newly verified pixel crop from matched AST-001",
+      "reason": "Do not reuse unresolved legacy crop by changing its ledger"
+    },
+    {
+      "old": "closed between() intervals at subtitle boundary",
+      "new": "half-open intervals, same time budgets",
+      "reason": "Prevent both adjacent overlays on a boundary frame"
+    }
+  ],
+  "audio": "Copy original final AAC bitstream unchanged; no TTS, remix or atempo",
+  "overlays": [
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_01_hero_verified.png",
+      "from": 0,
+      "to_exclusive": 0.67
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_02_s1a.png",
+      "from": 0.67,
+      "to_exclusive": 4.2
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_03_s1b.png",
+      "from": 4.2,
+      "to_exclusive": 6.5
+    },
+    {
+      "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_04_s2_no_unverified_dimension.png",
+      "from": 6.8,
+      "to_exclusive": 10.2
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_05_s3.png",
+      "from": 11.2,
+      "to_exclusive": 13.8
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_06_s4a.png",
+      "from": 14.2,
+      "to_exclusive": 17.2
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_07_s4b.png",
+      "from": 17.7,
+      "to_exclusive": 20.7
+    },
+    {
+      "path": "03_实现/overlays_v2/ol_08_s5.png",
+      "from": 21.2,
+      "to_exclusive": 24.5
+    }
+  ],
+  "command": [
+    "ffmpeg",
+    "-hide_banner",
+    "-loglevel",
+    "warning",
+    "-nostdin",
+    "-n",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/video_track_clean.mp4",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/04_测试与验收/01-沙湖九号/S6_全片终成片交付/沙湖九号-核心卖点宣传短片-终版成片.mp4",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_01_hero_verified.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_02_s1a.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_03_s1b.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/ol_04_s2_no_unverified_dimension.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_05_s3.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_06_s4a.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_07_s4b.png",
+    "-i",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/03_实现/overlays_v2/ol_08_s5.png",
+    "-filter_complex",
+    "[0:v][2:v]overlay=enable='gte(t,0)*lt(t,0.67)'[v1];[v1][3:v]overlay=enable='gte(t,0.67)*lt(t,4.2)'[v2];[v2][4:v]overlay=enable='gte(t,4.2)*lt(t,6.5)'[v3];[v3][5:v]overlay=enable='gte(t,6.8)*lt(t,10.2)'[v4];[v4][6:v]overlay=enable='gte(t,11.2)*lt(t,13.8)'[v5];[v5][7:v]overlay=enable='gte(t,14.2)*lt(t,17.2)'[v6];[v6][8:v]overlay=enable='gte(t,17.7)*lt(t,20.7)'[v7];[v7][9:v]overlay=enable='gte(t,21.2)*lt(t,24.5)'[v8]",
+    "-map",
+    "[v8]",
+    "-map",
+    "1:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "medium",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-r",
+    "30",
+    "-c:a",
+    "copy",
+    "-t",
+    "25.3",
+    "-movflags",
+    "+faststart",
+    "/Users/xbpd/Projects/ai口播数字人-实习项目介绍/07-测试2/04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4"
+  ],
+  "output": {
+    "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4",
+    "sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7"
+  },
+  "human_final_acceptance": "PENDING",
+  "original_files_overwritten": false,
+  "limits": [
+    "All footage and spoken words preserved; full listening/visual/subtitle acceptance still needs an actual human review.",
+    "Original unsupported12m remains only in preserved old evidence; no claim that prior crop ledgers were reconciled.",
+    "Internal template CTA not a public service offer; publication rights not approved."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "listing_id": "104119325592",
+  "community": "沙湖九号",
+  "area_m2": 168.39,
+  "stage": "VR素材保存完成；运镜测试未通过；等待用户选择是否改为分空间环视剪辑",
+  "assets": {
+    "observer_count": 36,
+    "cube_faces": 216,
+    "cube_sizes": {
+      "(2048, 2048)": 216
+    },
+    "floorplan": "floorplan.jpg",
+    "model": "vr/model/model.at3d",
+    "cover": "packaging/封面.png"
+  },
+  "delivery_approved": false,
+  "final_video_created": false,
+  "visual_review_method": "连续抽帧检查多个运镜版本及方向预览；尚未完成最终成片全程播放及试听",
+  "tests": [
+    {
+      "file": "rendered/preview.mp4",
+      "result": "未通过：跨点家具重影、餐厅到卧室路线穿过墙面；封装帧率有问题，另行重新编码CFR"
+    },
+    {
+      "file": "rendered/single-projection.jpg",
+      "result": "未通过：单点纹理远距离推进拉伸/空洞"
+    },
+    {
+      "file": "rendered/atlas.jpg",
+      "result": "未通过：真实模型纹理模糊，家具和吊顶结构不完整"
+    },
+    {
+      "file": "rendered/shortblend.h264",
+      "result": "未通过：减小融合区间仍有桌沿/吊顶切换错位"
+    },
+    {
+      "file": "rendered/aligned.mp4",
+      "result": "未通过：光流对齐仍有桌沿、吊顶拉伸，不能交付"
+    }
+  ],
+  "aplus_video_evidence": "AGC视频栏：本房源暂未上线视频；未发现本套实拍视频",
+  "pending_decision": "改做清晰的分空间VR环视剪辑，或保留真人连续推进标准待实拍素材。尚未获得变更同意。",
+  "notes": [
+    "不得复用上一房源画面",
+    "不得把试片当成最终视频",
+    "没有发送或复制桌面",
+    "A+保持登录，未关闭"
+  ],
+  "technical_check": {
+    "file": "rendered/preview-cfr.mp4",
+    "full_decoded_frames": 1926,
+    "fps": 60,
+    "timestamp_issues": [],
+    "visual_delivery_approved": false
+  },
+  "resource_cleanup": "关闭仅本次创建的渲染页面与本地服务，A+未关闭"
+}

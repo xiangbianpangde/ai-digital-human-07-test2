@@ -1,0 +1,32 @@
+{
+  "schema": "case2-initialization-readiness/v1",
+  "status": "DONE",
+  "at_scope": "2026-10-05 preparation task",
+  "scope": "All16 requested initialization topics and source-grounded candidate facts/materials/gaps/plans, not production or final fact acceptance.",
+  "source_files_checked_and_unchanged": 241,
+  "field_evidence_hashes_match": true,
+  "explicit_unknown_current_price_and_sale_status": true,
+  "new_media_created": false,
+  "production_authorization": false,
+  "production_gate_status": "BLOCKED",
+  "blocked_by": [
+    "First-house final closeout decisions",
+    "Current-house identity/freshness/key facts/rights",
+    "Room IDs vs pano mapping; motion route/hardware scope decision",
+    "Human brief/voice/dialect/budget/one-shot permission/no-overwrite output"
+  ],
+  "deliverables": [
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/01_资料清单.json",
+      "sha256": "849e7a59d535604518ddf39bbb381d6c139b02ee9e5703d6b4849524b5c69c2a"
+    },
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/02_房源结构化信息.json",
+      "sha256": "c6b220727d8dd06679a98a7f5e34fc2e3e8b04967fa11df3f291aad4504786b9"
+    },
+    {
+      "path": "09_提案与草稿/第二房源_104119325592/03_初始化与制作前置条件.md",
+      "sha256": "cd248cde609a56e5925de6b3b95e56a055fd91c485ace64b3a0e21bb23994864"
+    }
+  ]
+}

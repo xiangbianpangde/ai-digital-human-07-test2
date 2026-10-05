@@ -1,0 +1,21 @@
+{
+  "schema": "existing-media-package-discovery/v1",
+  "date": "2026-10-05",
+  "tool": "search_pi_packages",
+  "query": "video speech media",
+  "matches": [
+    {"name": "@agimon-ai/doompi-voice", "version": "0.0.1-alpha.115", "url": "https://www.npmjs.com/package/@agimon-ai/doompi-voice", "claimed_scope": "Client audio capture, transcription and autonomous narration"},
+    {"name": "pi-web-access", "version": "0.36.0", "url": "https://www.npmjs.com/package/pi-web-access", "claimed_scope": "Web fetching/search and media analysis"},
+    {"name": "pi-multix", "version": "0.1.6", "url": "https://www.npmjs.com/package/pi-multix", "claimed_scope": "Multimodal generation and media processing through multix CLI"},
+    {"name": "billion-context", "version": "0.1.184", "url": "https://www.npmjs.com/package/billion-context", "claimed_scope": "Context compression, not property-video production"},
+    {"name": "@amaster.ai/pi-video-gen", "version": "0.1.22", "url": "https://www.npmjs.com/package/@amaster.ai/pi-video-gen", "claimed_scope": "Video-model clips, mixed-shot rendering and local composition/QC"}
+  ],
+  "installed_by_this_task": [],
+  "production_dependency_selected": false,
+  "custom_tool_or_skill_created": false,
+  "limits": [
+    "npm description/version discovery is not source-code inspection, safety review or endorsement.",
+    "General media generation is not evidence of property geometry/fact preservation or agent/voice rights.",
+    "Existing official Beike tools, MMX and FFmpeg remain candidate dependencies; production Skills require two real cases before abstraction and actual new-session tests before V1."
+  ]
+}

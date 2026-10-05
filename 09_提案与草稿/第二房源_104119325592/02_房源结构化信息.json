@@ -1,0 +1,556 @@
+{
+  "schema": "property-initialization-facts/v1",
+  "artifact_version": "1.0-candidate",
+  "at": "2026-10-05T14:56:32.829056+08:00",
+  "source_root": "/Users/xbpd/Downloads/武汉104119325592-房源资料",
+  "namespace": "HOUSE-104119325592",
+  "not_frozen_production_contract": true,
+  "not_a_live_status_file": true,
+  "production_authorized": false,
+  "facts": {
+    "listing_id": {
+      "fact_id": "H2-F01",
+      "value": "104119325592",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.listing_id",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        }
+      ],
+      "restriction": "Local consistency checked; no fresh online identity or sale-state verification."
+    },
+    "community": {
+      "fact_id": "H2-F02",
+      "value": "沙湖九号",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.community",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        }
+      ]
+    },
+    "city": {
+      "fact_id": "H2-F03",
+      "value": "武汉",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.city",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        }
+      ]
+    },
+    "building_area_m2": {
+      "fact_id": "H2-F04",
+      "value": 168.39,
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.area_m2",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        },
+        {
+          "source_path": "房源资料说明.md",
+          "locator": "基本信息/建筑面积",
+          "sha256": "e760db386026f5021139245a8232480df9563049d10a3eac487ab6bf7a4f078f"
+        }
+      ],
+      "unit": "m2",
+      "restriction": "Platform/package building-area declaration, not title-deed measurement. Do not import first-house163m2."
+    },
+    "layout": {
+      "fact_id": "H2-F05",
+      "value": "4室2厅1厨2卫",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.layout",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        },
+        {
+          "source_path": "01-房源信息/work.json",
+          "locator": "$.house_layout",
+          "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0"
+        }
+      ]
+    },
+    "orientation": {
+      "fact_id": "H2-F06",
+      "value": "东南",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=朝向].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "restriction": "Overall metadata southeast; not a per-room direction or all-day-light guarantee."
+    },
+    "floor_band": {
+      "fact_id": "H2-F07",
+      "value": "中楼层/51层",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=楼层].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "restriction": "No exact floor number in supplied metadata."
+    },
+    "building_type": {
+      "fact_id": "H2-F08",
+      "value": "板楼",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=楼型].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ]
+    },
+    "elevators": {
+      "fact_id": "H2-F09",
+      "value": 2,
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=电梯数].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "restriction": "Does not establish household-per-floor ratio or current equipment operation."
+    },
+    "heating_type": {
+      "fact_id": "H2-F10",
+      "value": "自供暖",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=供暖类型].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "restriction": "Self-heating label alone does not prove floor-heating operation."
+    },
+    "historical_total_price_cny": {
+      "fact_id": "H2-F11",
+      "value": 5000000,
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=售价].content:约500万",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "unit": "CNY",
+      "restriction": "Approximate historical VR panel price, snapshot-related date2026-03-13; NOT current asking/transaction price."
+    },
+    "historical_unit_price_cny_m2": {
+      "fact_id": "H2-F12",
+      "value": 29693,
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=单价].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ],
+      "unit": "CNY/m2",
+      "restriction": "Historical price; no sale or appreciation claim."
+    },
+    "source_listing_date": {
+      "fact_id": "H2-F13",
+      "value": "2026年03月04日",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.house.detail.data[title=挂牌].content",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        }
+      ]
+    },
+    "vr_source_capture_timestamp": {
+      "fact_id": "H2-F14",
+      "value": "2026-03-13T18:35:16+08:00",
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/vr-manifest.json",
+          "locator": "$.captured_at",
+          "sha256": "d7ea5ae735d20c33f1fccbd85a0223e27bd25d82c47d4144f5ec4cbe48302d55"
+        },
+        {
+          "source_path": "01-房源信息/work.json",
+          "locator": "$.create_time",
+          "sha256": "75128afcf498b4ad6d42099e5d1891452676e545e60d2bfd3343ae27523ac9d0"
+        }
+      ],
+      "restriction": "Recorded source timestamp, not date of this local read or proof of current house condition."
+    },
+    "equipment_claims": {
+      "fact_id": "H2-F15",
+      "value": [
+        "新风",
+        "空调",
+        "地暖"
+      ],
+      "evidence_level": "source_declared",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.selling_points_from_listing[2]",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        }
+      ],
+      "restriction": "Text-only equipment declarations; no close-up/status/warranty evidence. Do not manufacture equipment shots."
+    },
+    "current_total_price_cny": {
+      "fact_id": "H2-F16",
+      "value": null,
+      "evidence_level": "unknown",
+      "evidence": [],
+      "restriction": "Refresh/owner confirmation required before current-price copy."
+    },
+    "current_sale_status": {
+      "fact_id": "H2-F17",
+      "value": null,
+      "evidence_level": "unknown",
+      "evidence": [
+        {
+          "source_path": "01-房源信息/listing.json",
+          "locator": "$.public_visibility",
+          "sha256": "ea8b862d14b2a73868e634681394a53e81e8f64a5c51984e306139bda02a5c01"
+        }
+      ],
+      "restriction": "Public non-display does not prove sold or for sale."
+    },
+    "property_registration_interior_area_m2": {
+      "fact_id": "H2-F18",
+      "value": null,
+      "evidence_level": "unknown",
+      "evidence": [],
+      "unit": "m2"
+    },
+    "agent_identity_and_voice_rights": {
+      "fact_id": "H2-F19",
+      "value": null,
+      "evidence_level": "unknown",
+      "evidence": []
+    },
+    "surrounding_amenities_verified": {
+      "fact_id": "H2-F20",
+      "value": null,
+      "evidence_level": "unknown",
+      "evidence": [],
+      "restriction": "Community name/location cannot establish lakeview, school eligibility, walk-time or future infrastructure."
+    }
+  },
+  "room_labels": [
+    {
+      "room_key": "living_room",
+      "label": "客厅",
+      "area_label_m2": 24.2,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "客厅面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "dining_room",
+      "label": "餐厅",
+      "area_label_m2": 7.2,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "餐厅面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "kitchen",
+      "label": "厨房",
+      "area_label_m2": 6.1,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "厨房面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "hallway",
+      "label": "过道",
+      "area_label_m2": 7.4,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "过道面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bedroom_a",
+      "label": "卧室A",
+      "area_label_m2": 11.5,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卧室A面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bedroom_b",
+      "label": "卧室B",
+      "area_label_m2": 15.5,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卧室B面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bedroom_c",
+      "label": "卧室C",
+      "area_label_m2": 13.2,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卧室C面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bedroom_d",
+      "label": "卧室D",
+      "area_label_m2": 8.6,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卧室D面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bathroom_a",
+      "label": "卫生间A",
+      "area_label_m2": 4.3,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卫生间A面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "bathroom_b",
+      "label": "卫生间B",
+      "area_label_m2": 4.3,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "卫生间B面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "walk_in_closet",
+      "label": "衣帽间",
+      "area_label_m2": 3.1,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "衣帽间面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "balcony_a",
+      "label": "阳台A",
+      "area_label_m2": 4.3,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "阳台A面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "balcony_b",
+      "label": "阳台B",
+      "area_label_m2": 4.2,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "阳台B面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    },
+    {
+      "room_key": "balcony_c",
+      "label": "阳台C",
+      "area_label_m2": 8.0,
+      "evidence_level": "visually_read_source_label",
+      "evidence": [
+        {
+          "source_path": "02-户型图与封面/真实户型图.jpg",
+          "locator": "阳台C面积标注",
+          "sha256": "f3574721e4cb0caa9380a7894fe4211fb73e7408f4176b7def01c406d5b0476b"
+        }
+      ],
+      "pano_indices_verified": null,
+      "limits": "Label in supplied floorplan, not legal measurement. Furniture drawn on plan is schematic, not verified inventory."
+    }
+  ],
+  "room_label_sum_m2": 121.9,
+  "room_label_sum_scope": "Arithmetic sum of14 displayed labels only; not title-deed interior area, shared-area rate or actual measured clearance.",
+  "room_identifiers_unresolved": {
+    "source_numbers": {
+      "客厅": 24,
+      "餐厅": 7,
+      "卧室B": 15,
+      "卧室C": 13,
+      "卧室A": 11,
+      "卧室D": 8
+    },
+    "namespace": "unestablished source room identifiers, NOT confirmed panoIndex",
+    "example": "客厅24 cannot be assumed to mean Point24; supplied visual catalog Point24 shows wall/bathroom-like context.",
+    "pano_mapping_method_required": "New-house SDK room mapping or explicit source mapping, then visual trial."
+  },
+  "space_materials": {
+    "observer_count": 36,
+    "panorama_count": 36,
+    "cube_faces": 216,
+    "cube_dimension": [
+      2048,
+      2048
+    ],
+    "format": "AVIF / AV1",
+    "model_path": "03-完整VR素材/model/model.at3d",
+    "model_textures": 4,
+    "gaussian_splatting_asset_available": false,
+    "model_render_quality_verified_this_task": false,
+    "local_video_files": 0,
+    "historical_failed_trials_are_source_statements": true
+  },
+  "candidate_visual_blocks": [
+    {
+      "block": "public_space",
+      "pano_candidates": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "basis": "Supplied living direction sheet; room-level visual inference only, no runtime action tested."
+    },
+    {
+      "block": "kitchen",
+      "pano_candidates": [
+        7,
+        8
+      ],
+      "basis": "Supplied catalog shows kitchen subject; not full geometry/route acceptance."
+    },
+    {
+      "block": "bedroom_views",
+      "pano_candidates": [
+        11,
+        13,
+        25,
+        26,
+        28,
+        29,
+        30,
+        31
+      ],
+      "basis": "Supplied figures show bedroom-like subjects; A/B/C/D mapping unresolved, no favorite/main-bedroom guarantee."
+    }
+  ],
+  "prohibited_transfers": [
+    "First-house163m2,123.7m2 sum,30.9m2 living room,9.1m2 south balcony and24.1m2 suite",
+    "First-house P1/P9/P10/P25, yaw/FOV paths, human approvals and native-height exception",
+    "12m depth,1.8m bed,bathtub/material brands/quality claims without new evidence",
+    "Current price/sale status, school eligibility/lakeview/all-day-light or equipment operation from assumption",
+    "Agent identity,digital human,voice cloning or dialect authority without permission"
+  ],
+  "preproduction_gate_inputs": [
+    "First-house closeout decisions",
+    "New-house identity/freshness/critical facts/rights",
+    "Validated room-to-pano mapping and material/route capability",
+    "Confirmed brief/duration/voice/persona/budget/CTA",
+    "One authorized trial shot with fail-closed checks",
+    "New output version and no-overwrite workflow"
+  ]
+}

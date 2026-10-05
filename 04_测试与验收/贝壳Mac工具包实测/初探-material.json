@@ -1,0 +1,18 @@
+{
+  "command": [
+    "beike",
+    "buy",
+    "material",
+    "-c",
+    "武汉",
+    "--id",
+    "104119325592",
+    "-t",
+    "house",
+    "--json"
+  ],
+  "at": "2026-10-05T12:33:20.455412+08:00",
+  "exit_code": 0,
+  "stdout": "{\n  \"error\": \"Unknown tool: 'entity_material'\",\n  \"ok\": false\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "case1-minimal-revision-technical-check/v1",
+  "at": "2026-10-05T17:13:56.099329+08:00",
+  "video": {
+    "path": "04_测试与验收/01-沙湖九号/S6_全片终成片交付/修订01_去无源主张_20261005/沙湖九号-最小修订01-内部终审候选.mp4",
+    "sha256": "36490b5c008d55bde026f76178b0318469745f899f6b3650ce03b70aa486e3c7",
+    "duration_sec": 25.3,
+    "resolution": [
+      720,
+      1280
+    ],
+    "fps": 30,
+    "frames": 759,
+    "full_video_audio_decode_passed": true,
+    "max_pts_error_sec": 3.3333333604446125e-07,
+    "video_bit_rate": "1799548"
+  },
+  "audio": {
+    "aac_payload_unchanged": true,
+    "adts_payload_sha256": "a9a6db288b3e3ce3b0134a1eec51d892ed92d3d9b979172d71b049441b6af7b0",
+    "duration_sec": 24.493,
+    "bit_rate": "92869",
+    "rate": "32000",
+    "channels": 1,
+    "existing_wav_pcm_matches_recreated_mix_from_current6_clips": true,
+    "current_clip_durations": [
+      {
+        "id": "cue_01_s1",
+        "manifest_actual_sec": 5.816625,
+        "decoded_actual_sec": 5.816625
+      },
+      {
+        "id": "cue_02_s2",
+        "manifest_actual_sec": 3.262406,
+        "decoded_actual_sec": 3.26240625
+      },
+      {
+        "id": "cue_03_s3",
+        "manifest_actual_sec": 3.541063,
+        "decoded_actual_sec": 2.58903125
+      },
+      {
+        "id": "cue_04_s4a",
+        "manifest_actual_sec": 3.146313,
+        "decoded_actual_sec": 3.1463125
+      },
+      {
+        "id": "cue_05_s4b",
+        "manifest_actual_sec": 2.925719,
+        "decoded_actual_sec": 2.92571875
+      },
+      {
+        "id": "cue_06_s5",
+        "manifest_actual_sec": 3.19275,
+        "decoded_actual_sec": 3.19275
+      }
+    ],
+    "legacy_manifest_duration_mismatches": [
+      {
+        "id": "cue_03_s3",
+        "manifest_actual_sec": 3.541063,
+        "decoded_actual_sec": 2.58903125
+      }
+    ],
+    "render_delays_ms": [
+      300,
+      6800,
+      11200,
+      14200,
+      17700,
+      21300
+    ],
+    "limits": "Exact AAC equality proves no new speech or audio processing; it does not prove naturalness or alignment by human listening. cue03 manifest3.541063 is stale against current decoded2.589031; do not infer voiced overlap solely from the stale manifest."
+  },
+  "sample_frames": [
+    0.4,
+    2.5,
+    5.2,
+    8.5,
+    12.5,
+    15.5,
+    19.2,
+    23
+  ],
+  "caption": "阳台回看 客餐厅纵深直观",
+  "no_12m_layer_in_new_recipe": true,
+  "new_floorplan_derived_from_matched_source": true,
+  "human_full_visual_audio_subtitle_acceptance": "PENDING",
+  "publication": "NOT AUTHORIZED; internal research and production only",
+  "original_film_unchanged": true
+}

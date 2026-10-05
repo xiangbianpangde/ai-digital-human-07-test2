@@ -1,0 +1,13 @@
+{
+  "command": [
+    "beike",
+    "buy",
+    "search",
+    "-c",
+    "武汉",
+    "--json"
+  ],
+  "exit_code": 2,
+  "stdout": "",
+  "stderr": "error: the following required arguments were not provided:\n  --query <QUERY>\n\nUsage: beike buy search --city <CITY> --query <QUERY> --json\n\nFor more information, try '--help'.\n"
+}
