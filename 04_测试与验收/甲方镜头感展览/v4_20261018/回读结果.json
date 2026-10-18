@@ -1,0 +1,253 @@
+{
+  "date": "2026-10-18",
+  "checks": [
+    {
+      "name": "video-only-page",
+      "passed": true,
+      "evidence": [
+        {
+          "duration": 22.216016,
+          "width": 1080,
+          "height": 1920,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 3.5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 4.5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 3,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 4.6,
+          "width": 1080,
+          "height": 1920,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        }
+      ]
+    },
+    {
+      "name": "all-video-metadata",
+      "passed": true,
+      "evidence": [
+        {
+          "duration": 22.216016,
+          "width": 1080,
+          "height": 1920,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 3.5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 4.5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 3,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 4.6,
+          "width": 1080,
+          "height": 1920,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        },
+        {
+          "duration": 5,
+          "width": 720,
+          "height": 1280,
+          "ready": 4,
+          "muted": true,
+          "loop": true,
+          "src": true
+        }
+      ]
+    },
+    {
+      "name": "labels-and-boundaries",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "base-video-actually-plays",
+      "passed": true,
+      "evidence": {
+        "before": 1.372083,
+        "after": 2.044061
+      }
+    },
+    {
+      "name": "base-pause",
+      "passed": true,
+      "evidence": {
+        "paused": true,
+        "time": 2.069784
+      }
+    },
+    {
+      "name": "base-resume",
+      "passed": true,
+      "evidence": {
+        "paused": false,
+        "time": 2.350196
+      }
+    },
+    {
+      "name": "base-sound-on",
+      "passed": true,
+      "evidence": false
+    },
+    {
+      "name": "base-sound-off",
+      "passed": true,
+      "evidence": true
+    },
+    {
+      "name": "select-c08",
+      "passed": true,
+      "evidence": "真人镜头感 · 真实视频沟通摘要\n整体基准：104119325592 / 沙湖九号 / 同房源22秒完整视频\n固定内容：客厅 → 阳台 → 一间卧室\n固定形式：一镜到底；时长约30秒\n\n局部镜头感觉：C08 采光向心全景横扫\n希望参考 C08 采光向心全景横扫，在真实房间内缓慢展开空间。\n视野偏好：待定\n\n说明：方法片段用于局部感觉沟通；0.5/0.6/1.0当前没有对应的真实宽幅视频版本；本摘要不是拍摄许可或验收结论。"
+    },
+    {
+      "name": "select-c10-single",
+      "passed": true,
+      "evidence": "真人镜头感 · 真实视频沟通摘要\n整体基准：104119325592 / 沙湖九号 / 同房源22秒完整视频\n固定内容：客厅 → 阳台 → 一间卧室\n固定形式：一镜到底；时长约30秒\n\n局部镜头感觉：C10 反打纵深透视\n希望参考 C10 反打纵深透视，从门口或连接点朝室内交代纵深关系.\n视野偏好：待定\n\n说明：方法片段用于局部感觉沟通；0.5/0.6/1.0当前没有对应的真实宽幅视频版本；本摘要不是拍摄许可或验收结论。"
+    },
+    {
+      "name": "select-fov-06",
+      "passed": true,
+      "evidence": "真人镜头感 · 真实视频沟通摘要\n整体基准：104119325592 / 沙湖九号 / 同房源22秒完整视频\n固定内容：客厅 → 阳台 → 一间卧室\n固定形式：一镜到底；时长约30秒\n\n局部镜头感觉：C10 反打纵深透视\n希望参考 C10 反打纵深透视，从门口或连接点朝室内交代纵深关系.\n视野偏好：沟通系数0.6（FOV提示约80°）\n视野偏好：主体和空间关系保持平衡。\n\n说明：方法片段用于局部感觉沟通；0.5/0.6/1.0当前没有对应的真实宽幅视频版本；本摘要不是拍摄许可或验收结论。"
+    },
+    {
+      "name": "summary-note",
+      "passed": true,
+      "evidence": "真人镜头感 · 真实视频沟通摘要\n整体基准：104119325592 / 沙湖九号 / 同房源22秒完整视频\n固定内容：客厅 → 阳台 → 一间卧室\n固定形式：一镜到底；时长约30秒\n\n局部镜头感觉：C10 反打纵深透视\n希望参考 C10 反打纵深透视，从门口或连接点朝室内交代纵深关系.\n视野偏好：沟通系数0.6（FOV提示约80°）\n视野偏好：主体和空间关系保持平衡。\n\n甲方补充：不要快速甩动；保留真实房屋质感。\n\n说明：方法片段用于局部感觉沟通；0.5/0.6/1.0当前没有对应的真实宽幅视频版本；本摘要不是拍摄许可或验收结论。"
+    },
+    {
+      "name": "clipboard-readback",
+      "passed": true,
+      "evidence": "clipboard"
+    },
+    {
+      "name": "download-readback",
+      "passed": true,
+      "evidence": "真人镜头感_视频选择说明.txt"
+    },
+    {
+      "name": "responsive-1440",
+      "passed": true,
+      "evidence": {
+        "w": 1440,
+        "sw": 1440
+      }
+    },
+    {
+      "name": "responsive-900",
+      "passed": true,
+      "evidence": {
+        "w": 900,
+        "sw": 900
+      }
+    },
+    {
+      "name": "responsive-600",
+      "passed": true,
+      "evidence": {
+        "w": 600,
+        "sw": 600
+      }
+    },
+    {
+      "name": "responsive-390",
+      "passed": true,
+      "evidence": {
+        "w": 390,
+        "sw": 390
+      }
+    },
+    {
+      "name": "responsive-320",
+      "passed": true,
+      "evidence": {
+        "w": 320,
+        "sw": 320
+      }
+    },
+    {
+      "name": "clear-all",
+      "passed": true,
+      "evidence": "reset"
+    },
+    {
+      "name": "no-errors",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "offline-no-http",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "sha256": "eabc350e37d46e735caa047eb9680fa25a4285f36a96dcbcddc25a7413b74e3f",
+  "passed": true
+}
